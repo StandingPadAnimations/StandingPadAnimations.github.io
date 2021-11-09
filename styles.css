@@ -4,9 +4,14 @@
     --clr-neon: hsl(317 100% 54%);
     --clr-bg: hsl(323 21% 16%);
   }
-  
+
 body {
-    background-color: black;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--clr-bg);
+    color: var(--clr-neon);
+    padding-right: 10rem;
 }
 
 .container {
