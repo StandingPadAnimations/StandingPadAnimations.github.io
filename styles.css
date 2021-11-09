@@ -23,7 +23,7 @@ h2 {
     text-align: center;
 }
 h2::before{
-    content: '';
+    content: "";
     position: absolute;
     background: white;
     top: 120%;
