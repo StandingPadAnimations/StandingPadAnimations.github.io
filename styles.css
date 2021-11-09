@@ -21,7 +21,7 @@
     padding-right: 10rem;
   }
   
-  .neon-button {
+  .rendor-button {
     font-size: 4rem;
   
     display: inline-block;
@@ -39,7 +39,7 @@
     position: relative;
   }
   
-  .neon-button::before {
+  .rendor-button::before {
     pointer-events: none;
     content: "";
     position: absolute;
@@ -54,7 +54,7 @@
     opacity: 0.7;
   }
   
-  .neon-button::after {
+  .rendor-button::after {
     content: "";
     position: absolute;
     top: 0;
@@ -68,18 +68,18 @@
     transition: opacity 100ms linear;
   }
   
-  .neon-button:hover,
-  .neon-button:focus {
+  .rendor-button:hover,
+  .rendor-button:focus {
     color: var(--clr-bg);
     text-shadow: none;
   }
   
-  .neon-button:hover::before,
-  .neon-button:focus::before {
+  .rendor-button:hover::before,
+  .rendor-button:focus::before {
     opacity: 1;
   }
-  .neon-button:hover::after,
-  .neon-button:focus::after {
+  .rendor-button:hover::after,
+  .rendor-button:focus::after {
     opacity: 1;
   }
   
