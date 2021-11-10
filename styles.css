@@ -11,7 +11,7 @@
     box-sizing: border-box;
   }
   
-  body {
+  .body {
     min-height: 100vh;
     display: grid;
     place-items: center;
