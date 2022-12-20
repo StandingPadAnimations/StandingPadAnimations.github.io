@@ -5,8 +5,8 @@
 * Creator of the Rendor Programming Language and Resurgence Virtual Machine 
 * Pakistani-American Ahmadi Muslim
 
-{{< image src="/imgs/about-me.png" alt="About Me" position="center" style="border-radius: 8px;" >}} 
-
+{{< image src="/imgs/about-me.png" alt="About Me" position="center" style="border-radius: 360px;" >}} 
+I'm not actually female, this is just my OC
 
 # Here's some of my work
 

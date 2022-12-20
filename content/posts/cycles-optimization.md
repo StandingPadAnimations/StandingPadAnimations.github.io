@@ -6,6 +6,7 @@ toc: false
 images:
 tags:
   - Blender
+  - Cycles Optimization
 ---
 
 ## Introduction
