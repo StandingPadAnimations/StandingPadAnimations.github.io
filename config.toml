@@ -55,3 +55,7 @@ publishDir   = "docs"
 [[params.social]]
   name = "mastodon"
   url = "https://social.vivaldi.net/@StandingPad"
+
+[[params.social]]
+  name = "instagram"
+  url = "https://www.instagram.com/standingpad/"
