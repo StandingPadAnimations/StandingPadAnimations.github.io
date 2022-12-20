@@ -58,13 +58,18 @@ publishDir   = "docs"
   
   [[menu.main]]
     identifier = "renders"
-    name       = "My Previous work"
+    name       = "Some of My Renders"
     url        = "/renders"
   
   [[menu.main]]
     identifier = "source"
-    name       = "Website Source Code!"
+    name       = "Website Source"
     url        = "https://github.com/StandingPadAnimations/StandingPadAnimations.github.io"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About Me"
+    url        = "/about"
 
 [[params.social]]
   name = "mastodon"
