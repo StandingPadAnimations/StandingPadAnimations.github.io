@@ -57,11 +57,6 @@ publishDir   = "docs"
     url        = "/posts"
   
   [[menu.main]]
-    identifier = "renders"
-    name       = "Some of My Renders"
-    url        = "/renders"
-  
-  [[menu.main]]
     identifier = "source"
     name       = "Website Source"
     url        = "https://github.com/StandingPadAnimations/StandingPadAnimations.github.io"
