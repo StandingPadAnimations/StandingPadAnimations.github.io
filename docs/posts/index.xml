@@ -1,13 +1,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on StandingPad&#39;s blog</title>
+        <title>Posts on StandingPad&#39;s Corner</title>
         <link>https://standingpadanimations.github.io/posts/</link>
-        <description>Recent content in Posts on StandingPad&#39;s blog</description>
+        <description>Recent content in Posts on StandingPad&#39;s Corner</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 19 Dec 2022 19:59:51 -0600</lastBuildDate>
+        <lastBuildDate>Tue, 20 Dec 2022 12:17:42 -0600</lastBuildDate>
         <atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy</title>
+            <link>https://standingpadanimations.github.io/posts/cycles-optimization/</link>
+            <pubDate>Tue, 20 Dec 2022 12:17:42 -0600</pubDate>
+            
+            <guid>https://standingpadanimations.github.io/posts/cycles-optimization/</guid>
+            <description>Introduction We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&amp;rsquo;s tons of videos that talk about what settings to use, but those videos don&amp;rsquo;t explain what the settings do. So, exactly what settings do what?
+Samples What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles per pixel+ of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed).</description>
+            <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&rsquo;s tons of videos that talk about what settings to use, but those videos don&rsquo;t explain what the settings do. So, exactly what settings do what?</p>
+<h2 id="samples">Samples</h2>
+<p>What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles <strong>per pixel</strong>+ of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed).</p>
+<p><code>+ Note: the per pixel thing is why higher resolutions take longer to render compared to lower resolutions. More pixels means more rays for your computer to deal with</code></p>
+<p>Just understanding how Cycles works helps to understand how the rest of the settings to work.</p>
+<p>So how is noise produced?</p>
+<p>Well when Cycles spews rays like a toddler, those rays have to eventually meet a light source. This is called convergence, and the better rays can &ldquo;converge&rdquo; with light sources, the less noise the render will have. That&rsquo;s why bright scenes tend to have way less noise then dark scenes.</p>
+<p>But when your scene doesn&rsquo;t allow for rays to converge easily, you need more samples (or rays) to make up for the bad convergence+</p>
+<p><code>+ You could also make the scene brigher and reduce the exposure to make it darker, that's pretty common</code></p>
+<p>Here&rsquo;s a totally amazing diagram explaining what I mean</p>
+
+    <img src="/imgs/cycles-1/rays.png"  alt="Rays bouncing around"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Here, we have a bunch of rays converging with the light source, but some also miss and go to the void.</p>
+<hr>
+<p>So now we understand how samples work, and why darker scenes tend to have less noise, so let&rsquo;s move on</p>
+<p><code>Sidenote: You've probably heard of features like adaptive sampling and light portals. I personally think Blender's docs are good enough to explain these 2 features, as long as you understand how samples work. We can explain these features at a later date</code></p>
+<h2 id="light-bounces">Light bounces</h2>
+<p>&ldquo;Wait, rays don&rsquo;t bounce infinitely?&rdquo;</p>
+<p>Well, in the real world they do, and ideally a good path tracing engine would also, but no computer as of writing can handle the amount of processing power it takes, and we&rsquo;re willing to approximate, so typically path tracing engines have a limit in the amount of bounces they perform <strong>per ray</strong>.</p>
+<p>In a nutshell, light bounces are&hellip; the amount of times a ray will bounce before converging (that fancy word again), if they can. There&rsquo;s really 2 main settings to keep in mind</p>
+<ul>
+<li>Total light bounces (how many bounces a ray can bounce in total)</li>
+<li>Material specific bounces (how many bounces can a ray bounce for a specific material)</li>
+</ul>
+<p>We&rsquo;re not going to focus too much on this, since I think it&rsquo;s self explanatory</p>
+<p><code>Sidenote: You may also notice some caustics settings, as well as stuff like filter glossy. Caustics are patterns formed by reflection or reflection, whereas filter glossy allows for less noise (at the cost of accuracy).</code></p>
+<p><code>In general, caustics should be disabled unless you have a reason not to, and filter glossy shouldn't be too high (a value of 1 is good enough for most scenes)</code></p>
+<p>Here&rsquo;s a diagram (where we have a max of 3 bounces)
+
+    <img src="/imgs/cycles-1/bounces.png"  alt="Light bounces"  class="center"  style="border-radius: 8px;"  />
+
+</p>
+<p>Note how the red ray bounces 3 times (which is the max), but the black ray only needs 2. Total light bounces is well, the total amount of light bounces a ray can take.</p>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>&ldquo;Wait, we&rsquo;re already done?&rdquo;</p>
+<p>For now yes, I&rsquo;ll be splitting this into multiple parts. What I&rsquo;ve explained today should be enough for understanding how most of the settings in Cycles work. In later parts, I&rsquo;ll be focusing on certain settings, like adaptive sampling or shadow caustics (oooooo, fancy). But we&rsquo;ll leave it here for now.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Moving On</title>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blender on StandingPad&#39;s Corner</title>
+    <link>https://standingpadanimations.github.io/tags/blender/</link>
+    <description>Recent content in Blender on StandingPad&#39;s Corner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 20 Dec 2022 12:17:42 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy</title>
+      <link>https://standingpadanimations.github.io/posts/cycles-optimization/</link>
+      <pubDate>Tue, 20 Dec 2022 12:17:42 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/cycles-optimization/</guid>
+      <description>Introduction We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&amp;rsquo;s tons of videos that talk about what settings to use, but those videos don&amp;rsquo;t explain what the settings do. So, exactly what settings do what?
+Samples What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles per pixel+ of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed).</description>
+    </item>
+    
+  </channel>
+</rss>

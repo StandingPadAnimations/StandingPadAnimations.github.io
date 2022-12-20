@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on StandingPad&#39;s blog</title>
+    <title>Tags on StandingPad&#39;s Corner</title>
     <link>https://standingpadanimations.github.io/tags/</link>
-    <description>Recent content in Tags on StandingPad&#39;s blog</description>
+    <description>Recent content in Tags on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 19 Dec 2022 19:59:51 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 12:17:42 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blender</title>
+      <link>https://standingpadanimations.github.io/tags/blender/</link>
+      <pubDate>Tue, 20 Dec 2022 12:17:42 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/tags/blender/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>IRL</title>
       <link>https://standingpadanimations.github.io/tags/irl/</link>
