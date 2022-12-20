@@ -3,7 +3,7 @@ title        = "StandingPad's Corner"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
-publishDit   = "target_website_lol"
+publishDir   = "docs"
 
 [params]
   dateform        = "Jan 2, 2006"
