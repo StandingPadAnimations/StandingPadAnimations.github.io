@@ -24,7 +24,7 @@ Well when Cycles spews rays like a toddler, those rays have to eventually meet a
 
 But when your scene doesn't allow for rays to converge easily, you need more samples (or rays) to make up for the bad convergence+
 
-`+ You could also make the scene brigher and reduce the exposure to make it darker, that's pretty common`
+`+ You could also make the scene brighter and reduce the exposure to make it darker, that's pretty common`
 
 Here's a totally amazing diagram explaining what I mean
 

@@ -26,7 +26,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 <p>So how is noise produced?</p>
 <p>Well when Cycles spews rays like a toddler, those rays have to eventually meet a light source. This is called convergence, and the better rays can &ldquo;converge&rdquo; with light sources, the less noise the render will have. That&rsquo;s why bright scenes tend to have way less noise then dark scenes.</p>
 <p>But when your scene doesn&rsquo;t allow for rays to converge easily, you need more samples (or rays) to make up for the bad convergence+</p>
-<p><code>+ You could also make the scene brigher and reduce the exposure to make it darker, that's pretty common</code></p>
+<p><code>+ You could also make the scene brighter and reduce the exposure to make it darker, that's pretty common</code></p>
 <p>Here&rsquo;s a totally amazing diagram explaining what I mean</p>
 
     <img src="/imgs/cycles-1/rays.png"  alt="Rays bouncing around"  class="center"  style="border-radius: 8px;"  />
