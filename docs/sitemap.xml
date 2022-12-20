@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost/tags/irl/</loc>
+    <loc>https://standingpadanimations.github.io/tags/irl/</loc>
     <lastmod>2022-12-19T19:59:51-06:00</lastmod>
   </url><url>
-    <loc>localhost/posts/moving-on/</loc>
+    <loc>https://standingpadanimations.github.io/posts/moving-on/</loc>
     <lastmod>2022-12-19T19:59:51-06:00</lastmod>
   </url><url>
-    <loc>localhost/posts/</loc>
+    <loc>https://standingpadanimations.github.io/posts/</loc>
     <lastmod>2022-12-19T19:59:51-06:00</lastmod>
   </url><url>
-    <loc>localhost/</loc>
+    <loc>https://standingpadanimations.github.io/</loc>
     <lastmod>2022-12-19T19:59:51-06:00</lastmod>
   </url><url>
-    <loc>localhost/tags/</loc>
+    <loc>https://standingpadanimations.github.io/tags/</loc>
     <lastmod>2022-12-19T19:59:51-06:00</lastmod>
   </url><url>
-    <loc>localhost/blog/</loc>
+    <loc>https://standingpadanimations.github.io/blog/</loc>
   </url><url>
-    <loc>localhost/series/</loc>
+    <loc>https://standingpadanimations.github.io/series/</loc>
   </url>
 </urlset>

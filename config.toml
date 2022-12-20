@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://standingpadanimations.github.io/"
 title        = "StandingPad's Corner"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
