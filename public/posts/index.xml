@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on StandingPad&#39;s blog</title>
+        <link>localhost/posts/</link>
+        <description>Recent content in Posts on StandingPad&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Mon, 19 Dec 2022 19:59:51 -0600</lastBuildDate>
+        <atom:link href="localhost/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Moving On</title>
+            <link>localhost/posts/moving-on/</link>
+            <pubDate>Mon, 19 Dec 2022 19:59:51 -0600</pubDate>
+            
+            <guid>localhost/posts/moving-on/</guid>
+            <description>Hi guys, I think yall might be confused why I&amp;rsquo;ve created a new website, let&amp;rsquo;s talk about it.
+But first, what&amp;rsquo;s been going on recently?
+Well in short, chaos. The actual situation is much longer, but to put it simply Twitter is no longer (in my opinion) a sustainable platform to remain on, so I moved to Mastodon.
+Now because Mastodon allows you to verify your own sites, I&amp;rsquo;ve gone ahead and made this new one, since I felt like it.</description>
+            <content type="html"><![CDATA[<p>Hi guys, I think yall might be confused why I&rsquo;ve created a new website, let&rsquo;s talk about it.</p>
+<p>But first, what&rsquo;s been going on recently?</p>
+<p>Well in short, chaos. The actual situation is much longer, but to put it simply Twitter is no longer (in my opinion) a sustainable platform to remain on, so I moved to Mastodon.</p>
+<p>Now because Mastodon allows you to verify your own sites, I&rsquo;ve gone ahead and made this new one, since I felt like it.</p>
+<p>Of course, some of you may have also noticed that I&rsquo;m not really doing much 3D. In short, I haven&rsquo;t had much time or motivation to continue working on 3D (but I&rsquo;m getting there, hopefully I&rsquo;ll think of something for New Years). I think I&rsquo;ll try this blogging thing for a bit (I did want to make some in depth guides to Cycles optimization and MCprep itself).</p>
+<p>I&rsquo;m also learning how this Hugo thing (what I use to make this) works, so hopefully I&rsquo;ll be able to get my renders back up and running. It&rsquo;ll be a pain and a hassle, but I think it&rsquo;ll be worth it.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
