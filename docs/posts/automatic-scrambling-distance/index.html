@@ -5,17 +5,19 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Introduction We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&amp;rsquo;s tons of videos that talk about what settings to use, but those videos don&amp;rsquo;t explain what the settings do. So, exactly what settings do what?
-Samples What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles per pixel&#43; of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed)." />
+<meta name="description" content="After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.
+I try to avoid making certain settings seem &amp;ldquo;magical&amp;rdquo; because with all magic, there&amp;rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&amp;rsquo;all), one of these settings is known as
+Automatic Scrambling Distance
+While this setting does help with render times a lot, it also requires a lot of tweaking to make it render with little artifacts." />
 <meta name="keywords" content=", Blender, Cycles Optimization" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://standingpadanimations.github.io/posts/cycles-optimization/" />
+<link rel="canonical" href="https://standingpadanimations.github.io/posts/automatic-scrambling-distance/" />
 
 
     <title>
         
-            Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy :: StandingPad&#39;s Corner  — The corner of the internet where I post stuff
+            Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs :: StandingPad&#39;s Corner  — The corner of the internet where I post stuff
         
     </title>
 
@@ -39,35 +41,41 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
     <meta name="msapplication-TileColor" content="">
 
 
-<meta itemprop="name" content="Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy">
-<meta itemprop="description" content="Introduction We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&rsquo;s tons of videos that talk about what settings to use, but those videos don&rsquo;t explain what the settings do. So, exactly what settings do what?
-Samples What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles per pixel&#43; of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed)."><meta itemprop="datePublished" content="2022-12-20T12:17:42-06:00" />
-<meta itemprop="dateModified" content="2022-12-20T12:17:42-06:00" />
-<meta itemprop="wordCount" content="621"><meta itemprop="image" content="https://standingpadanimations.github.io/"/>
+<meta itemprop="name" content="Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs">
+<meta itemprop="description" content="After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.
+I try to avoid making certain settings seem &ldquo;magical&rdquo; because with all magic, there&rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&rsquo;all), one of these settings is known as
+Automatic Scrambling Distance
+While this setting does help with render times a lot, it also requires a lot of tweaking to make it render with little artifacts."><meta itemprop="datePublished" content="2022-12-21T04:30:44-06:00" />
+<meta itemprop="dateModified" content="2022-12-21T04:30:44-06:00" />
+<meta itemprop="wordCount" content="676"><meta itemprop="image" content="https://standingpadanimations.github.io/"/>
 <meta itemprop="keywords" content="Blender,Cycles Optimization," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://standingpadanimations.github.io/"/>
 
-<meta name="twitter:title" content="Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy"/>
-<meta name="twitter:description" content="Introduction We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&rsquo;s tons of videos that talk about what settings to use, but those videos don&rsquo;t explain what the settings do. So, exactly what settings do what?
-Samples What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles per pixel&#43; of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed)."/>
+<meta name="twitter:title" content="Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs"/>
+<meta name="twitter:description" content="After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.
+I try to avoid making certain settings seem &ldquo;magical&rdquo; because with all magic, there&rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&rsquo;all), one of these settings is known as
+Automatic Scrambling Distance
+While this setting does help with render times a lot, it also requires a lot of tweaking to make it render with little artifacts."/>
 
 
 
-    <meta property="og:title" content="Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy" />
-<meta property="og:description" content="Introduction We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&rsquo;s tons of videos that talk about what settings to use, but those videos don&rsquo;t explain what the settings do. So, exactly what settings do what?
-Samples What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles per pixel&#43; of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed)." />
+    <meta property="og:title" content="Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs" />
+<meta property="og:description" content="After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.
+I try to avoid making certain settings seem &ldquo;magical&rdquo; because with all magic, there&rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&rsquo;all), one of these settings is known as
+Automatic Scrambling Distance
+While this setting does help with render times a lot, it also requires a lot of tweaking to make it render with little artifacts." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://standingpadanimations.github.io/posts/cycles-optimization/" /><meta property="og:image" content="https://standingpadanimations.github.io/"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-12-20T12:17:42-06:00" />
-<meta property="article:modified_time" content="2022-12-20T12:17:42-06:00" /><meta property="og:site_name" content="StandingPad&#39;s Corner" />
+<meta property="og:url" content="https://standingpadanimations.github.io/posts/automatic-scrambling-distance/" /><meta property="og:image" content="https://standingpadanimations.github.io/"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-21T04:30:44-06:00" />
+<meta property="article:modified_time" content="2022-12-21T04:30:44-06:00" /><meta property="og:site_name" content="StandingPad&#39;s Corner" />
 
 
 
 
 
 
-    <meta property="article:published_time" content="2022-12-20 12:17:42 -0600 CST" />
+    <meta property="article:published_time" content="2022-12-21 04:30:44 -0600 CST" />
 
 
 
@@ -131,7 +139,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
-        3 minutes
+        4 minutes
 
         
       </p>
@@ -139,7 +147,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 
     <article>
       <h1 class="post-title">
-        <a href="https://standingpadanimations.github.io/posts/cycles-optimization/">Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy</a>
+        <a href="https://standingpadanimations.github.io/posts/automatic-scrambling-distance/">Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs</a>
       </h1>
 
       
@@ -149,46 +157,64 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
       
 
       <div class="post-content">
-        <h2 id="introduction">Introduction</h2>
-<p>We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&rsquo;s tons of videos that talk about what settings to use, but those videos don&rsquo;t explain what the settings do. So, exactly what settings do what?</p>
-<h2 id="samples">Samples</h2>
-<p>What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles <strong>per pixel</strong>+ of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed).</p>
-<p><code>+ Note: the per pixel thing is why higher resolutions take longer to render compared to lower resolutions. More pixels means more rays for your computer to deal with</code></p>
-<p>Just understanding how Cycles works helps to understand how the rest of the settings to work.</p>
-<p>So how is noise produced?</p>
-<p>Well when Cycles spews rays like a toddler, those rays have to eventually meet a light source. This is called convergence, and the better rays can &ldquo;converge&rdquo; with light sources, the less noise the render will have. That&rsquo;s why bright scenes tend to have way less noise then dark scenes.</p>
-<p>But when your scene doesn&rsquo;t allow for rays to converge easily, you need more samples (or rays) to make up for the bad convergence+</p>
-<p><code>+ You could also make the scene brighter and reduce the exposure to make it darker, that's pretty common</code></p>
-<p>Here&rsquo;s a totally amazing diagram explaining what I mean</p>
+        <p>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</p>
 
-    <img src="/imgs/cycles-1/rays.png"  alt="Rays bouncing around"  class="center"  style="border-radius: 8px;"  />
+    <img src="/imgs/cycles-2/bean-question.png"  alt="Buddy asking question"  class="center"  style="border-radius: 8px;"  />
 
 
-<p>Here, we have a bunch of rays converging with the light source, but some also miss and go to the void.</p>
-<hr>
-<p>So now we understand how samples work, and why darker scenes tend to have less noise, so let&rsquo;s move on</p>
-<p><code>Sidenote: You've probably heard of features like adaptive sampling and light portals. I personally think Blender's docs are good enough to explain these 2 features, as long as you understand how samples work. We can explain these features at a later date</code></p>
-<h2 id="light-bounces">Light bounces</h2>
-<p>&ldquo;Wait, rays don&rsquo;t bounce infinitely?&rdquo;</p>
-<p>Well, in the real world they do, and ideally a good path tracing engine would also, but no computer as of writing can handle the amount of processing power it takes, and we&rsquo;re willing to approximate, so typically path tracing engines have a limit in the amount of bounces they perform <strong>per ray</strong>.</p>
-<p>In a nutshell, light bounces are&hellip; the amount of times a ray will bounce before converging (that fancy word again), if they can. There&rsquo;s really 2 main settings to keep in mind</p>
-<ul>
-<li>Total light bounces (how many bounces a ray can bounce in total)</li>
-<li>Material specific bounces (how many bounces can a ray bounce for a specific material)</li>
-</ul>
-<p>We&rsquo;re not going to focus too much on this, since I think it&rsquo;s self explanatory</p>
-<p><code>Sidenote: You may also notice some caustics settings, as well as stuff like filter glossy. Caustics are patterns formed by reflection or reflection, whereas filter glossy allows for less noise (at the cost of accuracy).</code></p>
-<p><code>In general, caustics should be disabled unless you have a reason not to, and filter glossy shouldn't be too high (a value of 1 is good enough for most scenes)</code></p>
-<p>Here&rsquo;s a diagram (where we have a max of 3 bounces)
+<p>I try to avoid making certain settings seem &ldquo;magical&rdquo; because with all magic, there&rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&rsquo;all), one of these settings is known as</p>
+<p><strong>Automatic Scrambling Distance</strong></p>
+<p>While this setting does help with render times a lot, it also requires a lot of tweaking to make it render with little artifacts. I think the best way to make configuring this faster is to understand how it works under the hood.</p>
+<h1 id="why-scramble-pixels-like-eggs">Why Scramble Pixels like Eggs?</h1>
+<p>In a nutshell, scrambling distance represents how randomized each pixel&rsquo;s randomness value is. We talked about samples in <a href="https://standingpadanimations.github.io/posts/cycles-optimization/#samples">my last post</a>, so I suggest reading that first to get an understanding about what samples are.</p>
+<p>&ldquo;Wait what?&rdquo;</p>
+<p>I was confused at first, so I asked on the Erindale.xyz server (basically a lot of Blender nerds). After some back and forth, I got the following response.</p>
 
-    <img src="/imgs/cycles-1/bounces.png"  alt="Light bounces"  class="center"  style="border-radius: 8px;"  />
+    <img src="/imgs/cycles-2/jc-response.png"  alt="JC explaining what scrambling does"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>&ldquo;I still don&rsquo;t get it.&rdquo;</p>
+<p>Alright, let me make a diagram. Here&rsquo;s with a scrambling distance of 1.</p>
+
+    <img src="/imgs/cycles-2/random-pixels.png"  alt="Pixels with random values"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Here, each pixel have a randomized value+ and Cycles uses that to further randomize the samples that it spews into the scene (remember, samples are on a per pixel basis)</p>
+<p><code>+ This should be more randomized, but it's a quick sketch</code></p>
+<p>Now here&rsquo;s with a scrambling distance of 0.
+
+    <img src="/imgs/cycles-2/uniform-pixels.png"  alt="Pixels with uniform values"  class="center"  style="border-radius: 8px;"  />
 
 </p>
-<p>Note how the red ray bounces 3 times (which is the max), but the black ray only needs 2. Total light bounces is well, the total amount of light bounces a ray can take.</p>
-<hr>
-<h2 id="conclusion">Conclusion</h2>
-<p>&ldquo;Wait, we&rsquo;re already done?&rdquo;</p>
-<p>For now yes, I&rsquo;ll be splitting this into multiple parts. What I&rsquo;ve explained today should be enough for understanding how most of the settings in Cycles work. In later parts, I&rsquo;ll be focusing on certain settings, like adaptive sampling or shadow caustics (oooooo, fancy). But we&rsquo;ll leave it here for now.</p>
+<p>The higher the scrambling distance, the more randomized these values are.</p>
+<p>&ldquo;So if set to 0, there&rsquo;s no randomness with samples?&rdquo;</p>
+<p>Not exactly. Samples must be released randomly to get finer details. Scrambling distance just makes things more random.</p>
+<p>&ldquo;Oh I get it, so automatic scrambling distance just sets this automatically?&rdquo;</p>
+<p>Yes.</p>
+<p>&ldquo;But why does this feature help with render times? And what artifacts occur with it?&rdquo;</p>
+<p>That brings us on to our next topic.</p>
+<h1 id="all-magic-has-a-cost">All Magic has a Cost</h1>
+<p>As I mentioned earlier, automatic scrambling distance can introduce some artifts, but can also massively help GPU users with render times.</p>
+<p>But how does reducing pixel randomness help with render times?</p>
+<p>This took a while to find. The Blender Docs say the following:</p>
+<blockquote>
+<p>Lower values Reduce randomization between pixels to improve GPU rendering performance, at the cost of possible rendering artifacts if set too low.</p>
+</blockquote>
+<p>Presumably it has something to do with VRAM, but I can&rsquo;t be exactly sure. My best guess from past experiance is that rendering is faster with more complex geometry, but I can&rsquo;t be exactly sure.</p>
+<p>So what are some possible artifacts? Well JC has an example.
+
+    <img src="/imgs/cycles-2/artifacts.png"  alt="Artifacts caused by an extremely low scrambling distance"  class="center"  style="border-radius: 8px;"  />
+
+</p>
+<p>Yikes, why does this happen?</p>
+<p>It seems to go back to why path tracers try to randomize samples as much as possible: to get finer details about the geometry.</p>
+<p>As you can see, all magic comes at a cost.</p>
+<p>&ldquo;So why use it?&rdquo;</p>
+<p>Because if used correctly, render times can be reduced 10 fold. It also tends to result in cleaner images, which when combined with adaptive sampling (I promise I&rsquo;ll make a detailed explanation on that sometime) can reduce render times. After all, the main reason we put up with long render times is to reduce the amount of noise in our scene.</p>
+<p>&ldquo;So, should I use it?&rdquo;</p>
+<p>If you use CPU rendering, no, it brings more issues for little benifit. If you use GPU rendering, then it depends on the scene. Personally, I just test it for each scene I do, then try to adjust the <strong>scrambling multiplier</strong> setting (which goes hand in hand to Automatic Scrambling Distance) before deciding if the artifacts are worth it. I don&rsquo;t use it most of the time (it really hates alpha transparency which I deal with a lot), but when I do it does work well.</p>
+<p>That being said, it depends on the scene. There&rsquo;s never a specific number I can give that will automatically reduce render times (that&rsquo;s kinda the point behind making these posts).</p>
+<p>I think that&rsquo;s all I really need to explain about Automatic Scrambling Distance. I&rsquo;ll see y&rsquo;all in the next post.</p>
 
       </div>
     </article>
@@ -215,7 +241,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        621 Words
+        676 Words
       </p>
 
       <p>
@@ -226,7 +252,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2022-12-20 12:17
+          2022-12-21 04:30
         
 
          
@@ -237,7 +263,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
       <hr />
       <div class="sharing-buttons">
         
-<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
   <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
     </div>
@@ -245,7 +271,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
   <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
       <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
@@ -254,7 +280,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy&amp;caption=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy&amp;canonicalUrl=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs&amp;caption=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs&amp;canonicalUrl=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
   <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
     <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
@@ -263,7 +289,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="mailto:?subject=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy&amp;body=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+<a class="resp-sharing-button__link" href="mailto:?subject=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs&amp;body=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
   <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
     </div>
@@ -271,7 +297,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f&amp;media=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f;description=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f&amp;media=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f;description=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
   <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
     </div>
@@ -279,7 +305,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f&amp;title=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy&amp;summary=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy&amp;source=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f&amp;title=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs&amp;summary=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs&amp;source=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
   <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
     </div>
@@ -287,7 +313,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f&amp;resubmit=true&amp;title=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f&amp;resubmit=true&amp;title=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
   <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
     </div>
@@ -295,7 +321,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f;title=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f;title=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs" target="_blank" rel="noopener" aria-label="" title="Share on xing">
   <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
     </div>
@@ -303,7 +329,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="whatsapp://send?text=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy%20https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs%20https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
   <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
     </div>
@@ -311,7 +337,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f&amp;t=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f&amp;t=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
   <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
     </div>
@@ -319,7 +345,7 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Understanding%20Cycles%20Optimization%3a%20Spewing%20Samples%20and%20Bouncing%20Around%20like%20Crazy&amp;url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fcycles-optimization%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Understanding%20Cycles%20Optimization%3a%20The%20Magic%20Behind%20Scrambling%20Pixels%20like%20Eggs&amp;url=https%3a%2f%2fstandingpadanimations.github.io%2fposts%2fautomatic-scrambling-distance%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
   <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
     </div>
@@ -339,18 +365,11 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
 
         <div class="pagination__buttons">
             
-            <span class="button previous">
-                <a href="https://standingpadanimations.github.io/posts/automatic-scrambling-distance/">
-                    <span class="button__icon">←</span>
-                    <span class="button__text">Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs</span>
-                </a>
-            </span>
-            
 
             
             <span class="button next">
-                <a href="https://standingpadanimations.github.io/posts/moving-on/">
-                    <span class="button__text">Moving On</span>
+                <a href="https://standingpadanimations.github.io/posts/cycles-optimization/">
+                    <span class="button__text">Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy</span>
                     <span class="button__icon">→</span>
                 </a>
             </span>

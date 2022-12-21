@@ -6,8 +6,79 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 20 Dec 2022 12:17:42 -0600</lastBuildDate>
+        <lastBuildDate>Wed, 21 Dec 2022 04:30:44 -0600</lastBuildDate>
         <atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs</title>
+            <link>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</link>
+            <pubDate>Wed, 21 Dec 2022 04:30:44 -0600</pubDate>
+            
+            <guid>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</guid>
+            <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.
+I try to avoid making certain settings seem &amp;ldquo;magical&amp;rdquo; because with all magic, there&amp;rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&amp;rsquo;all), one of these settings is known as
+Automatic Scrambling Distance
+While this setting does help with render times a lot, it also requires a lot of tweaking to make it render with little artifacts.</description>
+            <content type="html"><![CDATA[<p>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</p>
+
+    <img src="/imgs/cycles-2/bean-question.png"  alt="Buddy asking question"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>I try to avoid making certain settings seem &ldquo;magical&rdquo; because with all magic, there&rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&rsquo;all), one of these settings is known as</p>
+<p><strong>Automatic Scrambling Distance</strong></p>
+<p>While this setting does help with render times a lot, it also requires a lot of tweaking to make it render with little artifacts. I think the best way to make configuring this faster is to understand how it works under the hood.</p>
+<h1 id="why-scramble-pixels-like-eggs">Why Scramble Pixels like Eggs?</h1>
+<p>In a nutshell, scrambling distance represents how randomized each pixel&rsquo;s randomness value is. We talked about samples in <a href="https://standingpadanimations.github.io/posts/cycles-optimization/#samples">my last post</a>, so I suggest reading that first to get an understanding about what samples are.</p>
+<p>&ldquo;Wait what?&rdquo;</p>
+<p>I was confused at first, so I asked on the Erindale.xyz server (basically a lot of Blender nerds). After some back and forth, I got the following response.</p>
+
+    <img src="/imgs/cycles-2/jc-response.png"  alt="JC explaining what scrambling does"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>&ldquo;I still don&rsquo;t get it.&rdquo;</p>
+<p>Alright, let me make a diagram. Here&rsquo;s with a scrambling distance of 1.</p>
+
+    <img src="/imgs/cycles-2/random-pixels.png"  alt="Pixels with random values"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Here, each pixel have a randomized value+ and Cycles uses that to further randomize the samples that it spews into the scene (remember, samples are on a per pixel basis)</p>
+<p><code>+ This should be more randomized, but it's a quick sketch</code></p>
+<p>Now here&rsquo;s with a scrambling distance of 0.
+
+    <img src="/imgs/cycles-2/uniform-pixels.png"  alt="Pixels with uniform values"  class="center"  style="border-radius: 8px;"  />
+
+</p>
+<p>The higher the scrambling distance, the more randomized these values are.</p>
+<p>&ldquo;So if set to 0, there&rsquo;s no randomness with samples?&rdquo;</p>
+<p>Not exactly. Samples must be released randomly to get finer details. Scrambling distance just makes things more random.</p>
+<p>&ldquo;Oh I get it, so automatic scrambling distance just sets this automatically?&rdquo;</p>
+<p>Yes.</p>
+<p>&ldquo;But why does this feature help with render times? And what artifacts occur with it?&rdquo;</p>
+<p>That brings us on to our next topic.</p>
+<h1 id="all-magic-has-a-cost">All Magic has a Cost</h1>
+<p>As I mentioned earlier, automatic scrambling distance can introduce some artifts, but can also massively help GPU users with render times.</p>
+<p>But how does reducing pixel randomness help with render times?</p>
+<p>This took a while to find. The Blender Docs say the following:</p>
+<blockquote>
+<p>Lower values Reduce randomization between pixels to improve GPU rendering performance, at the cost of possible rendering artifacts if set too low.</p>
+</blockquote>
+<p>Presumably it has something to do with VRAM, but I can&rsquo;t be exactly sure. My best guess from past experiance is that rendering is faster with more complex geometry, but I can&rsquo;t be exactly sure.</p>
+<p>So what are some possible artifacts? Well JC has an example.
+
+    <img src="/imgs/cycles-2/artifacts.png"  alt="Artifacts caused by an extremely low scrambling distance"  class="center"  style="border-radius: 8px;"  />
+
+</p>
+<p>Yikes, why does this happen?</p>
+<p>It seems to go back to why path tracers try to randomize samples as much as possible: to get finer details about the geometry.</p>
+<p>As you can see, all magic comes at a cost.</p>
+<p>&ldquo;So why use it?&rdquo;</p>
+<p>Because if used correctly, render times can be reduced 10 fold. It also tends to result in cleaner images, which when combined with adaptive sampling (I promise I&rsquo;ll make a detailed explanation on that sometime) can reduce render times. After all, the main reason we put up with long render times is to reduce the amount of noise in our scene.</p>
+<p>&ldquo;So, should I use it?&rdquo;</p>
+<p>If you use CPU rendering, no, it brings more issues for little benifit. If you use GPU rendering, then it depends on the scene. Personally, I just test it for each scene I do, then try to adjust the <strong>scrambling multiplier</strong> setting (which goes hand in hand to Automatic Scrambling Distance) before deciding if the artifacts are worth it. I don&rsquo;t use it most of the time (it really hates alpha transparency which I deal with a lot), but when I do it does work well.</p>
+<p>That being said, it depends on the scene. There&rsquo;s never a specific number I can give that will automatically reduce render times (that&rsquo;s kinda the point behind making these posts).</p>
+<p>I think that&rsquo;s all I really need to explain about Automatic Scrambling Distance. I&rsquo;ll see y&rsquo;all in the next post.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy</title>

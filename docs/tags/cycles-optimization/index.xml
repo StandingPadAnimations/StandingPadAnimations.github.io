@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 20 Dec 2022 12:17:42 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/cycles-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2022 04:30:44 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/cycles-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs</title>
+      <link>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</link>
+      <pubDate>Wed, 21 Dec 2022 04:30:44 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</guid>
+      <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.
+I try to avoid making certain settings seem &amp;ldquo;magical&amp;rdquo; because with all magic, there&amp;rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&amp;rsquo;all), one of these settings is known as
+Automatic Scrambling Distance
+While this setting does help with render times a lot, it also requires a lot of tweaking to make it render with little artifacts.</description>
+    </item>
+    
     <item>
       <title>Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy</title>
       <link>https://standingpadanimations.github.io/posts/cycles-optimization/</link>
