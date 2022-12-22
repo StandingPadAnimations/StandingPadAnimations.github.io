@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 21 Dec 2022 04:30:44 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Dec 2022 16:16:09 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Did It: Hacking Holograms Render</title>
+      <link>https://standingpadanimations.github.io/posts/scale-render-process/</link>
+      <pubDate>Thu, 22 Dec 2022 16:16:09 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/scale-render-process/</guid>
+      <description>I recently had the motivation to make the following render
+As you can see, there&amp;rsquo;s a lot of reflections, some long test, volumetrics, and other stuff. Since I don&amp;rsquo;t do much Minecraft rendering anymore, I think I&amp;rsquo;ll impart some insight into some of the more technial bits.
+GCC&amp;rsquo;s Time to Shine &amp;ldquo;GCC?&amp;rdquo;
+Basically, I needed to make a lot of text. Now, I could slam my keyboard a couple of times, but as a nerd I felt like it was the perfect oppertunity to use C++ to generate long text.</description>
+    </item>
+    
     <item>
       <title>Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs</title>
       <link>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</link>

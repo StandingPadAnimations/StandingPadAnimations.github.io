@@ -79,3 +79,7 @@ publishDir   = "docs"
   name = "github"
   url = "https://github.com/StandingPadAnimations"
 
+[[params.social]]
+  name = "youtube"
+  url = "https://www.youtube.com/@standingpad"
+
