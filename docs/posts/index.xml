@@ -6,8 +6,30 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 22 Dec 2022 16:16:09 -0600</lastBuildDate>
+        <lastBuildDate>Sun, 25 Dec 2022 13:30:22 -0600</lastBuildDate>
         <atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Happy Holidays</title>
+            <link>https://standingpadanimations.github.io/posts/happy-holidays/</link>
+            <pubDate>Sun, 25 Dec 2022 13:30:22 -0600</pubDate>
+            
+            <guid>https://standingpadanimations.github.io/posts/happy-holidays/</guid>
+            <description>Happy holidays everyone! Sorry I couldn&amp;rsquo;t post yesterday (it was my dad&amp;rsquo;s birthday and birthdays + Christmas Eve don&amp;rsquo;t really mix well).
+Of course, I myself don&amp;rsquo;t celebrate Christmas (cultural reasons) so I&amp;rsquo;m just waiting for New Years. I&amp;rsquo;ve been working on a New Years render, so here&amp;rsquo;s a WIP
+It&amp;rsquo;s also the second week of winter break for me, which means in about a week I&amp;rsquo;ll have to return back to doing IRL stuff.</description>
+            <content type="html"><![CDATA[<p>Happy holidays everyone! Sorry I couldn&rsquo;t post yesterday (it was my dad&rsquo;s birthday and birthdays + Christmas Eve don&rsquo;t really mix well).</p>
+<p>Of course, I myself don&rsquo;t celebrate Christmas (cultural reasons) so I&rsquo;m just waiting for New Years. I&rsquo;ve been working on a New Years render, so here&rsquo;s a WIP</p>
+
+    <img src="/imgs/happy-holidays/wip-1.png"  alt="WIP of a new years render I&#39;ve been working on"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>It&rsquo;s also the second week of winter break for me, which means in about a week I&rsquo;ll have to return back to doing IRL stuff. Not sure how I&rsquo;ll continue writing, but I&rsquo;ll figure it out eventually.</p>
+<p>Speaking of IRL stuff, my Rust crate <a href="https://github.com/Resurgence-VM-Development/Resurgence">Resurgence</a> (a virtual machine backend that can easily be embeded in a Rust project) is almost ready for its first alpha. I don&rsquo;t think I&rsquo;ve ever talked about it on my old website (let alone here), not sure why as it&rsquo;s a big part of what I do normally.</p>
+<p>I think for the rest of this week I&rsquo;ll be working on MCprep/Resurgence and some IRL work I have remaining.</p>
+<p>That&rsquo;s pretty much all I have to write about today, cya!</p>
+]]></content>
+        </item>
         
         <item>
             <title>How I Did It: Hacking Holograms Render</title>
