@@ -1,6 +1,6 @@
 ---
 title: "How I Did It: 2023 New Year's Render"
-date: 2022-12-31T12:00:00-06:00
+date: 2022-12-31T00:00:00-06:00
 draft: false
 toc: false
 images:
