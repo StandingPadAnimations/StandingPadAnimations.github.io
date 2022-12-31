@@ -94,4 +94,6 @@ I have linked their map before on Twitter, but no one reads that so I feel oblig
 
 I would also like to thank the people on the [**Erindale.xyz server**](https://discord.gg/erindale-xyz-314131871376080906), they're extremely friendly and talented (as I've shown in a couple of my other posts), and the community is welcoming even to Minecraft rendering. Words can not describe how grateful I am.
 
+And finally, I would like to thank anyone who has supported me over the past year. I couldn't have done it without you.
+
 Happy new year everyone!
