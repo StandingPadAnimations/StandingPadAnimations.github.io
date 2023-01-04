@@ -83,3 +83,7 @@ publishDir   = "docs"
   name = "youtube"
   url = "https://www.youtube.com/@standingpad"
 
+[[params.social]]
+  name = "email"
+  url = "mahidsheikh@pm.me"
+
