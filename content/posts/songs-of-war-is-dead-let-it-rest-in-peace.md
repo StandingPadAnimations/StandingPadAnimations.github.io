@@ -43,7 +43,7 @@ Looking at the comments of the cancelation annoucement, it's impressive how much
 
 Guys, chill, I get why you're upset but it's been **3 years**. ~~In that time, David has been working on an FPS game called Arcadian Rift and based on his devlogs sounds way happier and less stressed then during Songs of War production~~+. If David didn't want to continue, then that's his decision and we should respect that. He's human with his own life, not a robot, how hard is that to understand?
 
-`+ While writing this I was told that David canceled Arcadian Rift due to some IRL issues. As of writing, I do not know the full scope of the issue, but needless to say I think it's even more important that we don't keep bothering David over Songs os War`
+`+ While writing this I was told that David canceled Arcadian Rift due to some IRL issues. As of writing, I do not know the full scope of the issue, but needless to say I think it's even more important that we don't keep bothering David over Songs of War`
 
 # Let's Accept the Death of Songs of War, and Let It Rest in Peace
 "But why were the assets, scene files, and script released if he didn't want us to continue Songs of War?"
