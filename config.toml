@@ -85,5 +85,5 @@ publishDir   = "docs"
 
 [[params.social]]
   name = "email"
-  url = "mahidsheikh@pm.me"
+  url = "mailto:mahidsheikh@pm.me"
 
