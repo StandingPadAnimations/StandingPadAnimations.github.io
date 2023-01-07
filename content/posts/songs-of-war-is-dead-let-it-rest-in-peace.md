@@ -1,6 +1,6 @@
 ---
 title: "Songs of War Has Always Been Dead; Just Let It Rest in Peace For Once"
-date: 2023-01-04T20:55:49-06:00
+date: 2023-01-06T22:18:00-06:00
 draft: false
 toc: false
 images:
