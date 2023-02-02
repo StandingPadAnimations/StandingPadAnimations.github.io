@@ -6,8 +6,57 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 14 Jan 2023 13:16:29 -0600</lastBuildDate>
+        <lastBuildDate>Wed, 01 Feb 2023 18:19:14 -0600</lastBuildDate>
         <atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>How I did It: Calm After the Storm</title>
+            <link>https://standingpadanimations.github.io/posts/calm-after-storm-render/</link>
+            <pubDate>Wed, 01 Feb 2023 18:19:14 -0600</pubDate>
+            
+            <guid>https://standingpadanimations.github.io/posts/calm-after-storm-render/</guid>
+            <description>Yes guys, I&amp;rsquo;m back.
+Anyways, I recently had an idea and made this render: Not my best, but lets talk about how I made it.
+Trees of Light For this, I used Bforartists 3.4, which is based off of Blender 3.5. Immediately I noticed a slowdown in viewport responsiveness. Thinking it was a driver, I went from Nvidia&amp;rsquo;s Studio drivers to their Game Ready drivers, but no difference.
+Sidenote: Nvidia has 2 drivers, Studio and Game Ready.</description>
+            <content type="html"><![CDATA[<p>Yes guys, I&rsquo;m back.</p>
+<p>Anyways, I recently had an idea and made this render:
+
+    <img src="/imgs/calm-after-storm/CalmAfterTheStormWatermarked.png"  alt="Recent render I made of a city after a storm"  class="center"  style="border-radius: 8px;"  />
+
+</p>
+<p>Not my best, but lets talk about how I made it.</p>
+<h1 id="trees-of-light">Trees of Light</h1>
+<p>For this, I used Bforartists 3.4, which is based off of Blender 3.5. Immediately I noticed a slowdown in viewport responsiveness. Thinking it was a driver, I went from Nvidia&rsquo;s Studio drivers to their Game Ready drivers, but no difference.</p>
+<p><code>Sidenote: Nvidia has 2 drivers, Studio and Game Ready. The difference is that Game Ready is less stable but recieves updates quicker, whereas Studio is much more stable. In general I recommend Studio since it has better stability, but if you do mostly gaming with newer PC games, Game Ready is an option.</code></p>
+<p>It turns out in <code>Sampling &gt; Lights</code>, there&rsquo;s a new feature called Light Tree. It&rsquo;s a new 3.5 feature and from what I can tell is meant to reduce noise with lights. It&rsquo;s amazing for rendering, but an absolute nightmare for the viewport. Until Blender makes it an option one can enable for the viewport and render individually, I recommend disabling it until it&rsquo;s time to render. Hopefully the next BFA update will disable this by default.</p>
+<h1 id="l-i-g-h-t-s">L I G H T S</h1>
+<p>This was honestly my least favorite part of the render, but I know people are going to comment on it.</p>
+<p>There&rsquo;s not many light sources in the scene, other then the sky and some street lamps. There&rsquo;s also some lights to seperate the character from the backround, but honestly I dislike how they&rsquo;re noticable in the rest of the environment (Blender, <strong>PLEASE</strong> add light linking), but what can you do?</p>
+<p>They&rsquo;re pretty simple point lights with an IES texture and a blackbody node.</p>
+<p>&ldquo;IES textures?&rdquo;</p>
+<p><em>sigh</em></p>
+<p>&ldquo;._.&rdquo;</p>
+<p>Basically IES textures are textures that represent light falloff. They&rsquo;re much more accurate then simply using normal Blender lights.</p>
+<h1 id="color-grading-stubbing-your-toe-on-the-corner-of-a-wall">Color Grading: Stubbing Your Toe on the Corner of a Wall</h1>
+<p>This is one of the things I hate the most about this. The thing is, there&rsquo;s not much color in the first place, so color grading was going to be difficult.</p>
+<p>I used what I learned from my <a href="https://standingpadanimations.github.io/posts/new-years-2023/">New Year&rsquo;s render</a> and attempted to do some color grading. The results were better then what the original render, but I still don&rsquo;t like how it turned out. What can you do though <code>¯\_(ツ)_/¯</code>?</p>
+<h1 id="some-updates">Some Updates</h1>
+<p>Wait wait wait, don&rsquo;t click away, I know this isn&rsquo;t related, but I have some exiciting updates.</p>
+<p>For starters, I&rsquo;ve been working on some stuff for a project that a group at my school was doing. The TLDR is that they&rsquo;ve been working on a VR game, and one of them asked if I knew Blender. I showed them this website and got on the team. Here&rsquo;s some screenshots of what I&rsquo;ve been working on (no materials because it has to go to Unity):
+
+    <img src="/imgs/calm-after-storm/image.png"  alt="Blinding screenshot of a forest in Blender"  class="center"  style="border-radius: 8px;"  />
+
+
+
+    <img src="/imgs/calm-after-storm/image-2.png"  alt="Another blinding screnshot. If you can&#39;t see, consider yourself lucky"  class="center"  style="border-radius: 8px;"  />
+
+</p>
+<p>So that&rsquo;s what I&rsquo;ve been doing.</p>
+<p>I&rsquo;m also pleased to announce MCprep Kaion, a fork of MCprep that aims to bring experimental features to users (as well as adding new features with the goal of going upstream eventually). You can find it <a href="https://github.com/StandingPadAnimations/MCprep-Kaion">here</a></p>
+<p>Anyway, that&rsquo;s all I really have to say, cya.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Farewell for Now</title>
