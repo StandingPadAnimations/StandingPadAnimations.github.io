@@ -9,6 +9,18 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 01 Feb 2023 18:19:14 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Snowflake</title>
+      <link>https://standingpadanimations.github.io/snowflake/</link>
+      <pubDate>Thu, 02 Feb 2023 16:23:07 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/snowflake/</guid>
+      <description>Holy shit, you found this place? I think I should explain.
+Snowflake is a Tor proxy that uses WebRTC to allow users to bypass censorship. More can be explained here: https://snowflake.torproject.org/
+In short, it&amp;rsquo;s one of the easiest and safest ways to contribute to Tor. There&amp;rsquo;s no legal issues since Snowflakes just act as a bridge to the rest of Tor, and they help people bypass censorship.
+While this page does require allowing 3rd party frames (thus breaking my vow of allowing this website to work 100% with Ublock Origin Medium and Hard modes), I think it&amp;rsquo;s a good idea for me to provide this on my website, as I&amp;rsquo;m lucky to live in a country with little censorship.</description>
+    </item>
+    
+    <item>
       <title>How I did It: Calm After the Storm</title>
       <link>https://standingpadanimations.github.io/posts/calm-after-storm-render/</link>
       <pubDate>Wed, 01 Feb 2023 18:19:14 -0600</pubDate>

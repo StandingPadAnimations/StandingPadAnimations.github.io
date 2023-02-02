@@ -1,7 +1,7 @@
 ---
 title: "Snowflake"
 date: 2023-02-02T16:23:07-06:00
-draft: true
+draft: false
 comments: false
 images:
 ---
