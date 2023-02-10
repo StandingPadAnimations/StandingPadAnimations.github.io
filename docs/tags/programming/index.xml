@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on StandingPad&#39;s Corner</title>
+    <link>https://standingpadanimations.github.io/tags/programming/</link>
+    <description>Recent content in Programming on StandingPad&#39;s Corner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 09 Feb 2023 18:41:39 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EndorCore Is Shutting Down</title>
+      <link>https://standingpadanimations.github.io/posts/endorcore-shutdown/</link>
+      <pubDate>Thu, 09 Feb 2023 18:41:39 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/endorcore-shutdown/</guid>
+      <description>On Feburary 11th I&amp;rsquo;ll be shutting my Discord bot EndorCore down.
+Background A couple of years back, I coded a Discord bot using the Discord.py framework. It was the primary way I learned Python, and it was a blast while it lasted, but all good things some to an end.
+Why For starters, EndorCore is no longer maintained. The last commit on the Github repo was in March of 2022. Because of this, EndorCore has slowly started to lose functionality as time passed and Discord changed the API.</description>
+    </item>
+    
+  </channel>
+</rss>
