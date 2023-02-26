@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 01 Feb 2023 18:19:14 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Feb 2023 18:54:11 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCprep Progress</title>
+      <link>https://standingpadanimations.github.io/posts/mcprep-progress/</link>
+      <pubDate>Sat, 25 Feb 2023 18:54:11 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/mcprep-progress/</guid>
+      <description>As some of you know, I&amp;rsquo;m an MCprep developer, and as part of what I do I work on adding features and fixing bugs in MCprep. Not that, I also help review pull requests and fix bugs.
+The latest version of MCprep, MCprep v3.4.1 was released in August of last year. While it may seem like MCprep development is dying, that couldn&amp;rsquo;t be further from the truth.
+Here&amp;rsquo;s some of the features that are in the works right now.</description>
+    </item>
+    
     <item>
       <title>How I did It: Calm After the Storm</title>
       <link>https://standingpadanimations.github.io/posts/calm-after-storm-render/</link>
