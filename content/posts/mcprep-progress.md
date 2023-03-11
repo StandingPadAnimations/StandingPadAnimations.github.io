@@ -6,7 +6,11 @@ toc: false
 images:
 tags:
   - Blender
+  - MCprep
 ---
+
+UPDATE:
+As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release
 
 As some of you know, I'm an MCprep developer, and as part of what I do I work on adding features and fixing bugs in MCprep. Not that, I also help review pull requests and fix bugs.
 
