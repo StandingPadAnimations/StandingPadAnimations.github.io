@@ -7,16 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 25 Feb 2023 18:54:11 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 16:05:06 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problems of MCprep Development</title>
+      <link>https://standingpadanimations.github.io/posts/problems-of-mcprep/</link>
+      <pubDate>Sat, 11 Mar 2023 16:05:06 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/problems-of-mcprep/</guid>
+      <description>As the MCprep 3.4.2 release date draws nearer, I think it&amp;rsquo;s important to remind users how MCprep development works, and how important it is that MCprep receives supports from the community. I feel like people have forgotten how much work goes into MCprep, and I think a little reminder wouldn&amp;rsquo;t hurt.
+Overview Currently, MCprep only has 2 active maintainers (TheDuckCow and myself). While the MCprep GitHub repo says there&amp;rsquo;s 7, most of them haven&amp;rsquo;t contributed in a while: Now obviously TheDuckCow would have the most commits (411 at the time of writing this) since he&amp;rsquo;s been working on MCprep for almost 10 years now (yes, MCprep has been around for 10 years), with myself being behind with 96 commits.</description>
+    </item>
+    
     <item>
       <title>MCprep Progress</title>
       <link>https://standingpadanimations.github.io/posts/mcprep-progress/</link>
       <pubDate>Sat, 25 Feb 2023 18:54:11 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/mcprep-progress/</guid>
-      <description>As some of you know, I&amp;rsquo;m an MCprep developer, and as part of what I do I work on adding features and fixing bugs in MCprep. Not that, I also help review pull requests and fix bugs.
-The latest version of MCprep, MCprep v3.4.1 was released in August of last year. While it may seem like MCprep development is dying, that couldn&amp;rsquo;t be further from the truth.
-Here&amp;rsquo;s some of the features that are in the works right now.</description>
+      <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release
+As some of you know, I&amp;rsquo;m an MCprep developer, and as part of what I do I work on adding features and fixing bugs in MCprep. Not that, I also help review pull requests and fix bugs.
+The latest version of MCprep, MCprep v3.4.1 was released in August of last year. While it may seem like MCprep development is dying, that couldn&amp;rsquo;t be further from the truth.</description>
     </item>
     
     <item>
