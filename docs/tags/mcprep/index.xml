@@ -7,7 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 11 Mar 2023 16:05:06 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/mcprep/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Mar 2023 21:09:38 -0500</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/mcprep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Dropping 2.7x Support in MCprep is for the Better</title>
+      <link>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</link>
+      <pubDate>Fri, 17 Mar 2023 21:09:38 -0500</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</guid>
+      <description>After years of supporting Blender 2.7x in MCprep, we&amp;rsquo;ve now decided to remove support starting with MCprep 3.5.
+Hardcore Blender 2.7x user walks in
+&amp;ldquo;WHAT THE F-CK DID YOU SAY!?!?!? Reverse it, NOW!&amp;rdquo;
+Yeah no, we&amp;rsquo;re not doing it. It&amp;rsquo;s too much work to suppor-
+&amp;ldquo;Sounds like something a lazy developer would say&amp;rdquo;
+Shut up, this is for the better, let me explain.
+The Massive Pain That is, 2.7x Support When we say &amp;ldquo;2.</description>
+    </item>
+    
     <item>
       <title>Problems of MCprep Development</title>
       <link>https://standingpadanimations.github.io/posts/problems-of-mcprep/</link>

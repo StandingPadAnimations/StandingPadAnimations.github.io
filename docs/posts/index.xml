@@ -6,8 +6,120 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 11 Mar 2023 16:05:06 -0600</lastBuildDate>
+        <lastBuildDate>Fri, 17 Mar 2023 21:09:38 -0500</lastBuildDate>
         <atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Why Dropping 2.7x Support in MCprep is for the Better</title>
+            <link>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</link>
+            <pubDate>Fri, 17 Mar 2023 21:09:38 -0500</pubDate>
+            
+            <guid>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</guid>
+            <description>After years of supporting Blender 2.7x in MCprep, we&amp;rsquo;ve now decided to remove support starting with MCprep 3.5.
+Hardcore Blender 2.7x user walks in
+&amp;ldquo;WHAT THE F-CK DID YOU SAY!?!?!? Reverse it, NOW!&amp;rdquo;
+Yeah no, we&amp;rsquo;re not doing it. It&amp;rsquo;s too much work to suppor-
+&amp;ldquo;Sounds like something a lazy developer would say&amp;rdquo;
+Shut up, this is for the better, let me explain.
+The Massive Pain That is, 2.7x Support When we say &amp;ldquo;2.</description>
+            <content type="html"><![CDATA[<p>After years of supporting Blender 2.7x in MCprep, we&rsquo;ve now decided to <a href="https://github.com/TheDuckCow/MCprep/issues/399">remove support starting with MCprep 3.5</a>.</p>
+<p><em>Hardcore Blender 2.7x user walks in</em></p>
+<p>&ldquo;<strong>WHAT THE F-CK DID YOU SAY!?!?!?</strong> Reverse it, <strong>NOW</strong>!&rdquo;</p>
+<p>Yeah no, we&rsquo;re not doing it. It&rsquo;s too much work to suppor-</p>
+<p>&ldquo;Sounds like something a lazy developer would say&rdquo;</p>
+<p>Shut up, this is for the better, let me explain.</p>
+<h1 id="the-massive-pain-that-is-27x-support">The Massive Pain That is, 2.7x Support</h1>
+<p>When we say &ldquo;2.7x support&rdquo;, it includes a variety of things:</p>
+<ul>
+<li>Using supported syntax</li>
+<li>Wrapping API methods</li>
+<li>Tricking Python itself (I&rsquo;ll get back to this)</li>
+<li>Guard statements for versioning</li>
+<li>Testing (MCprep 3.4.2 was tested with 15 different versions of Blender)</li>
+</ul>
+<p>It&rsquo;s not as simple as &ldquo;snap your fingers and boom, support&rdquo;, it&rsquo;s a much larger ordeal. Here&rsquo;s an example of some code we use for compatability:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ui_scale</span>():
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;&#34;&#34;Returns scale of UI, for width drawing. Compatible down to blender 2.72&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>	prefs <span style="color:#f92672">=</span> get_preferences()
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> hasattr(prefs, <span style="color:#e6db74">&#34;view&#34;</span>):
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">elif</span> hasattr(prefs<span style="color:#f92672">.</span>view, <span style="color:#e6db74">&#34;ui_scale&#34;</span>) <span style="color:#f92672">and</span> hasattr(prefs<span style="color:#f92672">.</span>view, <span style="color:#e6db74">&#34;pixel_size&#34;</span>):
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> prefs<span style="color:#f92672">.</span>view<span style="color:#f92672">.</span>ui_scale <span style="color:#f92672">*</span> prefs<span style="color:#f92672">.</span>system<span style="color:#f92672">.</span>pixel_size
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">elif</span> hasattr(prefs<span style="color:#f92672">.</span>system, <span style="color:#e6db74">&#34;dpi&#34;</span>):
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> prefs<span style="color:#f92672">.</span>system<span style="color:#f92672">.</span>dpi <span style="color:#f92672">/</span> <span style="color:#ae81ff">72</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><p>&ldquo;I don&rsquo;t understand what this does&rdquo;</p>
+<p>This is just to return the scale of the UI. And that&rsquo;s just the tip of the iceberg. Remember when I said we had to trick Python itself for 2.7x support? Yeah&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">make_annotations</span>(cls):
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;&#34;&#34;Add annotation attribute to class fields to avoid Blender 2.8 warnings&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> hasattr(bpy<span style="color:#f92672">.</span>app, <span style="color:#e6db74">&#34;version&#34;</span>) <span style="color:#f92672">or</span> bpy<span style="color:#f92672">.</span>app<span style="color:#f92672">.</span>version <span style="color:#f92672">&lt;</span> (<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">80</span>):
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> cls
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> bpy<span style="color:#f92672">.</span>app<span style="color:#f92672">.</span>version <span style="color:#f92672">&lt;</span> (<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">93</span>, <span style="color:#ae81ff">0</span>):
+</span></span><span style="display:flex;"><span>		bl_props <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>			k: v <span style="color:#66d9ef">for</span> k, v <span style="color:#f92672">in</span> cls<span style="color:#f92672">.</span>__dict__<span style="color:#f92672">.</span>items() <span style="color:#66d9ef">if</span> isinstance(v, tuple)}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>		bl_props <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>			k: v <span style="color:#66d9ef">for</span> k, v <span style="color:#f92672">in</span> cls<span style="color:#f92672">.</span>__dict__<span style="color:#f92672">.</span>items()
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> isinstance(v, bpy<span style="color:#f92672">.</span>props<span style="color:#f92672">.</span>_PropertyDeferred)}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> bl_props:
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#39;__annotations__&#39;</span> <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> cls<span style="color:#f92672">.</span>__dict__:
+</span></span><span style="display:flex;"><span>			setattr(cls, <span style="color:#e6db74">&#39;__annotations__&#39;</span>, {})
+</span></span><span style="display:flex;"><span>		annotations <span style="color:#f92672">=</span> cls<span style="color:#f92672">.</span>__dict__[<span style="color:#e6db74">&#39;__annotations__&#39;</span>]
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> k, v <span style="color:#f92672">in</span> bl_props<span style="color:#f92672">.</span>items():
+</span></span><span style="display:flex;"><span>			annotations[k] <span style="color:#f92672">=</span> v
+</span></span><span style="display:flex;"><span>			delattr(cls, k)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> cls
+</span></span></code></pre></div><p>&ldquo;But that says to avoid 2.8 warnings!&rdquo;</p>
+<p>2.8 warnings caused by 2.7x syntax. And notice the <code>if bpy.app.version &lt; (2, 93, 0)</code>? That&rsquo;s where this function starts to cause headaches for many, many people.</p>
+<p>See this function performs something that we&rsquo;re not supposed to be doing, but we do anyway. Well that caused headaches in 2.93 when Blender (understandably) changed the internal type used for properties. Since that function runs <em>before</em> MCprep actually registers the panels with Blender (in other words, make Blender aware of the panel&rsquo;s existence), this meant that for a while in 2.93, MCprep would outright not work.</p>
+<p>But the issue extends beyond MCprep and into the addon updater, an updater that is used by many, many other Blender addons. Like MCprep, the addon updater also has the same function for backwards compatability, and when 2.93 hit, it too was affected. That means hundreds, if not thousands of Blender users were affected by this change, as well as developers, all because a small group of users are stubborn to upgrade to modern versions of Blender, but expect support for the addons they have.</p>
+<p>How small? Here&rsquo;s data from the last 90 days about showing the amount of users who have MCprep 3.4-3.4.2 installed:
+
+    <img src="/imgs/mcprep-27/stats.png"  alt="The amount of 2.7x users who have a modern version of MCprep"  class="center"  style="border-radius: 8px;"  />
+
+</p>
+<p>2% total, yikes. Sure it&rsquo;s still 354 installs, but compared to the 10,500+ downloads of MCprep, it&rsquo;s not worth supporting 2.7x still.</p>
+<p><em>2.7x user goes through the ground</em></p>
+<p>Huh, I guess they got bored, but yeah this change is pretty massive.</p>
+<h1 id="what-does-this-mean">What Does This Mean?</h1>
+<p>The MCprep 3.4 series will be the last to support 2.7x. That means 2.7x users have 3 options:</p>
+<ul>
+<li>Migrate to modern versions of Blender</li>
+<li>Stick with the MCprep 3.4 series</li>
+<li>Fork MCprep and make it compatible with 2.7x (I do not suggest this route but there&rsquo;s crazy people in the world)</li>
+</ul>
+<p>I think the first option is the simples-</p>
+<p>&ldquo;But migrating is so hard&rdquo;</p>
+<p>It may seem that way, but I&rsquo;ve talked with a buddy who used 2.7x quite a bit after 2.8&rsquo;s release, and this is what he had to say:</p>
+<blockquote>
+<p>As soon as i found out about preference presets for 2.7 controls, i switched immediately&hellip; And with all the features i made myself an interface to work faster than ever. No real reason not to switch</p>
+<p>I think people who genuinenly use 2.7 probably don&rsquo;t have that high aspirations. You can get alot done in this version and it&rsquo;s honestly still the great old blender, but the new version lifts the quality and experience to insane levels</p>
+<p>I mean Songs of War was made in 2.7 and is awesome, but well&hellip; Doesn&rsquo;t deny that 3.4 is the way better tool</p>
+</blockquote>
+<p>Since the release of 2.8, Blender has made massive leaps in features. Some of them include:</p>
+<ul>
+<li>AI denoising</li>
+<li>Collections</li>
+<li>EEVEE</li>
+<li>Cycles X (making Cycles way, way faster)</li>
+<li>OptiX rendering for RTX GPUs</li>
+<li>HIP rendering for AMD GPUs and Apple Silicon</li>
+<li>oneAPI for Intel GPUs</li>
+<li>GPU subdivision</li>
+<li>Geometry nodes</li>
+<li>Light groups</li>
+<li>Better subsurface scattering</li>
+<li>Faster and less noisy volumetrics in Cycles</li>
+<li>Real time compositing in the viewport (tecnically still in development, but I&rsquo;ve tried it and it&rsquo;s awesome)</li>
+<li>Better refractive caustics with MNEE (also known as shadow caustics)</li>
+<li>Faster OBJ importing (which MCprep utilizes in Blender 3.5, <em>hint hint</em>)</li>
+<li>Asset browser</li>
+<li>And much, much more&hellip;</li>
+</ul>
+<p>There&rsquo;s also been some recent developments in things like light linking (finally!), spectral rendering, GPU denoising with OIDN, and many other things that I&rsquo;m not aware of. In my opinion, keeping 2.7x support in MCprep for this long was a mistake, because we didn&rsquo;t have an incentive for users to upgrade and benefit from the massive improvements. I hope that by dropping 2.7x compatability, we help users realize how much better modern Blender is, and how dumb it is to not use something just because the GUI looks different. Dropping 2.7x support is for the better, for both MCprep, and the userbase.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Problems of MCprep Development</title>
