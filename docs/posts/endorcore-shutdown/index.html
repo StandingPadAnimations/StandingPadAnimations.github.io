@@ -170,19 +170,19 @@ Why For starters, EndorCore is no longer maintained. The last commit on the Gith
 <li>Not isolating the process</li>
 </ul>
 <p>In addition, after recently going over the code, EndorCore has sections that in theory would be vulnerable to SQL injection, such as the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> user_result <span style="color:#f92672">==</span> <span style="color:#66d9ef">None</span>:
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>        <span style="color:#ff7b72">if</span> user_result <span style="color:#ff7b72;font-weight:bold">==</span> <span style="color:#79c0ff">None</span>:
 </span></span><span style="display:flex;"><span>            
-</span></span><span style="display:flex;"><span>            cursor <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> self<span style="color:#f92672">.</span>client<span style="color:#f92672">.</span>db<span style="color:#f92672">.</span>cursor()
+</span></span><span style="display:flex;"><span>            cursor <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#ff7b72">await</span> self<span style="color:#ff7b72;font-weight:bold">.</span>client<span style="color:#ff7b72;font-weight:bold">.</span>db<span style="color:#ff7b72;font-weight:bold">.</span>cursor()
 </span></span><span style="display:flex;"><span>                
-</span></span><span style="display:flex;"><span>            sql <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;INSERT INTO Strikes(Guild_ID, User_ID, Strikes_Have) VALUES(</span><span style="color:#e6db74">{</span>ctx<span style="color:#f92672">.</span>guild<span style="color:#f92672">.</span>id<span style="color:#e6db74">}</span><span style="color:#e6db74">, </span><span style="color:#e6db74">{</span>member<span style="color:#f92672">.</span>id<span style="color:#e6db74">}</span><span style="color:#e6db74">, </span><span style="color:#e6db74">{</span>first_strike<span style="color:#e6db74">}</span><span style="color:#e6db74">)&#34;</span>
+</span></span><span style="display:flex;"><span>            sql <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#79c0ff">f</span><span style="color:#a5d6ff">&#34;INSERT INTO Strikes(Guild_ID, User_ID, Strikes_Have) VALUES(</span><span style="color:#a5d6ff">{</span>ctx<span style="color:#ff7b72;font-weight:bold">.</span>guild<span style="color:#ff7b72;font-weight:bold">.</span>id<span style="color:#a5d6ff">}</span><span style="color:#a5d6ff">, </span><span style="color:#a5d6ff">{</span>member<span style="color:#ff7b72;font-weight:bold">.</span>id<span style="color:#a5d6ff">}</span><span style="color:#a5d6ff">, </span><span style="color:#a5d6ff">{</span>first_strike<span style="color:#a5d6ff">}</span><span style="color:#a5d6ff">)&#34;</span>
 </span></span><span style="display:flex;"><span>            
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">await</span> ctx<span style="color:#f92672">.</span>respond(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Striked </span><span style="color:#e6db74">{</span>member<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#ff7b72">await</span> ctx<span style="color:#ff7b72;font-weight:bold">.</span>respond(<span style="color:#79c0ff">f</span><span style="color:#a5d6ff">&#34;Striked </span><span style="color:#a5d6ff">{</span>member<span style="color:#a5d6ff">}</span><span style="color:#a5d6ff">&#34;</span>)
 </span></span><span style="display:flex;"><span>            
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">await</span> cursor<span style="color:#f92672">.</span>execute(sql)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">await</span> self<span style="color:#f92672">.</span>client<span style="color:#f92672">.</span>db<span style="color:#f92672">.</span>commit()
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">await</span> cursor<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>            <span style="color:#ff7b72">await</span> cursor<span style="color:#ff7b72;font-weight:bold">.</span>execute(sql)
+</span></span><span style="display:flex;"><span>            <span style="color:#ff7b72">await</span> self<span style="color:#ff7b72;font-weight:bold">.</span>client<span style="color:#ff7b72;font-weight:bold">.</span>db<span style="color:#ff7b72;font-weight:bold">.</span>commit()
+</span></span><span style="display:flex;"><span>            <span style="color:#ff7b72">await</span> cursor<span style="color:#ff7b72;font-weight:bold">.</span>close()
 </span></span></code></pre></div><p>The issue lies in lines such as this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>sql <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;INSERT INTO Strikes(Guild_ID, User_ID, Strikes_Have) VALUES(</span><span style="color:#e6db74">{</span>ctx<span style="color:#f92672">.</span>guild<span style="color:#f92672">.</span>id<span style="color:#e6db74">}</span><span style="color:#e6db74">, </span><span style="color:#e6db74">{</span>member<span style="color:#f92672">.</span>id<span style="color:#e6db74">}</span><span style="color:#e6db74">, </span><span style="color:#e6db74">{</span>first_strike<span style="color:#e6db74">}</span><span style="color:#e6db74">)&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>sql <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#79c0ff">f</span><span style="color:#a5d6ff">&#34;INSERT INTO Strikes(Guild_ID, User_ID, Strikes_Have) VALUES(</span><span style="color:#a5d6ff">{</span>ctx<span style="color:#ff7b72;font-weight:bold">.</span>guild<span style="color:#ff7b72;font-weight:bold">.</span>id<span style="color:#a5d6ff">}</span><span style="color:#a5d6ff">, </span><span style="color:#a5d6ff">{</span>member<span style="color:#ff7b72;font-weight:bold">.</span>id<span style="color:#a5d6ff">}</span><span style="color:#a5d6ff">, </span><span style="color:#a5d6ff">{</span>first_strike<span style="color:#a5d6ff">}</span><span style="color:#a5d6ff">)&#34;</span>
 </span></span></code></pre></div><p>This should have never been a raw Python format string, and yet it is. Back when I was firsting adding SQL to the EndorCore codebase, lines like this were common. While many have been removed, some still remain. In theory Discord&rsquo;s API should prevent wrongful parameters from being passed, but I can&rsquo;t count on that.</p>
 <p>EndorCore also currently runs an alpha build of Pycord 2.0 from around 2021, and still hasn&rsquo;t been updated. Updating the module would require massive code changes that I&rsquo;m not willing to do.</p>
 <p>All of this should have spelled the end for EndorCore a long time ago, and fr that I&rsquo;m sorry.</p>
@@ -370,6 +370,16 @@ Why For starters, EndorCore is no longer maintained. The last commit on the Gith
 
             
                 <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2023</span>
+            <span><a href="https://standingpadanimations.github.io/"></a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="https://standingpadanimations.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            
+        </div>
+    </div>
     
     
 </footer>

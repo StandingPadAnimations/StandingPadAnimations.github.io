@@ -189,38 +189,38 @@ The Massive Pain That is, 2.7x Support When we say &ldquo;2." />
 <li>Testing (MCprep 3.4.2 was tested with 15 different versions of Blender)</li>
 </ul>
 <p>It&rsquo;s not as simple as &ldquo;snap your fingers and boom, support&rdquo;, it&rsquo;s a much larger ordeal. Here&rsquo;s an example of some code we use for compatability:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ui_scale</span>():
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;&#34;&#34;Returns scale of UI, for width drawing. Compatible down to blender 2.72&#34;&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>	prefs <span style="color:#f92672">=</span> get_preferences()
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> hasattr(prefs, <span style="color:#e6db74">&#34;view&#34;</span>):
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">elif</span> hasattr(prefs<span style="color:#f92672">.</span>view, <span style="color:#e6db74">&#34;ui_scale&#34;</span>) <span style="color:#f92672">and</span> hasattr(prefs<span style="color:#f92672">.</span>view, <span style="color:#e6db74">&#34;pixel_size&#34;</span>):
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> prefs<span style="color:#f92672">.</span>view<span style="color:#f92672">.</span>ui_scale <span style="color:#f92672">*</span> prefs<span style="color:#f92672">.</span>system<span style="color:#f92672">.</span>pixel_size
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">elif</span> hasattr(prefs<span style="color:#f92672">.</span>system, <span style="color:#e6db74">&#34;dpi&#34;</span>):
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> prefs<span style="color:#f92672">.</span>system<span style="color:#f92672">.</span>dpi <span style="color:#f92672">/</span> <span style="color:#ae81ff">72</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">else</span>:
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ff7b72">def</span> <span style="color:#d2a8ff;font-weight:bold">ui_scale</span>():
+</span></span><span style="display:flex;"><span>	<span style="color:#a5d6ff">&#34;&#34;&#34;Returns scale of UI, for width drawing. Compatible down to blender 2.72&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>	prefs <span style="color:#ff7b72;font-weight:bold">=</span> get_preferences()
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">if</span> <span style="color:#ff7b72;font-weight:bold">not</span> hasattr(prefs, <span style="color:#a5d6ff">&#34;view&#34;</span>):
+</span></span><span style="display:flex;"><span>		<span style="color:#ff7b72">return</span> <span style="color:#a5d6ff">1</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">elif</span> hasattr(prefs<span style="color:#ff7b72;font-weight:bold">.</span>view, <span style="color:#a5d6ff">&#34;ui_scale&#34;</span>) <span style="color:#ff7b72;font-weight:bold">and</span> hasattr(prefs<span style="color:#ff7b72;font-weight:bold">.</span>view, <span style="color:#a5d6ff">&#34;pixel_size&#34;</span>):
+</span></span><span style="display:flex;"><span>		<span style="color:#ff7b72">return</span> prefs<span style="color:#ff7b72;font-weight:bold">.</span>view<span style="color:#ff7b72;font-weight:bold">.</span>ui_scale <span style="color:#ff7b72;font-weight:bold">*</span> prefs<span style="color:#ff7b72;font-weight:bold">.</span>system<span style="color:#ff7b72;font-weight:bold">.</span>pixel_size
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">elif</span> hasattr(prefs<span style="color:#ff7b72;font-weight:bold">.</span>system, <span style="color:#a5d6ff">&#34;dpi&#34;</span>):
+</span></span><span style="display:flex;"><span>		<span style="color:#ff7b72">return</span> prefs<span style="color:#ff7b72;font-weight:bold">.</span>system<span style="color:#ff7b72;font-weight:bold">.</span>dpi <span style="color:#ff7b72;font-weight:bold">/</span> <span style="color:#a5d6ff">72</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">else</span>:
+</span></span><span style="display:flex;"><span>		<span style="color:#ff7b72">return</span> <span style="color:#a5d6ff">1</span>
 </span></span></code></pre></div><p>&ldquo;I don&rsquo;t understand what this does&rdquo;</p>
 <p>This is just to return the scale of the UI. And that&rsquo;s just the tip of the iceberg. Remember when I said we had to trick Python itself for 2.7x support? Yeah&hellip;</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">make_annotations</span>(cls):
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;&#34;&#34;Add annotation attribute to class fields to avoid Blender 2.8 warnings&#34;&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> hasattr(bpy<span style="color:#f92672">.</span>app, <span style="color:#e6db74">&#34;version&#34;</span>) <span style="color:#f92672">or</span> bpy<span style="color:#f92672">.</span>app<span style="color:#f92672">.</span>version <span style="color:#f92672">&lt;</span> (<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">80</span>):
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> cls
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> bpy<span style="color:#f92672">.</span>app<span style="color:#f92672">.</span>version <span style="color:#f92672">&lt;</span> (<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">93</span>, <span style="color:#ae81ff">0</span>):
-</span></span><span style="display:flex;"><span>		bl_props <span style="color:#f92672">=</span> {
-</span></span><span style="display:flex;"><span>			k: v <span style="color:#66d9ef">for</span> k, v <span style="color:#f92672">in</span> cls<span style="color:#f92672">.</span>__dict__<span style="color:#f92672">.</span>items() <span style="color:#66d9ef">if</span> isinstance(v, tuple)}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">else</span>:
-</span></span><span style="display:flex;"><span>		bl_props <span style="color:#f92672">=</span> {
-</span></span><span style="display:flex;"><span>			k: v <span style="color:#66d9ef">for</span> k, v <span style="color:#f92672">in</span> cls<span style="color:#f92672">.</span>__dict__<span style="color:#f92672">.</span>items()
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> isinstance(v, bpy<span style="color:#f92672">.</span>props<span style="color:#f92672">.</span>_PropertyDeferred)}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> bl_props:
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#39;__annotations__&#39;</span> <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> cls<span style="color:#f92672">.</span>__dict__:
-</span></span><span style="display:flex;"><span>			setattr(cls, <span style="color:#e6db74">&#39;__annotations__&#39;</span>, {})
-</span></span><span style="display:flex;"><span>		annotations <span style="color:#f92672">=</span> cls<span style="color:#f92672">.</span>__dict__[<span style="color:#e6db74">&#39;__annotations__&#39;</span>]
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> k, v <span style="color:#f92672">in</span> bl_props<span style="color:#f92672">.</span>items():
-</span></span><span style="display:flex;"><span>			annotations[k] <span style="color:#f92672">=</span> v
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ff7b72">def</span> <span style="color:#d2a8ff;font-weight:bold">make_annotations</span>(cls):
+</span></span><span style="display:flex;"><span>	<span style="color:#a5d6ff">&#34;&#34;&#34;Add annotation attribute to class fields to avoid Blender 2.8 warnings&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">if</span> <span style="color:#ff7b72;font-weight:bold">not</span> hasattr(bpy<span style="color:#ff7b72;font-weight:bold">.</span>app, <span style="color:#a5d6ff">&#34;version&#34;</span>) <span style="color:#ff7b72;font-weight:bold">or</span> bpy<span style="color:#ff7b72;font-weight:bold">.</span>app<span style="color:#ff7b72;font-weight:bold">.</span>version <span style="color:#ff7b72;font-weight:bold">&lt;</span> (<span style="color:#a5d6ff">2</span>, <span style="color:#a5d6ff">80</span>):
+</span></span><span style="display:flex;"><span>		<span style="color:#ff7b72">return</span> cls
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">if</span> bpy<span style="color:#ff7b72;font-weight:bold">.</span>app<span style="color:#ff7b72;font-weight:bold">.</span>version <span style="color:#ff7b72;font-weight:bold">&lt;</span> (<span style="color:#a5d6ff">2</span>, <span style="color:#a5d6ff">93</span>, <span style="color:#a5d6ff">0</span>):
+</span></span><span style="display:flex;"><span>		bl_props <span style="color:#ff7b72;font-weight:bold">=</span> {
+</span></span><span style="display:flex;"><span>			k: v <span style="color:#ff7b72">for</span> k, v <span style="color:#ff7b72;font-weight:bold">in</span> cls<span style="color:#ff7b72;font-weight:bold">.</span>__dict__<span style="color:#ff7b72;font-weight:bold">.</span>items() <span style="color:#ff7b72">if</span> isinstance(v, tuple)}
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">else</span>:
+</span></span><span style="display:flex;"><span>		bl_props <span style="color:#ff7b72;font-weight:bold">=</span> {
+</span></span><span style="display:flex;"><span>			k: v <span style="color:#ff7b72">for</span> k, v <span style="color:#ff7b72;font-weight:bold">in</span> cls<span style="color:#ff7b72;font-weight:bold">.</span>__dict__<span style="color:#ff7b72;font-weight:bold">.</span>items()
+</span></span><span style="display:flex;"><span>			<span style="color:#ff7b72">if</span> isinstance(v, bpy<span style="color:#ff7b72;font-weight:bold">.</span>props<span style="color:#ff7b72;font-weight:bold">.</span>_PropertyDeferred)}
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">if</span> bl_props:
+</span></span><span style="display:flex;"><span>		<span style="color:#ff7b72">if</span> <span style="color:#a5d6ff">&#39;__annotations__&#39;</span> <span style="color:#ff7b72;font-weight:bold">not</span> <span style="color:#ff7b72;font-weight:bold">in</span> cls<span style="color:#ff7b72;font-weight:bold">.</span>__dict__:
+</span></span><span style="display:flex;"><span>			setattr(cls, <span style="color:#a5d6ff">&#39;__annotations__&#39;</span>, {})
+</span></span><span style="display:flex;"><span>		annotations <span style="color:#ff7b72;font-weight:bold">=</span> cls<span style="color:#ff7b72;font-weight:bold">.</span>__dict__[<span style="color:#a5d6ff">&#39;__annotations__&#39;</span>]
+</span></span><span style="display:flex;"><span>		<span style="color:#ff7b72">for</span> k, v <span style="color:#ff7b72;font-weight:bold">in</span> bl_props<span style="color:#ff7b72;font-weight:bold">.</span>items():
+</span></span><span style="display:flex;"><span>			annotations[k] <span style="color:#ff7b72;font-weight:bold">=</span> v
 </span></span><span style="display:flex;"><span>			delattr(cls, k)
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> cls
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">return</span> cls
 </span></span></code></pre></div><p>&ldquo;But that says to avoid 2.8 warnings!&rdquo;</p>
 <p>2.8 warnings caused by 2.7x syntax. And notice the <code>if bpy.app.version &lt; (2, 93, 0)</code>? That&rsquo;s where this function starts to cause headaches for many, many people.</p>
 <p>See this function performs something that we&rsquo;re not supposed to be doing, but we do anyway. Well that caused headaches in 2.93 when Blender (understandably) changed the internal type used for properties. Since that function runs <em>before</em> MCprep actually registers the panels with Blender (in other words, make Blender aware of the panel&rsquo;s existence), this meant that for a while in 2.93, MCprep would outright not work.</p>
@@ -441,6 +441,16 @@ The Massive Pain That is, 2.7x Support When we say &ldquo;2." />
 
             
                 <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2023</span>
+            <span><a href="https://standingpadanimations.github.io/"></a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="https://standingpadanimations.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            
+        </div>
+    </div>
     
     
 </footer>
