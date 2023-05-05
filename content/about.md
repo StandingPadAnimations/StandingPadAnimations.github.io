@@ -12,8 +12,8 @@
 
 # Here's some of my work
 {{< rawhtml >}}
-<img src="/imgs/my-work/archviz-1.png" alt="Awesome House I kid you not" position="left" hspace=10 style="border-radius: 8px; max-width: 85%; height: auto; flex-wrap: wrap;">
-<img src="/imgs/my-work/archviz-3.png" alt="Another Awesome House" position="right" hspace=10 style="border-radius: 8px; max-width: 80%; height: auto; flex-wrap: wrap;">
+<img src="/imgs/my-work/archviz-1.png" alt="Awesome House I kid you not" position="left" hspace=10 style="border-radius: 8px; width: 85%; height: auto; flex-wrap: wrap;">
+<img src="/imgs/my-work/archviz-3.png" alt="Another Awesome House" position="right" hspace=10 style="border-radius: 8px; width: 80%; height: auto; flex-wrap: wrap;">
 {{< /rawhtml >}}
 ---
 
