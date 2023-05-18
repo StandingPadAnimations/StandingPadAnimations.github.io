@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 17 Mar 2023 21:09:38 -0500</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 16:52:29 -0500</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prepping Api Cleared! Now What?</title>
+      <link>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</link>
+      <pubDate>Thu, 18 May 2023 16:52:29 -0500</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</guid>
+      <description>Just yesterday I gave the greenlight for Prepping API, a proposal that would allow users to create their own prep material functions in Python.
+But is it worth it?
+That proposal was made in 2022, and for about a year now I&amp;rsquo;ve spent time thinking about how such an API could be secured. The problem is obvious: this API would allow arbitrary Python scripts to be loaded.
+Sandboxing? Not in Blender where we have only pure Python.</description>
+    </item>
+    
     <item>
       <title>Why Dropping 2.7x Support in MCprep is for the Better</title>
       <link>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</link>

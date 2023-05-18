@@ -6,8 +6,36 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 17 Mar 2023 21:09:38 -0500</lastBuildDate>
+        <lastBuildDate>Thu, 18 May 2023 16:52:29 -0500</lastBuildDate>
         <atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Prepping Api Cleared! Now What?</title>
+            <link>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</link>
+            <pubDate>Thu, 18 May 2023 16:52:29 -0500</pubDate>
+            
+            <guid>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</guid>
+            <description>Just yesterday I gave the greenlight for Prepping API, a proposal that would allow users to create their own prep material functions in Python.
+But is it worth it?
+That proposal was made in 2022, and for about a year now I&amp;rsquo;ve spent time thinking about how such an API could be secured. The problem is obvious: this API would allow arbitrary Python scripts to be loaded.
+Sandboxing? Not in Blender where we have only pure Python.</description>
+            <content type="html"><![CDATA[<p>Just yesterday I gave the greenlight for <a href="https://github.com/TheDuckCow/MCprep/issues/329">Prepping API</a>, a proposal that would allow users to create their own prep material functions in Python.</p>
+<p>But is it worth it?</p>
+<p>That proposal was made in 2022, and for about a year now I&rsquo;ve spent time thinking about how such an API could be secured. The problem is obvious: this API would allow arbitrary Python scripts to be loaded.</p>
+<p>Sandboxing? Not in Blender where we have only pure Python.
+Restricting modules? I guess we&rsquo;ll ban half of the standard library.
+Custom scripting language? Not with the current state of things.</p>
+<p>Does it matter?</p>
+<p>I think it does. As I stated in my comment:</p>
+<blockquote>
+<p>We MCprep maintainers have a responsibility in keeping users&rsquo; systems safe. If we make the Prepping API too easy to enable and users suffer as a result, I personally believe the blame would lie on us as we could have made this far harder to exploit.</p>
+</blockquote>
+<p>This new feature is a both a blessing and a curse. It&rsquo;s a blessing since it allows MCprep to better support edge case setups, and gives users more power in material generation, but I feel that I&rsquo;ve just approved of something I&rsquo;ll regret in the future.</p>
+<p>MCprep&rsquo;s audience is mostly 12 year olds who want to have fun making Minecraft animations. There&rsquo;s nothing fun in losing your system. This question really applies to the entire Minecraft animation space, I&rsquo;ve started seeing a surge of rigs that require custom, poorly maintained (most of the time) addons made by random people. I fear one of these days, we&rsquo;re going to have a widespread issue of users losing their systems due to a malicious script, or a poorly defended <code>exec</code> statement.</p>
+<p>So let me rephrase the question: Does it matter when the majority of Minecraft animators are 12 year olds looking for fun?</p>
+<p>Yes. That&rsquo;s all I need to say.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Why Dropping 2.7x Support in MCprep is for the Better</title>
