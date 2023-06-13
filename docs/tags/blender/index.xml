@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 18 May 2023 16:52:29 -0500</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jun 2023 00:01:33 -0500</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCprep Development Isn&#39;t Sustainable</title>
+      <link>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</link>
+      <pubDate>Tue, 13 Jun 2023 00:01:33 -0500</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</guid>
+      <description>+Note: MCprep is turning 10 on October 28
+In February 2023, the Mine-imator (also known as Mi) developer Nimi announced the end of Mi&amp;rsquo;s development:
+With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&amp;rsquo;t be fixed.</description>
+    </item>
+    
     <item>
       <title>Prepping Api Cleared! Now What?</title>
       <link>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</link>
@@ -105,17 +116,6 @@ While this setting does help with render times a lot, it also requires a lot of 
       <guid>https://standingpadanimations.github.io/posts/cycles-optimization/</guid>
       <description>Introduction We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&amp;rsquo;s tons of videos that talk about what settings to use, but those videos don&amp;rsquo;t explain what the settings do. So, exactly what settings do what?
 Samples What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles per pixel+ of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed).</description>
-    </item>
-    
-    <item>
-      <title>MCprep Development Isn&#39;t Sustainable</title>
-      <link>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</guid>
-      <description>+Note: MCprep is turning 10 on October 28
-In February 2023, the Mine-imator (also known as Mi) developer Nimi announced the end of Mi&amp;rsquo;s development:
-With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&amp;rsquo;t be fixed.</description>
     </item>
     
   </channel>

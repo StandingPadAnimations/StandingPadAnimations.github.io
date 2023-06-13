@@ -6,8 +6,40 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 18 May 2023 16:52:29 -0500</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jun 2023 00:01:33 -0500</lastBuildDate>
         <atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>MCprep Development Isn&#39;t Sustainable</title>
+            <link>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</link>
+            <pubDate>Tue, 13 Jun 2023 00:01:33 -0500</pubDate>
+            
+            <guid>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</guid>
+            <description>+Note: MCprep is turning 10 on October 28
+In February 2023, the Mine-imator (also known as Mi) developer Nimi announced the end of Mi&amp;rsquo;s development:
+With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&amp;rsquo;t be fixed.</description>
+            <content type="html"><![CDATA[
+    <img src="/imgs/mcprep-mi-exodus/meme.png"  alt="MCprep is turning 10 now. So we can chill right? blank stare. right?"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>+Note: MCprep is turning 10 on October 28</p>
+<p>In February 2023, the Mine-imator (also known as Mi) developer Nimi <a href="https://www.mineimatorforums.com/index.php?/topic/90712-dev-update-24-moving-on-20-release-date/">announced the end of Mi&rsquo;s development</a>:</p>
+<blockquote>
+<p>With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&rsquo;t be fixed. The source code for Mine-imator and Modelbench will be updated accordingly on March 1st for any developers who want to mod the program and add their own features.</p>
+</blockquote>
+<p>Of course, this has triggered an exodus of Mi users to Blender. While that&rsquo;s a good thing, it forces us MCprep developers to have to rethink MCprep&rsquo;s design goals. See, just like many Blender addons, MCprep aims to not abstract too much. However, many Mi users are used to and expect heavy abstraction, which conflicts with the design goals of MCprep.</p>
+<p>In addition, we&rsquo;re now at a point where man-power. As I have <a href="https://standingpadanimations.github.io/posts/problems-of-mcprep/">stated before</a>, for 10,000 users, we only have 2 active maintainers and 4 external contributers (1 active at the moment).</p>
+<p>This brings up the larger issue that MCprep development isn&rsquo;t sustainable.</p>
+<p>At this point a question has to be asked: will MCprep make it to 12 years? 15? As it stands, with the current circumstances and lack of manpower, I wouldn&rsquo;t be surprised if it didn&rsquo;t even make it to 11.</p>
+<h2 id="sustainability-of-mcprep">Sustainability of MCprep</h2>
+<p>Most users want new features. Personally, I would love to make an MCprep release solely focused on fixing bugs and actually revamping ancient parts of the MCprep codebase, but I bet you a big portion of the community will be mad that we (god forbid) choose to focus on making MCprep&rsquo;s existing features better and not add anything new. Even now, we&rsquo;ve already got people asking when we&rsquo;re going to add 1.20 assets, despite 1.20 coming out 5 days ago (as I write this).</p>
+<p>And that&rsquo;s not factoring life outside of MCprep. TheDuckCow and I are getting busier each day, and it&rsquo;s only going to ramp up. TheDuckCow works at Poligon and is working the game <a href="https://twitter.com/WheelStealGame">Wheel Steal</a> (you should check it out, it&rsquo;s looking really good now). Meanwhile I&rsquo;m just starting to enter the architectual rendering and IT worlds.</p>
+<p>So where do we go?</p>
+<p>Ultimately the community decides. MCprep is open source, which means contributing code is easy. While TheDuckCow and I might be too busy with our day-to-day lives to do active MCprep development, we do have time to look at submissions and pull requests. But those submissions pull requests must come from the community. If the community is not willing to volunteer at least a little bit of their time in submitting contributions, then MCprep&rsquo;s fate has already been sealed.</p>
+<p>I&rsquo;ve already been talking with TheDuckCow on a &ldquo;Summer of MCprep&rdquo; sort of idea (based of Blender&rsquo;s Summer of Code) where we create a list of goals and specifically focus on certain aspects of MCprep. A part of me though feels it&rsquo;s going to be useless, but we have to try.</p>
+<p>Happy almost-10 years to MCprep, let&rsquo;s hope it makes it to 11.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Prepping Api Cleared! Now What?</title>
@@ -1038,38 +1070,6 @@ Now because Mastodon allows you to verify your own sites, I&amp;rsquo;ve gone ah
 <p>Now because Mastodon allows you to verify your own sites, I&rsquo;ve gone ahead and made this new one, since I felt like it.</p>
 <p>Of course, some of you may have also noticed that I&rsquo;m not really doing much 3D. In short, I haven&rsquo;t had much time or motivation to continue working on 3D (but I&rsquo;m getting there, hopefully I&rsquo;ll think of something for New Years). I think I&rsquo;ll try this blogging thing for a bit (I did want to make some in depth guides to Cycles optimization and MCprep itself).</p>
 <p>I&rsquo;m also learning how this Hugo thing (what I use to make this) works, so hopefully I&rsquo;ll be able to get my renders back up and running. It&rsquo;ll be a pain and a hassle, but I think it&rsquo;ll be worth it.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>MCprep Development Isn&#39;t Sustainable</title>
-            <link>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            
-            <guid>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</guid>
-            <description>+Note: MCprep is turning 10 on October 28
-In February 2023, the Mine-imator (also known as Mi) developer Nimi announced the end of Mi&amp;rsquo;s development:
-With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&amp;rsquo;t be fixed.</description>
-            <content type="html"><![CDATA[
-    <img src="/imgs/mcprep-mi-exodus/meme.png"  alt="MCprep is turning 10 now. So we can chill right? blank stare. right?"  class="center"  style="border-radius: 8px;"  />
-
-
-<p>+Note: MCprep is turning 10 on October 28</p>
-<p>In February 2023, the Mine-imator (also known as Mi) developer Nimi <a href="https://www.mineimatorforums.com/index.php?/topic/90712-dev-update-24-moving-on-20-release-date/">announced the end of Mi&rsquo;s development</a>:</p>
-<blockquote>
-<p>With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&rsquo;t be fixed. The source code for Mine-imator and Modelbench will be updated accordingly on March 1st for any developers who want to mod the program and add their own features.</p>
-</blockquote>
-<p>Of course, this has triggered an exodus of Mi users to Blender. While that&rsquo;s a good thing, it forces us MCprep developers to have to rethink MCprep&rsquo;s design goals. See, just like many Blender addons, MCprep aims to not abstract too much. However, many Mi users are used to and expect heavy abstraction, which conflicts with the design goals of MCprep.</p>
-<p>In addition, we&rsquo;re now at a point where man-power. As I have <a href="https://standingpadanimations.github.io/posts/problems-of-mcprep/">stated before</a>, for 10,000 users, we only have 2 active maintainers and 4 external contributers (1 active at the moment).</p>
-<p>This brings up the larger issue that MCprep development isn&rsquo;t sustainable.</p>
-<p>At this point a question has to be asked: will MCprep make it to 12 years? 15? As it stands, with the current circumstances and lack of manpower, I wouldn&rsquo;t be surprised if it didn&rsquo;t even make it to 11.</p>
-<h2 id="sustainability-of-mcprep">Sustainability of MCprep</h2>
-<p>Most users want new features. Personally, I would love to make an MCprep release solely focused on fixing bugs and actually revamping ancient parts of the MCprep codebase, but I bet you a big portion of the community will be mad that we (god forbid) choose to focus on making MCprep&rsquo;s existing features better and not add anything new. Even now, we&rsquo;ve already got people asking when we&rsquo;re going to add 1.20 assets, despite 1.20 coming out 5 days ago (as I write this).</p>
-<p>And that&rsquo;s not factoring life outside of MCprep. TheDuckCow and I are getting busier each day, and it&rsquo;s only going to ramp up. TheDuckCow works at Poligon and is working the game <a href="https://twitter.com/WheelStealGame">Wheel Steal</a> (you should check it out, it&rsquo;s looking really good now). Meanwhile I&rsquo;m just starting to enter the architectual rendering and IT worlds.</p>
-<p>So where do we go?</p>
-<p>Ultimately the community decides. MCprep is open source, which means contributing code is easy. While TheDuckCow and I might be too busy with our day-to-day lives to do active MCprep development, we do have time to look at submissions and pull requests. But those submissions pull requests must come from the community. If the community is not willing to volunteer at least a little bit of their time in submitting contributions, then MCprep&rsquo;s fate has already been sealed.</p>
-<p>I&rsquo;ve already been talking with TheDuckCow on a &ldquo;Summer of MCprep&rdquo; sort of idea (based of Blender&rsquo;s Summer of Code) where we create a list of goals and specifically focus on certain aspects of MCprep. A part of me though feels it&rsquo;s going to be useless, but we have to try.</p>
-<p>Happy almost-10 years to MCprep, let&rsquo;s hope it makes it to 11.</p>
 ]]></content>
         </item>
         
