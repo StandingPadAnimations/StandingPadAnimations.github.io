@@ -56,5 +56,16 @@ As some of you know, I&amp;rsquo;m an MCprep developer, and as part of what I do
 The latest version of MCprep, MCprep v3.4.1 was released in August of last year. While it may seem like MCprep development is dying, that couldn&amp;rsquo;t be further from the truth.</description>
     </item>
     
+    <item>
+      <title>MCprep Development Isn&#39;t Sustainable</title>
+      <link>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</guid>
+      <description>+Note: MCprep is turning 10 on October 28
+In February 2023, the Mine-imator (also known as Mi) developer Nimi announced the end of Mi&amp;rsquo;s development:
+With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&amp;rsquo;t be fixed.</description>
+    </item>
+    
   </channel>
 </rss>
