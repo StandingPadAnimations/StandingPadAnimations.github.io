@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How I Did It on StandingPad&#39;s Corner</title>
+    <link>https://standingpadanimations.github.io/tags/how-i-did-it/</link>
+    <description>Recent content in How I Did It on StandingPad&#39;s Corner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Feb 2023 18:19:14 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/how-i-did-it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I did It: Calm After the Storm</title>
+      <link>https://standingpadanimations.github.io/posts/calm-after-storm-render/</link>
+      <pubDate>Wed, 01 Feb 2023 18:19:14 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/calm-after-storm-render/</guid>
+      <description>Yes guys, I&amp;rsquo;m back.</description>
+    </item>
+    
+    <item>
+      <title>How I Did It: 2023 New Year&#39;s Render</title>
+      <link>https://standingpadanimations.github.io/posts/new-years-2023/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/new-years-2023/</guid>
+      <description>It&amp;rsquo;s now New Year&amp;rsquo;s Eve, so I made a new years render: This is perhaps the most complicated render I have done to date.</description>
+    </item>
+    
+    <item>
+      <title>How I Did It: Hacking Holograms Render</title>
+      <link>https://standingpadanimations.github.io/posts/scale-render-process/</link>
+      <pubDate>Thu, 22 Dec 2022 16:16:09 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/scale-render-process/</guid>
+      <description>I recently had the motivation to make the following render</description>
+    </item>
+    
+  </channel>
+</rss>

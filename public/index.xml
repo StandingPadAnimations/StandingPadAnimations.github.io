@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>StandingPad&#39;s Corner</title>
+    <link>https://standingpadanimations.github.io/</link>
+    <description>Recent content on StandingPad&#39;s Corner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Jun 2023 00:01:33 -0500</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCprep Development Isn&#39;t Sustainable</title>
+      <link>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</link>
+      <pubDate>Tue, 13 Jun 2023 00:01:33 -0500</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</guid>
+      <description>+Note: MCprep is turning 10 on October 28</description>
+      
+    </item>
+    
+    <item>
+      <title>Prepping Api Cleared! Now What?</title>
+      <link>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</link>
+      <pubDate>Thu, 18 May 2023 16:52:29 -0500</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</guid>
+      <description>Just yesterday I gave the greenlight for Prepping API, a proposal that would allow users to create their own prep material functions in Python.</description>
+      
+    </item>
+    
+    <item>
+      <title>Why Dropping 2.7x Support in MCprep is for the Better</title>
+      <link>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</link>
+      <pubDate>Fri, 17 Mar 2023 21:09:38 -0500</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</guid>
+      <description>After years of supporting Blender 2.</description>
+      
+    </item>
+    
+    <item>
+      <title>Problems of MCprep Development</title>
+      <link>https://standingpadanimations.github.io/posts/problems-of-mcprep/</link>
+      <pubDate>Sat, 11 Mar 2023 16:05:06 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/problems-of-mcprep/</guid>
+      <description>As the MCprep 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/problems-of-mcprep/featured.png" />
+    </item>
+    
+    <item>
+      <title>MCprep Progress</title>
+      <link>https://standingpadanimations.github.io/posts/mcprep-progress/</link>
+      <pubDate>Sat, 25 Feb 2023 18:54:11 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/mcprep-progress/</guid>
+      <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/mcprep-progress/featured.png" />
+    </item>
+    
+    <item>
+      <title>EndorCore Is Shutting Down</title>
+      <link>https://standingpadanimations.github.io/posts/endorcore-shutdown/</link>
+      <pubDate>Thu, 09 Feb 2023 18:41:39 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/endorcore-shutdown/</guid>
+      <description>On Feburary 11th I&amp;rsquo;ll be shutting my Discord bot EndorCore down.</description>
+      
+    </item>
+    
+    <item>
+      <title>How I did It: Calm After the Storm</title>
+      <link>https://standingpadanimations.github.io/posts/calm-after-storm-render/</link>
+      <pubDate>Wed, 01 Feb 2023 18:19:14 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/calm-after-storm-render/</guid>
+      <description>Yes guys, I&amp;rsquo;m back.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/calm-after-storm-render/featured.png" />
+    </item>
+    
+    <item>
+      <title>Farewell for Now</title>
+      <link>https://standingpadanimations.github.io/posts/goodbye-for-now/</link>
+      <pubDate>Sat, 14 Jan 2023 13:16:29 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/goodbye-for-now/</guid>
+      <description>I just don&amp;rsquo;t know how else to put it, I&amp;rsquo;m leaving the Minecraft animation world.</description>
+      
+    </item>
+    
+    <item>
+      <title>Songs of War Has Always Been Dead; Just Let It Rest in Peace For Once</title>
+      <link>https://standingpadanimations.github.io/posts/songs-of-war-is-dead-let-it-rest-in-peace/</link>
+      <pubDate>Fri, 06 Jan 2023 22:18:00 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/songs-of-war-is-dead-let-it-rest-in-peace/</guid>
+      <description>On June 14th, 2020, Black Plasma Studios announced the plan to cancel Songs of War Seasons 2 and 3, an animation series 5 years in the making, with a story uncontested by anything else.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hot Take: We&#39;re Teaching People to Treat Help Channels like Google</title>
+      <link>https://standingpadanimations.github.io/posts/issues-with-helping-too-much/</link>
+      <pubDate>Tue, 03 Jan 2023 18:58:15 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/issues-with-helping-too-much/</guid>
+      <description>Anyone who&amp;rsquo;s spent a good amount of time in a help channel on a Minecraft animation server can related to this; you go on help and support, and see the following:</description>
+      
+    </item>
+    
+    <item>
+      <title>How I Did It: 2023 New Year&#39;s Render</title>
+      <link>https://standingpadanimations.github.io/posts/new-years-2023/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/new-years-2023/</guid>
+      <description>It&amp;rsquo;s now New Year&amp;rsquo;s Eve, so I made a new years render: This is perhaps the most complicated render I have done to date.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/new-years-2023/featured.png" />
+    </item>
+    
+    <item>
+      <title>Meet Jason the Cat</title>
+      <link>https://standingpadanimations.github.io/posts/meet-jason-the-cat/</link>
+      <pubDate>Mon, 26 Dec 2022 21:37:01 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/meet-jason-the-cat/</guid>
+      <description>Hey guys, just a small IRL update, my family got a cat today!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/meet-jason-the-cat/featured.png" />
+    </item>
+    
+    <item>
+      <title>Happy Holidays</title>
+      <link>https://standingpadanimations.github.io/posts/happy-holidays/</link>
+      <pubDate>Sun, 25 Dec 2022 13:30:22 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/happy-holidays/</guid>
+      <description>Happy holidays everyone!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/happy-holidays/featured.png" />
+    </item>
+    
+    <item>
+      <title>How I Did It: Hacking Holograms Render</title>
+      <link>https://standingpadanimations.github.io/posts/scale-render-process/</link>
+      <pubDate>Thu, 22 Dec 2022 16:16:09 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/scale-render-process/</guid>
+      <description>I recently had the motivation to make the following render</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/scale-render-process/featured.png" />
+    </item>
+    
+    <item>
+      <title>Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs</title>
+      <link>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</link>
+      <pubDate>Wed, 21 Dec 2022 04:30:44 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</guid>
+      <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/automatic-scrambling-distance/featured.png" />
+    </item>
+    
+    <item>
+      <title>Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy</title>
+      <link>https://standingpadanimations.github.io/posts/cycles-optimization/</link>
+      <pubDate>Tue, 20 Dec 2022 12:17:42 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/cycles-optimization/</guid>
+      <description>Introduction # We know Cycles is a pain in the butt to render.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/cycles-optimization/featured.png" />
+    </item>
+    
+    <item>
+      <title>Moving On</title>
+      <link>https://standingpadanimations.github.io/posts/moving-on/</link>
+      <pubDate>Mon, 19 Dec 2022 19:59:51 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/moving-on/</guid>
+      <description>Hi guys, I think yall might be confused why I&amp;rsquo;ve created a new website, let&amp;rsquo;s talk about it.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://standingpadanimations.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/about/</guid>
+      <description> About Me # 3D Artist with Blender experience Certified Revit User MCprep Developer Creator of the Rendor Programming Language and Resurgence Virtual Machine Pakistani-American; Ahmadi Muslim Certifications # Here&amp;rsquo;s some of my work # # I also do some Minecraft rendering # </description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://standingpadanimations.github.io/renders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/renders/</guid>
+      <description> Here&amp;rsquo;s some of my work # </description>
+      
+    </item>
+    
+  </channel>
+</rss>

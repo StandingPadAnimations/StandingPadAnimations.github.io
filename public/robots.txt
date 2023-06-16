@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://standingpadanimations.github.io/sitemap.xml

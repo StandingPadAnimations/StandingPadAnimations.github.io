@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MCprep on StandingPad&#39;s Corner</title>
+    <link>https://standingpadanimations.github.io/tags/mcprep/</link>
+    <description>Recent content in MCprep on StandingPad&#39;s Corner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Jun 2023 00:01:33 -0500</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/mcprep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCprep Development Isn&#39;t Sustainable</title>
+      <link>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</link>
+      <pubDate>Tue, 13 Jun 2023 00:01:33 -0500</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</guid>
+      <description>+Note: MCprep is turning 10 on October 28</description>
+    </item>
+    
+    <item>
+      <title>Prepping Api Cleared! Now What?</title>
+      <link>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</link>
+      <pubDate>Thu, 18 May 2023 16:52:29 -0500</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</guid>
+      <description>Just yesterday I gave the greenlight for Prepping API, a proposal that would allow users to create their own prep material functions in Python.</description>
+    </item>
+    
+    <item>
+      <title>Why Dropping 2.7x Support in MCprep is for the Better</title>
+      <link>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</link>
+      <pubDate>Fri, 17 Mar 2023 21:09:38 -0500</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</guid>
+      <description>After years of supporting Blender 2.</description>
+    </item>
+    
+    <item>
+      <title>Problems of MCprep Development</title>
+      <link>https://standingpadanimations.github.io/posts/problems-of-mcprep/</link>
+      <pubDate>Sat, 11 Mar 2023 16:05:06 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/problems-of-mcprep/</guid>
+      <description>As the MCprep 3.</description>
+    </item>
+    
+    <item>
+      <title>MCprep Progress</title>
+      <link>https://standingpadanimations.github.io/posts/mcprep-progress/</link>
+      <pubDate>Sat, 25 Feb 2023 18:54:11 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/mcprep-progress/</guid>
+      <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.</description>
+    </item>
+    
+  </channel>
+</rss>
