@@ -10,7 +10,7 @@ Hi there! If you're reading this, you might be asking yourself, “what can a Mi
 
 Lighting may seem like something simple, but it gets complicated real fast. Simply moving a light a couple of centimeters (scene wise) can completely change how the resulting render feels to the viewer. Most people, however, seem to treat lighting as just something to get through, something to just edit in compositing.
 
-I personally believe that one's lighting should be 90% of the way to the final render, hence this “guide” on how to improve one's lighting. In this PDF, I'm going to go over how I handle stuff like environment lighting, character lighting, and maybe a little stylization along the way.
+I personally believe that one's lighting should be 90% of the way to the final render, hence this “guide” on how to improve one's lighting. In this "guide", I'm going to go over how I handle stuff like environment lighting, character lighting, and maybe a little stylization along the way.
 
 Sure, I may be a relatively small artist in the 3D landscape, but who said small artists don't have experience. Without further ado, let's get started.
 
