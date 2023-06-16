@@ -5,8 +5,7 @@
     <link>https://standingpadanimations.github.io/tags/mcprep/</link>
     <description>Recent content in MCprep on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <language>en</language>
     <lastBuildDate>Tue, 13 Jun 2023 00:01:33 -0500</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/mcprep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MCprep Development Isn&#39;t Sustainable</title>
@@ -14,9 +13,7 @@
       <pubDate>Tue, 13 Jun 2023 00:01:33 -0500</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</guid>
-      <description>+Note: MCprep is turning 10 on October 28
-In February 2023, the Mine-imator (also known as Mi) developer Nimi announced the end of Mi&amp;rsquo;s development:
-With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&amp;rsquo;t be fixed.</description>
+      <description>+Note: MCprep is turning 10 on October 28</description>
     </item>
     
     <item>
@@ -25,10 +22,7 @@ With the release of the much awaited 2.0 update, David and I will be leaving dev
       <pubDate>Thu, 18 May 2023 16:52:29 -0500</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</guid>
-      <description>Just yesterday I gave the greenlight for Prepping API, a proposal that would allow users to create their own prep material functions in Python.
-But is it worth it?
-That proposal was made in 2022, and for about a year now I&amp;rsquo;ve spent time thinking about how such an API could be secured. The problem is obvious: this API would allow arbitrary Python scripts to be loaded.
-Sandboxing? Not in Blender where we have only pure Python.</description>
+      <description>Just yesterday I gave the greenlight for Prepping API, a proposal that would allow users to create their own prep material functions in Python.</description>
     </item>
     
     <item>
@@ -37,13 +31,7 @@ Sandboxing? Not in Blender where we have only pure Python.</description>
       <pubDate>Fri, 17 Mar 2023 21:09:38 -0500</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</guid>
-      <description>After years of supporting Blender 2.7x in MCprep, we&amp;rsquo;ve now decided to remove support starting with MCprep 3.5.
-Hardcore Blender 2.7x user walks in
-&amp;ldquo;WHAT THE F-CK DID YOU SAY!?!?!? Reverse it, NOW!&amp;rdquo;
-Yeah no, we&amp;rsquo;re not doing it. It&amp;rsquo;s too much work to suppor-
-&amp;ldquo;Sounds like something a lazy developer would say&amp;rdquo;
-Shut up, this is for the better, let me explain.
-The Massive Pain That is, 2.7x Support When we say &amp;ldquo;2.</description>
+      <description>After years of supporting Blender 2.</description>
     </item>
     
     <item>
@@ -52,8 +40,7 @@ The Massive Pain That is, 2.7x Support When we say &amp;ldquo;2.</description>
       <pubDate>Sat, 11 Mar 2023 16:05:06 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/problems-of-mcprep/</guid>
-      <description>As the MCprep 3.4.2 release date draws nearer, I think it&amp;rsquo;s important to remind users how MCprep development works, and how important it is that MCprep receives supports from the community. I feel like people have forgotten how much work goes into MCprep, and I think a little reminder wouldn&amp;rsquo;t hurt.
-Overview Currently, MCprep only has 2 active maintainers (TheDuckCow and myself). While the MCprep GitHub repo says there&amp;rsquo;s 7, most of them haven&amp;rsquo;t contributed in a while: Now obviously TheDuckCow would have the most commits (411 at the time of writing this) since he&amp;rsquo;s been working on MCprep for almost 10 years now (yes, MCprep has been around for 10 years), with myself being behind with 96 commits.</description>
+      <description>As the MCprep 3.</description>
     </item>
     
     <item>
@@ -62,9 +49,7 @@ Overview Currently, MCprep only has 2 active maintainers (TheDuckCow and myself)
       <pubDate>Sat, 25 Feb 2023 18:54:11 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/mcprep-progress/</guid>
-      <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release
-As some of you know, I&amp;rsquo;m an MCprep developer, and as part of what I do I work on adding features and fixing bugs in MCprep. Not that, I also help review pull requests and fix bugs.
-The latest version of MCprep, MCprep v3.4.1 was released in August of last year. While it may seem like MCprep development is dying, that couldn&amp;rsquo;t be further from the truth.</description>
+      <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.</description>
     </item>
     
   </channel>

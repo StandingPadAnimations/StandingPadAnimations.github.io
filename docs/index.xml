@@ -5,8 +5,7 @@
     <link>https://standingpadanimations.github.io/</link>
     <description>Recent content on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <language>en</language>
     <lastBuildDate>Tue, 13 Jun 2023 00:01:33 -0500</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MCprep Development Isn&#39;t Sustainable</title>
@@ -14,9 +13,8 @@
       <pubDate>Tue, 13 Jun 2023 00:01:33 -0500</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/mcprep-mi-exodus/</guid>
-      <description>+Note: MCprep is turning 10 on October 28
-In February 2023, the Mine-imator (also known as Mi) developer Nimi announced the end of Mi&amp;rsquo;s development:
-With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&amp;rsquo;t be fixed.</description>
+      <description>+Note: MCprep is turning 10 on October 28</description>
+      
     </item>
     
     <item>
@@ -25,10 +23,8 @@ With the release of the much awaited 2.0 update, David and I will be leaving dev
       <pubDate>Thu, 18 May 2023 16:52:29 -0500</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/prepping-api-cleared-now-what/</guid>
-      <description>Just yesterday I gave the greenlight for Prepping API, a proposal that would allow users to create their own prep material functions in Python.
-But is it worth it?
-That proposal was made in 2022, and for about a year now I&amp;rsquo;ve spent time thinking about how such an API could be secured. The problem is obvious: this API would allow arbitrary Python scripts to be loaded.
-Sandboxing? Not in Blender where we have only pure Python.</description>
+      <description>Just yesterday I gave the greenlight for Prepping API, a proposal that would allow users to create their own prep material functions in Python.</description>
+      
     </item>
     
     <item>
@@ -37,13 +33,8 @@ Sandboxing? Not in Blender where we have only pure Python.</description>
       <pubDate>Fri, 17 Mar 2023 21:09:38 -0500</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/dropping-27x-support-in-mcprep/</guid>
-      <description>After years of supporting Blender 2.7x in MCprep, we&amp;rsquo;ve now decided to remove support starting with MCprep 3.5.
-Hardcore Blender 2.7x user walks in
-&amp;ldquo;WHAT THE F-CK DID YOU SAY!?!?!? Reverse it, NOW!&amp;rdquo;
-Yeah no, we&amp;rsquo;re not doing it. It&amp;rsquo;s too much work to suppor-
-&amp;ldquo;Sounds like something a lazy developer would say&amp;rdquo;
-Shut up, this is for the better, let me explain.
-The Massive Pain That is, 2.7x Support When we say &amp;ldquo;2.</description>
+      <description>After years of supporting Blender 2.</description>
+      
     </item>
     
     <item>
@@ -52,8 +43,8 @@ The Massive Pain That is, 2.7x Support When we say &amp;ldquo;2.</description>
       <pubDate>Sat, 11 Mar 2023 16:05:06 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/problems-of-mcprep/</guid>
-      <description>As the MCprep 3.4.2 release date draws nearer, I think it&amp;rsquo;s important to remind users how MCprep development works, and how important it is that MCprep receives supports from the community. I feel like people have forgotten how much work goes into MCprep, and I think a little reminder wouldn&amp;rsquo;t hurt.
-Overview Currently, MCprep only has 2 active maintainers (TheDuckCow and myself). While the MCprep GitHub repo says there&amp;rsquo;s 7, most of them haven&amp;rsquo;t contributed in a while: Now obviously TheDuckCow would have the most commits (411 at the time of writing this) since he&amp;rsquo;s been working on MCprep for almost 10 years now (yes, MCprep has been around for 10 years), with myself being behind with 96 commits.</description>
+      <description>As the MCprep 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/problems-of-mcprep/featured.png" />
     </item>
     
     <item>
@@ -62,9 +53,8 @@ Overview Currently, MCprep only has 2 active maintainers (TheDuckCow and myself)
       <pubDate>Sat, 25 Feb 2023 18:54:11 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/mcprep-progress/</guid>
-      <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release
-As some of you know, I&amp;rsquo;m an MCprep developer, and as part of what I do I work on adding features and fixing bugs in MCprep. Not that, I also help review pull requests and fix bugs.
-The latest version of MCprep, MCprep v3.4.1 was released in August of last year. While it may seem like MCprep development is dying, that couldn&amp;rsquo;t be further from the truth.</description>
+      <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/mcprep-progress/featured.png" />
     </item>
     
     <item>
@@ -73,9 +63,8 @@ The latest version of MCprep, MCprep v3.4.1 was released in August of last year.
       <pubDate>Thu, 09 Feb 2023 18:41:39 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/endorcore-shutdown/</guid>
-      <description>On Feburary 11th I&amp;rsquo;ll be shutting my Discord bot EndorCore down.
-Background A couple of years back, I coded a Discord bot using the Discord.py framework. It was the primary way I learned Python, and it was a blast while it lasted, but all good things some to an end.
-Why For starters, EndorCore is no longer maintained. The last commit on the Github repo was in March of 2022. Because of this, EndorCore has slowly started to lose functionality as time passed and Discord changed the API.</description>
+      <description>On Feburary 11th I&amp;rsquo;ll be shutting my Discord bot EndorCore down.</description>
+      
     </item>
     
     <item>
@@ -84,10 +73,8 @@ Why For starters, EndorCore is no longer maintained. The last commit on the Gith
       <pubDate>Wed, 01 Feb 2023 18:19:14 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/calm-after-storm-render/</guid>
-      <description>Yes guys, I&amp;rsquo;m back.
-Anyways, I recently had an idea and made this render: Not my best, but lets talk about how I made it.
-Trees of Light For this, I used Bforartists 3.4, which is based off of Blender 3.5. Immediately I noticed a slowdown in viewport responsiveness. Thinking it was a driver, I went from Nvidia&amp;rsquo;s Studio drivers to their Game Ready drivers, but no difference.
-Sidenote: Nvidia has 2 drivers, Studio and Game Ready.</description>
+      <description>Yes guys, I&amp;rsquo;m back.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/calm-after-storm-render/featured.png" />
     </item>
     
     <item>
@@ -96,9 +83,8 @@ Sidenote: Nvidia has 2 drivers, Studio and Game Ready.</description>
       <pubDate>Sat, 14 Jan 2023 13:16:29 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/goodbye-for-now/</guid>
-      <description>I just don&amp;rsquo;t know how else to put it, I&amp;rsquo;m leaving the Minecraft animation world. After what David RB has done, I feel that it&amp;rsquo;s not right for me to continue.
-For anyone that hasn&amp;rsquo;t heard, David RB, the original owner of Black Plasma Studios, has recently been exposed for being abusive and grooming a minor.
-I initially refrained from making a stance, but after reviewing the evidence released by Posidon, I&amp;rsquo;ve decided I can no longer refrain from making a stance.</description>
+      <description>I just don&amp;rsquo;t know how else to put it, I&amp;rsquo;m leaving the Minecraft animation world.</description>
+      
     </item>
     
     <item>
@@ -107,9 +93,8 @@ I initially refrained from making a stance, but after reviewing the evidence rel
       <pubDate>Fri, 06 Jan 2023 22:18:00 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/songs-of-war-is-dead-let-it-rest-in-peace/</guid>
-      <description>On June 14th, 2020, Black Plasma Studios announced the plan to cancel Songs of War Seasons 2 and 3, an animation series 5 years in the making, with a story uncontested by anything else. Among the reasons cited include lack of revenue, lack of viewership, and burnout.
-Of course, people were understandbly upset, and couldn&amp;rsquo;t accept the inevitable.
-Almost 3 years later, there are still people who can&amp;rsquo;t accept that Songs of War is dead.</description>
+      <description>On June 14th, 2020, Black Plasma Studios announced the plan to cancel Songs of War Seasons 2 and 3, an animation series 5 years in the making, with a story uncontested by anything else.</description>
+      
     </item>
     
     <item>
@@ -118,8 +103,8 @@ Almost 3 years later, there are still people who can&amp;rsquo;t accept that Son
       <pubDate>Tue, 03 Jan 2023 18:58:15 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/issues-with-helping-too-much/</guid>
-      <description>Anyone who&amp;rsquo;s spent a good amount of time in a help channel on a Minecraft animation server can related to this; you go on help and support, and see the following:
-One person asking how to import Optifine shaders That guy using 2.79 who gets offended when you politely suggest updating to a new version The person who wants to import animation from a youtube video (I swear I&amp;rsquo;m not making this up) 50 people asking why material mode is so slow 10 more people asking how to show textures 1 or 2 people asking how to move bones (seriously guys?</description>
+      <description>Anyone who&amp;rsquo;s spent a good amount of time in a help channel on a Minecraft animation server can related to this; you go on help and support, and see the following:</description>
+      
     </item>
     
     <item>
@@ -128,8 +113,8 @@ One person asking how to import Optifine shaders That guy using 2.79 who gets of
       <pubDate>Sat, 31 Dec 2022 00:00:00 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/new-years-2023/</guid>
-      <description>It&amp;rsquo;s now New Year&amp;rsquo;s Eve, so I made a new years render: This is perhaps the most complicated render I have done to date. I started just before Christmas and finished in about 3 to 4 days.
-Hologram Shenanigans One of the things I wanted to do was 3D holograms, because I&amp;rsquo;ve never done that before. I first followed a Blender Guru tutorial, and the final node setup does essentially the following:</description>
+      <description>It&amp;rsquo;s now New Year&amp;rsquo;s Eve, so I made a new years render: This is perhaps the most complicated render I have done to date.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/new-years-2023/featured.png" />
     </item>
     
     <item>
@@ -138,7 +123,8 @@ Hologram Shenanigans One of the things I wanted to do was 3D holograms, because 
       <pubDate>Mon, 26 Dec 2022 21:37:01 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/meet-jason-the-cat/</guid>
-      <description>Hey guys, just a small IRL update, my family got a cat today! His name is Jason and he&amp;rsquo;s 8 months old. Here&amp;rsquo;s some photos:</description>
+      <description>Hey guys, just a small IRL update, my family got a cat today!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/meet-jason-the-cat/featured.png" />
     </item>
     
     <item>
@@ -147,9 +133,8 @@ Hologram Shenanigans One of the things I wanted to do was 3D holograms, because 
       <pubDate>Sun, 25 Dec 2022 13:30:22 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/happy-holidays/</guid>
-      <description>Happy holidays everyone! Sorry I couldn&amp;rsquo;t post yesterday (it was my dad&amp;rsquo;s birthday and birthdays + Christmas Eve don&amp;rsquo;t really mix well).
-Of course, I myself don&amp;rsquo;t celebrate Christmas (cultural reasons) so I&amp;rsquo;m just waiting for New Years. I&amp;rsquo;ve been working on a New Years render, so here&amp;rsquo;s a WIP
-It&amp;rsquo;s also the second week of winter break for me, which means in about a week I&amp;rsquo;ll have to return back to doing IRL stuff.</description>
+      <description>Happy holidays everyone!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/happy-holidays/featured.png" />
     </item>
     
     <item>
@@ -158,10 +143,8 @@ It&amp;rsquo;s also the second week of winter break for me, which means in about
       <pubDate>Thu, 22 Dec 2022 16:16:09 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/scale-render-process/</guid>
-      <description>I recently had the motivation to make the following render
-As you can see, there&amp;rsquo;s a lot of reflections, some long test, volumetrics, and other stuff. Since I don&amp;rsquo;t do much Minecraft rendering anymore, I think I&amp;rsquo;ll impart some insight into some of the more technial bits.
-GCC&amp;rsquo;s Time to Shine &amp;ldquo;GCC?&amp;rdquo;
-Basically, I needed to make a lot of text. Now, I could slam my keyboard a couple of times, but as a nerd I felt like it was the perfect oppertunity to use C++ to generate long text.</description>
+      <description>I recently had the motivation to make the following render</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/scale-render-process/featured.png" />
     </item>
     
     <item>
@@ -170,10 +153,8 @@ Basically, I needed to make a lot of text. Now, I could slam my keyboard a coupl
       <pubDate>Wed, 21 Dec 2022 04:30:44 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</guid>
-      <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.
-I try to avoid making certain settings seem &amp;ldquo;magical&amp;rdquo; because with all magic, there&amp;rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&amp;rsquo;all), one of these settings is known as
-Automatic Scrambling Distance
-While this setting does help with render times a lot, it also requires a lot of tweaking to make it render with little artifacts.</description>
+      <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/automatic-scrambling-distance/featured.png" />
     </item>
     
     <item>
@@ -182,8 +163,8 @@ While this setting does help with render times a lot, it also requires a lot of 
       <pubDate>Tue, 20 Dec 2022 12:17:42 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/cycles-optimization/</guid>
-      <description>Introduction We know Cycles is a pain in the butt to render. Specifically, the long render times. Of course, there&amp;rsquo;s tons of videos that talk about what settings to use, but those videos don&amp;rsquo;t explain what the settings do. So, exactly what settings do what?
-Samples What are samples? In a nutshell, samples are rays, and the sample count represents how many rays are released by Cycles per pixel+ of the camera (yes Cycles starts from the camera as an optimization, all optical systems can be reversed).</description>
+      <description>Introduction # We know Cycles is a pain in the butt to render.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/cycles-optimization/featured.png" />
     </item>
     
     <item>
@@ -192,10 +173,8 @@ Samples What are samples? In a nutshell, samples are rays, and the sample count 
       <pubDate>Mon, 19 Dec 2022 19:59:51 -0600</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/moving-on/</guid>
-      <description>Hi guys, I think yall might be confused why I&amp;rsquo;ve created a new website, let&amp;rsquo;s talk about it.
-But first, what&amp;rsquo;s been going on recently?
-Well in short, chaos. The actual situation is much longer, but to put it simply Twitter is no longer (in my opinion) a sustainable platform to remain on, so I moved to Mastodon.
-Now because Mastodon allows you to verify your own sites, I&amp;rsquo;ve gone ahead and made this new one, since I felt like it.</description>
+      <description>Hi guys, I think yall might be confused why I&amp;rsquo;ve created a new website, let&amp;rsquo;s talk about it.</description>
+      
     </item>
     
     <item>
@@ -204,7 +183,8 @@ Now because Mastodon allows you to verify your own sites, I&amp;rsquo;ve gone ah
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://standingpadanimations.github.io/about/</guid>
-      <description>About Me 3D Artist with Blender experience Certified Revit User MCprep Developer Creator of the Rendor Programming Language and Resurgence Virtual Machine Pakistani-American; Ahmadi Muslim Certifications Here&amp;rsquo;s some of my work I also do some Minecraft rendering </description>
+      <description> About Me # 3D Artist with Blender experience Certified Revit User MCprep Developer Creator of the Rendor Programming Language and Resurgence Virtual Machine Pakistani-American; Ahmadi Muslim Certifications # Here&amp;rsquo;s some of my work # # I also do some Minecraft rendering # </description>
+      
     </item>
     
     <item>
@@ -213,7 +193,8 @@ Now because Mastodon allows you to verify your own sites, I&amp;rsquo;ve gone ah
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://standingpadanimations.github.io/renders/</guid>
-      <description>Here&amp;rsquo;s some of my work </description>
+      <description> Here&amp;rsquo;s some of my work # </description>
+      
     </item>
     
   </channel>
