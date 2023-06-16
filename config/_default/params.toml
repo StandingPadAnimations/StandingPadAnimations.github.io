@@ -25,7 +25,7 @@ defaultBackgroundImage = "/img/home.png" # used as default for background images
 # smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -39,7 +39,7 @@ defaultBackgroundImage = "/img/home.png" # used as default for background images
   homepageImage = "/img/home.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 10
-  showMoreLink = false
+  showMoreLink = true
   showMoreLinkDest = "/posts"
   cardView = true
   cardViewScreenWidth = false
@@ -68,7 +68,7 @@ defaultBackgroundImage = "/img/home.png" # used as default for background images
   showTableOfContents = false
   showRelatedContent = true
   relatedContentLimit = 3
-  showTaxonomies = false
+  showTaxonomies = true
   showAuthorsBadges = false
   showWordCount = true
   showSummary = true

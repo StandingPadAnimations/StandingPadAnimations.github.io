@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lighting Guide on StandingPad&#39;s Corner</title>
+    <link>https://standingpadanimations.github.io/lighting-guide/</link>
+    <description>Recent content in Lighting Guide on StandingPad&#39;s Corner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/lighting-guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction and Why We light</title>
+      <link>https://standingpadanimations.github.io/lighting-guide/introduction/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/lighting-guide/introduction/</guid>
+      <description>Introduction # Hi there!</description>
+    </item>
+    
+    <item>
+      <title>A Practical Example</title>
+      <link>https://standingpadanimations.github.io/lighting-guide/practical-example/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/lighting-guide/practical-example/</guid>
+      <description>I think the best way to explain my point is to show a practical example, so I&amp;rsquo;ve set up a scene that we&amp;rsquo;re going to build together.</description>
+    </item>
+    
+    <item>
+      <title>What About a Different Way?</title>
+      <link>https://standingpadanimations.github.io/lighting-guide/a-different-way/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/lighting-guide/a-different-way/</guid>
+      <description>Remember how I said while writing, I realized another route that could have been taken with this scene that involved heavy use of shadow?</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Demolish Stuff!</title>
+      <link>https://standingpadanimations.github.io/lighting-guide/lets-demolish-stuff/</link>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/lighting-guide/lets-demolish-stuff/</guid>
+      <description>We&amp;rsquo;ve gone over how to go about lighting, but what about deconstructing an existing lighting setup?</description>
+    </item>
+    
+    <item>
+      <title>Conclusion</title>
+      <link>https://standingpadanimations.github.io/lighting-guide/conclusion/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/lighting-guide/conclusion/</guid>
+      <description>Was learning some lighting tips from a Minecraft artist that bad?</description>
+    </item>
+    
+  </channel>
+</rss>

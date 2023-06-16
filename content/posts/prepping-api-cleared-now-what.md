@@ -22,7 +22,11 @@ Custom scripting language? Not with the current state of things.
 Does it matter?
 
 I think it does. As I stated in my comment:
-> We MCprep maintainers have a responsibility in keeping users' systems safe. If we make the Prepping API too easy to enable and users suffer as a result, I personally believe the blame would lie on us as we could have made this far harder to exploit.
+> {{< typeit 
+  speed=20
+>}}
+We MCprep maintainers have a responsibility in keeping users' systems safe. If we make the Prepping API too easy to enable and users suffer as a result, I personally believe the blame would lie on us as we could have made this far harder to exploit.
+{{< /typeit >}}
 
 This new feature is a both a blessing and a curse. It's a blessing since it allows MCprep to better support edge case setups, and gives users more power in material generation, but I feel that I've just approved of something I'll regret in the future.
 

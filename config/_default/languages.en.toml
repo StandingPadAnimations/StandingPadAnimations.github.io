@@ -15,7 +15,7 @@ title = "StandingPad's Corner"
 
  [author]
    name = "StandingPad"
-#   image = "img/blowfish_logo.png"
+   image = "img/logo.png"
    headline = "My corner of the internet where I post sometimes"
 #   bio = "The nerdiest of nerds"
    links = [

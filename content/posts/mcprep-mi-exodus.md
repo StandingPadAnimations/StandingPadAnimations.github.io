@@ -14,11 +14,16 @@ tags:
 
 In February 2023, the Mine-imator (also known as Mi) developer Nimi [announced the end of Mi's development](https://www.mineimatorforums.com/index.php?/topic/90712-dev-update-24-moving-on-20-release-date/):
 
-> With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won't be fixed. The source code for Mine-imator and Modelbench will be updated accordingly on March 1st for any developers who want to mod the program and add their own features. 
+> {{< typeit 
+  speed=20
+>}}
+With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won't be fixed. The source code for Mine-imator and Modelbench will be updated accordingly on March 1st for any developers who want to mod the program and add their own features. 
+{{< /typeit >}}
 
 Of course, this has triggered an exodus of Mi users to Blender. While that's a good thing, it forces us MCprep developers to have to rethink MCprep's design goals. See, just like many Blender addons, MCprep aims to not abstract too much. However, many Mi users are used to and expect heavy abstraction, which conflicts with the design goals of MCprep.
 
-In addition, we're now at a point where man-power. As I have [stated before](https://standingpadanimations.github.io/posts/problems-of-mcprep/), for 10,000 users, we only have 2 active maintainers and 4 external contributers (1 active at the moment). 
+In addition, we're now at a point where man-power. As I have stated before (in the article below), for 10,000 users, we only have 2 active maintainers and 4 external contributers (1 active at the moment). 
+{{< article link="/posts/problems-of-mcprep/" >}}
 
 This brings up the larger issue that MCprep development isn't sustainable. 
 

@@ -96,11 +96,17 @@ I think the first option is the simples-
 "But migrating is so hard"
 
 It may seem that way, but I've talked with a buddy who used 2.7x quite a bit after 2.8's release, and this is what he had to say:
-> As soon as i found out about preference presets for 2.7 controls, i switched immediately... And with all the features i made myself an interface to work faster than ever. No real reason not to switch
->
-> I think people who genuinenly use 2.7 probably don't have that high aspirations. You can get alot done in this version and it's honestly still the great old blender, but the new version lifts the quality and experience to insane levels
->
-> I mean Songs of War was made in 2.7 and is awesome, but well... Doesn't deny that 3.4 is the way better tool
+
+> {{< typeit 
+  speed=20
+  breakLines=true
+>}}
+As soon as i found out about preference presets for 2.7 controls, i switched immediately... And with all the features i made myself an interface to work faster than ever. No real reason not to switch
+
+I think people who genuinenly use 2.7 probably don't have that high aspirations. You can get alot done in this version and it's honestly still the great old blender, but the new version lifts the quality and experience to insane levels
+
+I mean Songs of War was made in 2.7 and is awesome, but well... Doesn't deny that 3.4 is the way better tool
+{{< /typeit >}}
 
 Since the release of 2.8, Blender has made massive leaps in features. Some of them include:
 - AI denoising

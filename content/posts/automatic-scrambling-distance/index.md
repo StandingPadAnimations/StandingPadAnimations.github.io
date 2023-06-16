@@ -7,6 +7,9 @@ images:
 tags:
   - Blender
   - Cycles Optimization
+
+series: ["Cycles Optimization"]
+series_order: 2
 ---
 
 After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.

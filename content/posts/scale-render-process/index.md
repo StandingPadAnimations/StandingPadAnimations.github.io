@@ -274,9 +274,14 @@ But oh boy did volumetrics become a pain in the but to work with. I enabled homo
 Those helped with render times a little, but there was still the issue with fireflies.
 
 ## Magic has Costs, even Clamping
-> You will observe with concern how long a useful truth may be known and exist, before it is generally received and practiced on. 
->
-> Benjamin Franklin; July 31st, 1786
+
+> {{< typeit 
+  speed=20
+>}}
+You will observe with concern how long a useful truth may be known and exist, before it is generally received and practiced on. 
+
+- Benjamin Franklin; July 31st, 1786
+{{< /typeit >}}
 
 In the Minecraft animation world, we're taught to use a clamping value of 1, not fully understanding what clamping does.
 

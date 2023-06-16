@@ -5,6 +5,25 @@
     <link>https://standingpadanimations.github.io/series/</link>
     <description>Recent content in Series on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://standingpadanimations.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Dec 2022 04:30:44 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cycles Optimization</title>
+      <link>https://standingpadanimations.github.io/series/cycles-optimization/</link>
+      <pubDate>Wed, 21 Dec 2022 04:30:44 -0600</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/series/cycles-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lighting Guide</title>
+      <link>https://standingpadanimations.github.io/series/lighting-guide/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/series/lighting-guide/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

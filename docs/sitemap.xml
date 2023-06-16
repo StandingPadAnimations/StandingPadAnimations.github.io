@@ -3,6 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+      <url>
+            <loc>https://standingpadanimations.github.io/posts/</loc>
+            <lastmod>2023-06-16T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://standingpadanimations.github.io/</loc>
+            <lastmod>2023-06-16T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://standingpadanimations.github.io/posts/new-website-design/</loc>
+            <lastmod>2023-06-16T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
   
     
   
@@ -13,26 +44,6 @@
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
-    
-  
-    
-      <url>
-            <loc>https://standingpadanimations.github.io/posts/</loc>
-            <lastmod>2023-06-13T00:01:33-05:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://standingpadanimations.github.io/</loc>
-            <lastmod>2023-06-13T00:01:33-05:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
     
   
     
@@ -165,6 +176,10 @@
     
   
     
+  
+    
+  
+    
       <url>
             <loc>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</loc>
             <lastmod>2022-12-21T04:30:44-06:00</lastmod>
@@ -193,6 +208,62 @@
   
     
       <url>
+            <loc>https://standingpadanimations.github.io/lighting-guide/introduction/</loc>
+            <lastmod>2022-06-05T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://standingpadanimations.github.io/lighting-guide/</loc>
+            <lastmod>2022-06-05T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://standingpadanimations.github.io/lighting-guide/practical-example/</loc>
+            <lastmod>2022-06-04T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://standingpadanimations.github.io/lighting-guide/a-different-way/</loc>
+            <lastmod>2022-06-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://standingpadanimations.github.io/lighting-guide/lets-demolish-stuff/</loc>
+            <lastmod>2022-06-02T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://standingpadanimations.github.io/lighting-guide/conclusion/</loc>
+            <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://standingpadanimations.github.io/about/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -211,6 +282,12 @@
   
     
   
+    
+      <url>
+            <loc>https://standingpadanimations.github.io/resources/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
     
   
 </urlset>

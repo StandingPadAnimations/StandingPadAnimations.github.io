@@ -7,6 +7,9 @@ images:
 tags:
   - Blender
   - Cycles Optimization
+
+series: ["Cycles Optimization"]
+series_order: 1
 ---
 
 ## Introduction

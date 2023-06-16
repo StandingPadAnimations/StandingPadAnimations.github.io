@@ -68,6 +68,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://standingpadanimations.github.io/" />
 
+
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="StandingPad&#39;s Corner"/>
 <meta name="twitter:description" content=""/>
@@ -143,7 +144,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
@@ -162,6 +167,26 @@
     
     <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Posts">
         Blog
+    </p>
+</a>
+
+
+            
+            
+  <a href="/about/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
+        About
+    </p>
+</a>
+
+
+            
+            
+  <a href="/resources/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Resources">
+        Resources
     </p>
 </a>
 
@@ -313,6 +338,34 @@
 
 
                     
+
+                    
+  <li class="mt-1">
+    <a href="/about/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+            About
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/resources/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Resources">
+            Resources
+        </p>
+    </a>
+</li>
+
+
+
+                    
                     
 
                 </ul>
@@ -326,6 +379,16 @@
 
 
 
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">
@@ -353,6 +416,13 @@
                     
                 </div>
                 <div class="relative px-8 py-16 flex flex-col items-center justify-center text-center">
+                    
+                    
+                    
+                    
+                    <img class="mb-2 rounded-full h-36 w-36" width="144" height="144"
+                        alt="StandingPad" src="/img/logo_hu031eb47a75aeef31c44e9e65729614d1_1901521_288x288_fill_box_center_3.png" />
+                    
                     
                     <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
                         StandingPad
@@ -416,6 +486,109 @@
   
   
 
+  <a href="/posts/new-website-design/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/new-website-design/">Website Update!</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2023-06-16 00:00:00 &#43;0000 UTC">16 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>154 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/website/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Website
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
   <a href="/posts/mcprep-mi-exodus/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
@@ -465,7 +638,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-06-13 00:01:33 -0500 CDT">13 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>542 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  <time datetime="2023-06-13 00:01:33 -0500 CDT">13 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>474 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
   
 
   
@@ -475,6 +648,46 @@
 
 
 
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
 
 
 
@@ -539,7 +752,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-05-18 16:52:29 -0500 CDT">18 May 2023</time><span class="px-2 text-primary-500">&middot;</span><span>314 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  <time datetime="2023-05-18 16:52:29 -0500 CDT">18 May 2023</time><span class="px-2 text-primary-500">&middot;</span><span>268 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -549,6 +762,46 @@
 
 
 
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
 
 
 
@@ -613,7 +866,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-03-17 21:09:38 -0500 CDT">17 March 2023</time><span class="px-2 text-primary-500">&middot;</span><span>950 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  <time datetime="2023-03-17 21:09:38 -0500 CDT">17 March 2023</time><span class="px-2 text-primary-500">&middot;</span><span>850 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
   
 
   
@@ -623,6 +876,35 @@
 
 
 
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
 
 
 
@@ -702,6 +984,46 @@
 
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
+
 
 
         </div>
@@ -780,6 +1102,46 @@
 
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
+
 
 
         </div>
@@ -853,6 +1215,46 @@
 
 
 
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/discord/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Discord
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/programming/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Programming
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
 
 
 
@@ -932,6 +1334,46 @@
 
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/how-i-did-it/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    How I Did It
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
+
 
 
         </div>
@@ -1006,6 +1448,35 @@
 
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/irl/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    IRL
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
+
 
 
         </div>
@@ -1069,72 +1540,12 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-01-06 22:18:00 -0600 CST">6 January 2023</time><span class="px-2 text-primary-500">&middot;</span><span>930 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  <time datetime="2023-01-06 22:18:00 -0600 CST">6 January 2023</time><span class="px-2 text-primary-500">&middot;</span><span>896 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
   
 
   
   
 </div>
-
-
-
-
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-  
-  
-
-  <a href="/posts/issues-with-helping-too-much/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/issues-with-helping-too-much/">Hot Take: We're Teaching People to Treat Help Channels like Google</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1143,16 +1554,31 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-01-03 18:58:15 -0600 CST">3 January 2023</time><span class="px-2 text-primary-500">&middot;</span><span>547 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hot-takes/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Hot Takes
+  </span>
+</span>
 
+  </span>
+  
+  
   
   
 </div>
-
-
-
-
 
 
 
@@ -1169,6 +1595,18 @@
 </section>
 
 
+
+
+
+
+<div class="mt-10 flex justify-center">
+  <a href="/posts">
+    <button
+      class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
+      Show More
+    </button>
+  </a>
+</div>
 
 
 </section>

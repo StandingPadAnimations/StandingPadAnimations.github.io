@@ -65,6 +65,7 @@
 <meta property="article:published_time" content="2023-06-13T00:01:33-05:00" />
 <meta property="article:modified_time" content="2023-06-13T00:01:33-05:00" />
 
+
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="MCprep Development Isn&#39;t Sustainable"/>
 <meta name="twitter:description" content="&#43;Note: MCprep is turning 10 on October 28"/>
@@ -94,7 +95,7 @@
     "keywords": ["MCprep","Blender"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "542"
+    "wordCount": "474"
   }]
   </script>
 
@@ -128,6 +129,9 @@
 
 
 
+<script defer src="/lib/typeit/typeit.umd.js" integrity=""></script>
+
+
 
 
 
@@ -151,7 +155,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
@@ -170,6 +178,26 @@
     
     <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Posts">
         Blog
+    </p>
+</a>
+
+
+            
+            
+  <a href="/about/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
+        About
+    </p>
+</a>
+
+
+            
+            
+  <a href="/resources/"  class="flex items-center">
+    
+    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Resources">
+        Resources
     </p>
 </a>
 
@@ -321,6 +349,34 @@
 
 
                     
+
+                    
+  <li class="mt-1">
+    <a href="/about/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+            About
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/resources/"  class="flex items-center">
+        
+        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Resources">
+            Resources
+        </p>
+    </a>
+</li>
+
+
+
+                    
                     
 
                 </ul>
@@ -334,6 +390,16 @@
 
 
 
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">
@@ -424,7 +490,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-06-13 00:01:33 -0500 CDT">13 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>542 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  <time datetime="2023-06-13 00:01:33 -0500 CDT">13 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>474 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
   
 
   
@@ -434,6 +500,46 @@
 
 
 
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
 
 
 
@@ -452,11 +558,165 @@
 <p>In February 2023, the Mine-imator (also known as Mi) developer Nimi <a href="https://www.mineimatorforums.com/index.php?/topic/90712-dev-update-24-moving-on-20-release-date/"   target="_blank">
     announced the end of Mi&rsquo;s development</a>:</p>
 <blockquote>
-<p>With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won&rsquo;t be fixed. The source code for Mine-imator and Modelbench will be updated accordingly on March 1st for any developers who want to mod the program and add their own features.</p>
+
+<div id="typeit-1686955820407644980"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-1686955820407644980", {
+        strings: ["","With the release of the much awaited 2.0 update, David and I will be leaving development of Mine-imator/Modelbench due to limited availability and wanting to pursue other projects. While active development will be over, patches may still come out if any critical/project-breaking bugs comes up but anything hardware or graphics related likely won't be fixed. The source code for Mine-imator and Modelbench will be updated accordingly on March 1st for any developers who want to mod the program and add their own features. ",""],
+        speed:  20 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
 </blockquote>
 <p>Of course, this has triggered an exodus of Mi users to Blender. While that&rsquo;s a good thing, it forces us MCprep developers to have to rethink MCprep&rsquo;s design goals. See, just like many Blender addons, MCprep aims to not abstract too much. However, many Mi users are used to and expect heavy abstraction, which conflicts with the design goals of MCprep.</p>
-<p>In addition, we&rsquo;re now at a point where man-power. As I have <a href="https://standingpadanimations.github.io/posts/problems-of-mcprep/"   target="_blank">
-    stated before</a>, for 10,000 users, we only have 2 active maintainers and 4 external contributers (1 active at the moment).</p>
+<p>In addition, we&rsquo;re now at a point where man-power. As I have stated before (in the article below), for 10,000 users, we only have 2 active maintainers and 4 external contributers (1 active at the moment).
+
+<section class="space-y-10 w-full">
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md backdrop-blur" href="/posts/problems-of-mcprep/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom " style="background-image:url(/posts/problems-of-mcprep/featured.png);"></div>
+        
+      <div class=" p-4">
+      <div class="items-center text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/problems-of-mcprep/">Problems of MCprep Development</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2023-03-11 16:05:06 -0600 CST">11 March 2023</time><span class="px-2 text-primary-500">&middot;</span><span>566 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+    </div>
+  </a>
+        
+    
+</section></p>
 <p>This brings up the larger issue that MCprep development isn&rsquo;t sustainable.</p>
 <p>At this point a question has to be asked: will MCprep make it to 12 years? 15? As it stands, with the current circumstances and lack of manpower, I wouldn&rsquo;t be surprised if it didn&rsquo;t even make it to 11.</p>
 <div id="sustainability-of-mcprep" class="anchor"></div>
@@ -493,6 +753,18 @@
 
     
   <div class="flex">
+    
+      
+      
+        
+        <img
+          class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4"
+          width="96"
+          height="96"
+          alt="StandingPad"
+          src="/img/logo_hu031eb47a75aeef31c44e9e65729614d1_1901521_192x192_fill_box_center_3.png"
+        />
+      
     
     <div class="place-self-center">
       
@@ -621,7 +893,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-05-18 16:52:29 -0500 CDT">18 May 2023</time><span class="px-2 text-primary-500">&middot;</span><span>314 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  <time datetime="2023-05-18 16:52:29 -0500 CDT">18 May 2023</time><span class="px-2 text-primary-500">&middot;</span><span>268 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -631,6 +903,46 @@
 
 
 
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
 
 
 
@@ -710,6 +1022,46 @@
 
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
+
 
 
         </div>
@@ -788,6 +1140,46 @@
 
 
 
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blender/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Blender
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mcprep/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    MCprep
+  </span>
+</span>
+
+  </span>
+  
+  
+  
+  
+</div>
+
 
 
         </div>
@@ -838,6 +1230,28 @@
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/posts/new-website-design/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Website Update!</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-06-16 00:00:00 &#43;0000 UTC">16 June 2023</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>

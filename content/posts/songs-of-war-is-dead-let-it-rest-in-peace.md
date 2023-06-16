@@ -23,15 +23,13 @@ There were also a handful of people like Megste, who did the entire series with 
 If you were a Songs of War fan during this period, you now had to follow the development of multiple studios, each with their own motivations and goals. As such, these groups would just have drama non-stop. This would end up leaving a bad taste in people's mouths.
 
 # David Didn't Want to Continue, so Stop Asking Him
-> "I personally didn't want to invest
-  another four years of my life into one
-  series unless it was just doing like
-  phenomenally good and you know I
-  was about 25 at the time I think, I'm 26
-  now and I didn't really want to be like
-  almost 30 years old and just finishing
-  some minecraft animation stuff"
->  -David R. B.
+
+> {{< typeit 
+  speed=20
+>}}
+ "I personally didn't want to invest another four years of my life into one series unless it was just doing like phenomenally good and you know I was about 25 at the time I think. I'm 26 now and I didn't really want to be like almost 30 years old and just finishing some minecraft animation stuff"
+ - David R. B.
+{{< /typeit >}}
 
 Looking at the comments of the cancelation annoucement, it's impressive how much people didn't pay attention to the actual announcement. Here's some of the most recent comments (as of writing): 
 
@@ -43,7 +41,9 @@ Looking at the comments of the cancelation annoucement, it's impressive how much
 
 Guys, chill, I get why you're upset but it's been **3 years**. ~~In that time, David has been working on an FPS game called Arcadian Rift and based on his devlogs sounds way happier and less stressed then during Songs of War production~~+. If David didn't want to continue, then that's his decision and we should respect that. He's human with his own life, not a robot, how hard is that to understand?
 
-`+ While writing this I was told that David canceled Arcadian Rift due to some IRL issues. As of writing, I do not know the full scope of the issue, but needless to say I think it's even more important that we don't keep bothering David over Songs of War`
+~~`+ While writing this I was told that David canceled Arcadian Rift due to some IRL issues. As of writing, I do not know the full scope of the issue, but needless to say I think it's even more important that we don't keep bothering David over Songs of War`~~
+
+`Update: yeah, let's just say David is not welcome in the Minecraft animation and game dev communities anymore. I've kept the original text for transparency reaons.` 
 
 # Let's Accept the Death of Songs of War, and Let It Rest in Peace
 "But why were the assets, scene files, and script released if he didn't want us to continue Songs of War?"
