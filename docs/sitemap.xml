@@ -264,7 +264,7 @@
   
     
       <url>
-            <loc>https://standingpadanimations.github.io/about/</loc>
+            <loc>https://standingpadanimations.github.io/renders/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -272,7 +272,7 @@
   
     
       <url>
-            <loc>https://standingpadanimations.github.io/renders/</loc>
+            <loc>https://standingpadanimations.github.io/about/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
