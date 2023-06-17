@@ -5,3 +5,8 @@ build:
 # Preview
 preview:
   hugo server
+
+# Add and commit
+commit:
+  git add .
+  git commit
