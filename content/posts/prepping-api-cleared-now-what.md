@@ -9,6 +9,18 @@ tags:
   - Blender
 ---
 
+# Update
+I have closed the Prepping API proposal with the following:
+> {{< typeit 
+  speed=20
+>}}
+I'll be closing this issue since I feel that for such a niche feature, the workarounds needed aren't worth it
+{{< /typeit >}}
+
+However, I feel that the article is still important for addon developers, so I've kept it here
+
+
+# Original Article
 Just yesterday I gave the greenlight for [Prepping API](https://github.com/TheDuckCow/MCprep/issues/329), a proposal that would allow users to create their own prep material functions in Python.
 
 But is it worth it?
