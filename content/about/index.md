@@ -2,6 +2,8 @@
 title: About Me
 showDate: false
 showRelatedContent: false
+showAuthor: false
+showTableOfContents: true
 ---
 
 - 3D Artist with 3+ years of Blender experience
@@ -49,3 +51,5 @@ Click an image to expand
   <img src="gallery/new-years.png"      class="grid-w33" />
 {{< /gallery >}}
 
+# Contact
+Interested? Contact me at [standingscorner@proton.me](mailto:standingscorner@proton.me)

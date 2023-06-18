@@ -3,6 +3,8 @@ title: "A Practical Example"
 date: 2022-06-04
 series: ["Lighting Guide"]
 series_order: 2
+summary: "Let's go over how we can light a scene starting from scratch"
+showTableOfContents: true
 ---
 
 I think the best way to explain my point is to show a practical example, so I've set up a scene that we're going to build together. The goal is to end up with something like this:

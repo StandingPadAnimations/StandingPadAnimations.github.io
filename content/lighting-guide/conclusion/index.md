@@ -2,6 +2,7 @@
 title: "Conclusion"
 date: 2022-06-01
 series: ["Lighting Guide"]
+summary: "Concluding remarks"
 series_order: 5
 ---
 

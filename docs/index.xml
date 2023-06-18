@@ -193,7 +193,7 @@
       <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://standingpadanimations.github.io/lighting-guide/introduction/</guid>
-      <description>Introduction # Hi there!</description>
+      <description>Introduction and why do we light scenes in the first place?</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/lighting-guide/introduction/featured.jpg" />
     </item>
     
@@ -203,7 +203,7 @@
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://standingpadanimations.github.io/lighting-guide/practical-example/</guid>
-      <description>I think the best way to explain my point is to show a practical example, so I&amp;rsquo;ve set up a scene that we&amp;rsquo;re going to build together.</description>
+      <description>Let&amp;rsquo;s go over how we can light a scene starting from scratch</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/lighting-guide/practical-example/featured.jpg" />
     </item>
     
@@ -213,7 +213,7 @@
       <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://standingpadanimations.github.io/lighting-guide/a-different-way/</guid>
-      <description>Remember how I said while writing, I realized another route that could have been taken with this scene that involved heavy use of shadow?</description>
+      <description>Let&amp;rsquo;s go over another way we can light this scene, this time using shadow</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/lighting-guide/a-different-way/featured.jpg" />
     </item>
     
@@ -223,7 +223,7 @@
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://standingpadanimations.github.io/lighting-guide/lets-demolish-stuff/</guid>
-      <description>We&amp;rsquo;ve gone over how to go about lighting, but what about deconstructing an existing lighting setup?</description>
+      <description>Let&amp;rsquo;s take some existing scenes and deconstruct the lighting</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/lighting-guide/lets-demolish-stuff/featured.jpg" />
     </item>
     
@@ -233,7 +233,7 @@
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://standingpadanimations.github.io/lighting-guide/conclusion/</guid>
-      <description>Was learning some lighting tips from a Minecraft artist that bad?</description>
+      <description>Concluding remarks</description>
       
     </item>
     

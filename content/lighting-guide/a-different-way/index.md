@@ -3,6 +3,8 @@ title: "What About a Different Way?"
 date: 2022-06-03
 series: ["Lighting Guide"]
 series_order: 3
+summary: "Let's go over another way we can light this scene, this time using shadow"
+showTableOfContents: true
 ---
 
 Remember how I said while writing, I realized another route that could have been taken with this scene that involved heavy use of shadow? Well, I think I'll quickly go over it (it's not that long).

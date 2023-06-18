@@ -1,3 +1,5 @@
+default: build commit
+
 # Build in the Docs folder
 build:
   hugo --destination docs

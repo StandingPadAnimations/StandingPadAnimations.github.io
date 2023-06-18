@@ -3,6 +3,8 @@ title: "Let's Demolish Stuff!"
 date: 2022-06-02
 series: ["Lighting Guide"]
 series_order: 4
+summary: "Let's take some existing scenes and deconstruct the lighting"
+showTableOfContents: true
 ---
 
 We've gone over how to go about lighting, but what about deconstructing an existing lighting setup? It's actually simpler than you think.

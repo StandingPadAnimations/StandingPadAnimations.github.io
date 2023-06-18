@@ -3,6 +3,8 @@ title: "Introduction and Why We light"
 date: 2022-06-05
 series: ["Lighting Guide"]
 series_order: 1
+summary: "Introduction and why do we light scenes in the first place?"
+showTableOfContents: true
 ---
 
 # Introduction
