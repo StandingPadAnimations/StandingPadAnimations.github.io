@@ -5,6 +5,8 @@ tags:
     - Blender
 ---
 
+EDIT 6/22/2023: I've changed the caustics to use Diffuse Ray & Camera Ray instead of Shadow Ray and edited the post accordingly. If screenshots don't look like they match, that's why.
+
 So in yesterday's post I mentioned how a long time ago I attempted to make a water shader based off of RTX Minecraft.
 
 > {{< typeit 
@@ -98,7 +100,7 @@ Next we must create a texture that will allow us to let light pass through some 
 
 {{< image src="gallary/ray-mask.png" alt="Nodes to drive ray creation" position="center" style="border-radius: 8px;" >}}
 
-To make this only affect shadows, we can then use a Mix Shader with the factor set to the Shadow Ray output of a Light Path node:
+To make this only affect shadows, we would normally use the Is Shadow Ray output of the Light path node, but I've combined a Is Diffuse Ray and Is Camera Ray to reduce how strong the light passing through is. In this case, we check to see if a diffuse ray is at max 0.1 before then letting it through. Afterwards, we use camera ray to make the surface not a weird combination of the mask and water surface.
 
 {{< image src="gallary/shadow-ray.png" alt="Shadow ray setup" position="center" style="border-radius: 8px;" >}}
 

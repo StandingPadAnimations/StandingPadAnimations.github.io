@@ -13,7 +13,7 @@
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://standingpadanimations.github.io/posts/rtx-water-shader/</guid>
-      <description>So in yesterday&amp;rsquo;s post I mentioned how a long time ago I attempted to make a water shader based off of RTX Minecraft.</description>
+      <description>EDIT 6/22/2023: I&amp;rsquo;ve changed the caustics to use Diffuse Ray &amp;amp; Camera Ray instead of Shadow Ray and edited the post accordingly.</description>
     </item>
     
     <item>
