@@ -6,7 +6,17 @@
     <description>Recent content on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How a Syntax Error I Made Deleted TheDuckCow&#39;s Files</title>
+      <link>https://standingpadanimations.github.io/posts/i-broke-production/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/i-broke-production/</guid>
+      <description>This just happened about an hour ago as I write this.</description>
+      
+    </item>
+    
     <item>
       <title>Attempt 2 at making an RTX water shader</title>
       <link>https://standingpadanimations.github.io/posts/rtx-water-shader/</link>
