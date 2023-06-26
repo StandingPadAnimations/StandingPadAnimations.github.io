@@ -14,8 +14,8 @@ title = "StandingPad's Corner"
   # copyright = "Copy, _right?_ :thinking_face:"
 
  [author]
-   name = "StandingPad"
-   image = "img/logo.png"
+   name = "StandingPad's Corner"
+#   image = "img/logo.png"
    headline = "My corner of the internet where I post sometimes"
 #   bio = "The nerdiest of nerds"
    links = [

@@ -35,10 +35,23 @@ The mistake I made was in the "fix":
 rm -rf "${i/$NAME:?}/"
 ```
 
-When I wrote this, I thought Bash was going to expand `i` and `NAME` after checking if they're null, and then put them with `/` in between (it's a filepath). However, Bash instead took it as a whole expression (what expression I don't know, Bash is weird). The correct line should have been:
+Which Bash interprets as:
+- Replace `i` with its value
+- Check if `NAME` is null and if so, error out. Otherwise replace it with its value
+- Remove anything in `i` that matches with `NAME` (which is nothing)
+- Remove the resulting path
+
+When I wrote this, I thought Bash was going to expand `i` and `NAME` after checking if they're null, and then put them with `/` in between (it's a filepath). However, Bash instead took it as a whole expression. The correct line should have been:
 ```sh
 rm -rf "${i:?}/${NAME:?}"
 ```
+
+Which translates to:
+- Check if `i` and `NAME` are null and error out if they are
+- Replace `i` and `NAME` with their values
+- Remove the resulting path
+
+What that means was instead of removing `path/to/addons/folder/MCprep`, it was removing `path/to/addons/folder`, which meant all of TheDuckCow's installed Blender addons were deleted.
 
 In my defense, ShellCheck should have given a warning in this case (I've checked again today, ShellCheck considers everything fine), and [I've opened an issue](https://github.com/koalaman/shellcheck/issues/2786) on the ShellCheck repo for this very case, but past me should have known.
 
