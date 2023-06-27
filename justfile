@@ -6,7 +6,7 @@ build:
 
 # Preview
 preview:
-  hugo server
+  hugo server --disableFastRender
 
 # Add and commit
 commit:
