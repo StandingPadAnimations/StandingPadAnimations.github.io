@@ -35,7 +35,7 @@ showTableOfContents: true
 
 # Certifications
 - Revit Certified as of May 2023
-{{< figure default=true src="/imgs/about-me/revit-badge.png" alt="Revit Certification Badge" link="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" width=25% height=auto >}}
+{{< figure default=true src="gallary/revit-badge.png" alt="Revit Certification Badge" link="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" width=25% height=auto >}}
 
 # Here's some of my work 
 Click an image to expand

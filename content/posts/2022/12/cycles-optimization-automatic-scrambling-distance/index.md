@@ -15,7 +15,7 @@ series_order: 2
 
 After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.
 
-{{< image src="/imgs/cycles-2/bean-question.png" alt="Buddy asking question" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/bean-question.png" alt="Buddy asking question" position="center" style="border-radius: 8px;" >}}
 
 I try to avoid making certain settings seem "magical" because with all magic, there's a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y'all), one of these settings is known as
 
@@ -31,20 +31,20 @@ In a nutshell, scrambling distance represents how randomized each pixel's random
 
 I was confused at first, so I asked on the Erindale.xyz server (basically a lot of Blender nerds). After some back and forth, I got the following response.
 
-{{< image src="/imgs/cycles-2/jc-response.png" alt="JC explaining what scrambling does" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/jc-response.png" alt="JC explaining what scrambling does" position="center" style="border-radius: 8px;" >}}
 
 "I still don't get it."
 
 Alright, let me make a diagram. Here's with a scrambling distance of 1.
 
-{{< image src="/imgs/cycles-2/random-pixels.png" alt="Pixels with random values" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/random-pixels.png" alt="Pixels with random values" position="center" style="border-radius: 8px;" >}}
 
 Here, each pixel have a randomized value+ and Cycles uses that to further randomize the samples that it spews into the scene (remember, samples are on a per pixel basis)
 
 `+ This should be more randomized, but it's a quick sketch`
 
 Now here's with a scrambling distance of 0.
-{{< image src="/imgs/cycles-2/uniform-pixels.png" alt="Pixels with uniform values" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/uniform-pixels.png" alt="Pixels with uniform values" position="center" style="border-radius: 8px;" >}}
 
 
 The higher the scrambling distance, the more randomized these values are.
@@ -72,7 +72,7 @@ This took a while to find. The Blender Docs say the following:
 Presumably it has something to do with VRAM, but I can't be exactly sure. My best guess from past experiance is that rendering is faster with more complex geometry, but I can't be exactly sure.
 
 So what are some possible artifacts? Well JC has an example.
-{{< image src="/imgs/cycles-2/artifacts.png" alt="Artifacts caused by an extremely low scrambling distance" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/artifacts.png" alt="Artifacts caused by an extremely low scrambling distance" position="center" style="border-radius: 8px;" >}}
 
 Yikes, why does this happen?
 

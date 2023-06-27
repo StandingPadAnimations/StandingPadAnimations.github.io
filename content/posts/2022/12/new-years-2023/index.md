@@ -12,7 +12,7 @@ aliases:
 ---
 
 It's now New Year's Eve, so I made a new years render:
-{{< image src="/imgs/new-years/NewYearsWatermarked.png" alt="New Years render, I'm bad at describing sadly" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/NewYearsWatermarked.png" alt="New Years render, I'm bad at describing sadly" position="center" style="border-radius: 8px;" >}}
 
 This is perhaps the most complicated render I have done to date. I started just before Christmas and finished in about 3 to 4 days.
 
@@ -38,7 +38,7 @@ Well it works, but one slight issue,
 
 Rendering a 3D hologram (even on its own) using Blender Guru's method was an absolute pain, and I was prepared to just suck it and deal with it. However, after I mentioned how much of a pain it would be to render on the Erindale server, Slinkcreated a far more optimized version of the hologram.
 
-{{< image src="/imgs/new-years/slink-solution.png" alt="Slink comes to the rescue" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/slink-solution.png" alt="Slink comes to the rescue" position="center" style="border-radius: 8px;" >}}
 
 Essentially, instead of making thousands of curve objects, he made a setup that takes the model, extrudes it downwards, and then merges the verticies into a single point. The result is the same, but with far less render time.
 
@@ -56,7 +56,7 @@ Cool except one issue: it just wouldn't work with AgX
 
 Well...
 
-{{< image src="/imgs/new-years/filmic-sucks.png" alt="Ungodly color skewing" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/filmic-sucks.png" alt="Ungodly color skewing" position="center" style="border-radius: 8px;" >}}
 
 As you can see, Filmic just looks bad compared to AgX, so that would be a no-no.
 
@@ -71,7 +71,7 @@ Even while making the scene I felt there were some "focus" issues. In other word
 
 The last time I had this much detail was back in the October 2020 MCprep contest, but back then there wasn't a focus. This time, there was a focus, so I had to figure out a way to maintain that focus.
 
-{{< image src="/imgs/new-years/focus-issues.png" alt="Seriously, the people on the Erindale server are smart" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/focus-issues.png" alt="Seriously, the people on the Erindale server are smart" position="center" style="border-radius: 8px;" >}}
 
 Oh
 

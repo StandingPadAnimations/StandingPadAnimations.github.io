@@ -13,7 +13,7 @@ aliases:
 
 I recently had the motivation to make the following render
 
-{{< image src="/imgs/scale-render/final-render.png" alt="Cool render I made, can't really put it in words" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/final-render.png" alt="Cool render I made, can't really put it in words" position="center" style="border-radius: 8px;" >}}
 
 As you can see, there's a lot of reflections, some long test, volumetrics, and other stuff. Since I don't do much Minecraft rendering anymore, I think I'll impart some insight into some of the more technial bits.
 
@@ -256,22 +256,22 @@ C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86
 {{< /details >}}
 
 I then made a mask using a screenshot of it:
-{{< image src="/imgs/scale-render/error.png" alt="Error message from earlier, just as a screenshot" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/error.png" alt="Error message from earlier, just as a screenshot" position="center" style="border-radius: 8px;" >}}
 
 And use that as part of the hologram in the render.
 
 # Optimizing
 There's a lot I have to say about optimizing. First off, here's a screenshots of the viewport with the volumetrics:
-{{< image src="/imgs/scale-render/viewport-1.png" alt="Cool viewport screenshot" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/viewport-1.png" alt="Cool viewport screenshot" position="center" style="border-radius: 8px;" >}}
 
 "But wait, where's the cool godrays in the final render?"
 
 I added those in compositing. In general I think it's easier to use the sunbeams node for godrays. 
 
 But oh boy did volumetrics become a pain in the but to work with. I enabled homogenous in both world and material settings to make rendering faster.
-{{< image src="/imgs/scale-render/homogenous-1.png" alt="Homogenous in the world settings" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/homogenous-1.png" alt="Homogenous in the world settings" position="center" style="border-radius: 8px;" >}}
 
-{{< image src="/imgs/scale-render/homogenous-2.png" alt="Homogenous in the material settings" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/homogenous-2.png" alt="Homogenous in the material settings" position="center" style="border-radius: 8px;" >}}
 
 Those helped with render times a little, but there was still the issue with fireflies.
 
@@ -300,7 +300,7 @@ As far as I can tell, clamping seems to be used as a convinient solution way to 
 Tldr: Clamping is a terrible solution to fix fireflies caused by mesh lights. We're better off removing mesh lights entirely and using lamps. Clamping should be treated the same as [Scrambling Distance](https://standingpadanimations.github.io/posts/automatic-scrambling-distance/#all-magic-has-a-cost), an option that requires careful consideration and refinement.
 
 Here's the settings I used for this particular render (specifically light paths and color management):
-{{< image src="/imgs/scale-render/general-settings.png" alt="General settings" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/general-settings.png" alt="General settings" position="center" style="border-radius: 8px;" >}}
 
 These settings are for just this scene (and I use a GTX 1660 Super), so don't copy it hoping it will help with render times. Optimization is scene dependent, not uniform.
 
@@ -311,10 +311,10 @@ One might notice the lack of Filmic in exchange for AgX. I've written about AgX 
 I do 2 rounds of compositing. The first round is denoising with [SID](https://pidgeontools.gumroad.com/l/SuperImageDenoiser), and the second round is where all the magic happens.
 
 Before:
-{{< image src="/imgs/scale-render/before-comp.png" alt="Before compositing" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/before-comp.png" alt="Before compositing" position="center" style="border-radius: 8px;" >}}
 
 After:
-{{< image src="/imgs/scale-render/after-comp.png" alt="After compositing" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/after-comp.png" alt="After compositing" position="center" style="border-radius: 8px;" >}}
 
 This is also where I added all those fancy godray effects. I used the denoising depth pass to seperate the world and structures, and plugged it into the sun beams node (btw, Blender devs, if you're reading this, please optimize it or let it take advantage of the GPU, it is horrifically annoying to edit), did some color magic, and added back in. The result is a godly looking background.
 

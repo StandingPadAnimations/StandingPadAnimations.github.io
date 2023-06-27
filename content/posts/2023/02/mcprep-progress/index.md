@@ -24,8 +24,8 @@ Here's some of the features that are in the works right now.
 This may seem like something useless, but this feature was originally planned as a [Cycles Optimizer improvement in 3.4.2](https://github.com/TheDuckCow/MCprep/pull/334) (before I left MCprep development for a bit of time) but has since been moved to the core of prep materials.
 
 This means for users that don't need emissive nodes (like EEVEE users), they get a much easier node setup to work with (especially when using SEUS or Specular). Here's a comparison:
-{{< image src="/imgs/mcprep-progress/with-emission.png" alt="With emissive nodes" position="center" style="border-radius: 8px;" >}}
-{{< image src="/imgs/mcprep-progress/without-emission.png" alt="Without emissive nodes" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/with-emission.png" alt="With emissive nodes" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/without-emission.png" alt="Without emissive nodes" position="center" style="border-radius: 8px;" >}}
 
 Wow, so much better.
 
@@ -70,9 +70,9 @@ Yeah, that change is still the [subject of debate](https://github.com/TheDuckCow
 This is a big one, MCprep will now check an OBJ's header (if exported with Mineways) to determine if texture swap and animate textures can be used without issues. 
 
 Here's some screenshots of how this looks. If you notice in the MCprep panel, as long as the right OBJ is selected, texture swap can't be used (because it was exported with incorrect settings).
-{{< image src="/imgs/mcprep-progress/incompatible-obj.png" alt="Incompatible OBJ selected" position="center" style="border-radius: 8px;" >}}
-{{< image src="/imgs/mcprep-progress/compatible-obj.png" alt="Compatible OBJ selected" position="center" style="border-radius: 8px;" >}}
-{{< image src="/imgs/mcprep-progress/multiple-obj.png" alt="Multiple OBJs selected" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/incompatible-obj.png" alt="Incompatible OBJ selected" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/compatible-obj.png" alt="Compatible OBJ selected" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/multiple-obj.png" alt="Multiple OBJs selected" position="center" style="border-radius: 8px;" >}}
 
 This is a massive improvement as it prevents one of the most common issues we see, although it only apples to Mineways OBJs, due to them exporting a header (although [we are looking into a standard header format](https://github.com/TheDuckCow/MCprep/issues/371) world exporter developers can use). Still better then nothing.
 

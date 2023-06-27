@@ -14,7 +14,7 @@ aliases:
 Yes guys, I'm back.
 
 Anyways, I recently had an idea and made this render:
-{{< image src="/imgs/calm-after-storm/CalmAfterTheStormWatermarked.png" alt="Recent render I made of a city after a storm" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/CalmAfterTheStormWatermarked.png" alt="Recent render I made of a city after a storm" position="center" style="border-radius: 8px;" >}}
 
 Not my best, but lets talk about how I made it.
 
@@ -49,8 +49,8 @@ I used what I learned from my [New Year's render](https://standingpadanimations.
 Wait wait wait, don't click away, I know this isn't related, but I have some exiciting updates.
 
 For starters, I've been working on some stuff for a project that a group at my school was doing. The TLDR is that they've been working on a VR game, and one of them asked if I knew Blender. I showed them this website and got on the team. Here's some screenshots of what I've been working on (no materials because it has to go to Unity):
-{{< image src="/imgs/calm-after-storm/image.png" alt="Blinding screenshot of a forest in Blender" position="center" style="border-radius: 8px;" >}}
-{{< image src="/imgs/calm-after-storm/image-2.png" alt="Another blinding screnshot. If you can't see, consider yourself lucky" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/image.png" alt="Blinding screenshot of a forest in Blender" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/image-2.png" alt="Another blinding screnshot. If you can't see, consider yourself lucky" position="center" style="border-radius: 8px;" >}}
 
 So that's what I've been doing.
 

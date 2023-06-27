@@ -15,11 +15,11 @@ As the MCprep 3.4.2 release date draws nearer, I think it's important to remind 
 
 ## Overview
 Currently, MCprep only has 2 active maintainers (TheDuckCow and myself). While the MCprep GitHub repo says there's 7, most of them haven't contributed in a while:
-{{< image src="/imgs/mcprep-problems/maintainers.png" alt="List of all the maintainers" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/maintainers.png" alt="List of all the maintainers" position="center" style="border-radius: 8px;" >}}
 
 Now obviously TheDuckCow would have the most commits (411 at the time of writing this) since he's been working on MCprep for almost 10 years now (yes, MCprep has been around for 10 years), with myself being behind with 96 commits. The rest have made a couple of commits here and there, and as far as I know that was before we had an official guide on contributing. So we're already spread thin when it comes to implementing new features and bug fixes (not factoring how we also have things to do IRL). 
 
-{{< image src="/imgs/mcprep-problems/dependency.png" alt="xkcd comic that represents the situation" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/dependency.png" alt="xkcd comic that represents the situation" position="center" style="border-radius: 8px;" >}}
 
 Like any open source project though, MCprep depends on outside contributions, and we have a couple. These are the users who have contributed in the past:
 - zNightlord: Blender 3.4 Mix node compatability

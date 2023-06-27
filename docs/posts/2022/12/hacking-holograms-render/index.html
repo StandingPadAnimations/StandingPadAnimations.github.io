@@ -556,7 +556,7 @@
 
         <p>I recently had the motivation to make the following render</p>
 
-    <img src="/imgs/scale-render/final-render.png"  alt="Cool render I made, can&#39;t really put it in words"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/final-render.png"  alt="Cool render I made, can&#39;t really put it in words"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>As you can see, there&rsquo;s a lot of reflections, some long test, volumetrics, and other stuff. Since I don&rsquo;t do much Minecraft rendering anymore, I think I&rsquo;ll impart some insight into some of the more technial bits.</p>
@@ -801,7 +801,7 @@
 
 <p>I then made a mask using a screenshot of it:
 
-    <img src="/imgs/scale-render/error.png"  alt="Error message from earlier, just as a screenshot"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/error.png"  alt="Error message from earlier, just as a screenshot"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>And use that as part of the hologram in the render.</p>
@@ -815,18 +815,18 @@
 </h1>
 <p>There&rsquo;s a lot I have to say about optimizing. First off, here&rsquo;s a screenshots of the viewport with the volumetrics:
 
-    <img src="/imgs/scale-render/viewport-1.png"  alt="Cool viewport screenshot"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/viewport-1.png"  alt="Cool viewport screenshot"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>&ldquo;But wait, where&rsquo;s the cool godrays in the final render?&rdquo;</p>
 <p>I added those in compositing. In general I think it&rsquo;s easier to use the sunbeams node for godrays.</p>
 <p>But oh boy did volumetrics become a pain in the but to work with. I enabled homogenous in both world and material settings to make rendering faster.
 
-    <img src="/imgs/scale-render/homogenous-1.png"  alt="Homogenous in the world settings"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/homogenous-1.png"  alt="Homogenous in the world settings"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 
-    <img src="/imgs/scale-render/homogenous-2.png"  alt="Homogenous in the material settings"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/homogenous-2.png"  alt="Homogenous in the material settings"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>Those helped with render times a little, but there was still the issue with fireflies.</p>
@@ -840,11 +840,11 @@
 </h2>
 <blockquote>
 
-<div id="typeit-1687847074350073226"></div>
+<div id="typeit-1687849239470447260"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-1687847074350073226", {
+      new TypeIt("#typeit-1687849239470447260", {
         strings: ["","You will observe with concern how long a useful truth may be known and exist, before it is generally received and practiced on. ","","- Benjamin Franklin; July 31st, 1786",""],
         speed:  20 ,
         lifeLike:  false ,
@@ -867,7 +867,7 @@
     Scrambling Distance</a>, an option that requires careful consideration and refinement.</p>
 <p>Here&rsquo;s the settings I used for this particular render (specifically light paths and color management):
 
-    <img src="/imgs/scale-render/general-settings.png"  alt="General settings"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/general-settings.png"  alt="General settings"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>These settings are for just this scene (and I use a GTX 1660 Super), so don&rsquo;t copy it hoping it will help with render times. Optimization is scene dependent, not uniform.</p>
@@ -892,12 +892,12 @@
     SID</a>, and the second round is where all the magic happens.</p>
 <p>Before:
 
-    <img src="/imgs/scale-render/before-comp.png"  alt="Before compositing"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/before-comp.png"  alt="Before compositing"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>After:
 
-    <img src="/imgs/scale-render/after-comp.png"  alt="After compositing"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/after-comp.png"  alt="After compositing"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>This is also where I added all those fancy godray effects. I used the denoising depth pass to seperate the world and structures, and plugged it into the sun beams node (btw, Blender devs, if you&rsquo;re reading this, please optimize it or let it take advantage of the GPU, it is horrifically annoying to edit), did some color magic, and added back in. The result is a godly looking background.</p>
