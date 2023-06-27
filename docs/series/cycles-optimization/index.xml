@@ -6,22 +6,22 @@
     <description>Recent content in Cycles Optimization on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Dec 2022 04:30:44 -0600</lastBuildDate><atom:link href="https://standingpadanimations.github.io/series/cycles-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/series/cycles-optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs</title>
-      <link>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</link>
-      <pubDate>Wed, 21 Dec 2022 04:30:44 -0600</pubDate>
+      <link>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</link>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/automatic-scrambling-distance/</guid>
+      <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</guid>
       <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</description>
     </item>
     
     <item>
       <title>Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy</title>
-      <link>https://standingpadanimations.github.io/posts/cycles-optimization/</link>
-      <pubDate>Tue, 20 Dec 2022 12:17:42 -0600</pubDate>
+      <link>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/cycles-optimization/</guid>
+      <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/</guid>
       <description>Introduction # We know Cycles is a pain in the butt to render.</description>
     </item>
     
