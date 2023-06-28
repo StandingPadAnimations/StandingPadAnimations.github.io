@@ -27,7 +27,7 @@ Signature File
 ## RTX Style Water Shader V2
 My second attempt to make a RTX Minecraft style water shader, this time being much closer. If you're interested in how I made it, I've linked the post where I talk about how I made it
 
-{{< article link="/posts/rtx-water-shader/" >}}
+{{< article link="/posts/2023/06/rtx-water-shader-2/" >}}
 
 {{< button href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/water-shader.blend" target="_self" >}}
 Download
