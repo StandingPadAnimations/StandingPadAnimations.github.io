@@ -27,7 +27,7 @@ showTableOfContents: true
 {{< github repo="Resurgence-VM-Development/Resurgence" >}}
 
 - Creator of `bpy-addon-build` (also known as `bpy-build`), a program that aims to streamline the process of building Blender addons and automatically installing them to the targeted Blender versions, allowing developers to perform less mundane tasks and more development.
-{{< github repo="StandingPadAnimations/bpy-build" >}}
+{{< github repo="Moo-Ack-Productions/bpy-build" >}}
 
 - Experience creating toy languages.
 {{< github repo="StandingPadAnimations/Rendor" >}}
