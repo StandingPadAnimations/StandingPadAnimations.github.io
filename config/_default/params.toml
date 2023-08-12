@@ -72,6 +72,7 @@ defaultBackgroundImage = "/img/home.png" # used as default for background images
   showAuthorsBadges = false
   showWordCount = true
   showSummary = true
+  showComments = true
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
 
 [list]
