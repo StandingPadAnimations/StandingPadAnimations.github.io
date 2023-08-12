@@ -6,6 +6,7 @@
     <description>Recent content in Posts on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>© 2023 StandingPad&#39;s Corner</copyright>
     <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cya Instagram</title>
@@ -14,6 +15,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/07/cya-instagram-render/</guid>
       <description>I know I said I would post one final render on Instagram (and here) later last week, but some things came up, so here y&amp;rsquo;all go (also welcome if this is your first time on my website):</description>
+      
     </item>
     
     <item>
@@ -23,6 +25,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/07/some-updates/</guid>
       <description>Hey there, if you&amp;rsquo;re from Instagram and never been on my website, then welcome (I&amp;rsquo;ve had this for almost a year now).</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/07/some-updates/featured.png" />
     </item>
     
     <item>
@@ -32,6 +35,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/fyi-you-might-have-cache-issues/</guid>
       <description>&amp;ldquo;Hey why are all of the images reloading now?</description>
+      
     </item>
     
     <item>
@@ -41,6 +45,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/i-broke-production/</guid>
       <description>This just happened about an hour ago as I write this.</description>
+      
     </item>
     
     <item>
@@ -50,6 +55,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/rtx-water-shader-2/</guid>
       <description>EDIT 6/22/2023: I&amp;rsquo;ve changed the caustics to use Diffuse Ray &amp;amp; Camera Ray instead of Shadow Ray and edited the post accordingly.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/06/rtx-water-shader-2/featured.png" />
     </item>
     
     <item>
@@ -59,6 +65,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/ship-render/</guid>
       <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve render, so I made this cause why not.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/06/ship-render/featured.png" />
     </item>
     
     <item>
@@ -68,6 +75,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/website-update/</guid>
       <description>Website has a new look now!</description>
+      
     </item>
     
     <item>
@@ -77,6 +85,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/mcprep-isnt-sustaintable/</guid>
       <description>+Note: MCprep is turning 10 on October 28</description>
+      
     </item>
     
     <item>
@@ -86,6 +95,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/05/prepping-api-cleared-now-what/</guid>
       <description>Update # I have closed the Prepping API proposal with the following:</description>
+      
     </item>
     
     <item>
@@ -95,6 +105,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/03/dropping-27x-support-in-mcprep/</guid>
       <description>After years of supporting Blender 2.</description>
+      
     </item>
     
     <item>
@@ -104,6 +115,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/</guid>
       <description>As the MCprep 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/featured.png" />
     </item>
     
     <item>
@@ -113,6 +125,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/</guid>
       <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/featured.png" />
     </item>
     
     <item>
@@ -122,6 +135,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/02/endorcore-shutdown/</guid>
       <description>On Feburary 11th I&amp;rsquo;ll be shutting my Discord bot EndorCore down.</description>
+      
     </item>
     
     <item>
@@ -131,6 +145,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/</guid>
       <description>Yes guys, I&amp;rsquo;m back.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/featured.png" />
     </item>
     
     <item>
@@ -140,6 +155,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/01/farewell-for-now/</guid>
       <description>I just don&amp;rsquo;t know how else to put it, I&amp;rsquo;m leaving the Minecraft animation world.</description>
+      
     </item>
     
     <item>
@@ -149,6 +165,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/01/songs-of-war-is-dead-let-it-rest-in-peace/</guid>
       <description>On June 14th, 2020, Black Plasma Studios announced the plan to cancel Songs of War Seasons 2 and 3, an animation series 5 years in the making, with a story uncontested by anything else.</description>
+      
     </item>
     
     <item>
@@ -158,6 +175,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/01/treating-help-channels-like-google/</guid>
       <description>Anyone who&amp;rsquo;s spent a good amount of time in a help channel on a Minecraft animation server can related to this; you go on help and support, and see the following:</description>
+      
     </item>
     
     <item>
@@ -167,6 +185,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/new-years-2023/</guid>
       <description>It&amp;rsquo;s now New Year&amp;rsquo;s Eve, so I made a new years render: This is perhaps the most complicated render I have done to date.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/new-years-2023/featured.png" />
     </item>
     
     <item>
@@ -176,6 +195,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/meet-jason-the-cat/</guid>
       <description>Hey guys, just a small IRL update, my family got a cat today!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/meet-jason-the-cat/featured.png" />
     </item>
     
     <item>
@@ -185,6 +205,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/happy-holidays/</guid>
       <description>Happy holidays everyone!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/happy-holidays/featured.png" />
     </item>
     
     <item>
@@ -194,6 +215,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/</guid>
       <description>I recently had the motivation to make the following render</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/featured.png" />
     </item>
     
     <item>
@@ -203,6 +225,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</guid>
       <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/featured.png" />
     </item>
     
     <item>
@@ -212,6 +235,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/</guid>
       <description>Introduction # We know Cycles is a pain in the butt to render.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/featured.png" />
     </item>
     
     <item>
@@ -221,6 +245,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/moving-on/</guid>
       <description>Hi guys, I think yall might be confused why I&amp;rsquo;ve created a new website, let&amp;rsquo;s talk about it.</description>
+      
     </item>
     
   </channel>

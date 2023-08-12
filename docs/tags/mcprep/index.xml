@@ -6,6 +6,7 @@
     <description>Recent content in MCprep on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>© 2023 StandingPad&#39;s Corner</copyright>
     <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/mcprep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How a Syntax Error I Made Deleted TheDuckCow&#39;s Files</title>
@@ -14,6 +15,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/i-broke-production/</guid>
       <description>This just happened about an hour ago as I write this.</description>
+      
     </item>
     
     <item>
@@ -23,6 +25,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/mcprep-isnt-sustaintable/</guid>
       <description>+Note: MCprep is turning 10 on October 28</description>
+      
     </item>
     
     <item>
@@ -32,6 +35,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/05/prepping-api-cleared-now-what/</guid>
       <description>Update # I have closed the Prepping API proposal with the following:</description>
+      
     </item>
     
     <item>
@@ -41,6 +45,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/03/dropping-27x-support-in-mcprep/</guid>
       <description>After years of supporting Blender 2.</description>
+      
     </item>
     
     <item>
@@ -50,6 +55,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/</guid>
       <description>As the MCprep 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/featured.png" />
     </item>
     
     <item>
@@ -59,6 +65,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/</guid>
       <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/featured.png" />
     </item>
     
   </channel>

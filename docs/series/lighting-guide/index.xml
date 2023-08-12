@@ -6,6 +6,7 @@
     <description>Recent content in Lighting Guide on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>© 2023 StandingPad&#39;s Corner</copyright>
     <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/series/lighting-guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction and Why We light</title>
@@ -14,6 +15,7 @@
       
       <guid>https://standingpadanimations.github.io/lighting-guide/introduction/</guid>
       <description>Introduction and why do we light scenes in the first place?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/lighting-guide/introduction/featured.jpg" />
     </item>
     
     <item>
@@ -23,6 +25,7 @@
       
       <guid>https://standingpadanimations.github.io/lighting-guide/practical-example/</guid>
       <description>Let&amp;rsquo;s go over how we can light a scene starting from scratch</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/lighting-guide/practical-example/featured.jpg" />
     </item>
     
     <item>
@@ -32,6 +35,7 @@
       
       <guid>https://standingpadanimations.github.io/lighting-guide/a-different-way/</guid>
       <description>Let&amp;rsquo;s go over another way we can light this scene, this time using shadow</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/lighting-guide/a-different-way/featured.jpg" />
     </item>
     
     <item>
@@ -41,6 +45,7 @@
       
       <guid>https://standingpadanimations.github.io/lighting-guide/lets-demolish-stuff/</guid>
       <description>Let&amp;rsquo;s take some existing scenes and deconstruct the lighting</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/lighting-guide/lets-demolish-stuff/featured.jpg" />
     </item>
     
     <item>
@@ -50,6 +55,7 @@
       
       <guid>https://standingpadanimations.github.io/lighting-guide/conclusion/</guid>
       <description>Concluding remarks</description>
+      
     </item>
     
   </channel>

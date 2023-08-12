@@ -6,6 +6,7 @@
     <description>Recent content in IRL on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>© 2023 StandingPad&#39;s Corner</copyright>
     <lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/irl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Some Updates</title>
@@ -14,6 +15,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/07/some-updates/</guid>
       <description>Hey there, if you&amp;rsquo;re from Instagram and never been on my website, then welcome (I&amp;rsquo;ve had this for almost a year now).</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/07/some-updates/featured.png" />
     </item>
     
     <item>
@@ -23,6 +25,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/01/farewell-for-now/</guid>
       <description>I just don&amp;rsquo;t know how else to put it, I&amp;rsquo;m leaving the Minecraft animation world.</description>
+      
     </item>
     
     <item>
@@ -32,6 +35,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/meet-jason-the-cat/</guid>
       <description>Hey guys, just a small IRL update, my family got a cat today!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/meet-jason-the-cat/featured.png" />
     </item>
     
     <item>
@@ -41,6 +45,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/happy-holidays/</guid>
       <description>Happy holidays everyone!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/happy-holidays/featured.png" />
     </item>
     
     <item>
@@ -50,6 +55,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/moving-on/</guid>
       <description>Hi guys, I think yall might be confused why I&amp;rsquo;ve created a new website, let&amp;rsquo;s talk about it.</description>
+      
     </item>
     
   </channel>

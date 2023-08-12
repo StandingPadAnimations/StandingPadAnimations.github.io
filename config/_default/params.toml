@@ -114,6 +114,28 @@ defaultBackgroundImage = "/img/home.png" # used as default for background images
   cardView = false
   cardViewScreenWidth = false
 
+
+############################
+## Comments
+############################
+[comments]
+  # Comment provider:
+  provider = "giscus"
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = false, project = false, publication = true, talk = false}
+
+  # Configuration of giscus
+  [comments.giscus]
+    repo = "StandingPadAnimations/StandingPadAnimations.github.io" # Repo where the comments will live
+    repo_id = "R_kgDOGSEH6Q" # Repo where the comments will live
+    category = "Announcements" # Repo where the comments will live
+    category_id = "DIC_kwDOGSEH6c4CYkKn" # Repo where the comments will live
+    mapping = "pathname" # How Utterances will match comment to page
+    label = "comment" # Label applied to issue by utteranc.es bot
+    theme = "dark_protanopia" # What theme to use
+    reactions_enabled = 0
+
 [firebase]
   # apiKey = "XXXXXX"
   # authDomain = "XXXXXX"

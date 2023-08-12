@@ -6,6 +6,7 @@
     <description>Recent content in How I Did It on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>© 2023 StandingPad&#39;s Corner</copyright>
     <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/how-i-did-it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ship Render</title>
@@ -14,6 +15,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/ship-render/</guid>
       <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve render, so I made this cause why not.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/06/ship-render/featured.png" />
     </item>
     
     <item>
@@ -23,6 +25,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/</guid>
       <description>Yes guys, I&amp;rsquo;m back.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/featured.png" />
     </item>
     
     <item>
@@ -32,6 +35,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/new-years-2023/</guid>
       <description>It&amp;rsquo;s now New Year&amp;rsquo;s Eve, so I made a new years render: This is perhaps the most complicated render I have done to date.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/new-years-2023/featured.png" />
     </item>
     
     <item>
@@ -41,6 +45,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/</guid>
       <description>I recently had the motivation to make the following render</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/featured.png" />
     </item>
     
   </channel>
