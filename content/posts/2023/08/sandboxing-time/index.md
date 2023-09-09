@@ -9,6 +9,8 @@ tags:
   - Programming
 ---
 
+Edit 9/9/2023: I was made aware of how the script could be improved [on GitHub](https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/discussions/4), so I've edit this post to add those suggestions.
+
 It all started with me changing browsers.
 
 Recently I switched from Librewolf to Vivaldi. While I like Vivaldi, I didn't like how there was no Flatpak version (since Flatpaks are sandboxed). However, I figured this would make a good opportunity to learn sandboxing. Little did I know that this was going to be a headache.
@@ -40,8 +42,8 @@ bwrap \
     --ro-bind "$XDG_RUNTIME_DIR/pipewire-0" "$XDG_RUNTIME_DIR/pipewire-0" \
     --ro-bind "$XDG_RUNTIME_DIR/pulse" "$XDG_RUNTIME_DIR/pulse" \
     --ro-bind "$XDG_RUNTIME_DIR/bus" "$XDG_RUNTIME_DIR/bus" \
-    --ro-bind "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer" "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer" \
-    --tmpfs /tmp \
+    --ro-bind "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC" "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC" \
+    --dir /tmp \
     --ro-dir "$HOME" "$HOME" \
     --dir "$HOME"/.cache \
     --bind "$HOME"/.config/vivaldi "$HOME"/.config/vivaldi \
@@ -70,8 +72,8 @@ if [ -z "$DBUS_SESSION_BUS_ADDRESS" ]; then
   export DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
 fi
 
-bwrap --bind / / --die-with-parent \
-  env -i xdg-dbus-proxy \
+bwrap --bind / / --die-with-parent --clear-env \
+  xdg-dbus-proxy \
   "$DBUS_SESSION_BUS_ADDRESS" \
   "$APP_FOLDER/bus" \
   --filter \
@@ -107,9 +109,8 @@ bwrap \
     --ro-bind "$XDG_RUNTIME_DIR/pipewire-0" "$XDG_RUNTIME_DIR/pipewire-0" \
     --ro-bind "$XDG_RUNTIME_DIR/pulse" "$XDG_RUNTIME_DIR/pulse" \
     --ro-bind "$APP_FOLDER/bus" "$XDG_RUNTIME_DIR/bus" \
-    --bind-try "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer" "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer" \
-    --tmpfs /tmp \
-    --dir "$HOME"/.cache \
+    --bind-try "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC" "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC" \
+    --dir /tmp \
     --ro-bind "$HOME" "$XDG_RUNTIME_DIR/dconf" \
     --bind "$HOME"/.config/vivaldi "$HOME"/.config/vivaldi \
     --bind "$HOME"/VivaldiDownloads "$HOME"/Downloads \
@@ -184,13 +185,18 @@ set_up_dbus_proxy() {
     --bind "$XDG_RUNTIME_DIR" "$XDG_RUNTIME_DIR" \
     --ro-bind-data 3 "/.flatpak-info" \
     --die-with-parent \
+    --clear-env \
     -- \
-    env -i xdg-dbus-proxy \
+    xdg-dbus-proxy \
     "$DBUS_SESSION_BUS_ADDRESS" \
     "$APP_FOLDER/bus" \
     --filter \
     --log \
-    --talk=org.freedesktop.portal.* \
+    --talk="org.freedesktop.portal.Documents" \
+    --talk="org.freedesktop.portal.Flatpak" \
+    --talk="org.freedesktop.portal.Desktop" \
+    --talk="org.freedesktop.portal.Notifications" \
+    --talk="org.freedesktop.portal.FileChooser" \
     --call="org.freedesktop.portal.Desktop=org.freedesktop.portal.Settings.Read@/org/freedesktop/portal/desktop" \
     --broadcast="org.freedesktop.portal.Desktop=org.freedesktop.portal.Settings.SettingChanged@/org/freedesktop/portal/desktop" 3<<EOF
 [Application]
@@ -203,7 +209,6 @@ sleep 0.1
 bwrap \
   --unshare-all \
   --share-net \
-  --as-pid-1 \
   --new-session \
   --symlink /usr/lib /lib \
   --symlink /usr/lib64 /lib64 \
@@ -227,10 +232,8 @@ bwrap \
   --ro-bind "$XDG_RUNTIME_DIR/pulse" "$XDG_RUNTIME_DIR/pulse" \
   --bind "$XDG_RUNTIME_DIR/doc" "$XDG_RUNTIME_DIR/doc" \
   --bind "$APP_FOLDER/bus" "$XDG_RUNTIME_DIR/bus" \
-  --bind-try "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer" "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer" \
-  --tmpfs /tmp \
-  --dir "$HOME" \
-  --dir "$HOME"/.cache \
+  --bind-try "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC" "$XDG_RUNTIME_DIR/app/org.keepassxc.KeePassXC" \
+  --dir /tmp \
   --bind "$HOME"/.config/vivaldi "$HOME"/.config/vivaldi \
   --bind "$HOME"/VivaldiDownloads "$HOME"/Downloads \
   --ro-bind "$HOME"/.icons "$HOME"/.icons \

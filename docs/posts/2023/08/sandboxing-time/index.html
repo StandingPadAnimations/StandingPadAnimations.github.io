@@ -59,7 +59,7 @@
   
   
   <meta property="og:title" content="Sandboxing Native Programs with Bubblewrap" />
-<meta property="og:description" content="It all started with me changing browsers." />
+<meta property="og:description" content="Edit 9/9/2023: I was made aware of how the script could be improved on GitHub, so I&rsquo;ve edit this post to add those suggestions." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://standingpadanimations.github.io/posts/2023/08/sandboxing-time/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-08-26T00:00:00+00:00" />
@@ -68,7 +68,7 @@
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Sandboxing Native Programs with Bubblewrap"/>
-<meta name="twitter:description" content="It all started with me changing browsers."/>
+<meta name="twitter:description" content="Edit 9/9/2023: I was made aware of how the script could be improved on GitHub, so I&rsquo;ve edit this post to add those suggestions."/>
 
   
   <script type="application/ld+json">
@@ -79,7 +79,7 @@
     "name": "Sandboxing Native Programs with Bubblewrap",
     "headline": "Sandboxing Native Programs with Bubblewrap",
     
-    "abstract": "It all started with me changing browsers.",
+    "abstract": "Edit 9\/9\/2023: I was made aware of how the script could be improved on GitHub, so I\u0026rsquo;ve edit this post to add those suggestions.",
     "inLanguage": "en",
     "url" : "https:\/\/standingpadanimations.github.io\/posts\/2023\/08\/sandboxing-time\/",
     "author" : {
@@ -95,7 +95,7 @@
     "keywords": ["Tech","Programming"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1252"
+    "wordCount": "1272"
   }]
   </script>
 
@@ -490,7 +490,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-08-26 00:00:00 &#43;0000 UTC">26 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1252 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+  <time datetime="2023-08-26 00:00:00 &#43;0000 UTC">26 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1272 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
   
 
   
@@ -573,7 +573,9 @@
 
 
         <div class="max-w-prose mb-20">
-          <p>It all started with me changing browsers.</p>
+          <p>Edit 9/9/2023: I was made aware of how the script could be improved <a href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/discussions/4"   target="_blank">
+    on GitHub</a>, so I&rsquo;ve edit this post to add those suggestions.</p>
+<p>It all started with me changing browsers.</p>
 <p>Recently I switched from Librewolf to Vivaldi. While I like Vivaldi, I didn&rsquo;t like how there was no Flatpak version (since Flatpaks are sandboxed). However, I figured this would make a good opportunity to learn sandboxing. Little did I know that this was going to be a headache.</p>
 <div id="simple-sandboxing" class="anchor"></div>
 <h1 class="relative group">Simple Sandboxing 
@@ -609,8 +611,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pipewire-0&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pipewire-0&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pulse&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pulse&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/bus&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/bus&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --tmpfs /tmp <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --dir /tmp <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-dir <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --dir <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.cache <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --bind <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.config/vivaldi <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.config/vivaldi <span class="se">\
@@ -648,8 +650,8 @@
 </span></span><span class="line"><span class="cl">  <span class="nb">export</span> <span class="nv">DBUS_SESSION_BUS_ADDRESS</span><span class="o">=</span><span class="s2">&#34;unix:path=</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/bus&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="k">fi</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">bwrap --bind / / --die-with-parent <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  env -i xdg-dbus-proxy <span class="se">\
+</span></span><span class="line"><span class="cl">bwrap --bind / / --die-with-parent --clear-env <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  xdg-dbus-proxy <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s2">&#34;</span><span class="nv">$DBUS_SESSION_BUS_ADDRESS</span><span class="s2">&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  <span class="s2">&#34;</span><span class="nv">$APP_FOLDER</span><span class="s2">/bus&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --filter <span class="se">\
@@ -685,9 +687,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pipewire-0&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pipewire-0&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pulse&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pulse&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind <span class="s2">&#34;</span><span class="nv">$APP_FOLDER</span><span class="s2">/bus&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/bus&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --bind-try <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --tmpfs /tmp <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --dir <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.cache <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --bind-try <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --dir /tmp <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/dconf&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --bind <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.config/vivaldi <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.config/vivaldi <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --bind <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/VivaldiDownloads <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/Downloads <span class="se">\
@@ -748,13 +749,18 @@
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --ro-bind-data <span class="m">3</span> <span class="s2">&#34;/.flatpak-info&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --die-with-parent <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --clear-env <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    -- <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    env -i xdg-dbus-proxy <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    xdg-dbus-proxy <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    <span class="s2">&#34;</span><span class="nv">$DBUS_SESSION_BUS_ADDRESS</span><span class="s2">&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    <span class="s2">&#34;</span><span class="nv">$APP_FOLDER</span><span class="s2">/bus&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --filter <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --log <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --talk<span class="o">=</span>org.freedesktop.portal.* <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --talk<span class="o">=</span><span class="s2">&#34;org.freedesktop.portal.Documents&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --talk<span class="o">=</span><span class="s2">&#34;org.freedesktop.portal.Flatpak&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --talk<span class="o">=</span><span class="s2">&#34;org.freedesktop.portal.Desktop&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --talk<span class="o">=</span><span class="s2">&#34;org.freedesktop.portal.Notifications&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>    --talk<span class="o">=</span><span class="s2">&#34;org.freedesktop.portal.FileChooser&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --call<span class="o">=</span><span class="s2">&#34;org.freedesktop.portal.Desktop=org.freedesktop.portal.Settings.Read@/org/freedesktop/portal/desktop&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --broadcast<span class="o">=</span><span class="s2">&#34;org.freedesktop.portal.Desktop=org.freedesktop.portal.Settings.SettingChanged@/org/freedesktop/portal/desktop&#34;</span> 3<span class="s">&lt;&lt;EOF
 </span></span></span><span class="line"><span class="cl"><span class="s">[Application]
@@ -767,7 +773,6 @@
 </span></span><span class="line"><span class="cl">bwrap <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --unshare-all <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --share-net <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --as-pid-1 <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --new-session <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --symlink /usr/lib /lib <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --symlink /usr/lib64 /lib64 <span class="se">\
@@ -791,10 +796,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --ro-bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pulse&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/pulse&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --bind <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/doc&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/doc&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --bind <span class="s2">&#34;</span><span class="nv">$APP_FOLDER</span><span class="s2">/bus&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/bus&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --bind-try <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC/org.keepassxc.KeePassXC.BrowserServer&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --tmpfs /tmp <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --dir <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --dir <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.cache <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --bind-try <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC&#34;</span> <span class="s2">&#34;</span><span class="nv">$XDG_RUNTIME_DIR</span><span class="s2">/app/org.keepassxc.KeePassXC&#34;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --dir /tmp <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --bind <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.config/vivaldi <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.config/vivaldi <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --bind <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/VivaldiDownloads <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/Downloads <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --ro-bind <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.icons <span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">&#34;</span>/.icons <span class="se">\
