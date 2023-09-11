@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 StandingPad&#39;s Corner</copyright>
-    <lastBuildDate>Sat, 26 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Happy Birthday to Me</title>
+      <link>https://standingpadanimations.github.io/posts/2023/09/birthday-render/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/2023/09/birthday-render/</guid>
+      <description>My birthday was 8 days ago, but sadly I couldn&amp;rsquo;t do some rendering on that day, so here&amp;rsquo;s a late birthday piece to me: Enjoy!</description>
+      
+    </item>
+    
     <item>
       <title>Sandboxing Native Programs with Bubblewrap</title>
       <link>https://standingpadanimations.github.io/posts/2023/08/sandboxing-time/</link>
