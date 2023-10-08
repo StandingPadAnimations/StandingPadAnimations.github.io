@@ -17,7 +17,7 @@ enableCodeCopy = false
 
 disableImageOptimization = true
 
-defaultBackgroundImage = "/img/home.png" # used as default for background images 
+defaultBackgroundImage = "/img/home.webp" # used as default for background images 
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
@@ -36,7 +36,7 @@ defaultBackgroundImage = "/img/home.png" # used as default for background images
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/home.png" # used in: hero, and card
+  homepageImage = "/img/home.webp" # used in: hero, and card
   showRecent = true
   showRecentItems = 10
   showMoreLink = true
