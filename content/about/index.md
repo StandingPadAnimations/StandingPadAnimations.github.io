@@ -35,20 +35,20 @@ showTableOfContents: true
 
 # Certifications
 - Revit Certified as of May 2023
-{{< figure default=true src="gallary/revit-badge.png" alt="Revit Certification Badge" link="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" width=25% height=auto >}}
+{{< figure default=true src="gallary/revit-badge.webp" alt="Revit Certification Badge" link="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" width=25% height=auto >}}
 
 # Here's some of my work 
 Click an image to expand
 {{< gallery >}}
-  <img src="gallery/archviz1.png"       class="grid-w33" />
-  <img src="gallery/archviz3.png"       class="grid-w33" />
-  <img src="gallery/scifi-fire.png"     class="grid-w33" />
-  <img src="gallery/birthday.png"       class="grid-w33" />
-  <img src="gallery/desert-fight.png"   class="grid-w33" />
-  <img src="gallery/archviz2.png"       class="grid-w33" />
-  <img src="gallery/archviz2.png"       class="grid-w33" />
-  <img src="gallery/forest.png"         class="grid-w33" />
-  <img src="gallery/new-years.png"      class="grid-w33" />
+  <img src="gallary/archviz1.webp"       class="grid-w33" />
+  <img src="gallary/archviz3.webp"       class="grid-w33" />
+  <img src="gallary/scifi-fire.webp"     class="grid-w33" />
+  <img src="gallary/birthday.webp"       class="grid-w33" />
+  <img src="gallary/desert-fight.webp"   class="grid-w33" />
+  <img src="gallary/archviz2.webp"       class="grid-w33" />
+  <img src="gallary/archviz2.webp"       class="grid-w33" />
+  <img src="gallary/forest.webp"         class="grid-w33" />
+  <img src="gallary/new-years.webp"      class="grid-w33" />
 {{< /gallery >}}
 
 # Contact
