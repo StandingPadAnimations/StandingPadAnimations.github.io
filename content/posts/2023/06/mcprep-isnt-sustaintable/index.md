@@ -10,7 +10,7 @@ tags:
 aliases:
   - /posts/mcprep-mi-exodus
 ---
-{{< image src="gallary/meme.png" alt="MCprep is turning 10 now. So we can chill right? blank stare. right?" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/meme.webp" alt="MCprep is turning 10 now. So we can chill right? blank stare. right?" position="center" style="border-radius: 8px;" >}}
 
 +Note: MCprep is turning 10 on October 28
 

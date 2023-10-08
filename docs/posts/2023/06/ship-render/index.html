@@ -576,7 +576,7 @@
         <div class="max-w-prose mb-20">
           <p>It&rsquo;s been a while since I&rsquo;ve render, so I made this cause why not.</p>
 
-    <img src="gallary/ship-render.png"  alt="A ship saling though an icy place at night"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/ship-render.webp"  alt="A ship saling though an icy place at night"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>There&rsquo;s some interesting things in it though, so let&rsquo;s get to those.</p>
@@ -591,28 +591,28 @@
 <p>For the clouds and aurora, I decided to use <a href="https://www.complementary.dev/reimagined/"   target="_blank">
     Complementary Reimagined</a> as my reference. What I like about Reimagined is that it sticks with the Minecraft style while enhancing it. So I opened a Minecraft world and took some screenshots:</p>
 <p>
-    <img src="gallary/cloud-reference.png"  alt="Cubic clouds that are slightly rounded"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/cloud-reference.webp"  alt="Cubic clouds that are slightly rounded"  class="center"  style="border-radius: 8px;"  />
 
 
 
-    <img src="gallary/aurora-reference.png"  alt="A cubic aurora"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/aurora-reference.webp"  alt="A cubic aurora"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>For the clouds, I just appended the MCprep cloud model from the sky files (looks like I need to add a &ldquo;just clouds&rdquo; option) and added a slight bevel. Then I replaced the material with a Principled Volume BSDF node.</p>
 
-    <img src="gallary/cloud-blender.png"  alt="Cubic clouds that are slightly rounded, but now it&#39;s darker"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/cloud-blender.webp"  alt="Cubic clouds that are slightly rounded, but now it&#39;s darker"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>I don&rsquo;t think I did proper justice to the original Reimagined clouds though. Looking closer at the Reimagined clouds, it seems to actually be a translucent mesh, but without checking the actual shader code, I can&rsquo;t confirm anything. Anyway it was time for me to move on to the aurora, and this was te hard bit. I had to somehow create a cube of tall cubes, and I figured I could do it with geometry nodes (why do I now sound like the Blender version of NileRed?).</p>
 <p>So, I created a curve object, and played around with some nodes, eventually getting this result:</p>
 
-    <img src="gallary/aurora-start.png"  alt="A curve of tall cubes"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/aurora-start.webp"  alt="A curve of tall cubes"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>Basically in the geometry nodes, I was turning the curve into a mesh, and then adding a point for every vertice. Then at each point, I added a very tall and skinny cube. Finally, I took all of the cubes, and shifted them up slightly. It wasn&rsquo;t perfect, but that&rsquo;s fine for this render.</p>
 <p>For the material, I just use gradient texture, manipulated it, and added some color, before putting that all into a Principled Volume BSDF node, and was left with the following result:</p>
 
-    <img src="gallary/aurora-blender.png"  alt="Cubic aurora now in Blender!"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/aurora-blender.webp"  alt="Cubic aurora now in Blender!"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>Now with those in place, I could move on to actually rendering.</p>
@@ -627,47 +627,47 @@
 <p>Just like the clouds and aurora, I wanted to have a water shader that merely acted as an enhancement of the existing Minecraft water. However unlike the previous section, I already had an existing water shader that I could use. This time though, instead of basing it off of Reimagined, I based it off of RTX Minecraft. While I prefer Java edition shaders over RTX Minecraft in most cases, I really liked how the water looked in RTX (<a href="https://www.youtube.com/watch?v=Ix7UuhYVLYA"   target="_blank">
     Screenshots from Nvidia</a>):</p>
 <p>
-    <img src="gallary/rtx-water-surface.png"  alt="Really fancy Minecraft water but it still looks like Minecraft water"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/rtx-water-surface.webp"  alt="Really fancy Minecraft water but it still looks like Minecraft water"  class="center"  style="border-radius: 8px;"  />
 
 
 
-    <img src="gallary/rtx-water-underwater_1.png"  alt="Underwater world"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/rtx-water-underwater_1.webp"  alt="Underwater world"  class="center"  style="border-radius: 8px;"  />
 
 
 
-    <img src="gallary/rtx-water-underwater_2.png"  alt="Another underwater world"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/rtx-water-underwater_2.webp"  alt="Another underwater world"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>Of course my recreation is very crude and really doesn&rsquo;t look nearly as good, but I think it looks pretty nice. Of course the scene being night doesn&rsquo;t really do proper justice, so I&rsquo;ve changed the sun position for these screenshots:</p>
 <p>
-    <img src="gallary/rtx-water-shader_1.png"  alt="My crude recreation of Nvidia&#39;s RTX Water"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/rtx-water-shader_1.webp"  alt="My crude recreation of Nvidia&#39;s RTX Water"  class="center"  style="border-radius: 8px;"  />
 
 
 
-    <img src="gallary/rtx-water-shader_2.png"  alt="My crude recreation of Nvidia&#39;s RTX Water but this time underwater"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/rtx-water-shader_2.webp"  alt="My crude recreation of Nvidia&#39;s RTX Water but this time underwater"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>With some work, I might be able to get it closer to the RTX style, but for now I&rsquo;m happy with how it looks. If you&rsquo;re interested in using it, I&rsquo;ve made it freely availible on my <a href="/resources"  >
     resources page</a>.</p>
 <p>&ldquo;So wait, what does the water shader look like?&rdquo;
 
-    <img src="gallary/rtx-water-nodegroup.png"  alt="The RTX water shader nodegroup"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/rtx-water-nodegroup.webp"  alt="The RTX water shader nodegroup"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>&ldquo;Doesn&rsquo;t look that ba- oh now I see&rdquo;
 
-    <img src="gallary/rtx-water-nodegroup-full.png"  alt="Inside the nodegroup"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/rtx-water-nodegroup-full.webp"  alt="Inside the nodegroup"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>I also took the time to edit it for ice, but I don&rsquo;t think it looks that good:
 
-    <img src="gallary/ice.png"  alt="Really bad ice shader"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/ice.webp"  alt="Really bad ice shader"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>Minecraft ice is a pretty difficult thing to make look good (beyond using MCprep&rsquo;s default material generation), and that&rsquo;s made harder with all of the water. Anyhow I just ignored it, and I think it looks fine from a distance.</p>
 <p>While this render is of course nowhere near as good as some of the other ones I&rsquo;ve made, I think it was a good test for Reimagined style auroras/clouds and RTX style water, and now I know where to move on with making look better (oh and a good refresher since I haven&rsquo;t used Blender in a while). For now though, I&rsquo;m a bit done with node stuff, and I think I know what I want to do next.</p>
 
-    <img src="gallary/next-idea.png"  alt="My next idea: Blobby and black holes"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/next-idea.webp"  alt="My next idea: Blobby and black holes"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>Until then, cya!</p>

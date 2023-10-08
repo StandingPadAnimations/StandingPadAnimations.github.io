@@ -79,7 +79,7 @@ See this function performs something that we're not supposed to be doing, but we
 But the issue extends beyond MCprep and into the addon updater, an updater that is used by many, many other Blender addons. Like MCprep, the addon updater also has the same function for backwards compatability, and when 2.93 hit, it too was affected. That means hundreds, if not thousands of Blender users were affected by this change, as well as developers, all because a small group of users are stubborn to upgrade to modern versions of Blender, but expect support for the addons they have.
 
 How small? Here's data from the last 90 days about showing the amount of users who have MCprep 3.4-3.4.2 installed:
-{{< image src="gallary/stats.png" alt="The amount of 2.7x users who have a modern version of MCprep" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/stats.webp" alt="The amount of 2.7x users who have a modern version of MCprep" position="center" style="border-radius: 8px;" >}}
 
 2% total, yikes. Sure it's still 354 installs, but compared to the 10,500+ downloads of MCprep, it's not worth supporting 2.7x still.
 

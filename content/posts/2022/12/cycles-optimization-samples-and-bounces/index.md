@@ -33,7 +33,7 @@ But when your scene doesn't allow for rays to converge easily, you need more sam
 
 Here's a totally amazing diagram explaining what I mean
 
-{{< image src="gallary/rays.png" alt="Rays bouncing around" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/rays.webp" alt="Rays bouncing around" position="center" style="border-radius: 8px;" >}}
 
 Here, we have a bunch of rays converging with the light source, but some also miss and go to the void.
 
@@ -59,7 +59,7 @@ We're not going to focus too much on this, since I think it's self explanatory
 `In general, caustics should be disabled unless you have a reason not to, and filter glossy shouldn't be too high (a value of 1 is good enough for most scenes)`
 
 Here's a diagram (where we have a max of 3 bounces)
-{{< image src="gallary/bounces.png" alt="Light bounces" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/bounces.webp" alt="Light bounces" position="center" style="border-radius: 8px;" >}}
 
 Note how the red ray bounces 3 times (which is the max), but the black ray only needs 2. Total light bounces is well, the total amount of light bounces a ray can take.
 

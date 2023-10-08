@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 StandingPad&#39;s Corner</copyright>
-    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Update! Images now load Faster!</title>
+      <link>https://standingpadanimations.github.io/posts/2023/10/website-update/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/posts/2023/10/website-update/</guid>
+      <description>After a lot of conversion and pain, all PNG images have been converted to WebPNGs.</description>
+      
+    </item>
+    
     <item>
       <title>MCprep 3.5 Release!</title>
       <link>https://standingpadanimations.github.io/posts/2023/09/mcprep-3.5-release/</link>
@@ -345,16 +355,6 @@
       
       <guid>https://standingpadanimations.github.io/lighting-guide/conclusion/</guid>
       <description>Concluding remarks</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://standingpadanimations.github.io/renders/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://standingpadanimations.github.io/renders/</guid>
-      <description> Here&amp;rsquo;s some of my work # </description>
       
     </item>
     

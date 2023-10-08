@@ -21,24 +21,24 @@ Just like the clouds and aurora, I wanted to have a water shader that merely act
 
 Well, I've been playing around on my laptop and I think I've gotten closer. I present to you, RTX Water Shader V2: Electric Booga- *slap*
 
-{{< image src="gallary/preview_1.png" alt="RTXish water shader" position="center" style="border-radius: 8px;" >}}
-{{< image src="gallary/preview_2.png" alt="RTXish water shader but closer up" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/preview_1.webp" alt="RTXish water shader" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/preview_2.webp" alt="RTXish water shader but closer up" position="center" style="border-radius: 8px;" >}}
 
 But before I release it, we got to talk about how we got here.
 
 # Looking at Screenshots for a little too long
 Yesterday when talking about my first attempt, I showed some screenshots of how water looks in RTX Minecraft.
 
-{{< image src="gallary/rtx-water-surface.png" alt="Really fancy Minecraft water but it still looks like Minecraft water" position="center" style="border-radius: 8px;" >}}
-{{< image src="gallary/rtx-water-underwater_1.png" alt="Underwater world" position="center" style="border-radius: 8px;" >}}
-{{< image src="gallary/rtx-water-underwater_2.png" alt="Another underwater world" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/rtx-water-surface.webp" alt="Really fancy Minecraft water but it still looks like Minecraft water" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/rtx-water-underwater_1.webp" alt="Underwater world" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/rtx-water-underwater_2.webp" alt="Another underwater world" position="center" style="border-radius: 8px;" >}}
 
 Let's disect this into 2 parts: surface and underwater rays
 
 ## Surface
 Let's take another look at the first screenshot:
 
-{{< image src="gallary/rtx-water-surface.png" alt="Really fancy Minecraft water but it still looks like Minecraft water" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/rtx-water-surface.webp" alt="Really fancy Minecraft water but it still looks like Minecraft water" position="center" style="border-radius: 8px;" >}}
 
 We see a couple of things:
 - The water is transparent when close to the camera, but reflective when farther away
@@ -47,7 +47,7 @@ We see a couple of things:
 
 So lets start with the water color:
 
-{{< image src="gallary/color.png" alt="Nodes to set the water color" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/color.webp" alt="Nodes to set the water color" position="center" style="border-radius: 8px;" >}}
 
 These 6 nodes will act as the basis for everything else. Now we need to emulate that "transparent up close, reflective far" effect".
 
@@ -67,20 +67,20 @@ Don't freak out when seeing \\(\theta\\), it's just the Greek letter Theta and i
 
 Fresnel occurs due to light hitting a surface at different angles. The following diagram from [Scratch a Pixel](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/reflection-refraction-fresnel.html) helps to illustrate:
 
-{{< image src="gallary/fresnel-diagram.png" alt="Diagram of the fresnel effect" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/fresnel-diagram.webp" alt="Diagram of the fresnel effect" position="center" style="border-radius: 8px;" >}}
 
 In light physics, when a ray hits a surface, it bounces back at the same angle that it was at before. For example, if  \\(\theta_i\\) is the angle of the incoming ray, and \\(\theta_r\\) is the angle of the reflected ray, then $$ \theta_i = \theta_r $$
 
 Alright this is fancy, but how does this tie in with water? We'll, it's a matter of perspective. From far away, the rays that that hit and are reflected are very steep, so it appears as glossy. Close up meanwhile, the angle isn't as steep, so it appears as transparent.
 
-{{< image src="gallary/fresnel.png" alt="Nodes for fresnel" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/fresnel.webp" alt="Nodes for fresnel" position="center" style="border-radius: 8px;" >}}
 
 I still need to fix the reflection and refraction of this water shader, but we've disected a lot so far. Now let's move on.
 
 ## Underwater Rays
 Let's look at the other screenshots:
-{{< image src="gallary/rtx-water-underwater_1.png" alt="Underwater world" position="center" style="border-radius: 8px;" >}}
-{{< image src="gallary/rtx-water-underwater_2.png" alt="Another underwater world" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/rtx-water-underwater_1.webp" alt="Underwater world" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/rtx-water-underwater_2.webp" alt="Another underwater world" position="center" style="border-radius: 8px;" >}}
 
 A big part of RTX water are the underwater rays. They inherit the color of the surface water, and they're also extremely powerful.
 
@@ -96,14 +96,14 @@ Note: The following is the reason why this water shader is Cycles only.
 
 The first step is to use volumetrics. The reason we have rays appear in the first place is because they're being scattered around by particles before eventually being completely absorbed by said particles. Without volumetrics, no rays will appear. We can do this by creating a cube, scale it so it's entirely underwater, and then set the material to Principled Volume BSDF with the Color set to pure white:
 
-{{< image src="gallary/volumetrics.png" alt="Volumetrics setup" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/volumetrics.webp" alt="Volumetrics setup" position="center" style="border-radius: 8px;" >}}
 
 Next we must create a texture that will allow us to let light pass through some areas (but not all). Since we want something Minecrafty, we can use a white noise texture (scaled down extremely) and clamp it to be purely black and white. To allow us to animate the texture, we set it to 4D and animate the W value. We can then apply our texture to the result, and then use that as the color for a Transparent BSDF node:
 
-{{< image src="gallary/ray-mask.png" alt="Nodes to drive ray creation" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/ray-mask.webp" alt="Nodes to drive ray creation" position="center" style="border-radius: 8px;" >}}
 
 To make this only affect shadows, we would normally use the Is Shadow Ray output of the Light path node, but I've combined a Is Diffuse Ray and Is Camera Ray to reduce how strong the light passing through is. In this case, we check to see if a diffuse ray is at max 0.1 before then letting it through. Afterwards, we use camera ray to make the surface not a weird combination of the mask and water surface.
 
-{{< image src="gallary/shadow-ray.png" alt="Shadow ray setup" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/shadow-ray.webp" alt="Shadow ray setup" position="center" style="border-radius: 8px;" >}}
 
 And that's really all there is to the water shader. I've went ahead and added it to my [resources page](/resources/#rtx-style-water-shader-v2) if you're interested in downloading this, and I'll cya later! 

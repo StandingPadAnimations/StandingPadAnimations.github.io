@@ -11,7 +11,7 @@ tags:
 
 I know I said I would post one final render on Instagram (and here) later last week, but some things came up, so here y'all go (also welcome if this is your first time on my website):
 
-{{< image src="gallary/GoodbyeInstagramWatermarked.png" alt="Render of Kaiyona and Blobby sitting in front of the camera" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/GoodbyeInstagramWatermarked.webp" alt="Render of Kaiyona and Blobby sitting in front of the camera" position="center" style="border-radius: 8px;" >}}
 
 Normally I'd go into the specifics on how I made it, but as I mentioned in the last post (see below), I don't have access to my files (long story, see below), so I can't take any screenshots to show what I've done.
 

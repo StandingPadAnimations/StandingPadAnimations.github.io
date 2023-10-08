@@ -604,7 +604,7 @@
         <div class="max-w-prose mb-20">
           <p>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</p>
 
-    <img src="gallary/bean-question.png"  alt="Buddy asking question"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/bean-question.webp"  alt="Buddy asking question"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>I try to avoid making certain settings seem &ldquo;magical&rdquo; because with all magic, there&rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&rsquo;all), one of these settings is known as</p>
@@ -623,20 +623,20 @@
 <p>&ldquo;Wait what?&rdquo;</p>
 <p>I was confused at first, so I asked on the Erindale.xyz server (basically a lot of Blender nerds). After some back and forth, I got the following response.</p>
 
-    <img src="gallary/jc-response.png"  alt="JC explaining what scrambling does"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/jc-response.webp"  alt="JC explaining what scrambling does"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>&ldquo;I still don&rsquo;t get it.&rdquo;</p>
 <p>Alright, let me make a diagram. Here&rsquo;s with a scrambling distance of 1.</p>
 
-    <img src="gallary/random-pixels.png"  alt="Pixels with random values"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/random-pixels.webp"  alt="Pixels with random values"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>Here, each pixel have a randomized value+ and Cycles uses that to further randomize the samples that it spews into the scene (remember, samples are on a per pixel basis)</p>
 <p><code>+ This should be more randomized, but it's a quick sketch</code></p>
 <p>Now here&rsquo;s with a scrambling distance of 0.
 
-    <img src="gallary/uniform-pixels.png"  alt="Pixels with uniform values"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/uniform-pixels.webp"  alt="Pixels with uniform values"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>The higher the scrambling distance, the more randomized these values are.</p>
@@ -663,7 +663,7 @@
 <p>Presumably it has something to do with VRAM, but I can&rsquo;t be exactly sure. My best guess from past experiance is that rendering is faster with more complex geometry, but I can&rsquo;t be exactly sure.</p>
 <p>So what are some possible artifacts? Well JC has an example.
 
-    <img src="gallary/artifacts.png"  alt="Artifacts caused by an extremely low scrambling distance"  class="center"  style="border-radius: 8px;"  />
+    <img src="gallary/artifacts.webp"  alt="Artifacts caused by an extremely low scrambling distance"  class="center"  style="border-radius: 8px;"  />
 
 </p>
 <p>Yikes, why does this happen?</p>

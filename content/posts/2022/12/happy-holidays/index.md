@@ -14,7 +14,7 @@ Happy holidays everyone! Sorry I couldn't post yesterday (it was my dad's birthd
 
 Of course, I myself don't celebrate Christmas (cultural reasons) so I'm just waiting for New Years. I've been working on a New Years render, so here's a WIP
 
-{{< image src="gallary/wip-1.png" alt="WIP of a new years render I've been working on" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/wip-1.webp" alt="WIP of a new years render I've been working on" position="center" style="border-radius: 8px;" >}}
 
 It's also the second week of winter break for me, which means in about a week I'll have to return back to doing IRL stuff. Not sure how I'll continue writing, but I'll figure it out eventually.
 

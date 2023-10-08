@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 StandingPad&#39;s Corner</copyright>
-    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website</title>
+      <link>https://standingpadanimations.github.io/tags/website/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://standingpadanimations.github.io/tags/website/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Blender</title>
       <link>https://standingpadanimations.github.io/tags/blender/</link>
@@ -54,16 +64,6 @@
       <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://standingpadanimations.github.io/tags/tech/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Website</title>
-      <link>https://standingpadanimations.github.io/tags/website/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://standingpadanimations.github.io/tags/website/</guid>
       <description></description>
       
     </item>
