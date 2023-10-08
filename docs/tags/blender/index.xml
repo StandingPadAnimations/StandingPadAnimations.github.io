@@ -45,7 +45,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/rtx-water-shader-2/</guid>
       <description>EDIT 6/22/2023: I&amp;rsquo;ve changed the caustics to use Diffuse Ray &amp;amp; Camera Ray instead of Shadow Ray and edited the post accordingly.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/06/rtx-water-shader-2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/06/rtx-water-shader-2/featured.webp" />
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/06/ship-render/</guid>
       <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve render, so I made this cause why not.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/06/ship-render/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/06/ship-render/featured.webp" />
     </item>
     
     <item>
@@ -85,7 +85,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/</guid>
       <description>As the MCprep 3.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/featured.webp" />
     </item>
     
     <item>
@@ -95,7 +95,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/</guid>
       <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/featured.webp" />
     </item>
     
     <item>
@@ -105,7 +105,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/</guid>
       <description>Yes guys, I&amp;rsquo;m back.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/featured.webp" />
     </item>
     
     <item>
@@ -125,7 +125,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/new-years-2023/</guid>
       <description>It&amp;rsquo;s now New Year&amp;rsquo;s Eve, so I made a new years render: This is perhaps the most complicated render I have done to date.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/new-years-2023/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/new-years-2023/featured.webp" />
     </item>
     
     <item>
@@ -135,7 +135,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/</guid>
       <description>I recently had the motivation to make the following render</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/featured.webp" />
     </item>
     
     <item>
@@ -145,7 +145,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</guid>
       <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/featured.webp" />
     </item>
     
     <item>
@@ -155,7 +155,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/</guid>
       <description>Introduction # We know Cycles is a pain in the butt to render.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/featured.webp" />
     </item>
     
   </channel>

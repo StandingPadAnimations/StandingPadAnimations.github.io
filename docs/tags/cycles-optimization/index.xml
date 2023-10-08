@@ -15,7 +15,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</guid>
       <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/featured.webp" />
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       
       <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/</guid>
       <description>Introduction # We know Cycles is a pain in the butt to render.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/featured.webp" />
     </item>
     
   </channel>
