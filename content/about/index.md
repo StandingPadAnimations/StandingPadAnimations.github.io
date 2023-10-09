@@ -5,7 +5,7 @@ showRelatedContent: false
 showAuthor: false
 showTable0fContents: true
 ---
-
+<link rel="stylesheet" href="overrides.css">
 - 3D Artist with 3+ years of Blender experience
 
 *Click an image to expand*
