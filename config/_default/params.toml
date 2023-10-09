@@ -32,7 +32,7 @@ defaultBackgroundImage = "/img/home.webp" # used as default for background image
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
-  showScrollToTop = true
+  showScrollToTop = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
