@@ -30,7 +30,7 @@ showTable0fContents: true
 
 
 - Certified Revit User
-{{< figure default=true src="gallary/revit-badge.webp" alt="Revit Certification Badge" link="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" width=25% height=auto >}}
+{{< figure default=true src="gallary/revit-badge.webp" alt="Revit Certification Badge" link="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" width=20% height=auto >}}
 
 # Previous Work
 - Release splash for MCprep 3.5
