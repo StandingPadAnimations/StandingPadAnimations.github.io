@@ -3,13 +3,40 @@ title: About Me
 showDate: false
 showRelatedContent: false
 showAuthor: false
-showTableOfContents: true
+showTable0fContents: true
 ---
 
 - 3D Artist with 3+ years of Blender experience
-- Certified Revit User
 
-- Developer, knowing:
+*Click an image to expand*
+{{< gallery >}}
+  <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/archviz3.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/scifi-fire.webp"     class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/birthday.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/desert-fight.webp"   class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/archviz2.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/archviz2.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/forest.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/new-years.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/birthday-2.webp"     class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/microdetailing.webp" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/bored-again.webp"    class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/bedtime.webp"        class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/some-practice.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/waters.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" />
+{{< /gallery >}}
+
+
+- Certified Revit User
+{{< figure default=true src="gallary/revit-badge.webp" alt="Revit Certification Badge" link="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" width=25% height=auto >}}
+
+# Previous Work
+- Release splash for MCprep 3.5
+{{< image src="gallary/mcprep-splash.webp" alt="MCprep 3.5 splash screen" position="center" style="border-radius: 8px;" >}}
+
+- Developer, primarily with:
     - Python
     - C++
     - Rust
@@ -32,24 +59,6 @@ showTableOfContents: true
 - Experience creating toy languages.
 {{< github repo="StandingPadAnimations/Rendor" >}}
 {{< github repo="StandingPadAnimations/Enderknight-Programming-Language" >}}
-
-# Certifications
-- Revit Certified as of May 2023
-{{< figure default=true src="gallary/revit-badge.webp" alt="Revit Certification Badge" link="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" width=25% height=auto >}}
-
-# Here's some of my work 
-Click an image to expand
-{{< gallery >}}
-  <img src="gallary/archviz1.webp"       class="grid-w33" />
-  <img src="gallary/archviz3.webp"       class="grid-w33" />
-  <img src="gallary/scifi-fire.webp"     class="grid-w33" />
-  <img src="gallary/birthday.webp"       class="grid-w33" />
-  <img src="gallary/desert-fight.webp"   class="grid-w33" />
-  <img src="gallary/archviz2.webp"       class="grid-w33" />
-  <img src="gallary/archviz2.webp"       class="grid-w33" />
-  <img src="gallary/forest.webp"         class="grid-w33" />
-  <img src="gallary/new-years.webp"      class="grid-w33" />
-{{< /gallery >}}
 
 # Contact
 Interested? Contact me at [standingscorner@proton.me](mailto:standingscorner@proton.me)
