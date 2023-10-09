@@ -17,7 +17,6 @@ showTable0fContents: true
   <img src="gallary/birthday.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/desert-fight.webp"   class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/archviz2.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="gallary/archviz2.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/forest.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/new-years.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/birthday-2.webp"     class="grid-w50 md:grid-w33 xl:grid-w25" />
