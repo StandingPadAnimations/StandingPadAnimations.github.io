@@ -7,8 +7,16 @@ showTable0fContents: true
 ---
 <link rel="stylesheet" href="overrides.css">
 
-- 3D Artist with 3+ years of Blender experience
+{{< figure src="gallary/me.jpg" alt="Myself" class="my-photo" caption="Mahid Sheikh" >}}
 
+- 3D Artist with 3+ years of Blender experience 
+
+{{< figure src="gallary/revit-badge.webp" alt="Revit Certification Badge" caption="I am certified in Revit" href="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" class="revit-badge" nozoom=true >}}
+
+# Previous Work
+{{< figure src="gallary/mcprep-splash.webp" alt="MCprep 3.5 splash screen" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
+
+## Work I've done in My Spare Time
 *Click an image to expand*
 {{< gallery >}}
   <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -28,37 +36,30 @@ showTable0fContents: true
   <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
 
-
-- Certified Revit User
-{{< figure default=true src="gallary/revit-badge.webp" alt="Revit Certification Badge" link="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" width=20% height=auto >}}
-
-# Previous Work
-- Release splash for MCprep 3.5
-{{< image src="gallary/mcprep-splash.webp" alt="MCprep 3.5 splash screen" position="center" style="border-radius: 8px;" >}}
-
-- Developer, primarily with:
+# Development Experience
+- Primary Languages:
     - Python
     - C++
     - Rust
-    - Haskell
 - with experience using:
+    - Haskell
     - Go
     - Lua
     - Bash
 
-# Development Experience
+## Past and Present Work
 - Maintainer for the MCprep addon, a Blender addon that speeds up the workflow of Minecraft animators by providings tools such as material generation, importing premade rigs, creating automatic weather effects, and more, all with the click of a button.
-{{< github repo="TheDuckCow/MCprep" >}}
+    - {{< github repo="Moo-Ack-Productions/MCprep" >}}
 
 - Project Lead for Resurgence Virtual Machine development, a project that aims to create an easy to implement specification and reference implementation for a virtual machine architecture based on real world computers.
-{{< github repo="Resurgence-VM-Development/Resurgence" >}}
+    - {{< github repo="Resurgence-VM-Development/Resurgence" >}}
 
 - Creator of `bpy-addon-build` (also known as `bpy-build`), a program that aims to streamline the process of building Blender addons and automatically installing them to the targeted Blender versions, allowing developers to perform less mundane tasks and more development.
-{{< github repo="Moo-Ack-Productions/bpy-build" >}}
+    - {{< github repo="Moo-Ack-Productions/bpy-build" >}}
 
 - Experience creating toy languages.
-{{< github repo="StandingPadAnimations/Rendor" >}}
-{{< github repo="StandingPadAnimations/Enderknight-Programming-Language" >}}
+    - {{< github repo="StandingPadAnimations/Rendor" >}}
+    - {{< github repo="StandingPadAnimations/Enderknight-Programming-Language" >}}
 
 # Contact
 Interested? Contact me at [standingscorner@proton.me](mailto:standingscorner@proton.me)
