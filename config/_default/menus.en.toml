@@ -12,24 +12,23 @@
 
 [[main]]
   name = "Blog"
-  pageRef = "posts"
+  url = "posts"
   weight = 10
 
 [[main]]
   name = "About"
-  pageRef = "about"
+  url = "about"
   weight = 20
 
 [[main]]
   name = "Resources"
-  pageRef = "resources"
+  url = "resources"
   weight = 20
 
 [[main]]
   name = "Twitter Archive"
-  pageRef = "tweets"
+  url = "twitter"
   weight = 20
-
 
 #[[main]]
 #  name = "example sub-menu 2"
