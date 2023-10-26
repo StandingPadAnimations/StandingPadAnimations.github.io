@@ -12,22 +12,22 @@
 
 [[main]]
   name = "Blog"
-  url = "posts"
+  url = "/posts"
   weight = 10
 
 [[main]]
   name = "About"
-  url = "about"
+  url = "/about"
   weight = 20
 
 [[main]]
   name = "Resources"
-  url = "resources"
+  url = "/resources"
   weight = 20
 
 [[main]]
   name = "Twitter Archive"
-  url = "twitter"
+  url = "/twitter"
   weight = 20
 
 #[[main]]
