@@ -25,6 +25,12 @@
   pageRef = "resources"
   weight = 20
 
+[[main]]
+  name = "Twitter Archive"
+  pageRef = "tweets"
+  weight = 20
+
+
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"

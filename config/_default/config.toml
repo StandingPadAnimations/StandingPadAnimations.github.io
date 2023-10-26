@@ -15,8 +15,6 @@ summaryLength = 0
 buildDrafts = false
 buildFuture = false
 
-ignoreFiles = ["tweets/*"]
-
 [imaging]
   anchor = 'Top'
 
