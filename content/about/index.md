@@ -62,4 +62,4 @@ showTable0fContents: true
     - {{< github repo="StandingPadAnimations/Enderknight-Programming-Language" >}}
 
 # Contact
-Interested? Contact me at [standingscorner@proton.me](mailto:standingscorner@proton.me)
+Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.org)
