@@ -2,160 +2,160 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blender on StandingPad&#39;s Corner</title>
-    <link>https://standingpadanimations.github.io/tags/blender/</link>
+    <link>https://www.standingpad.org/tags/blender/</link>
     <description>Recent content in Blender on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 StandingPad&#39;s Corner</copyright>
-    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.standingpad.org/tags/blender/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MCprep 3.5 Release!</title>
-      <link>https://standingpadanimations.github.io/posts/2023/09/mcprep-3.5-release/</link>
+      <link>https://www.standingpad.org/posts/2023/09/mcprep-3.5-release/</link>
       <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/09/mcprep-3.5-release/</guid>
+      <guid>https://www.standingpad.org/posts/2023/09/mcprep-3.5-release/</guid>
       <description>MCprep 3.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/09/mcprep-3.5-release/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2023/09/mcprep-3.5-release/featured.webp" />
     </item>
     
     <item>
       <title>Happy Birthday to Me</title>
-      <link>https://standingpadanimations.github.io/posts/2023/09/birthday-render/</link>
+      <link>https://www.standingpad.org/posts/2023/09/birthday-render/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/09/birthday-render/</guid>
+      <guid>https://www.standingpad.org/posts/2023/09/birthday-render/</guid>
       <description>My birthday was 8 days ago, but sadly I couldn&amp;rsquo;t do some rendering on that day, so here&amp;rsquo;s a late birthday piece to me: Enjoy!</description>
       
     </item>
     
     <item>
       <title>Cya Instagram</title>
-      <link>https://standingpadanimations.github.io/posts/2023/07/cya-instagram-render/</link>
+      <link>https://www.standingpad.org/posts/2023/07/cya-instagram-render/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/07/cya-instagram-render/</guid>
+      <guid>https://www.standingpad.org/posts/2023/07/cya-instagram-render/</guid>
       <description>I know I said I would post one final render on Instagram (and here) later last week, but some things came up, so here y&amp;rsquo;all go (also welcome if this is your first time on my website):</description>
       
     </item>
     
     <item>
       <title>Attempt 2 at making an RTX water shader</title>
-      <link>https://standingpadanimations.github.io/posts/2023/06/rtx-water-shader-2/</link>
+      <link>https://www.standingpad.org/posts/2023/06/rtx-water-shader-2/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/06/rtx-water-shader-2/</guid>
+      <guid>https://www.standingpad.org/posts/2023/06/rtx-water-shader-2/</guid>
       <description>EDIT 6/22/2023: I&amp;rsquo;ve changed the caustics to use Diffuse Ray &amp;amp; Camera Ray instead of Shadow Ray and edited the post accordingly.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/06/rtx-water-shader-2/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2023/06/rtx-water-shader-2/featured.webp" />
     </item>
     
     <item>
       <title>Ship Render</title>
-      <link>https://standingpadanimations.github.io/posts/2023/06/ship-render/</link>
+      <link>https://www.standingpad.org/posts/2023/06/ship-render/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/06/ship-render/</guid>
+      <guid>https://www.standingpad.org/posts/2023/06/ship-render/</guid>
       <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve render, so I made this cause why not.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/06/ship-render/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2023/06/ship-render/featured.webp" />
     </item>
     
     <item>
       <title>MCprep Development Isn&#39;t Sustainable</title>
-      <link>https://standingpadanimations.github.io/posts/2023/06/mcprep-isnt-sustaintable/</link>
+      <link>https://www.standingpad.org/posts/2023/06/mcprep-isnt-sustaintable/</link>
       <pubDate>Tue, 13 Jun 2023 00:01:33 -0500</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/06/mcprep-isnt-sustaintable/</guid>
+      <guid>https://www.standingpad.org/posts/2023/06/mcprep-isnt-sustaintable/</guid>
       <description>+Note: MCprep is turning 10 on October 28</description>
       
     </item>
     
     <item>
       <title>Prepping Api Cleared! Now What?</title>
-      <link>https://standingpadanimations.github.io/posts/2023/05/prepping-api-cleared-now-what/</link>
+      <link>https://www.standingpad.org/posts/2023/05/prepping-api-cleared-now-what/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/05/prepping-api-cleared-now-what/</guid>
+      <guid>https://www.standingpad.org/posts/2023/05/prepping-api-cleared-now-what/</guid>
       <description>Update # I have closed the Prepping API proposal with the following:</description>
       
     </item>
     
     <item>
       <title>Problems of MCprep Development</title>
-      <link>https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/</link>
+      <link>https://www.standingpad.org/posts/2023/03/problems-of-mcprep-development/</link>
       <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/</guid>
+      <guid>https://www.standingpad.org/posts/2023/03/problems-of-mcprep-development/</guid>
       <description>As the MCprep 3.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/03/problems-of-mcprep-development/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2023/03/problems-of-mcprep-development/featured.webp" />
     </item>
     
     <item>
       <title>MCprep Progress</title>
-      <link>https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/</link>
+      <link>https://www.standingpad.org/posts/2023/02/mcprep-progress/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/</guid>
+      <guid>https://www.standingpad.org/posts/2023/02/mcprep-progress/</guid>
       <description>UPDATE: As of March 11th, 2023, most of these are now confirmed for the 3.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/mcprep-progress/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2023/02/mcprep-progress/featured.webp" />
     </item>
     
     <item>
       <title>How I did It: Calm After the Storm</title>
-      <link>https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/</link>
+      <link>https://www.standingpad.org/posts/2023/02/calm-after-storm-render/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/</guid>
+      <guid>https://www.standingpad.org/posts/2023/02/calm-after-storm-render/</guid>
       <description>Yes guys, I&amp;rsquo;m back.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2023/02/calm-after-storm-render/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2023/02/calm-after-storm-render/featured.webp" />
     </item>
     
     <item>
       <title>Hot Take: We&#39;re Teaching People to Treat Help Channels like Google</title>
-      <link>https://standingpadanimations.github.io/posts/2023/01/treating-help-channels-like-google/</link>
+      <link>https://www.standingpad.org/posts/2023/01/treating-help-channels-like-google/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/01/treating-help-channels-like-google/</guid>
+      <guid>https://www.standingpad.org/posts/2023/01/treating-help-channels-like-google/</guid>
       <description>Anyone who&amp;rsquo;s spent a good amount of time in a help channel on a Minecraft animation server can related to this; you go on help and support, and see the following:</description>
       
     </item>
     
     <item>
       <title>How I Did It: 2023 New Year&#39;s Render</title>
-      <link>https://standingpadanimations.github.io/posts/2022/12/new-years-2023/</link>
+      <link>https://www.standingpad.org/posts/2022/12/new-years-2023/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 -0600</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2022/12/new-years-2023/</guid>
+      <guid>https://www.standingpad.org/posts/2022/12/new-years-2023/</guid>
       <description>It&amp;rsquo;s now New Year&amp;rsquo;s Eve, so I made a new years render: This is perhaps the most complicated render I have done to date.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/new-years-2023/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2022/12/new-years-2023/featured.webp" />
     </item>
     
     <item>
       <title>How I Did It: Hacking Holograms Render</title>
-      <link>https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/</link>
+      <link>https://www.standingpad.org/posts/2022/12/hacking-holograms-render/</link>
       <pubDate>Thu, 22 Dec 2022 16:16:09 -0600</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/</guid>
+      <guid>https://www.standingpad.org/posts/2022/12/hacking-holograms-render/</guid>
       <description>I recently had the motivation to make the following render</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/hacking-holograms-render/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2022/12/hacking-holograms-render/featured.webp" />
     </item>
     
     <item>
       <title>Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs</title>
-      <link>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</link>
+      <link>https://www.standingpad.org/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</guid>
+      <guid>https://www.standingpad.org/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</guid>
       <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-automatic-scrambling-distance/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2022/12/cycles-optimization-automatic-scrambling-distance/featured.webp" />
     </item>
     
     <item>
       <title>Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy</title>
-      <link>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/</link>
+      <link>https://www.standingpad.org/posts/2022/12/cycles-optimization-samples-and-bounces/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/</guid>
+      <guid>https://www.standingpad.org/posts/2022/12/cycles-optimization-samples-and-bounces/</guid>
       <description>Introduction # We know Cycles is a pain in the butt to render.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://standingpadanimations.github.io/posts/2022/12/cycles-optimization-samples-and-bounces/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2022/12/cycles-optimization-samples-and-bounces/featured.webp" />
     </item>
     
   </channel>

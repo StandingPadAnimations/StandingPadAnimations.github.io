@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Discord on StandingPad&#39;s Corner</title>
-    <link>https://standingpadanimations.github.io/tags/discord/</link>
+    <link>https://www.standingpad.org/tags/discord/</link>
     <description>Recent content in Discord on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 StandingPad&#39;s Corner</copyright>
-    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://standingpadanimations.github.io/tags/discord/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.standingpad.org/tags/discord/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EndorCore Is Shutting Down</title>
-      <link>https://standingpadanimations.github.io/posts/2023/02/endorcore-shutdown/</link>
+      <link>https://www.standingpad.org/posts/2023/02/endorcore-shutdown/</link>
       <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://standingpadanimations.github.io/posts/2023/02/endorcore-shutdown/</guid>
+      <guid>https://www.standingpad.org/posts/2023/02/endorcore-shutdown/</guid>
       <description>On Feburary 11th I&amp;rsquo;ll be shutting my Discord bot EndorCore down.</description>
       
     </item>

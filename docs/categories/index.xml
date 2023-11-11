@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on StandingPad&#39;s Corner</title>
-    <link>https://standingpadanimations.github.io/categories/</link>
+    <link>https://www.standingpad.org/categories/</link>
     <description>Recent content in Categories on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 StandingPad&#39;s Corner</copyright>
-    <atom:link href="https://standingpadanimations.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.standingpad.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
