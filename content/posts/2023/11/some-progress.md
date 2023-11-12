@@ -25,7 +25,7 @@ Mastodon Post Caption: I'm going to start working on a render for new years (2 m
 </noscript>
 {{< /rawhtml >}}
 
-Yeah, I'm doing this all on a laptop, so I need the extra time. That being said, I've gotten a good amount of stuff done so far.
+Yeah, I'm doing this all on a laptop, so I need the extra time. That being said, I've gotten a good amount of stuff done so far. In fact, I've changed the background of this website to be one of the viewport WIPs!
 {{< rawhtml >}}
 <iframe src="https://mastodon.art/@standingpad/111396104549605759/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="600" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.art/embed.js" async="async"></script>
 <noscript>
