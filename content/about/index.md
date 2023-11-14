@@ -20,6 +20,7 @@ showTable0fContents: true
 *Click an image to expand*
 {{< gallery >}}
   <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/EP-04-10-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/archviz3.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/scifi-fire.webp"     class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/birthday.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />

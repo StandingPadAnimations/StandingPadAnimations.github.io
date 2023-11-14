@@ -8,6 +8,14 @@
     height: auto;
 }
 
+@media only screen and (max-width: 600px) {
+    .my-photo {
+        border-radius: 8px; 
+        width: 80%;
+        height: auto;
+    }
+}
+
 .revit-badge {
     width: 20%;
     height: auto;
