@@ -9,7 +9,7 @@ showTable0fContents: true
 
 {{< figure src="gallary/me.jpg" alt="Myself" class="my-photo" caption="Mahid Sheikh" >}}
 
-- 3D Artist with 3+ years of Blender experience 
+- Pakistni-American 3D Artist with 3+ years of Blender experience 
 
 {{< figure src="gallary/revit-badge.webp" alt="Revit Certification Badge" caption="I am certified in Revit" href="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" class="revit-badge" nozoom=true >}}
 
@@ -63,3 +63,5 @@ showTable0fContents: true
 
 # Contact
 Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.org)
+
+*Unsoliciated advertisements will result in me blocking your email address, so please ___do not send me advertisements though email___*
