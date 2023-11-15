@@ -242,6 +242,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.standingpad.org/email-shame-list/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.standingpad.org/resources/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
