@@ -30,6 +30,11 @@
   url = "/twitter"
   weight = 20
 
+[[main]]
+  name = "Email Blocklist"
+  url = "/email-shame-list"
+  weight = 30
+
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"
