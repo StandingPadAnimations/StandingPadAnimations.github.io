@@ -1,5 +1,5 @@
 ---
-title: Emails That have done Shameful Behavior
+title: Emails that have done Shameful Behavior
 showDate: false
 showRelatedContent: false
 showAuthor: false
