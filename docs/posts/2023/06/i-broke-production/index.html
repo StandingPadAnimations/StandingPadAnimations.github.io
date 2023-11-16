@@ -197,33 +197,58 @@
 
 
             
-            
-  <a href="/resources"  class="flex items-center">
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
-        Resources
-    </p>
-</a>
+    <a  href="/resources"   class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
+      Resources
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
 
 
-            
-            
-  <a href="/twitter"  class="flex items-center">
-    
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
-        Twitter Archive
-    </p>
-</a>
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/twitter"  class="flex items-center">
+          
+          <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="">
+            Twitter Archive
+          </p>
+        </a>
+        
+        <a href="/email-shame-list"  class="flex items-center">
+          
+          <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="">
+            Email Blocklist
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
-
-            
-            
-  <a href="/email-shame-list"  class="flex items-center">
-    
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
-        Email Blocklist
-    </p>
-</a>
 
 
             
@@ -388,43 +413,56 @@
 
                     
 
-                    
+                     
   <li class="mt-1">
-    <a href="/resources"  class="flex items-center">
+    <a class="flex items-center">
         
         <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
             Resources
         </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
     </a>
 </li>
 
-
-
-                    
-
-                    
-  <li class="mt-1">
+<li class="mt-1">
     <a href="/twitter"  class="flex items-center">
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+        <p class="text-sm font-small text-gray-500 hover:text-gray-900" title="">
             Twitter Archive
         </p>
     </a>
 </li>
 
-
-
-                    
-
-                    
-  <li class="mt-1">
+<li class="mt-1">
     <a href="/email-shame-list"  class="flex items-center">
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+        <p class="text-sm font-small text-gray-500 hover:text-gray-900" title="">
             Email Blocklist
         </p>
     </a>
 </li>
+
+<li class="mb-2"></li>
 
 
 
@@ -617,11 +655,11 @@
           <p>This just happened about an hour ago as I write this. So I&rsquo;m just chilling when I get a GitHub notification email. Normally these aren&rsquo;t a bug deal, but <a href="https://github.com/TheDuckCow/MCprep/pull/422#issuecomment-1606525786"   target="_blank">
     this one</a> was a bug deal:</p>
 <blockquote>
-<div id="typeit-0-1700067078922661961"></div>
+<div id="typeit-0-1700154194289701555"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-0-1700067078922661961", {
+      new TypeIt("#typeit-0-1700154194289701555", {
         strings: ["","\"Don't know what just happened, but running my compile.sh script on dev somehow deleted all addons ... I think across all versions of blender for me, which was a real pain. But that was on dev [EDIT: that was a lie, I realize I'm check'd out with znight's annotate-documment branch). Are you aware of anything that got pushed to dev that would have changed the compile or clean scripts?\"","- TheDuckCow",""],
         speed:  20 ,
         lifeLike:  false ,
@@ -638,11 +676,11 @@
 <p>Initially it was thought to be a issue on <code>dev</code>, but it turned out to be an issue on <code>milestone-3-5-0</code>. I remembered <a href="https://github.com/TheDuckCow/MCprep/commit/eccda95b80ae0a6445015dd0d6743111992bb3da"   target="_blank">
     this commit</a> I made earlier this year, specifically the following section:</p>
 <blockquote>
-<div id="typeit-1-1700067078922766452"></div>
+<div id="typeit-1-1700154194289859285"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-1-1700067078922766452", {
+      new TypeIt("#typeit-1-1700154194289859285", {
         strings: ["","\"SC2115 is due to an `rm -rf \"$i/$NAME/\" statement, which if the variable","is not set or null, a person's system can be massively messed up.\"","- Me when making commit eccda95",""],
         speed:  20 ,
         lifeLike:  false ,
