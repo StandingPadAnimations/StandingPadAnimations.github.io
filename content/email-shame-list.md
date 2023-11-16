@@ -26,10 +26,10 @@ George.Harrison88@hotmail.com
 # Web Designers
 These are people who emailed me with web design offers. If you're a web designer, don't email me, I'm not interested.
 
-"But I know Wordpress" - This website doesn't use Wordpress
-"But SEO" - I actually care about my content
-"I know JS" - You mean using JavaScript frameworks that add gigabytes of bloat?
-"I can improve your website" - You mean bog it down with the latest and most buggy JavaScript frameworks that fit the latest trends?
+"But I know Wordpress" - This website doesn't use Wordpress \
+"But SEO" - I actually care about my content \
+"I know JS" - You mean using JavaScript frameworks that add gigabytes of bloat? \
+"I can improve your website" - You mean bog it down with the latest and most buggy JavaScript frameworks that fit the latest trends? \
 
 Just shut up, I'm not interested.
 ```
