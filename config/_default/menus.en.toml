@@ -27,11 +27,13 @@
 
 [[main]]
   name = "Twitter Archive"
+  parent = "Resources"
   url = "/twitter"
   weight = 20
 
 [[main]]
   name = "Email Blocklist"
+  parent = "Resources"
   url = "/email-shame-list"
   weight = 30
 
