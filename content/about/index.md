@@ -1,5 +1,8 @@
 ---
 title: About Me
+description: About StandingPad, also known as Mahid Sheikh; 3D artist and MCprep developer
+images: 
+- gallary/me.jpg
 showDate: false
 showRelatedContent: false
 showAuthor: false
