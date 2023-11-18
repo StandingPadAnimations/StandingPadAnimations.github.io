@@ -21,6 +21,7 @@ vinaytiwariofficial3@gmail.com
 munasingh24@outlook.com
 evalong1990@gmail.com
 George.Harrison88@hotmail.com
+DavidTucker915P@hotmail.com
 ```
 
 # App Developers
@@ -48,4 +49,5 @@ vinaytiwariofficial3@gmail.com
 munasingh24@outlook.com
 evalong1990@gmail.com
 George.Harrison88@hotmail.com
+DavidTucker915P@hotmail.com
 ```
