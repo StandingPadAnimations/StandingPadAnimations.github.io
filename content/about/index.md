@@ -2,7 +2,7 @@
 title: About Me
 description: About StandingPad, also known as Mahid Sheikh; 3D artist and MCprep developer
 images: 
-- gallary/me.jpg
+- /imgs/WebsiteBanner.jpg
 showDate: false
 showRelatedContent: false
 showAuthor: false
@@ -10,11 +10,24 @@ showTable0fContents: true
 ---
 <link rel="stylesheet" href="overrides.css">
 
-{{< figure src="gallary/me.jpg" alt="Myself" class="my-photo" caption="Mahid Sheikh" >}}
+{{< figure src="gallary/me/main.jpg" alt="Myself" class="my-photo" caption="Mahid Sheikh" >}}
 
-- Pakistani-American 3D Artist with 3+ years of Blender experience 
+- 3D Artist with 3+ years of Blender experience 
 
 {{< figure src="gallary/revit-badge.webp" alt="Revit Certification Badge" caption="I am certified in Revit" href="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" class="revit-badge" nozoom=true >}}
+
+# Some More Stuff on Me
+{{< gallery >}}
+  <img src="gallary/me/20220305_142442.jpg"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/20221002_200050.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/20221103_194741.jpg"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/20230129_180613.jpg"     class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/20230506_152119.jpg"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/old-main.jpg"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+{{< /gallery >}}
+
+- Pakistani-American in Texas
+- Ahmadi Muslim (
 
 # Previous Work
 {{< figure src="gallary/mcprep-splash.webp" alt="MCprep 3.5 splash screen" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
@@ -38,6 +51,8 @@ showTable0fContents: true
   <img src="gallary/some-practice.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/waters.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/warden-dress.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" />
+
 {{< /gallery >}}
 
 # Development Experience
