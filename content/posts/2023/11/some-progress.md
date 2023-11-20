@@ -22,6 +22,8 @@ I've began work on a piece for new years (basically a tradition at this point). 
 <iframe src="https://mastodon.art/@standingpad/111366181054406351/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="600" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.art/embed.js" async="async"></script>
 <noscript>
 Mastodon Post Caption: I'm going to start working on a render for new years (2 months to make this exceptionally good), but the catch is I'm going to be using this laptop and keyboard setup for it all until I have to render
+
+Wish me luck
 </noscript>
 {{< /rawhtml >}}
 
