@@ -2,7 +2,7 @@
 title: About Me
 description: About StandingPad, also known as Mahid Sheikh; 3D artist and MCprep developer
 images: 
-- /imgs/WebsiteBanner.jpg
+- /imgs/WebsiteBanner.webp
 showDate: false
 showRelatedContent: false
 showAuthor: false
@@ -18,16 +18,17 @@ showTable0fContents: true
 
 # Some More Stuff on Me
 {{< gallery >}}
-  <img src="gallary/me/20220305_142442.jpg"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/20220305_142442.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/me/20221002_200050.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="gallary/me/20221103_194741.jpg"       class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="gallary/me/20230129_180613.jpg"     class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="gallary/me/20230506_152119.jpg"       class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="gallary/me/old-main.jpg"       class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/20221103_194741.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/20230129_180613.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/20230506_152119.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallary/me/old-main.jpg"         class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
 
 - Pakistani-American in Texas
-- Ahmadi Muslim (
+- Ahmadi Muslim
+- Yes I have a beard. No, I do not want to do a clean shave
 
 # Previous Work
 {{< figure src="gallary/mcprep-splash.webp" alt="MCprep 3.5 splash screen" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
@@ -35,6 +36,7 @@ showTable0fContents: true
 ## Work I've done in My Spare Time
 *Click an image to expand*
 {{< gallery >}}
+  <img src="gallary/EP-20-11-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/EP-04-10-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/archviz3.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -51,8 +53,7 @@ showTable0fContents: true
   <img src="gallary/some-practice.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/waters.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="gallary/warden-dress.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" />
-
+  <img src="gallary/warden-dress.webp"   class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
 
 # Development Experience
