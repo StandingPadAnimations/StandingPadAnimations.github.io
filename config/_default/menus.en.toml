@@ -26,6 +26,12 @@
   weight = 20
 
 [[main]]
+  name = "Assets"
+  parent = "Resources"
+  url = "/resources"
+  weight = 10
+
+[[main]]
   name = "Twitter Archive"
   parent = "Resources"
   url = "/twitter"
