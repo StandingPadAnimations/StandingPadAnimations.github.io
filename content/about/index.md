@@ -27,8 +27,10 @@ showTable0fContents: true
 {{< /gallery >}}
 
 - Pakistani-American in Texas
-- Ahmadi Muslim
+- Ahmadi Muslim [^1]
 - Yes I have a beard. No, I do not want to do a clean shave
+
+[^1]: see [here](/heretic) for why I use the term "Muslim"
 
 # Previous Work
 {{< figure src="gallary/mcprep-splash.webp" alt="MCprep 3.5 splash screen" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
