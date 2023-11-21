@@ -30,7 +30,7 @@ showTable0fContents: true
 - Ahmadi Muslim [^1]
 - Yes I have a beard. No, I do not want to do a clean shave
 
-[^1]: see [here](/heretic) for why I use the term "Muslim"
+[^1]: There is conflict in the Islamic world over the religious identity of us Ahmadi Muslims, see [here](/heretic) for more
 
 # Previous Work
 {{< figure src="gallary/mcprep-splash.webp" alt="MCprep 3.5 splash screen" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
