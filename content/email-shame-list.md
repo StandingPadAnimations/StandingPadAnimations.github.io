@@ -23,6 +23,8 @@ evalong1990@gmail.com
 George.Harrison88@hotmail.com
 DavidTucker915P@hotmail.com
 RichardDagres@outlook.com
+Durga_prasad_Seo@hotmail.com
+sonasingh44@outlook.com
 ```
 
 # App Developers
@@ -31,6 +33,7 @@ These are people who emailed me with offers to make apps. I don't have a reason 
 ```
 akhileshpathak1@outlook.com
 RichardDagres@outlook.com
+Durga_prasad_Seo@hotmail.com
 ```
 
 # Web Designers
@@ -52,4 +55,5 @@ munasingh24@outlook.com
 evalong1990@gmail.com
 George.Harrison88@hotmail.com
 DavidTucker915P@hotmail.com
+sonasingh44@outlook.com
 ```
