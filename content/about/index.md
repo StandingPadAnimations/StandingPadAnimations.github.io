@@ -7,6 +7,7 @@ showDate: false
 showRelatedContent: false
 showAuthor: false
 showTable0fContents: true
+noComment: true
 ---
 <link rel="stylesheet" href="overrides.css">
 

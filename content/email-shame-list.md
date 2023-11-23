@@ -4,6 +4,7 @@ showDate: false
 showRelatedContent: false
 showAuthor: false
 showTable0fContents: true
+noComment: true
 ---
 
 This is a list of all email addresses that have sent me adverts or spam in the past (for the email address `contact@standingpad.org`, and as such have been blocked.
