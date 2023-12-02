@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.3e0431e7f1573ff3ca68c66e7309c8080b042170f4fde6e5d4c568b5a0d7146b6f275e829460335e61d893c43a251cff234099f901db69987d10ad3d7baec0f7.css"
-    integrity="sha512-PgQx5/FXP/PKaMZucwnICAsEIXD0/ebl1MVotaDXFGtvJ16ClGAzXmHYk8Q6JRz/I0CZ&#43;QHbaZh9EK09e67A9w==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.38f17f45e71f2294dcefc2120a2609600b1b1ce73c22355e13915297a5f1d7b34387cf3a0771ecaf99249e4bcd765b6794e58d537b0922bfc762866c6537913e.css"
+    integrity="sha512-OPF/RecfIpTc78ISCiYJYAsbHOc8IjVeE5FSl6Xx17NDh886B3Hsr5kknkvNdltnlOWNU3sJIr/HYoZsZTeRPg==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -44,7 +44,9 @@
   <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.bd59ef8d591a8791be95815d202976ffd137f05712b3d68318c743252786ac432125c68ac83ad04ceafb3b9dfb9cbeed0de9a073d1a641deffe41b2fe15e5e1e.js"
     integrity="sha512-vVnvjVkah5G&#43;lYFdICl2/9E38FcSs9aDGMdDJSeGrEMhJcaKyDrQTOr7O537nL7tDemgc9GmQd7/5Bsv4V5eHg==" data-copy="" data-copied=""></script>
   
+  
   <script src="/js/zoom.min.js"></script>
+  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -111,10 +113,16 @@
   <link href="mailto:contact@standingpad.org" rel="me" />
   
   
+  <link href="https://mastodon.art/@standingpad" rel="me" />
+  
+  
   <link href="https://github.com/StandingPadAnimations" rel="me" />
   
   
-  <link href="https://mastodon.art/@standingpad" rel="me" />
+  <link href="https://pixelfed.social/standingpad" rel="me" />
+  
+  
+  <link href="https://www.artstation.com/standingpad" rel="me" />
   
   
   
@@ -167,8 +175,9 @@
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
+            
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">StandingPad&rsquo;s Corner</a>
-
+            
 
         </nav>
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
@@ -360,6 +369,7 @@
 
         <label id="menu-button" for="menu-controller" class="block">
             <input type="checkbox" id="menu-controller" class="hidden" />
+            
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
 
@@ -387,7 +397,6 @@
 </span>
                     </li>
 
-                    
                     
 
                     
@@ -481,9 +490,9 @@
 
 
                     
-                    
 
                 </ul>
+                
                 
 
             </div>
@@ -589,7 +598,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: default;" class="flex flex-row flex-wrap items-center">
   
   
   <time datetime="2023-02-25 00:00:00 &#43;0000 UTC">25 February 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1059 words</span>
@@ -603,7 +612,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: pointer;" class="flex flex-row flex-wrap items-center">
   
   
   
@@ -680,12 +689,14 @@ As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release</p
 <p>As some of you know, I&rsquo;m an MCprep developer, and as part of what I do I work on adding features and fixing bugs in MCprep. Not that, I also help review pull requests and fix bugs.</p>
 <p>The latest version of MCprep, MCprep v3.4.1 was released in August of last year. While it may seem like MCprep development is dying, that couldn&rsquo;t be further from the truth.</p>
 <p>Here&rsquo;s some of the features that are in the works right now.</p>
-<div id="prep-materials-without-emissive-nodes" class="anchor"></div>
 <h1 class="relative group">Prep Materials without Emissive Nodes 
+    <div id="prep-materials-without-emissive-nodes" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#prep-materials-without-emissive-nodes" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#prep-materials-without-emissive-nodes" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>This may seem like something useless, but this feature was originally planned as a <a href="https://github.com/TheDuckCow/MCprep/pull/334"   target="_blank">
@@ -704,12 +715,14 @@ As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release</p
 <p>It was decided in the middle of development however that it would be better to do it directly in prep materials rather then in the Cycles Optimizer, hence the move.</p>
 <p>Currently it&rsquo;s a WIP, and you can follow its development <a href="https://github.com/TheDuckCow/MCprep/pull/369"   target="_blank">
     on Github</a></p>
-<div id="34-mix-node-support" class="anchor"></div>
 <h1 class="relative group">3.4 Mix Node Support 
+    <div id="34-mix-node-support" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#34-mix-node-support" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#34-mix-node-support" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>Blender 3.4 changed from MixRGB to a new general Mix node. While it does convert MixRGB nodes already, we can&rsquo;t rely on this. As such, zNightLord made a <a href="https://github.com/TheDuckCow/MCprep/pull/357"   target="_blank">
@@ -719,24 +732,28 @@ As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release</p
 <p>This doesn&rsquo;t impact any release version of MCprep but regardless it needed to be fixed. <a href="https://github.com/TheDuckCow/MCprep/pull/374"   target="_blank">
     A new pull request</a> fixes this issue, and should be merged in the next couple of days.</p>
 <p>Even with the bug it&rsquo;s still an exciting feature for Blender compatibility, and who knows what we could do with the new Mix node.</p>
-<div id="using-the-new-c-obj-importer" class="anchor"></div>
 <h1 class="relative group">Using the New C++ OBJ Importer 
+    <div id="using-the-new-c-obj-importer" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#using-the-new-c-obj-importer" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#using-the-new-c-obj-importer" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>Be prepared for massive performance improvements when importing OBJs in Blender 3.5 and above in the next version of MCprep, there&rsquo;s work being done on using the new C++ OBJ importer shipped with Blender 3.1 and above.</p>
 <p>But wait, why will this change only apply to Blender 3.5 and above? Well, until Blender 3.5, the C++ OBJ importer was missing certain features that MCprep used when importing OBJs, specifically importing split groups. It was debated on if the C++ OBJ importer should also be used between 3.1 and 3.4, but ultimately we settled on 3.5 and above only for feature parity. We don&rsquo;t want to deal with angry users afterall.</p>
 <p>You can follow development on <a href="https://github.com/TheDuckCow/MCprep/pull/373"   target="_blank">
     Github</a></p>
-<div id="proper-aces-support" class="anchor"></div>
 <h1 class="relative group">Proper ACES Support 
+    <div id="proper-aces-support" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#proper-aces-support" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#proper-aces-support" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>The same pull request that adds the use of the C++ importer also adds proper ACES support for importing OBJs.</p>
@@ -750,12 +767,14 @@ As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release</p
 <p>&ldquo;But wait, that sounds bad&rdquo;</p>
 <p>Yeah, that change is still the <a href="https://github.com/TheDuckCow/MCprep/pull/373#discussion_r1113917575"   target="_blank">
     subject of debate</a>. What will likely happen is that MCprep will back up the MTL somewhere (maybe in a new folder) before editing, or something like that. Either way, it&rsquo;s still an exciting feature, and will fix a 3 year old bug in MCprep.</p>
-<div id="checking-feature-compatability-with-objs" class="anchor"></div>
 <h1 class="relative group">Checking Feature Compatability with OBJs 
+    <div id="checking-feature-compatability-with-objs" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#checking-feature-compatability-with-objs" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#checking-feature-compatability-with-objs" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>This is a big one, MCprep will now check an OBJ&rsquo;s header (if exported with Mineways) to determine if texture swap and animate textures can be used without issues.</p>
@@ -776,12 +795,14 @@ As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release</p
     we are looking into a standard header format</a> world exporter developers can use). Still better then nothing.</p>
 <p>You can follow along <a href="https://github.com/TheDuckCow/MCprep/pull/372"   target="_blank">
     here on Github</a></p>
-<div id="how-can-i-test-these-new-features" class="anchor"></div>
 <h1 class="relative group">How can I test these new features? 
+    <div id="how-can-i-test-these-new-features" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#how-can-i-test-these-new-features" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#how-can-i-test-these-new-features" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>Sadly MCprep doesn&rsquo;t provide pre-release builds, so you have 2 options:</p>
@@ -794,12 +815,14 @@ As of March 11th, 2023, most of these are now confirmed for the 3.4.2 release</p
 <p>MCprep Kaion is a fork of MCprep specifically designed to help accelerate MCprep&rsquo;s development. As you might notice, most of these new features actually come from MCprep Kaion. One of Kaion&rsquo;s goals is to provide new features early to users easily. MCprep Kaion has all the features you&rsquo;d expect from MCprep, and much more, but there is a cost.</p>
 <p>MCprep Kaion is not as well tested as MCprep itself, and often times issues will prop up. Many times it&rsquo;ll recieve multiple updates a week or even in a day, so it&rsquo;s not for those expecting something stable. Still, it aims to provide users with a good user experience, and is a good way of previewing new features.</p>
 <p>It&rsquo;s also good if you want to test and catch bugs with new features, which helps massively.</p>
-<div id="concluding-remarks" class="anchor"></div>
 <h1 class="relative group">Concluding Remarks 
+    <div id="concluding-remarks" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#concluding-remarks" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#concluding-remarks" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>While MCprep&rsquo;s development may seem to be going at a slow pace, it&rsquo;s by no means dead. New features are coming, and that&rsquo;s just the beginning.</p>

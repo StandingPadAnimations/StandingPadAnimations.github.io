@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.3e0431e7f1573ff3ca68c66e7309c8080b042170f4fde6e5d4c568b5a0d7146b6f275e829460335e61d893c43a251cff234099f901db69987d10ad3d7baec0f7.css"
-    integrity="sha512-PgQx5/FXP/PKaMZucwnICAsEIXD0/ebl1MVotaDXFGtvJ16ClGAzXmHYk8Q6JRz/I0CZ&#43;QHbaZh9EK09e67A9w==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.38f17f45e71f2294dcefc2120a2609600b1b1ce73c22355e13915297a5f1d7b34387cf3a0771ecaf99249e4bcd765b6794e58d537b0922bfc762866c6537913e.css"
+    integrity="sha512-OPF/RecfIpTc78ISCiYJYAsbHOc8IjVeE5FSl6Xx17NDh886B3Hsr5kknkvNdltnlOWNU3sJIr/HYoZsZTeRPg==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -44,7 +44,9 @@
   <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.bd59ef8d591a8791be95815d202976ffd137f05712b3d68318c743252786ac432125c68ac83ad04ceafb3b9dfb9cbeed0de9a073d1a641deffe41b2fe15e5e1e.js"
     integrity="sha512-vVnvjVkah5G&#43;lYFdICl2/9E38FcSs9aDGMdDJSeGrEMhJcaKyDrQTOr7O537nL7tDemgc9GmQd7/5Bsv4V5eHg==" data-copy="" data-copied=""></script>
   
+  
   <script src="/js/zoom.min.js"></script>
+  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -110,10 +112,16 @@
   <link href="mailto:contact@standingpad.org" rel="me" />
   
   
+  <link href="https://mastodon.art/@standingpad" rel="me" />
+  
+  
   <link href="https://github.com/StandingPadAnimations" rel="me" />
   
   
-  <link href="https://mastodon.art/@standingpad" rel="me" />
+  <link href="https://pixelfed.social/standingpad" rel="me" />
+  
+  
+  <link href="https://www.artstation.com/standingpad" rel="me" />
   
   
   
@@ -166,8 +174,9 @@
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
+            
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">StandingPad&rsquo;s Corner</a>
-
+            
 
         </nav>
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
@@ -359,6 +368,7 @@
 
         <label id="menu-button" for="menu-controller" class="block">
             <input type="checkbox" id="menu-controller" class="hidden" />
+            
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
 
@@ -386,7 +396,6 @@
 </span>
                     </li>
 
-                    
                     
 
                     
@@ -480,9 +489,9 @@
 
 
                     
-                    
 
                 </ul>
+                
                 
 
             </div>
@@ -588,7 +597,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: default;" class="flex flex-row flex-wrap items-center">
   
   
   <time datetime="2023-08-26 00:00:00 &#43;0000 UTC">26 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1272 words</span>
@@ -602,7 +611,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: pointer;" class="flex flex-row flex-wrap items-center">
   
   
   
@@ -678,12 +687,14 @@
     on GitHub</a>, so I&rsquo;ve edit this post to add those suggestions.</p>
 <p>It all started with me changing browsers.</p>
 <p>Recently I switched from Librewolf to Vivaldi. While I like Vivaldi, I didn&rsquo;t like how there was no Flatpak version (since Flatpaks are sandboxed). However, I figured this would make a good opportunity to learn sandboxing. Little did I know that this was going to be a headache.</p>
-<div id="simple-sandboxing" class="anchor"></div>
 <h1 class="relative group">Simple Sandboxing 
+    <div id="simple-sandboxing" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#simple-sandboxing" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#simple-sandboxing" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>For this project, I decided to use <a href="https://github.com/containers/bubblewrap"   target="_blank">
@@ -722,23 +733,27 @@
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    --setenv XCURSOR_PATH <span class="s2">&#34;/run/host/user-share/icons:/run/host/share/icons:</span><span class="nv">$HOME</span><span class="s2">/.icons&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    /usr/bin/vivaldi-stable --enable-features<span class="o">=</span>UseOzonePlatform --ozone-platform<span class="o">=</span>wayland
 </span></span></code></pre></div><p>Great, this is good, right? No. Sure, it&rsquo;s better then nothing, but still behind Flatpak, because Portals.</p>
-<div id="whats-the-deal-with-portals" class="anchor"></div>
 <h2 class="relative group">What&rsquo;s the Deal with Portals? 
+    <div id="whats-the-deal-with-portals" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#whats-the-deal-with-portals" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#whats-the-deal-with-portals" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <p>In the shell script above, we expose the entire a couple of directories, including the home directory. Sure, it&rsquo;s read-only, but nothing will stop a website from just reading those files and sending them somewhere else. We need to make a smaller hole.</p>
 <p>A simple way of doing this would be to give access to a single folder, and then copy files when needed. This works, but is cumbersome to the user (me). It would be nice if we could automatically do that. Well that&rsquo;s what the <a href="https://docs.flatpak.org/en/latest/portal-api-reference.html#gdbus-org.freedesktop.portal.FileChooser"   target="_blank">
     FileChooser Portal</a> does. It allows the user to select any file, but not require the program to have access to the home directory at all, through some dbus proxy magic.</p>
-<div id="implementing-portals" class="anchor"></div>
 <h1 class="relative group">Implementing Portals 
+    <div id="implementing-portals" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#implementing-portals" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#implementing-portals" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>So we just set up portals, right? After some digging around, I made some tweaks and created this:</p>

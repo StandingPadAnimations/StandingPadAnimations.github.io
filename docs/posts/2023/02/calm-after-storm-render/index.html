@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.3e0431e7f1573ff3ca68c66e7309c8080b042170f4fde6e5d4c568b5a0d7146b6f275e829460335e61d893c43a251cff234099f901db69987d10ad3d7baec0f7.css"
-    integrity="sha512-PgQx5/FXP/PKaMZucwnICAsEIXD0/ebl1MVotaDXFGtvJ16ClGAzXmHYk8Q6JRz/I0CZ&#43;QHbaZh9EK09e67A9w==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.38f17f45e71f2294dcefc2120a2609600b1b1ce73c22355e13915297a5f1d7b34387cf3a0771ecaf99249e4bcd765b6794e58d537b0922bfc762866c6537913e.css"
+    integrity="sha512-OPF/RecfIpTc78ISCiYJYAsbHOc8IjVeE5FSl6Xx17NDh886B3Hsr5kknkvNdltnlOWNU3sJIr/HYoZsZTeRPg==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -44,7 +44,9 @@
   <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.bd59ef8d591a8791be95815d202976ffd137f05712b3d68318c743252786ac432125c68ac83ad04ceafb3b9dfb9cbeed0de9a073d1a641deffe41b2fe15e5e1e.js"
     integrity="sha512-vVnvjVkah5G&#43;lYFdICl2/9E38FcSs9aDGMdDJSeGrEMhJcaKyDrQTOr7O537nL7tDemgc9GmQd7/5Bsv4V5eHg==" data-copy="" data-copied=""></script>
   
+  
   <script src="/js/zoom.min.js"></script>
+  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -111,10 +113,16 @@
   <link href="mailto:contact@standingpad.org" rel="me" />
   
   
+  <link href="https://mastodon.art/@standingpad" rel="me" />
+  
+  
   <link href="https://github.com/StandingPadAnimations" rel="me" />
   
   
-  <link href="https://mastodon.art/@standingpad" rel="me" />
+  <link href="https://pixelfed.social/standingpad" rel="me" />
+  
+  
+  <link href="https://www.artstation.com/standingpad" rel="me" />
   
   
   
@@ -167,8 +175,9 @@
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
+            
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">StandingPad&rsquo;s Corner</a>
-
+            
 
         </nav>
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
@@ -360,6 +369,7 @@
 
         <label id="menu-button" for="menu-controller" class="block">
             <input type="checkbox" id="menu-controller" class="hidden" />
+            
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
 
@@ -387,7 +397,6 @@
 </span>
                     </li>
 
-                    
                     
 
                     
@@ -481,9 +490,9 @@
 
 
                     
-                    
 
                 </ul>
+                
                 
 
             </div>
@@ -589,7 +598,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: default;" class="flex flex-row flex-wrap items-center">
   
   
   <time datetime="2023-02-01 00:00:00 &#43;0000 UTC">1 February 2023</time><span class="px-2 text-primary-500">&middot;</span><span>535 words</span>
@@ -603,7 +612,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: pointer;" class="flex flex-row flex-wrap items-center">
   
   
   
@@ -682,23 +691,27 @@
 
 </p>
 <p>Not my best, but lets talk about how I made it.</p>
-<div id="trees-of-light" class="anchor"></div>
 <h1 class="relative group">Trees of Light 
+    <div id="trees-of-light" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#trees-of-light" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#trees-of-light" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>For this, I used Bforartists 3.4, which is based off of Blender 3.5. Immediately I noticed a slowdown in viewport responsiveness. Thinking it was a driver, I went from Nvidia&rsquo;s Studio drivers to their Game Ready drivers, but no difference.</p>
 <p><code>Sidenote: Nvidia has 2 drivers, Studio and Game Ready. The difference is that Game Ready is less stable but recieves updates quicker, whereas Studio is much more stable. In general I recommend Studio since it has better stability, but if you do mostly gaming with newer PC games, Game Ready is an option.</code></p>
 <p>It turns out in <code>Sampling &gt; Lights</code>, there&rsquo;s a new feature called Light Tree. It&rsquo;s a new 3.5 feature and from what I can tell is meant to reduce noise with lights. It&rsquo;s amazing for rendering, but an absolute nightmare for the viewport. Until Blender makes it an option one can enable for the viewport and render individually, I recommend disabling it until it&rsquo;s time to render. Hopefully the next BFA update will disable this by default.</p>
-<div id="l-i-g-h-t-s" class="anchor"></div>
 <h1 class="relative group">L I G H T S 
+    <div id="l-i-g-h-t-s" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#l-i-g-h-t-s" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#l-i-g-h-t-s" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>This was honestly my least favorite part of the render, but I know people are going to comment on it.</p>
@@ -708,23 +721,27 @@
 <p><em>sigh</em></p>
 <p>&ldquo;._.&rdquo;</p>
 <p>Basically IES textures are textures that represent light falloff. They&rsquo;re much more accurate then simply using normal Blender lights.</p>
-<div id="color-grading-stubbing-your-toe-on-the-corner-of-a-wall" class="anchor"></div>
 <h1 class="relative group">Color Grading: Stubbing Your Toe on the Corner of a Wall 
+    <div id="color-grading-stubbing-your-toe-on-the-corner-of-a-wall" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#color-grading-stubbing-your-toe-on-the-corner-of-a-wall" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#color-grading-stubbing-your-toe-on-the-corner-of-a-wall" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>This is one of the things I hate the most about this. The thing is, there&rsquo;s not much color in the first place, so color grading was going to be difficult.</p>
 <p>I used what I learned from my <a href="https://standingpadanimations.github.io/posts/new-years-2023/"   target="_blank">
     New Year&rsquo;s render</a> and attempted to do some color grading. The results were better then what the original render, but I still don&rsquo;t like how it turned out. What can you do though <code>¯\_(ツ)_/¯</code>?</p>
-<div id="some-updates" class="anchor"></div>
 <h1 class="relative group">Some Updates 
+    <div id="some-updates" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#some-updates" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#some-updates" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>Wait wait wait, don&rsquo;t click away, I know this isn&rsquo;t related, but I have some exiciting updates.</p>

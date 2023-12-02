@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.3e0431e7f1573ff3ca68c66e7309c8080b042170f4fde6e5d4c568b5a0d7146b6f275e829460335e61d893c43a251cff234099f901db69987d10ad3d7baec0f7.css"
-    integrity="sha512-PgQx5/FXP/PKaMZucwnICAsEIXD0/ebl1MVotaDXFGtvJ16ClGAzXmHYk8Q6JRz/I0CZ&#43;QHbaZh9EK09e67A9w==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.38f17f45e71f2294dcefc2120a2609600b1b1ce73c22355e13915297a5f1d7b34387cf3a0771ecaf99249e4bcd765b6794e58d537b0922bfc762866c6537913e.css"
+    integrity="sha512-OPF/RecfIpTc78ISCiYJYAsbHOc8IjVeE5FSl6Xx17NDh886B3Hsr5kknkvNdltnlOWNU3sJIr/HYoZsZTeRPg==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -44,7 +44,9 @@
   <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.bd59ef8d591a8791be95815d202976ffd137f05712b3d68318c743252786ac432125c68ac83ad04ceafb3b9dfb9cbeed0de9a073d1a641deffe41b2fe15e5e1e.js"
     integrity="sha512-vVnvjVkah5G&#43;lYFdICl2/9E38FcSs9aDGMdDJSeGrEMhJcaKyDrQTOr7O537nL7tDemgc9GmQd7/5Bsv4V5eHg==" data-copy="" data-copied=""></script>
   
+  
   <script src="/js/zoom.min.js"></script>
+  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -111,10 +113,16 @@
   <link href="mailto:contact@standingpad.org" rel="me" />
   
   
+  <link href="https://mastodon.art/@standingpad" rel="me" />
+  
+  
   <link href="https://github.com/StandingPadAnimations" rel="me" />
   
   
-  <link href="https://mastodon.art/@standingpad" rel="me" />
+  <link href="https://pixelfed.social/standingpad" rel="me" />
+  
+  
+  <link href="https://www.artstation.com/standingpad" rel="me" />
   
   
   
@@ -170,8 +178,9 @@
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
+            
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">StandingPad&rsquo;s Corner</a>
-
+            
 
         </nav>
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
@@ -363,6 +372,7 @@
 
         <label id="menu-button" for="menu-controller" class="block">
             <input type="checkbox" id="menu-controller" class="hidden" />
+            
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
 
@@ -390,7 +400,6 @@
 </span>
                     </li>
 
-                    
                     
 
                     
@@ -484,9 +493,9 @@
 
 
                     
-                    
 
                 </ul>
+                
                 
 
             </div>
@@ -592,7 +601,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: default;" class="flex flex-row flex-wrap items-center">
   
   
   <time datetime="2022-12-22 16:16:09 -0600 CST">22 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span>2355 words</span>
@@ -606,7 +615,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: pointer;" class="flex flex-row flex-wrap items-center">
   
   
   
@@ -684,12 +693,14 @@
 
 
 <p>As you can see, there&rsquo;s a lot of reflections, some long test, volumetrics, and other stuff. Since I don&rsquo;t do much Minecraft rendering anymore, I think I&rsquo;ll impart some insight into some of the more technial bits.</p>
-<div id="gccs-time-to-shine" class="anchor"></div>
 <h1 class="relative group">GCC&rsquo;s Time to Shine 
+    <div id="gccs-time-to-shine" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#gccs-time-to-shine" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#gccs-time-to-shine" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>&ldquo;GCC?&rdquo;</p>
@@ -929,12 +940,14 @@
 
 </p>
 <p>And use that as part of the hologram in the render.</p>
-<div id="optimizing" class="anchor"></div>
 <h1 class="relative group">Optimizing 
+    <div id="optimizing" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#optimizing" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#optimizing" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>There&rsquo;s a lot I have to say about optimizing. First off, here&rsquo;s a screenshots of the viewport with the volumetrics:
@@ -954,20 +967,22 @@
 
 
 <p>Those helped with render times a little, but there was still the issue with fireflies.</p>
-<div id="magic-has-costs-even-clamping" class="anchor"></div>
 <h2 class="relative group">Magic has Costs, even Clamping 
+    <div id="magic-has-costs-even-clamping" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#magic-has-costs-even-clamping" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#magic-has-costs-even-clamping" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <blockquote>
-<div id="typeit-6-1700739598131824792"></div>
+<div id="typeit-6-1701477374382186078"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-6-1700739598131824792", {
+      new TypeIt("#typeit-6-1701477374382186078", {
         strings: ["\r","You will observe with concern how long a useful truth may be known and exist, before it is generally received and practiced on. \r","\r","- Benjamin Franklin; July 31st, 1786\r",""],
         speed:  20 ,
         lifeLike:  false ,
@@ -994,21 +1009,25 @@
 
 </p>
 <p>These settings are for just this scene (and I use a GTX 1660 Super), so don&rsquo;t copy it hoping it will help with render times. Optimization is scene dependent, not uniform.</p>
-<div id="sidenote-color" class="anchor"></div>
 <h2 class="relative group">Sidenote: Color 
+    <div id="sidenote-color" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#sidenote-color" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#sidenote-color" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <p>One might notice the lack of Filmic in exchange for AgX. I&rsquo;ve written about AgX on my old website but the tldr is that AgX is a better version of Filmic with more color nuance. Once you use it, you can&rsquo;t go back to Filmic.</p>
-<div id="compositing" class="anchor"></div>
 <h1 class="relative group">Compositing 
+    <div id="compositing" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#compositing" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#compositing" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>I do 2 rounds of compositing. The first round is denoising with <a href="https://pidgeontools.gumroad.com/l/SuperImageDenoiser"   target="_blank">
@@ -1024,12 +1043,14 @@
 
 </p>
 <p>This is also where I added all those fancy godray effects. I used the denoising depth pass to seperate the world and structures, and plugged it into the sun beams node (btw, Blender devs, if you&rsquo;re reading this, please optimize it or let it take advantage of the GPU, it is horrifically annoying to edit), did some color magic, and added back in. The result is a godly looking background.</p>
-<div id="tldr" class="anchor"></div>
 <h1 class="relative group">Tldr 
+    <div id="tldr" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#tldr" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#tldr" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>Basically, a lot of work in optimizing, discovering how bad clamping is, compositing magic, all to make a nice looking render.</p>

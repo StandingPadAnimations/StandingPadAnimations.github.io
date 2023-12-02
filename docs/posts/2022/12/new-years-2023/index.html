@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.3e0431e7f1573ff3ca68c66e7309c8080b042170f4fde6e5d4c568b5a0d7146b6f275e829460335e61d893c43a251cff234099f901db69987d10ad3d7baec0f7.css"
-    integrity="sha512-PgQx5/FXP/PKaMZucwnICAsEIXD0/ebl1MVotaDXFGtvJ16ClGAzXmHYk8Q6JRz/I0CZ&#43;QHbaZh9EK09e67A9w==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.38f17f45e71f2294dcefc2120a2609600b1b1ce73c22355e13915297a5f1d7b34387cf3a0771ecaf99249e4bcd765b6794e58d537b0922bfc762866c6537913e.css"
+    integrity="sha512-OPF/RecfIpTc78ISCiYJYAsbHOc8IjVeE5FSl6Xx17NDh886B3Hsr5kknkvNdltnlOWNU3sJIr/HYoZsZTeRPg==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -44,7 +44,9 @@
   <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.bd59ef8d591a8791be95815d202976ffd137f05712b3d68318c743252786ac432125c68ac83ad04ceafb3b9dfb9cbeed0de9a073d1a641deffe41b2fe15e5e1e.js"
     integrity="sha512-vVnvjVkah5G&#43;lYFdICl2/9E38FcSs9aDGMdDJSeGrEMhJcaKyDrQTOr7O537nL7tDemgc9GmQd7/5Bsv4V5eHg==" data-copy="" data-copied=""></script>
   
+  
   <script src="/js/zoom.min.js"></script>
+  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -111,10 +113,16 @@
   <link href="mailto:contact@standingpad.org" rel="me" />
   
   
+  <link href="https://mastodon.art/@standingpad" rel="me" />
+  
+  
   <link href="https://github.com/StandingPadAnimations" rel="me" />
   
   
-  <link href="https://mastodon.art/@standingpad" rel="me" />
+  <link href="https://pixelfed.social/standingpad" rel="me" />
+  
+  
+  <link href="https://www.artstation.com/standingpad" rel="me" />
   
   
   
@@ -167,8 +175,9 @@
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
+            
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">StandingPad&rsquo;s Corner</a>
-
+            
 
         </nav>
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
@@ -360,6 +369,7 @@
 
         <label id="menu-button" for="menu-controller" class="block">
             <input type="checkbox" id="menu-controller" class="hidden" />
+            
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
 
@@ -387,7 +397,6 @@
 </span>
                     </li>
 
-                    
                     
 
                     
@@ -481,9 +490,9 @@
 
 
                     
-                    
 
                 </ul>
+                
                 
 
             </div>
@@ -589,7 +598,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: default;" class="flex flex-row flex-wrap items-center">
   
   
   <time datetime="2022-12-31 00:00:00 -0600 CST">31 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span>975 words</span>
@@ -603,7 +612,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: pointer;" class="flex flex-row flex-wrap items-center">
   
   
   
@@ -681,12 +690,14 @@
 
 </p>
 <p>This is perhaps the most complicated render I have done to date. I started just before Christmas and finished in about 3 to 4 days.</p>
-<div id="hologram-shenanigans" class="anchor"></div>
 <h1 class="relative group">Hologram Shenanigans 
+    <div id="hologram-shenanigans" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#hologram-shenanigans" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#hologram-shenanigans" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>One of the things I wanted to do was 3D holograms, because I&rsquo;ve never done that before. I first followed a Blender Guru tutorial, and the final node setup does essentially the following:</p>
@@ -711,12 +722,14 @@
 <p>Essentially, instead of making thousands of curve objects, he made a setup that takes the model, extrudes it downwards, and then merges the verticies into a single point. The result is the same, but with far less render time.</p>
 <p>And that&rsquo;s not all. He also changed how the &ldquo;pixels&rdquo; were created, by creating a cube and scattering points in the volume of that cube, instead of using a stack of grids. This meant that using text as a model was actually fesible, hence the &ldquo;It&rsquo;s 2023&rdquo; hologram.</p>
 <p>Now I tried to see if there was a silver lining with Blender Guru&rsquo;s method. Maybe it was somehow more simpler to explain and expand upon, or maybe it could handle certain edge cases. As far as I can tell however, it&rsquo;s simply not that good. Sure if you&rsquo;re learning geometry nodes or want some practice, it&rsquo;s fine, but in terms of actually using it (especially in Cycles), it&rsquo;s pretty horrific to say the least.</p>
-<div id="lets-not-burn-peoples-eyes-please" class="anchor"></div>
 <h1 class="relative group">Let&rsquo;s Not Burn People&rsquo;s Eyes Please 
+    <div id="lets-not-burn-peoples-eyes-please" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#lets-not-burn-peoples-eyes-please" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#lets-not-burn-peoples-eyes-please" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>Near the end, I found a short that explained how auto exposure works, and I remembered an addon that allowed for auto exposure.</p>
@@ -732,12 +745,14 @@
 <p>So I scoured the depths of Google and found <a href="https://pedroplopes.itch.io/autoexposure"   target="_blank">
     this auto exposure node</a>, which seemed to work, although with some drawbacks.</p>
 <p>Honestly having it as an addon would have been preferable, but sometimes you got to work with what you got.</p>
-<div id="focus-issues-lets-add-some-effects" class="anchor"></div>
 <h1 class="relative group">Focus Issues? Let&rsquo;s Add Some Effects! 
+    <div id="focus-issues-lets-add-some-effects" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#focus-issues-lets-add-some-effects" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#focus-issues-lets-add-some-effects" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>Even while making the scene I felt there were some &ldquo;focus&rdquo; issues. In other words, I felt like the scene was too chaotic to direct the viewer&rsquo;s eye.</p>
@@ -748,33 +763,39 @@
 
 <p>Oh</p>
 <p>So anyway I added a vignette effect. It&rsquo;s not really noticable, but I think it does a good job at keeping focus.</p>
-<div id="optimization" class="anchor"></div>
 <h1 class="relative group">Optimization 
+    <div id="optimization" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#optimization" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#optimization" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>Like previously, I disabled clamping as it creates more issues then it solves, and I removed all mesh lights from the scene. What makes this scene different was the crazy amount of geometry I had to deal with</p>
 <p>We already talked about the holograms (before Slink did his magic), but there was also a lot of fireworks (which are all particles), so I simply used a decimate modifier on the bits to reduce as much geometry as possible.</p>
 <p>Other then that, not much else is different from my previous scene.</p>
-<div id="small-tangent-on-the-background-city" class="anchor"></div>
 <h1 class="relative group">Small Tangent on the Background City 
+    <div id="small-tangent-on-the-background-city" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#small-tangent-on-the-background-city" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#small-tangent-on-the-background-city" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>When I originally rendered this, there wasn&rsquo;t much of a background. However, the day before, I realized that I could duplicate the OBJ and render with that as the background.</p>
 <p>Let&rsquo;s just say that was a nightmare. I had to go from Bforartists back to stock Blender due to a weird issue I had while rerendering. I think the result was worth it though, and honestly those couple of hours of debugging were worth it.</p>
-<div id="acknowledgments-for-this-year" class="anchor"></div>
 <h1 class="relative group">Acknowledgments for this year 
+    <div id="acknowledgments-for-this-year" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#acknowledgments-for-this-year" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#acknowledgments-for-this-year" aria-label="Anchor">#</a>
+    </span>        
     
 </h1>
 <p>I would first like to thank the people who made the scifi map I used to render this and many other renders. <a href="https://twitter.com/ElysiumFire"   target="_blank">

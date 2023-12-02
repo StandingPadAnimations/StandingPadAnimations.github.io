@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.3e0431e7f1573ff3ca68c66e7309c8080b042170f4fde6e5d4c568b5a0d7146b6f275e829460335e61d893c43a251cff234099f901db69987d10ad3d7baec0f7.css"
-    integrity="sha512-PgQx5/FXP/PKaMZucwnICAsEIXD0/ebl1MVotaDXFGtvJ16ClGAzXmHYk8Q6JRz/I0CZ&#43;QHbaZh9EK09e67A9w==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.38f17f45e71f2294dcefc2120a2609600b1b1ce73c22355e13915297a5f1d7b34387cf3a0771ecaf99249e4bcd765b6794e58d537b0922bfc762866c6537913e.css"
+    integrity="sha512-OPF/RecfIpTc78ISCiYJYAsbHOc8IjVeE5FSl6Xx17NDh886B3Hsr5kknkvNdltnlOWNU3sJIr/HYoZsZTeRPg==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -44,7 +44,9 @@
   <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.bd59ef8d591a8791be95815d202976ffd137f05712b3d68318c743252786ac432125c68ac83ad04ceafb3b9dfb9cbeed0de9a073d1a641deffe41b2fe15e5e1e.js"
     integrity="sha512-vVnvjVkah5G&#43;lYFdICl2/9E38FcSs9aDGMdDJSeGrEMhJcaKyDrQTOr7O537nL7tDemgc9GmQd7/5Bsv4V5eHg==" data-copy="" data-copied=""></script>
   
+  
   <script src="/js/zoom.min.js"></script>
+  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -111,10 +113,16 @@
   <link href="mailto:contact@standingpad.org" rel="me" />
   
   
+  <link href="https://mastodon.art/@standingpad" rel="me" />
+  
+  
   <link href="https://github.com/StandingPadAnimations" rel="me" />
   
   
-  <link href="https://mastodon.art/@standingpad" rel="me" />
+  <link href="https://pixelfed.social/standingpad" rel="me" />
+  
+  
+  <link href="https://www.artstation.com/standingpad" rel="me" />
   
   
   
@@ -167,8 +175,9 @@
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
+            
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">StandingPad&rsquo;s Corner</a>
-
+            
 
         </nav>
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
@@ -360,6 +369,7 @@
 
         <label id="menu-button" for="menu-controller" class="block">
             <input type="checkbox" id="menu-controller" class="hidden" />
+            
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
 
@@ -387,7 +397,6 @@
 </span>
                     </li>
 
-                    
                     
 
                     
@@ -481,9 +490,9 @@
 
 
                     
-                    
 
                 </ul>
+                
                 
 
             </div>
@@ -589,7 +598,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: default;" class="flex flex-row flex-wrap items-center">
   
   
   <time datetime="2023-03-11 00:00:00 &#43;0000 UTC">11 March 2023</time><span class="px-2 text-primary-500">&middot;</span><span>566 words</span>
@@ -603,7 +612,7 @@
 
 
 
-<div class="flex flex-row flex-wrap items-center">
+<div style="cursor: pointer;" class="flex flex-row flex-wrap items-center">
   
   
   
@@ -676,12 +685,14 @@
 
         <div class="max-w-prose mb-20">
           <p>As the MCprep 3.4.2 release date draws nearer, I think it&rsquo;s important to remind users how MCprep development works, and how important it is that MCprep receives supports from the community. I feel like people have forgotten how much work goes into MCprep, and I think a little reminder wouldn&rsquo;t hurt.</p>
-<div id="overview" class="anchor"></div>
 <h2 class="relative group">Overview 
+    <div id="overview" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <p>Currently, MCprep only has 2 active maintainers (TheDuckCow and myself). While the MCprep GitHub repo says there&rsquo;s 7, most of them haven&rsquo;t contributed in a while:
@@ -703,12 +714,14 @@
 <p>I can literally count on one hand how many users have contributed to MCprep. In contrast, if we check the amount of unique IDs recorded by Google Analytics from MCprep 3.3.0 to 3.4.1 (for 2022), we find that <strong>10,740</strong> unique IDs have been recorded in the last year alone. If we add MCprep 3.2.5 and 3.2.5.1 to the mix, that number increases to <strong>10,867</strong>.</p>
 <p>Now counting unique IDs isn&rsquo;t completely accurate, but it does give a general glimpse in the amount of MCprep users. If we add in that MCprep supports Blender versions 2.78-3.4 (that is <strong>15 versions</strong>) of Blender), it&rsquo;s impressive that MCprep receives quite stable updates every 4-6 months.</p>
 <p>I&rsquo;m not giving these stats to make people feel bad, I&rsquo;m giving these stats to outline the reality of MCprep development. People seem to complain about MCprep features, while doing nothing to fix such issues. That isn&rsquo;t to say complaining about MCprep is a bad thing, but people seem to forget how spreadly thin we already are.</p>
-<div id="how-the-community-can-help" class="anchor"></div>
 <h2 class="relative group">How the Community Can Help 
+    <div id="how-the-community-can-help" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#how-the-community-can-help" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#how-the-community-can-help" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <p>The simplest way the community can help is improve the assets MCprep provides, as that&rsquo;s were most complaints seem to arise from. We already have <a href="https://github.com/TheDuckCow/MCprep/issues/new?assignees=&amp;labels=enhancement&amp;template=Asset-Submission.yaml"   target="_blank">
