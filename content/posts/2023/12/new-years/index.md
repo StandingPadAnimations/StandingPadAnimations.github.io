@@ -1,13 +1,13 @@
 ---
 title: "It's New Year's! Some updates going forward"
-date: 2023-12-31
+date: 2023-12-28
 draft: true 
 tags:
   - Blender 
   - IRL
 ---
 
-It's New Year's, so you know what that means! Another New Year's render, but first some life updates to go through (ugh, I know). If you want to skip all of this, then click the button.
+It's almost New Year's, so you know what that means! Another New Year's render, but first some life updates to go through (ugh, I know). If you want to skip all of this, then click the button.
 
 {{< button href="#this-years-new-years-render" target="_self" >}}
 Skip
@@ -27,7 +27,7 @@ On some sadder news, I can't make as much art as I used to in the past. Mostly b
 
 I'm also doing a personal rebrand of myself as an artist (in conjunction with the previous section), so I've made a new logo and watermark (SVGs below):
 {{< figure src="gallary/logo-cube.svg" caption="New Logo" >}}
-{{< figure src="gallary/watermark-cube.svg" caption="New Watermark" >}}
+{{< figure default=true src="gallary/watermark-cube.svg" width=600 caption="New Watermark" >}}
 
 # This Year's New Year's Render 
 ~~(that title is a bit of a mouthful)~~
@@ -36,7 +36,7 @@ With all of that out of the way, if you're just here for the render, here it is,
 
 {{< image src="gallary/NY-2023-2024.webp" alt="New year render" position="center" style="border-radius: 8px;" >}}
 
-But I assume you want to know a bit more on how it's made if you're on the blog post for it (why else would you be here after all?), so here's a breakdown of some of the new things I did for this particular piece.
+One of the fun things about making these every year is trying to outdo last year's version of me, so here's a breakdown of some of the new things I did for this particular piece.
 
 ## Vivy
 One of the things I've been working on is Vivy: an in-house fork of MCprep with a much improved materials system. I've been rambling a bit about it on Mastodon the past couple of months.
@@ -67,6 +67,8 @@ In the past, I would just have a mess of an outliner.
 but now I actually needed to have something organized to manage the mess. I did this by having a seperate forground and background collection, and seperating everything into those 2 collections. This allowed me to easily hide the background (unneeded 90% of the time) and unhide it when it came time to render.
 {{< image src="gallary/outliner.webp" alt="Organized outliner with foreground and background, and seperate collections for everything else" position="center" style="border-radius: 8px;" >}}
 
+*Note: There's some additional stuff I added after taking this screenshot, but I think you get the point. ~~Plus, the additional stuff are inuendos ;D. Happy searching!~~*
+
 It was with this trick that allowed me to continue working on a simple laptop. For further optimization, I even split the OBJ in 2 to allow seperate background and forground pieces.
 {{< image src="gallary/background.webp" alt="Full OBJ" position="center" style="border-radius: 8px;" >}}
 {{< image src="gallary/foreground.webp" alt="Just the foreground" position="center" style="border-radius: 8px;" >}}
@@ -80,5 +82,72 @@ It's quite obvious on the dress and purse, but I also used higher resolution tex
 {{< image src="gallary/md-1.webp" alt="Micro-detailing on the dress" position="center" style="border-radius: 8px;" >}}
 {{< image src="gallary/md-2.webp" alt="Micro-detailing on the purse" position="center" style="border-radius: 8px;" >}}
 
-It's far from perfect, but it'll only get better.
+In addition, I added surface imperfections to this  particular render, such as scratches on metal, smudges on glass, grunge on the window, etc:
+{{< image src="gallary/md-3.webp" alt="Scratches and smudges on the metal of Kaiyona's tail" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/md-4.webp" alt="Grunge on the window from past rain" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/md-5.webp" alt="Scratches on wood" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/md-6.webp" alt="Smudges on Kaiyona's glasses" position="center" style="border-radius: 8px;" >}}
 
+I began experimenting with stuff like this (minus surface imperfections) a while back in some earlier pieces, like with stockings:
+<iframe src="https://mastodon.art/@standingpad/111443670325055646/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="600" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.art/embed.js" async="async"></script>
+
+And denim:
+<iframe src="https://mastodon.art/@standingpad/111355710456162153/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="600" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.art/embed.js" async="async"></script>
+
+There's several reasons I did this, but the main one being that's unique. Yes, there are already artists who do "realistic Minecraft rendering", but I have yet to see one that did it within the bounds of Minecraft itself.
+
+Part of it (indirectly) is also to make it harder for AI to replicate. I think David Revoy puts it best on his blog post ["My Brushstrokes against AI-art"](https://www.davidrevoy.com/article1007/my-brushstrokes-against-ai-art)
+> Do you want to know the irony of all this? These developments towards a stronger personal style in my art, though I am pained to admit it, come from the pressure of the existence of AI-generated images.
+
+While indirect, I did find that with the rise of AI in art, I started using more and more complex tricks in my rendering. Is it coincidence? Probably, but it's still interesting nonetheless.
+
+## Rigging 
+When I started putting together the scene back in late November, an issue I encountered a lot was Blender crashing. While now I know this was due to [bad organization](#optimizing-scenes-for-laptops), at the time I only had the Blender logs to work with, and I concluded it was the rig's circular dependencies causing the problem.
+
+"Circular dependencies?"
+
+In rigging, armatures often depend on drivers or constraints, and these drivers/constraints can depend on bones. This creates a "dependency chain".
+{{< image src="gallary/dep-chain.webp" alt="Chain of dependencies" position="center" style="border-radius: 8px;" >}}
+
+However, a circular dependency chain can occur if a bone depends on something that, at some point, depends on the bone itself.
+{{< image src="gallary/circle-dep-chain.webp" alt="Circular chain of dependencies" position="center" style="border-radius: 8px;" >}}
+
+Normally this isn't too bad, but should be fixed since it can cause crashes. At the time, I was using BPS V3, specifically from Ocean Monument, made all the way back in Blender 2.8. The rig has some annoying circular dependencies, so I decided to try and make my own rig.
+
+Now eventually I decided to try and fix BPS V3, but....
+<iframe src="https://mastodon.art/@standingpad/111381558631287127/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="600" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.art/embed.js" async="async"></script>
+
+3 words: Zophiekat Black Magic (Zophiekat was the one who made BPS V3)
+
+Eventually I get my rig finished (in fact, [the post with Kaiyona in stockings](https://mastodon.art/@standingpad/111443670325055646) used the new rig), but by then I figured out the actual cause for crashes, so this is the last piece that'll be using BPS V3.
+
+Goodbye BPS V3, you were a pain in the ass on the final stretch. I'll be making a seperate post on the new rig later.
+
+## How Things Could Have Been Different
+Work on this particular render began all the way back in October, with skin making and purse modeling, with the actual scene building in late November. In between, I was working on [my laptop to PC workflow](#optimizing-scenes-for-laptops) and traveling to Pakistan to visit family. I made a first render on December 3rd, and the final render you see here was rendered on December 23rd. In comparison, last year's render for New Year's was made throughout the span of a week.
+{{< image src="gallary/timeline.webp" alt="Timeline" position="center" style="border-radius: 8px;" >}}
+
+As such, this scene changed massively as I continued to work on it for a month. Initially, I wanted to make this an outdoor scene, so I worked a lot on outdoor lighting:
+<iframe src="https://mastodon.art/@standingpad/111366573343749299/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="600" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.art/embed.js" async="async"></script>
+
+However, I wasn't a huge fan of it, so I modelled a basic interior with some pink lighting:
+<iframe src="https://mastodon.art/@standingpad/111389974371471862/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="600" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.art/embed.js" async="async"></script>
+
+I think I have to explain my thought process here. I had an idea that never came to fruition of Blobby registering Kaiyona for a Tinder and getting a match (stupid I know)
+{{< image src="gallary/idea.webp" alt="Discord message that says \"I got a stupid idea. Blobby: \"mom I made you a Tinder and someone wants to meet you :D\" Kaiyona: \"That's ni- WAIT WHAT?\"" position="center" style="border-radius: 8px;" >}}
+
+By the way Blobby is this blob. He's not a common character I use anymore, maybe I should bring him back:
+{{< image src="gallary/blobby.webp" alt="BLOBBY!" position="center" style="border-radius: 8px;" >}}
+
+As I was thinking out the idea a bit further, I figured a good match in this hypothetical scenario would be the implied cameraman stuck in Blender:
+{{< image src="gallary/camera-man.png" alt="Message: Alright I got it... the camera man. I got a good name idea too: Keith" position="center" style="border-radius: 8px;" >}}
+
+So while technically not an actual characther (yet...), I did imagine this would be taking place at a date with Keith. 
+
+Now see, camera nerds tend to have a lot of lights, crazy ones at that, so I'd imagine the pink light wouldn't be out of place (especially with all of the other ights). Eventually I added some extra lights to get something close to what we have:
+<iframe src="https://mastodon.art/@standingpad/111396104549605759/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="600" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.art/embed.js" async="async"></script>
+
+And that's basically the final major change. Now that I think about it, I could have made the background more intersting, but I think it's best to save those for future pieces.
+
+# Happy New Year's 
+I think I'll stop here since this post is getting near 2000 words. I wish y'all a happy new year's, and cya next year!
