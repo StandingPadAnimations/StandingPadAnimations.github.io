@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 StandingPad&#39;s Corner</copyright>
-    <lastBuildDate>Sun, 12 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.standingpad.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.standingpad.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Happy Holidays!</title>
+      <link>https://www.standingpad.org/posts/2023/12/new-years/</link>
+      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.standingpad.org/posts/2023/12/new-years/</guid>
+      <description>It&amp;rsquo;s almost New Year&amp;rsquo;s, so you know what that means!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2023/12/new-years/featured.webp" />
+    </item>
+    
     <item>
       <title>Some Progress</title>
       <link>https://www.standingpad.org/posts/2023/11/some-progress/</link>
