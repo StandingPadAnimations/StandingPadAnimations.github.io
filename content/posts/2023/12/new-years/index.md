@@ -1,13 +1,17 @@
 ---
-title: "It's New Year's! Some updates going forward"
-date: 2023-12-28
-draft: true 
+title: "Happy Holidays!"
+date: 2023-12-24
 tags:
   - Blender 
   - IRL
 ---
 
-It's almost New Year's, so you know what that means! Another New Year's render, but first some life updates to go through (ugh, I know). If you want to skip all of this, then click the button.
+It's almost New Year's, so you know what that means! Another New Year's render to finish out the year!
+
+"But Mahid, it's Christma-" \
+*pulls out gun* They're close enough.
+
+But first some life updates to go through (ugh, I know). If you want to skip all of this, then click the button.
 
 {{< button href="#this-years-new-years-render" target="_self" >}}
 Skip
