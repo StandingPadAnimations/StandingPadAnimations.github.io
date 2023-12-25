@@ -144,7 +144,7 @@ By the way Blobby is this blob. He's not a common character I use anymore, maybe
 {{< image src="gallary/blobby.webp" alt="BLOBBY!" position="center" style="border-radius: 8px;" >}}
 
 As I was thinking out the idea a bit further, I figured a good match in this hypothetical scenario would be the implied cameraman stuck in Blender:
-{{< image src="gallary/camera-man.png" alt="Message: Alright I got it... the camera man. I got a good name idea too: Keith" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/camera-man.webp" alt="Message: Alright I got it... the camera man. I got a good name idea too: Keith" position="center" style="border-radius: 8px;" >}}
 
 So while technically not an actual characther (yet...), I did imagine this would be taking place at a date with Keith. 
 
