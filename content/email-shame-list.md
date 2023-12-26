@@ -26,6 +26,14 @@ DavidTucker915P@hotmail.com
 RichardDagres@outlook.com
 Durga_prasad_Seo@hotmail.com
 sonasingh44@outlook.com
+anjaliroy70@outlook.com
+manojseoservice@outlook.com
+ankitkrpanday37@outlook.com
+Durga_prasad_Seo@hotmail.com
+yogesh@itwebapp.in
+singhshephali549@gmail.com
+lakshmisingh34@outlook.com
+Fabianallen88880@outlook.com
 ```
 
 # App Developers
@@ -34,6 +42,10 @@ These are people who emailed me with offers to make apps. I don't have a reason 
 ```
 akhileshpathak1@outlook.com
 RichardDagres@outlook.com
+Durga_prasad_Seo@hotmail.com
+anjaliroy70@outlook.com
+manojseoservice@outlook.com
+ankitkrpanday37@outlook.com
 Durga_prasad_Seo@hotmail.com
 ```
 
@@ -57,4 +69,8 @@ evalong1990@gmail.com
 George.Harrison88@hotmail.com
 DavidTucker915P@hotmail.com
 sonasingh44@outlook.com
+yogesh@itwebapp.in
+singhshephali549@gmail.com
+lakshmisingh34@outlook.com
+Fabianallen88880@outlook.com
 ```
