@@ -34,7 +34,9 @@ noComment: true
 [^1]: There is conflict in the Islamic world over the religious identity of us Ahmadi Muslims, see [here](/heretic) for more
 
 # Previous Work
-{{< figure src="gallary/mcprep-splash.webp" alt="MCprep 3.5 splash screen" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
+## Professional Work
+MCprep 3.5 Splash Screen
+{{< figure src="gallary/mcprep-splash.webp" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
 
 ## Work I've done in My Spare Time
 *Click an image to expand*
@@ -52,6 +54,13 @@ noComment: true
   <img src="gallary/waters.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
+
+## Major Pieces
+Since December 2023, I've been doing 2 major pieces a year, one on summer and one in winter, noted with a black border. These are pieces where I try and break my limits, and demonstrate what I've learned in the past several years.
+
+### 2023
+2023 only had one major piece, the winter piece for New Years
+{{< figure src="gallary/NY-2023-2024.webp" alt="2023 Winter Major Piece" class="mcprep-35-splash" >}}
 
 # Development Experience
 - Primary Languages:
