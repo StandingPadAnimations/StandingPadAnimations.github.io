@@ -167,7 +167,8 @@
   
   
   <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px] bg-neutral dark:bg-neutral-800" style="z-index:100">
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
@@ -518,6 +519,13 @@
 
   </div>
 </div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">
@@ -768,11 +776,11 @@
 <p>&ldquo;But migrating is so hard&rdquo;</p>
 <p>It may seem that way, but I&rsquo;ve talked with a buddy who used 2.7x quite a bit after 2.8&rsquo;s release, and this is what he had to say:</p>
 <blockquote>
-<div id="typeit-1-1703650587046316711"></div>
+<div id="typeit-1-1703651096544090175"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-1-1703650587046316711", {
+      new TypeIt("#typeit-1-1703651096544090175", {
         strings: ["","As soon as i found out about preference presets for 2.7 controls, i switched immediately... And with all the features i made myself an interface to work faster than ever. No real reason not to switch","","I think people who genuinenly use 2.7 probably don't have that high aspirations. You can get alot done in this version and it's honestly still the great old blender, but the new version lifts the quality and experience to insane levels","","I mean Songs of War was made in 2.7 and is awesome, but well... Doesn't deny that 3.4 is the way better tool",""],
         speed:  20 ,
         lifeLike:  false ,

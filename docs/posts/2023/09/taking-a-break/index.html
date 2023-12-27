@@ -167,7 +167,8 @@
   
   
   <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px] bg-neutral dark:bg-neutral-800" style="z-index:100">
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
@@ -518,6 +519,13 @@
 
   </div>
 </div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">
@@ -681,11 +689,11 @@
           <p><a href="https://github.com/Moo-Ack-Productions/MCprep/discussions/481"   target="_blank">
     As stated on the MCprep repo</a>, I will be taking a break from MCprep for the next development cycle. This also includes the MCprep community server (beyond what is required for me to do my job as a mod).</p>
 <blockquote>
-<div id="typeit-0-1703650587064656044"></div>
+<div id="typeit-0-1703651096551672579"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-0-1703650587064656044", {
+      new TypeIt("#typeit-0-1703651096551672579", {
         strings: ["","\"As I've noticed in the past year or so, I've grown a bit… harsh on other people, and I think a break will really help with that issue.\"","- Me",""],
         speed:  20 ,
         lifeLike:  false ,
@@ -700,11 +708,11 @@
 <p>I think however I should elaborate on the reasoning a bit more.</p>
 <p>In the past, I&rsquo;ve noticed that I get pretty&hellip; what&rsquo;s the best word for this?</p>
 <blockquote>
-<div id="typeit-1-1703650587064784854"></div>
+<div id="typeit-1-1703651096551826035"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-1-1703650587064784854", {
+      new TypeIt("#typeit-1-1703651096551826035", {
         strings: ["","critical","1. inclined to find fault or to judge with severity, often too readily","- Dictionary.com",""],
         speed:  20 ,
         lifeLike:  false ,
@@ -719,11 +727,11 @@
 <p>Yeah let&rsquo;s go with that. Needless to say, it&rsquo;s not a good thing when dealing with MCprep users, and really has caused me more issues.</p>
 <p>There&rsquo;s another layer to this though: around fall and winter my emotional state tends to get a bit more&hellip; what&rsquo;s the right word?</p>
 <blockquote>
-<div id="typeit-2-1703650587064889258"></div>
+<div id="typeit-2-1703651096551945553"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-2-1703650587064889258", {
+      new TypeIt("#typeit-2-1703651096551945553", {
         strings: ["","melancholy","1. a gloomy state of mind, especially when habitual or prolonged; depression","- Dictionary.com",""],
         speed:  20 ,
         lifeLike:  false ,
