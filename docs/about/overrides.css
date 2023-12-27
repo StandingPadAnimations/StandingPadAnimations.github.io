@@ -21,8 +21,41 @@
     height: auto;
 }
 
+@media only screen and (max-width: 600px) {
+    .revit-badge {
+        border-radius: 8px; 
+        width: 30%;
+        height: auto;
+    }
+}
+
 .mcprep-35-splash {
     border-radius: 8px;
     width: 80%;
     height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .mcprep-35-splash {
+        border-radius: 8px; 
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Major Pieces */
+
+/* 2023 */
+.winter-2023 {
+    border-radius: 8px;
+    width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .winter-2023 {
+        border-radius: 8px; 
+        width: 80%;
+        height: auto;
+    }
 }
