@@ -167,11 +167,22 @@
   
   
   <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
-  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px] bg-neutral dark:bg-neutral-800" style="z-index:100">
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">StandingPad&rsquo;s Corner</span>
+
+            <img src="/img/logo.png" width="50" height="97"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="StandingPad&#39;s Corner" />
+
+        </a>
+    </div>
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
@@ -507,13 +518,6 @@
 
   </div>
 </div>
-<script>
-  window.addEventListener('scroll', function (e) {
-    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    var background_blur = document.getElementById('menu-blur');
-    background_blur.style.opacity = (scroll / 300);
-  });
-</script>
 
   
   <div class="relative flex flex-col grow">
@@ -697,11 +701,11 @@
 </h1>
 <p>I have closed the Prepping API proposal with the following:</p>
 <blockquote>
-<div id="typeit-0-1703641356011798452"></div>
+<div id="typeit-0-1703650587035275243"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-0-1703641356011798452", {
+      new TypeIt("#typeit-0-1703650587035275243", {
         strings: ["","I'll be closing this issue since I feel that for such a niche feature, the workarounds needed aren't worth it",""],
         speed:  20 ,
         lifeLike:  false ,
@@ -734,11 +738,11 @@ Custom scripting language? Not with the current state of things.</p>
 <p>Does it matter?</p>
 <p>I think it does. As I stated in my comment:</p>
 <blockquote>
-<div id="typeit-1-1703641356011973135"></div>
+<div id="typeit-1-1703650587035493220"></div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      new TypeIt("#typeit-1-1703641356011973135", {
+      new TypeIt("#typeit-1-1703650587035493220", {
         strings: ["","We MCprep maintainers have a responsibility in keeping users' systems safe. If we make the Prepping API too easy to enable and users suffer as a result, I personally believe the blame would lie on us as we could have made this far harder to exploit.",""],
         speed:  20 ,
         lifeLike:  false ,

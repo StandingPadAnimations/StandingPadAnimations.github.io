@@ -98,7 +98,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "508"
+    "wordCount": "522"
   }]
   </script>
 
@@ -168,11 +168,22 @@
   
   
   <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
-  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px] bg-neutral dark:bg-neutral-800" style="z-index:100">
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">StandingPad&rsquo;s Corner</span>
+
+            <img src="/img/logo.png" width="50" height="97"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="StandingPad&#39;s Corner" />
+
+        </a>
+    </div>
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
@@ -508,13 +519,6 @@
 
   </div>
 </div>
-<script>
-  window.addEventListener('scroll', function (e) {
-    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    var background_blur = document.getElementById('menu-blur');
-    background_blur.style.opacity = (scroll / 300);
-  });
-</script>
 
   
   <div class="relative flex flex-col grow">
@@ -648,62 +652,7 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-     <div
-      class="order-first sm:max-w-prose lg:ml-auto px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
-      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
-
-         <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
-  <summary
-    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#professional-work">Professional Work</a></li>
-    <li><a href="#work-ive-done-in-my-spare-time">Work I&rsquo;ve done in My Spare Time</a></li>
-    <li><a href="#major-pieces">Major Pieces</a>
-      <ul>
-        <li><a href="#2023">2023</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="#development-work">Development Work</a></li>
-  </ul>
-</nav>
-  </div>
-</details>
-<details class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
-  <summary
-    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#professional-work">Professional Work</a></li>
-    <li><a href="#work-ive-done-in-my-spare-time">Work I&rsquo;ve done in My Spare Time</a></li>
-    <li><a href="#major-pieces">Major Pieces</a>
-      <ul>
-        <li><a href="#2023">2023</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="#development-work">Development Work</a></li>
-  </ul>
-</nav>
-  </div>
-</details>
-
-   </div>
-      </div>
-      
+    
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -742,10 +691,11 @@
   
 
 
-<p>Hey there, I&rsquo;m Mahid Sheikh, a 3D artist and developer from the Dallas-Fort Worth metroplex in Texas. Here&rsquo;s some more info on me (with some bad selfies)</p>
+<p>Hey there, I&rsquo;m Mahid Sheikh, a 3D artist and developer from the Dallas-Fort Worth metroplex in Texas. I&rsquo;m also a Pakistani-American (born in the US) and an Ahmadi Muslim <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Here&rsquo;s some more pictures of me:
 
 
-<div id="gallery-1-1703641355961480445">
+<div id="gallery-1-1703650587002888947">
   
   <img src="gallary/me/20220305_142442.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/me/20221002_200050.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -758,17 +708,13 @@
 
 <script>
   $(window).on("load", function () {
-    $('#gallery-1-1703641355961480445').packery({
+    $('#gallery-1-1703650587002888947').packery({
       percentPosition: true,
       gutter: 5,
       resize: true
     });
   })
-</script>
-<ul>
-<li>Pakistani-American</li>
-<li>Ahmadi Muslim <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
-</ul>
+</script></p>
 <h1 class="relative group">3D art work 
     <div id="3d-art-work" class="anchor"></div>
     
@@ -820,7 +766,18 @@
     </span>        
     
 </h2>
-<p>Release artwork for MCprep 3.5. MCprep is a workflow addon for Minecraft artists working in Blender, and I work as one of the maintainers of the project. Normally, we&rsquo;d hold a contest with the community, but due to short notice, I was asked to make the release artwork for MCprep 3.5.
+<p>Here&rsquo;s some of the work I&rsquo;ve done professionally.</p>
+<h3 class="relative group">Release artwork for MCprep 3.5 
+    <div id="release-artwork-for-mcprep-35" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#release-artwork-for-mcprep-35" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>MCprep is a workflow addon for Minecraft artists working in Blender, and I work as one of the maintainers of the project. Normally, we&rsquo;d hold a contest with the community, but due to short notice, I was asked to make the release artwork for MCprep 3.5.
 
 
   
@@ -865,7 +822,7 @@
 <p><em>Click an image to expand</em>
 
 
-<div id="gallery-4-1703641355961788235">
+<div id="gallery-4-1703650587003319129">
   
   <img src="gallary/EP-20-11-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -884,7 +841,7 @@
 
 <script>
   $(window).on("load", function () {
-    $('#gallery-4-1703641355961788235').packery({
+    $('#gallery-4-1703650587003319129').packery({
       percentPosition: true,
       gutter: 5,
       resize: true
@@ -957,8 +914,10 @@
 <ul>
 <li>Python</li>
 <li>C++</li>
-<li>Rust
-Additionally, I have experience with:</li>
+<li>Rust</li>
+</ul>
+<p>Additionally, I have experience with:</p>
+<ul>
 <li>Haskell</li>
 <li>Go</li>
 <li>Lua</li>
@@ -975,7 +934,7 @@ Additionally, I have experience with:</li>
     
 </h2>
 <p>My main development work encompasses multiple areas, but these days it&rsquo;s in addons that improve users workflows and contributing to open source projects in eneral. I&rsquo;m one of the maintainers for the MCprep addon, a Blender addon that speeds up the workflow of Minecraft animators by providings tools such as material generation, importing premade rigs, creating automatic weather effects, and more, all with the click of a button.
-<a id="github-6-1703641355962092090" target="_blank" href="https://github.com/Moo-Ack-Productions/MCprep" class="cursor-pointer">
+<a id="github-6-1703650587003829785" target="_blank" href="https://github.com/Moo-Ack-Productions/MCprep" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
@@ -991,13 +950,13 @@ Additionally, I have experience with:</li>
 
       </span>
       <div
-        id="github-6-1703641355962092090-full_name"
+        id="github-6-1703650587003829785-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         Moo-Ack-Productions/MCprep
       </div>
     </div>
 
-    <p id="github-6-1703641355962092090-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-6-1703650587003829785-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       Blender python addon to increase workflow for creating minecraft renders and animations
     </p>
 
@@ -1018,7 +977,7 @@ Additionally, I have experience with:</li>
 
 
       </span>
-      <div id="github-6-1703641355962092090-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-6-1703650587003829785-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         245
       </div>
 
@@ -1031,7 +990,7 @@ Additionally, I have experience with:</li>
 
 
       </span>
-      <div id="github-6-1703641355962092090-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-6-1703650587003829785-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         23
       </div>
 
@@ -1046,16 +1005,16 @@ Additionally, I have experience with:</li>
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-6-1703641355962092090-full_name').innerHTML = data.full_name;
-        document.getElementById('github-6-1703641355962092090-description').innerHTML = data.description;
-        document.getElementById('github-6-1703641355962092090-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-6-1703641355962092090-forks').innerHTML = data.forks;
+        document.getElementById('github-6-1703650587003829785-full_name').innerHTML = data.full_name;
+        document.getElementById('github-6-1703650587003829785-description').innerHTML = data.description;
+        document.getElementById('github-6-1703650587003829785-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-6-1703650587003829785-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
 </a></p>
 <p>In my MCprep career, I also created BpyBuild for the MCprep project. BpyBuild a program that aims to streamline the process of building Blender addons and automatically installing them to the targeted Blender versions, allowing developers to perform less mundane tasks and more development.
-<a id="github-7-1703641355964997280" target="_blank" href="https://github.com/Moo-Ack-Productions/bpy-build" class="cursor-pointer">
+<a id="github-7-1703650587008272528" target="_blank" href="https://github.com/Moo-Ack-Productions/bpy-build" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
@@ -1071,13 +1030,13 @@ Additionally, I have experience with:</li>
 
       </span>
       <div
-        id="github-7-1703641355964997280-full_name"
+        id="github-7-1703650587008272528-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         Moo-Ack-Productions/bpy-build
       </div>
     </div>
 
-    <p id="github-7-1703641355964997280-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-7-1703650587008272528-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       A build sytem to make building Blender addons 10 times easier
     </p>
 
@@ -1098,7 +1057,7 @@ Additionally, I have experience with:</li>
 
 
       </span>
-      <div id="github-7-1703641355964997280-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-7-1703650587008272528-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         2
       </div>
 
@@ -1111,7 +1070,7 @@ Additionally, I have experience with:</li>
 
 
       </span>
-      <div id="github-7-1703641355964997280-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-7-1703650587008272528-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         2
       </div>
 
@@ -1126,16 +1085,16 @@ Additionally, I have experience with:</li>
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-7-1703641355964997280-full_name').innerHTML = data.full_name;
-        document.getElementById('github-7-1703641355964997280-description').innerHTML = data.description;
-        document.getElementById('github-7-1703641355964997280-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-7-1703641355964997280-forks').innerHTML = data.forks;
+        document.getElementById('github-7-1703650587008272528-full_name').innerHTML = data.full_name;
+        document.getElementById('github-7-1703650587008272528-description').innerHTML = data.description;
+        document.getElementById('github-7-1703650587008272528-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-7-1703650587008272528-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
 </a></p>
 <p>I&rsquo;m also the maintainer of the Bforartists Flatpak package. Bforartists is a fork of Blender focused on improving the GUI experience for users, and I maintain the Flatpak build for Linux users who either prefer Flatpak or can only use a Flatpak version.
-<a id="github-8-1703641355967918551" target="_blank" href="https://github.com/flathub/de.bforartists.Bforartists" class="cursor-pointer">
+<a id="github-8-1703650587011008632" target="_blank" href="https://github.com/flathub/de.bforartists.Bforartists" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
@@ -1151,13 +1110,13 @@ Additionally, I have experience with:</li>
 
       </span>
       <div
-        id="github-8-1703641355967918551-full_name"
+        id="github-8-1703650587011008632-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         flathub/de.bforartists.Bforartists
       </div>
     </div>
 
-    <p id="github-8-1703641355967918551-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-8-1703650587011008632-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       
     </p>
 
@@ -1178,7 +1137,7 @@ Additionally, I have experience with:</li>
 
 
       </span>
-      <div id="github-8-1703641355967918551-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-8-1703650587011008632-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         1
       </div>
 
@@ -1191,7 +1150,7 @@ Additionally, I have experience with:</li>
 
 
       </span>
-      <div id="github-8-1703641355967918551-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-8-1703650587011008632-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -1206,10 +1165,10 @@ Additionally, I have experience with:</li>
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-8-1703641355967918551-full_name').innerHTML = data.full_name;
-        document.getElementById('github-8-1703641355967918551-description').innerHTML = data.description;
-        document.getElementById('github-8-1703641355967918551-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-8-1703641355967918551-forks').innerHTML = data.forks;
+        document.getElementById('github-8-1703650587011008632-full_name').innerHTML = data.full_name;
+        document.getElementById('github-8-1703650587011008632-description').innerHTML = data.description;
+        document.getElementById('github-8-1703650587011008632-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-8-1703650587011008632-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
@@ -1226,7 +1185,7 @@ Additionally, I have experience with:</li>
 </h1>
 <p>Interested? Contact me at <a href="mailto:contact@standingpad.org"  >
     contact@standingpad.org</a></p>
-<p><em>Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please <em><strong>do not send me advertisements though email</strong></em></em></p>
+<p><em>Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please <em><strong>do not send me advertisements though email.</strong></em></em></p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
