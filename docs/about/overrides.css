@@ -13,7 +13,7 @@
 @media only screen and (max-width: 600px) {
     .my-photo {
         border-radius: 8px; 
-        width: 70%;
+        width: 80%;
         height: auto;
         float: none;
     }
