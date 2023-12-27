@@ -6,18 +6,17 @@ images:
 showDate: false
 showRelatedContent: false
 showAuthor: false
-showTable0fContents: true
+showTableOfContents: true
+showReadingTime: false
+showWordCount: false
 noComment: true
 ---
 <link rel="stylesheet" href="overrides.css">
 
 {{< figure src="gallary/me/main.jpg" class="my-photo" caption="Mahid Sheikh" >}}
 
-- 3D Artist with 3+ years of Blender experience
+Hey there, I'm Mahid Sheikh, a 3D artist and developer from the Dallas-Fort Worth metroplex in Texas. Here's some more info on me (with some bad selfies)
 
-{{< figure src="gallary/revit-badge.webp" alt="Revit Certification Badge" href="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" class="revit-badge" nozoom=true >}}
-
-# Some More Stuff on Me
 {{< gallery >}}
   <img src="gallary/me/20220305_142442.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/me/20221002_200050.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -27,18 +26,23 @@ noComment: true
   <img src="gallary/me/old-main.jpg"         class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
 
-- Pakistani-American in Dallas, Texas
+- Pakistani-American
 - Ahmadi Muslim [^1]
-- Yes I have a beard. No, I do not want to do a clean shave
 
 [^1]: There is conflict in the Islamic world over the religious identity of us Ahmadi Muslims, see [here](/heretic) for more
 
-# Previous Work
+# 3D art work
+My main area of work is Minecraft rendering. My main piece of software is Blender, though I also gained Revit certification in May of 2023.
+
+{{< figure src="gallary/revit-badge.webp" alt="Revit Certification Badge" href="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" class="revit-badge" nozoom=true >}}
+
 ## Professional Work
-MCprep 3.5 Splash Screen
+Release artwork for MCprep 3.5. MCprep is a workflow addon for Minecraft artists working in Blender, and I work as one of the maintainers of the project. Normally, we'd hold a contest with the community, but due to short notice, I was asked to make the release artwork for MCprep 3.5.
 {{< figure src="gallary/mcprep-splash.webp" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
 
 ## Work I've done in My Spare Time
+This is a curated selection of work I've done in my spare time. As mentioned earlier, my main focus is Minecraft rendering, but I've also dabbled a little in ArchViz rendering in the past.
+
 *Click an image to expand*
 {{< gallery >}}
   <img src="gallary/EP-20-11-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -60,32 +64,28 @@ Since December 2023, I've been doing 2 major pieces a year, one on summer and on
 
 ### 2023
 2023 only had one major piece, the winter piece for New Years
-{{< figure src="gallary/NY-2023-2024.webp" alt="2023 Winter Major Piece" class="mcprep-35-splash" >}}
+{{< figure src="gallary/NY-2023-2024.webp" alt="2023 Winter Major Piece" class="winter-2023" >}}
 
 # Development Experience
-- Primary Languages:
-    - Python
-    - C++
-    - Rust
-- with experience using:
-    - Haskell
-    - Go
-    - Lua
-    - Bash
+I'm not only a 3D artist but also a programmer. My main languages are:
+- Python
+- C++
+- Rust
+Additionally, I have experience with:
+- Haskell
+- Go
+- Lua
+- Bash
 
-## Past and Present Work
-- Maintainer for the MCprep addon, a Blender addon that speeds up the workflow of Minecraft animators by providings tools such as material generation, importing premade rigs, creating automatic weather effects, and more, all with the click of a button.
-    - {{< github repo="Moo-Ack-Productions/MCprep" >}}
+## Development Work
+My main development work encompasses multiple areas, but these days it's in addons that improve users workflows and contributing to open source projects in eneral. I'm one of the maintainers for the MCprep addon, a Blender addon that speeds up the workflow of Minecraft animators by providings tools such as material generation, importing premade rigs, creating automatic weather effects, and more, all with the click of a button.
+{{< github repo="Moo-Ack-Productions/MCprep" >}}
 
-- Formar Project Lead for Resurgence Virtual Machine, a project that aimed to create an easy to implement specification and reference implementation for a virtual machine architecture based on real world computers.
-    - {{< github repo="Resurgence-VM-Development/Resurgence" >}}
+In my MCprep career, I also created BpyBuild for the MCprep project. BpyBuild a program that aims to streamline the process of building Blender addons and automatically installing them to the targeted Blender versions, allowing developers to perform less mundane tasks and more development.
+{{< github repo="Moo-Ack-Productions/bpy-build" >}}
 
-- Creator of `bpy-addon-build` (also known as `bpy-build`), a program that aims to streamline the process of building Blender addons and automatically installing them to the targeted Blender versions, allowing developers to perform less mundane tasks and more development.
-    - {{< github repo="Moo-Ack-Productions/bpy-build" >}}
-
-- Experience creating toy languages.
-    - {{< github repo="StandingPadAnimations/Rendor" >}}
-    - {{< github repo="StandingPadAnimations/Enderknight-Programming-Language" >}}
+I'm also the maintainer of the Bforartists Flatpak package. Bforartists is a fork of Blender focused on improving the GUI experience for users, and I maintain the Flatpak build for Linux users who either prefer Flatpak or can only use a Flatpak version.
+{{< github repo="flathub/de.bforartists.Bforartists" >}}
 
 # Contact
 Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.org)
