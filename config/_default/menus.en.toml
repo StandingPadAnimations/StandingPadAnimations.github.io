@@ -23,25 +23,25 @@
 [[main]]
   name = "Resources"
   url = "/resources"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Assets"
   parent = "Resources"
   url = "/resources"
-  weight = 10
+  weight = 35
 
 [[main]]
   name = "Twitter Archive"
   parent = "Resources"
   url = "/twitter"
-  weight = 20
+  weight = 36
 
 [[main]]
   name = "Email Blocklist"
   parent = "Resources"
   url = "/email-shame-list"
-  weight = 30
+  weight = 37
 
 #[[main]]
 #  name = "example sub-menu 2"

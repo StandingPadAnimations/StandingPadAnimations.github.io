@@ -6,7 +6,6 @@ images:
 showDate: false
 showRelatedContent: false
 showAuthor: false
-showTableOfContents: true
 showReadingTime: false
 showWordCount: false
 noComment: true
@@ -15,8 +14,11 @@ noComment: true
 
 {{< figure src="gallary/me/main.jpg" class="my-photo" caption="Mahid Sheikh" >}}
 
-Hey there, I'm Mahid Sheikh, a 3D artist and developer from the Dallas-Fort Worth metroplex in Texas. Here's some more info on me (with some bad selfies)
+Hey there, I'm Mahid Sheikh, a 3D artist and developer from the Dallas-Fort Worth metroplex in Texas. I'm also a Pakistani-American (born in the US) and an Ahmadi Muslim [^1]
 
+[^1]: There is conflict in the Islamic world over the religious identity of us Ahmadi Muslims, see [here](/heretic) for more
+
+Here's some more pictures of me:
 {{< gallery >}}
   <img src="gallary/me/20220305_142442.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/me/20221002_200050.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -26,18 +28,16 @@ Hey there, I'm Mahid Sheikh, a 3D artist and developer from the Dallas-Fort Wort
   <img src="gallary/me/old-main.jpg"         class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
 
-- Pakistani-American
-- Ahmadi Muslim [^1]
-
-[^1]: There is conflict in the Islamic world over the religious identity of us Ahmadi Muslims, see [here](/heretic) for more
-
 # 3D art work
 My main area of work is Minecraft rendering. My main piece of software is Blender, though I also gained Revit certification in May of 2023.
 
 {{< figure src="gallary/revit-badge.webp" alt="Revit Certification Badge" href="https://www.credly.com/badges/63c62d4b-7f16-44d7-8305-a49771cbd8d0/public_url" position="left" class="revit-badge" nozoom=true >}}
 
 ## Professional Work
-Release artwork for MCprep 3.5. MCprep is a workflow addon for Minecraft artists working in Blender, and I work as one of the maintainers of the project. Normally, we'd hold a contest with the community, but due to short notice, I was asked to make the release artwork for MCprep 3.5.
+Here's some of the work I've done professionally.
+
+### Release artwork for MCprep 3.5
+MCprep is a workflow addon for Minecraft artists working in Blender, and I work as one of the maintainers of the project. Normally, we'd hold a contest with the community, but due to short notice, I was asked to make the release artwork for MCprep 3.5.
 {{< figure src="gallary/mcprep-splash.webp" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
 
 ## Work I've done in My Spare Time
@@ -71,6 +71,7 @@ I'm not only a 3D artist but also a programmer. My main languages are:
 - Python
 - C++
 - Rust
+
 Additionally, I have experience with:
 - Haskell
 - Go
@@ -90,4 +91,4 @@ I'm also the maintainer of the Bforartists Flatpak package. Bforartists is a for
 # Contact
 Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.org)
 
-*Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please ___do not send me advertisements though email___*
+*Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please ___do not send me advertisements though email.___*
