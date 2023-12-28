@@ -20,7 +20,7 @@ Hey there, I'm Mahid Sheikh, a 3D artist and developer from the Dallas-Fort Wort
 
 A bit boring, I'm aware.
 
-[^1]: There is conflict in the Islamic world over the religious identity of us Ahmadi Muslims, see [here](/heretic) for more
+[^1]: There is conflict in the Islamic world over the religious identity of us Ahmadi Muslims, see [here](/heretic) for my view on the matter
 
 <div style="clear:both;"></div>
 

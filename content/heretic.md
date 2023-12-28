@@ -9,12 +9,12 @@ noComment: true
 
 > _Foreword: For those unaware, Ahmadi Muslims like myself are considered heretics by parts of the Islamic world, particurally in Pakistan. Ideally, I wouldn't have to write this, but there's bound to be people that dislike myself calling myself Muslim. As this is specifically written for other Muslims that may dislike my use of the term "Muslim", there is a lot of references to religion here._
 
-Some mainstream Muslims may not like the use of the term "Ahmadi _Muslim_" on the [about page](/about), among other places. After all, many religious clerics and Islamic governments have declared us Ahmadi Muslims as heritics, to the point where in places like Pakistan (the country my parents are from), it's punishable by imprisonment (Ordinance XX of Pakistan) or death (Pakistan's Blasphemy Law) for us to call ourselves Muslims. 
+Some mainstream Muslims may not like the use of the term "Ahmadi _Muslim_" on the [about page](/about), since many mainstream Muslims are taught that us Ahmadis are non-Muslims and "not allowed to be called Muslim"
 
-**Short answer**: I consider myself a Muslim and thus won't remove any references to that on this website. If you don't like that, then find another artist to support
+**Short answer**: I consider myself a Muslim and thus won't remove any references to that on this website
 
-**Longish answer**: On one hand, we don't believe the Prophet Muhammad (saw) to be the final prophet of all time (although we do believe there won't be any new law bearing prophet), we follow a caliph, and we have some unorthodox beliefs compared to other Muslims (such as the belief that Isa (as) was placed on the cross but survived). On the other hand:
-- We follow all 5 pillars of faith (to the best of our ability at least given the current state of affairs)
+**Longish answer**: On one hand, we don't believe the Prophet Muhammad (saw) to be the final prophet of all time (although we do believe there won't be any new law bearing prophet), we follow a caliph, and we have some unorthodox beliefs compared to other mainstream Muslims. On the other hand:
+- We follow all 5 pillars of faith
 - We believe God is one and the Prophet Muhammad (saw) is his messenger (as per the kalima)
 - We do all 5 daily prayers
 - We read the same Quran as every other Muslim (contrary to what some have claimed, we don't have a replacement for the Quran)
