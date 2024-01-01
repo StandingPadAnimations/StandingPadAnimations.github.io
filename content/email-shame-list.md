@@ -34,6 +34,7 @@ yogesh@itwebapp.in
 singhshephali549@gmail.com
 lakshmisingh34@outlook.com
 Fabianallen88880@outlook.com
+service@cb4c63617d.nxcli.io
 ```
 
 # App Developers
@@ -73,4 +74,10 @@ yogesh@itwebapp.in
 singhshephali549@gmail.com
 lakshmisingh34@outlook.com
 Fabianallen88880@outlook.com
+```
+
+# Crypto Scams
+I may be playing around with Monero, but all scammers will recieve the same punishment, that is being on this list.
+```
+service@cb4c63617d.nxcli.io
 ```
