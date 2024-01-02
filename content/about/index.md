@@ -68,7 +68,36 @@ This is a curated selection of work I've done in my spare time. As mentioned ear
 ## Major Pieces
 Since December 2023, I've been doing 2 major pieces a year, one on summer and one in winter, noted with a black border. These are pieces where I try and break my limits, and demonstrate what I've learned in the past several years.
 
-As a bit of a nerdy easter egg, the black border has a slight noise to the value of the original hex value (`#171717`), using the GnuIMP HSV noise filter, and a seed based on the first column of a hex dump, the hex dump being the output of `sha256sum <original file>`.
+As a bit of a nerdy easter egg, the black border has a slight noise to the value of the original hex value (`#171717`), using the GnuIMP HSV noise filter, with the noise driven by the following script:
+```py
+import hashlib
+import sys
+import pathlib
+import random
+
+def main():
+    if len(sys.argv) < 2:
+        print("Pass file!")
+        return
+    path = pathlib.Path(sys.argv[1])
+    if path.exists():
+        with open(path, 'rb', buffering=0) as f:
+            def sum_digits(n):
+                s = 0
+                while n:
+                    s += n % 10
+                    n //= 10
+                return s
+            s256 = sum_digits(int(hashlib.file_digest(f, 'sha256').hexdigest(), 16))
+            s512 = sum_digits(int(hashlib.file_digest(f, 'sha512').hexdigest(), 16))
+            random.seed(s256)
+            print(s512, random.uniform(0, 1))
+
+if __name__ == "__main__":
+    main()
+```
+
+Meaning the border is unique per image. Cool, I know c:
 
 ### 2023
 2023 only had one major piece, the winter piece for New Years
