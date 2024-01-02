@@ -68,6 +68,8 @@ This is a curated selection of work I've done in my spare time. As mentioned ear
 ## Major Pieces
 Since December 2023, I've been doing 2 major pieces a year, one on summer and one in winter, noted with a black border. These are pieces where I try and break my limits, and demonstrate what I've learned in the past several years.
 
+As a bit of a nerdy easter egg, the black border has a slight noise to the value of the original hex value (`#171717`), using the GnuIMP HSV noise filter, and a seed based on the first column of a hex dump, the hex dump being the output of `sha256sum <original file>`.
+
 ### 2023
 2023 only had one major piece, the winter piece for New Years
 {{< figure src="gallary/NY-2023-2024.webp" alt="2023 Winter Major Piece" class="winter-2023" >}}
