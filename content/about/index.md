@@ -91,7 +91,7 @@ def main():
             s256 = sum_digits(int(hashlib.file_digest(f, 'sha256').hexdigest(), 16))
             s512 = sum_digits(int(hashlib.file_digest(f, 'sha512').hexdigest(), 16))
             random.seed(s256)
-            print(s512, random.uniform(0, 1))
+            print(f"Seed: {s512}", f"Hue: {random.uniform(0, 1)}")
 
 if __name__ == "__main__":
     main()
