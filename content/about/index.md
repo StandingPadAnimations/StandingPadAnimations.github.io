@@ -70,28 +70,36 @@ Since December 2023, I've been doing 2 major pieces a year, one on summer and on
 
 As a bit of a nerdy easter egg, the black border has a slight noise to the value of the original hex value (`#171717`), using the GnuIMP HSV noise filter, with the noise driven by the following script:
 ```py
-import hashlib
+from PIL import Image
 import sys
-import pathlib
+import math
 import random
 
+def get_rgb_values(image_path):
+    try:
+        image = Image.open(image_path)
+        rgb_values = list(image.getdata())
+        return rgb_values
+    except Exception as e:
+        print(f"Error: {e}")
+        return None
+
 def main():
-    if len(sys.argv) < 2:
-        print("Pass file!")
-        return
-    path = pathlib.Path(sys.argv[1])
-    if path.exists():
-        with open(path, 'rb', buffering=0) as f:
-            def sum_digits(n):
-                s = 0
-                while n:
-                    s += n % 10
-                    n //= 10
-                return s
-            s256 = sum_digits(int(hashlib.file_digest(f, 'sha256').hexdigest(), 16))
-            s512 = sum_digits(int(hashlib.file_digest(f, 'sha512').hexdigest(), 16))
-            random.seed(s256)
-            print(f"Seed: {s512}", f"Hue: {random.uniform(0, 1)}")
+    if len(sys.argv) != 2:
+        print("Usage: python rgb_values_extractor.py <image_path>")
+        sys.exit(1)
+    image_path = sys.argv[1]
+    rgb_values = get_rgb_values(image_path)
+    if rgb_values:
+        x, y, z = (0, 0, 0)
+        for r, g, b in rgb_values:
+            x += r % 255
+            y += g % 255
+            z += b % 255
+        
+        random.seed(x*y*z)
+        h, s = (random.uniform(0, 1), random.randint(0, int(math.sqrt(x+y+z))))
+        print("Hue:", h, "Seed", s)
 
 if __name__ == "__main__":
     main()
