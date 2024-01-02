@@ -98,7 +98,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "577"
+    "wordCount": "629"
   }]
   </script>
 
@@ -706,7 +706,7 @@
 <p>Here&rsquo;s some more pictures of me:
 
 
-<div id="gallery-1-1704153696707363470">
+<div id="gallery-1-1704155430336214171">
   
   <img src="gallary/me/20220305_142442.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/me/20221002_200050.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -719,7 +719,7 @@
 
 <script>
   $(window).on("load", function () {
-    $('#gallery-1-1704153696707363470').packery({
+    $('#gallery-1-1704155430336214171').packery({
       percentPosition: true,
       gutter: 5,
       resize: true
@@ -833,7 +833,7 @@
 <p><em>Click an image to expand</em>
 
 
-<div id="gallery-4-1704153696707993092">
+<div id="gallery-4-1704155430339331886">
   
   <img src="gallary/EP-20-11-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -852,7 +852,7 @@
 
 <script>
   $(window).on("load", function () {
-    $('#gallery-4-1704153696707993092').packery({
+    $('#gallery-4-1704155430339331886').packery({
       percentPosition: true,
       gutter: 5,
       resize: true
@@ -870,6 +870,7 @@
     
 </h2>
 <p>Since December 2023, I&rsquo;ve been doing 2 major pieces a year, one on summer and one in winter, noted with a black border. These are pieces where I try and break my limits, and demonstrate what I&rsquo;ve learned in the past several years.</p>
+<p>As a bit of a nerdy easter egg, the black border has a slight noise to the value of the original hex value (<code>#171717</code>), using the GnuIMP HSV noise filter, and a seed based on the first column of a hex dump, the hex dump being the output of <code>sha256sum &lt;original file&gt;</code>.</p>
 <h3 class="relative group">2023 
     <div id="2023" class="anchor"></div>
     
@@ -945,7 +946,7 @@
     
 </h2>
 <p>My main development work encompasses multiple areas, but these days it&rsquo;s in addons that improve users workflows and contributing to open source projects in eneral. I&rsquo;m one of the maintainers for the MCprep addon, a Blender addon that speeds up the workflow of Minecraft animators by providings tools such as material generation, importing premade rigs, creating automatic weather effects, and more, all with the click of a button.
-<a id="github-6-1704153696708764550" target="_blank" href="https://github.com/Moo-Ack-Productions/MCprep" class="cursor-pointer">
+<a id="github-6-1704155430341077922" target="_blank" href="https://github.com/Moo-Ack-Productions/MCprep" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
@@ -961,13 +962,13 @@
 
       </span>
       <div
-        id="github-6-1704153696708764550-full_name"
+        id="github-6-1704155430341077922-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         Moo-Ack-Productions/MCprep
       </div>
     </div>
 
-    <p id="github-6-1704153696708764550-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-6-1704155430341077922-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       Blender python addon to increase workflow for creating minecraft renders and animations
     </p>
 
@@ -988,7 +989,7 @@
 
 
       </span>
-      <div id="github-6-1704153696708764550-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-6-1704155430341077922-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         245
       </div>
 
@@ -1001,7 +1002,7 @@
 
 
       </span>
-      <div id="github-6-1704153696708764550-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-6-1704155430341077922-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         23
       </div>
 
@@ -1016,16 +1017,16 @@
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-6-1704153696708764550-full_name').innerHTML = data.full_name;
-        document.getElementById('github-6-1704153696708764550-description').innerHTML = data.description;
-        document.getElementById('github-6-1704153696708764550-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-6-1704153696708764550-forks').innerHTML = data.forks;
+        document.getElementById('github-6-1704155430341077922-full_name').innerHTML = data.full_name;
+        document.getElementById('github-6-1704155430341077922-description').innerHTML = data.description;
+        document.getElementById('github-6-1704155430341077922-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-6-1704155430341077922-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
 </a></p>
 <p>In my MCprep career, I also created BpyBuild for the MCprep project. BpyBuild a program that aims to streamline the process of building Blender addons and automatically installing them to the targeted Blender versions, allowing developers to perform less mundane tasks and more development.
-<a id="github-7-1704153696714800899" target="_blank" href="https://github.com/Moo-Ack-Productions/bpy-build" class="cursor-pointer">
+<a id="github-7-1704155430344039924" target="_blank" href="https://github.com/Moo-Ack-Productions/bpy-build" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
@@ -1041,13 +1042,13 @@
 
       </span>
       <div
-        id="github-7-1704153696714800899-full_name"
+        id="github-7-1704155430344039924-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         Moo-Ack-Productions/bpy-build
       </div>
     </div>
 
-    <p id="github-7-1704153696714800899-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-7-1704155430344039924-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       A build sytem to make building Blender addons 10 times easier
     </p>
 
@@ -1068,7 +1069,7 @@
 
 
       </span>
-      <div id="github-7-1704153696714800899-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-7-1704155430344039924-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         2
       </div>
 
@@ -1081,7 +1082,7 @@
 
 
       </span>
-      <div id="github-7-1704153696714800899-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-7-1704155430344039924-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         2
       </div>
 
@@ -1096,16 +1097,16 @@
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-7-1704153696714800899-full_name').innerHTML = data.full_name;
-        document.getElementById('github-7-1704153696714800899-description').innerHTML = data.description;
-        document.getElementById('github-7-1704153696714800899-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-7-1704153696714800899-forks').innerHTML = data.forks;
+        document.getElementById('github-7-1704155430344039924-full_name').innerHTML = data.full_name;
+        document.getElementById('github-7-1704155430344039924-description').innerHTML = data.description;
+        document.getElementById('github-7-1704155430344039924-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-7-1704155430344039924-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
 </a></p>
 <p>I&rsquo;m also the maintainer of the Bforartists Flatpak package. Bforartists is a fork of Blender focused on improving the GUI experience for users, and I maintain the Flatpak build for Linux users who either prefer Flatpak or can only use a Flatpak version.
-<a id="github-8-1704153696716829794" target="_blank" href="https://github.com/flathub/de.bforartists.Bforartists" class="cursor-pointer">
+<a id="github-8-1704155430345747567" target="_blank" href="https://github.com/flathub/de.bforartists.Bforartists" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 
@@ -1121,13 +1122,13 @@
 
       </span>
       <div
-        id="github-8-1704153696716829794-full_name"
+        id="github-8-1704155430345747567-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
         flathub/de.bforartists.Bforartists
       </div>
     </div>
 
-    <p id="github-8-1704153696716829794-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+    <p id="github-8-1704155430345747567-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
       
     </p>
 
@@ -1148,7 +1149,7 @@
 
 
       </span>
-      <div id="github-8-1704153696716829794-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-8-1704155430345747567-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         1
       </div>
 
@@ -1161,7 +1162,7 @@
 
 
       </span>
-      <div id="github-8-1704153696716829794-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-8-1704155430345747567-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -1176,10 +1177,10 @@
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-8-1704153696716829794-full_name').innerHTML = data.full_name;
-        document.getElementById('github-8-1704153696716829794-description').innerHTML = data.description;
-        document.getElementById('github-8-1704153696716829794-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-8-1704153696716829794-forks').innerHTML = data.forks;
+        document.getElementById('github-8-1704155430345747567-full_name').innerHTML = data.full_name;
+        document.getElementById('github-8-1704155430345747567-description').innerHTML = data.description;
+        document.getElementById('github-8-1704155430345747567-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-8-1704155430345747567-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
