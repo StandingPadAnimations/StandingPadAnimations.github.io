@@ -2,6 +2,10 @@
     max-width: 100%;
 }
 
+thead {
+  display: none;
+}
+
 .my-photo {
     border-radius: 8px; 
     width: 30%;
@@ -50,16 +54,14 @@
 }
 
 /* Major Pieces */
-
-/* 2023 */
-.winter-2023 {
+.main-major-piece {
     border-radius: 8px;
     width: 50%;
     height: auto;
 }
 
 @media only screen and (max-width: 600px) {
-    .winter-2023 {
+    .main-major-piece {
         border-radius: 8px; 
         width: 80%;
         height: auto;

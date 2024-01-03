@@ -66,50 +66,24 @@ This is a curated selection of work I've done in my spare time. As mentioned ear
 {{< /gallery >}}
 
 ## Major Pieces
-Since December 2023, I've been doing 2 major pieces a year, one on summer and one in winter, noted with a black border. These are pieces where I try and break my limits, and demonstrate what I've learned in the past several years.
+Since December 2023, I've been doing 2 major pieces a year, one on summer and one in winter, noted with a black border. These are pieces where I try and break my limits, and demonstrate what I've learned in the past several years. Here's the major pieces from the past 2 years.
 
-As a bit of a nerdy easter egg, the black border has a slight noise to the value of the original hex value (`#171717`), using the GnuIMP HSV noise filter, with the noise driven by the following script:
-```py
-from PIL import Image
-import sys
-import math
-import random
+As a bit of a nerdy easter egg, the black border has a slight noise to the value of the original hex value (`#171717`), using the GnuIMP HSV noise filter, with the noise driven by the following 2 equations:
+{{< katex >}}
+$$ v(a, b, c) = sin(a+b+c) $$
+$$ s(x, y, z) = sin(x) + sin(xy) + sin(xz) $$
 
-def get_rgb_values(image_path):
-    try:
-        image = Image.open(image_path)
-        rgb_values = list(image.getdata())
-        return rgb_values
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
+Meaning the border is unique per image.
 
-def main():
-    if len(sys.argv) != 2:
-        print("Usage: python rgb_values_extractor.py <image_path>")
-        sys.exit(1)
-    image_path = sys.argv[1]
-    rgb_values = get_rgb_values(image_path)
-    if rgb_values:
-        x, y, z = (0, 0, 0)
-        for r, g, b in rgb_values:
-            x += r % 255
-            y += g % 255
-            z += b % 255
-        
-        random.seed(x*y*z)
-        h, s = (random.uniform(0, 1), random.randint(0, int(math.sqrt(x+y+z))))
-        print("Hue:", h, "Seed", s)
-
-if __name__ == "__main__":
-    main()
-```
-
-Meaning the border is unique per image. Cool, I know c:
+### 2024
+Coming soon...
+| | |
+|-|-|
+|{{< figure src="gallary/base.webp" caption="Coming in July 2024" class="main-major-piece" >}}|{{< figure src="gallary/base.webp" caption="Coming in December 2024" class="main-major-piece" >}}|
 
 ### 2023
-2023 only had one major piece, the winter piece for New Years
-{{< figure src="gallary/NY-2023-2024.webp" alt="2023 Winter Major Piece" class="winter-2023" >}}
+2023 only had one major piece, the winter piece for New Years, and doesn't use noise from the above equations.
+{{< figure src="gallary/NY-2023-2024.webp" alt="2023 Winter Major Piece" class="main-major-piece" >}}
 
 # Development Experience
 I'm not only a 3D artist but also a programmer. My main languages are:
