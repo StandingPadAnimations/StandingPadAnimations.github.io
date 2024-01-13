@@ -76,10 +76,10 @@
 # the copyright notice. Configure as per the main menu above.
 
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+   name = "Website background source"
+   url = "https://aatishb.com/patterncollider/?symmetry=17&radius=150&zoom=2.18&hue=272&hueRange=78&contrast=46&sat=65&orientationColoring=true"
+   weight = 10
 
 # [[footer]]
 #   name = "Categories"
