@@ -26,22 +26,21 @@
   weight = 30
 
 [[main]]
-  name = "Assets"
-  parent = "Resources"
-  url = "/resources"
-  weight = 35
-
-[[main]]
   name = "Twitter Archive"
   parent = "Resources"
   url = "/twitter"
-  weight = 36
+  weight = 35
 
 [[main]]
   name = "Email Blocklist"
   parent = "Resources"
   url = "/email-shame-list"
-  weight = 37
+  weight = 36
+
+[[main]]
+  name = "Privacy Policy"
+  url = "/privacy-policy"
+  weight = 40
 
 #[[main]]
 #  name = "example sub-menu 2"
@@ -77,9 +76,14 @@
 
 
 [[footer]]
-   name = "Website background source"
-   url = "https://standingpad.org/patterncollider/?symmetry=17&radius=150&zoom=2.18&hue=272&hueRange=78&contrast=46&sat=65&orientationColoring=true"
+   name = "Website Background Source"
+   url = "https://aatishb.com/patterncollider/?symmetry=17&radius=150&zoom=2.18&hue=272&hueRange=78&contrast=46&sat=65&orientationColoring=true"
    weight = 10
+
+[[footer]]
+  name = "Privacy Policy"
+  url = "/privacy-policy"
+  weight = 40
 
 # [[footer]]
 #   name = "Categories"
