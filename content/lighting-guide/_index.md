@@ -6,5 +6,6 @@ cascade:
   showDate: false
   groupByYear: false
   showSummary: true
+showPagination: false
 ---
 This is a lighting guide I made in early 2023. It used to be a PDF on Gumroad, and is now availible on my website!

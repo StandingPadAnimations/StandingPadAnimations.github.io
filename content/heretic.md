@@ -5,6 +5,7 @@ showRelatedContent: false
 showAuthor: false
 showTable0fContents: true
 noComment: true
+showPagination: false
 ---
 
 > _Foreword: For those unaware, Ahmadi Muslims like myself are considered heretics by parts of the Islamic world, particurally in Pakistan. Ideally, I wouldn't have to write this, but there's bound to be people that dislike myself calling myself Muslim. As this is specifically written for other Muslims that may dislike my use of the term "Muslim", there is a lot of references to religion here._

@@ -9,6 +9,7 @@ showAuthor: false
 showReadingTime: false
 showWordCount: false
 noComment: true
+showPagination: false
 ---
 <link rel="stylesheet" href="overrides.css">
 
