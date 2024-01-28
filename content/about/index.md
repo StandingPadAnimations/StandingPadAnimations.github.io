@@ -108,6 +108,9 @@ In my MCprep career, I also created BpyBuild for the MCprep project. BpyBuild a 
 I'm also the maintainer of the Bforartists Flatpak package. Bforartists is a fork of Blender focused on improving the GUI experience for users, and I maintain the Flatpak build for Linux users who either prefer Flatpak or can only use a Flatpak version.
 {{< github repo="flathub/de.bforartists.Bforartists" >}}
 
+And recently in 2024, I created a new addon called Estella, which streamlines light linking and light groups by using improved UX.
+{{< github repo="StandingPadAnimations/Estella" >}}
+
 # Contact
 Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.org)
 
