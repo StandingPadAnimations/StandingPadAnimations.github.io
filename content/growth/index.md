@@ -15,7 +15,7 @@ For many beginning artists, it's hard to imagine that the people you look up to 
 It's a bit embarrassing (especially 2020-2021/22), but every artist feels that way about their old work.
 
 ## 2020
-First year of Blender... for a bit of context, Songs of War was still a big thing at this time, and was one of the reasons I started Blender. Well, if I'm being truthful, I just saw a cool Minecraft rig on Twitter (Thomas Animations Rig). Didn't know what Blender was, but I downloaded it (I'm a bit of a file hoarder, I know) to play around with it. Ironically I'm not a big fan of the rig, but I have to thank it for starting my 3D art career/
+First year of Blender... for a bit of context, Songs of War was still a big thing at this time, and was one of the reasons I started Blender. Well, if I'm being truthful, I just saw a cool Minecraft rig on Twitter (Thomas Animations Rig). Didn't know what Blender was, but I downloaded it (I'm a bit of a file hoarder, I know) to play around with it. Ironically I'm not a big fan of the rig, but I have to thank it for starting my 3D art career.
 
 {{< image src="gallary/can't swim.jpg" alt="Person unable to swim" position="center" style="border-radius: 8px;" >}}
 {{< image src="gallary/Fishing.png" alt="Being pulled by a fish" position="center" style="border-radius: 8px;" >}}
