@@ -84,7 +84,7 @@ Coming soon...
 
 ### 2023
 2023 only had one major piece, the winter piece for New Years, and doesn't use noise from the above equations.
-{{< figure src="gallary/NY-2023-2024.webp" alt="2023 Winter Major Piece" class="main-major-piece" >}}
+{{< figure src="gallary/major_pieces/thumbnails/NY-2023-2024.webp" alt="2023 Winter Major Piece" class="main-major-piece" caption="[View in original resolution](gallary/major_pieces/actual/NY-2023-2024.png)" >}}
 
 # Development Experience
 I'm not only a 3D artist but also a programmer. My main languages are:
