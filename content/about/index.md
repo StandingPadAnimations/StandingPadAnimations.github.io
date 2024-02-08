@@ -13,7 +13,7 @@ showPagination: false
 ---
 <link rel="stylesheet" href="overrides.css">
 
-{{< figure src="gallary/me/main.jpg" class="my-photo" alt="Mahid Sheikh" >}}
+{{< figure src="gallary/me/main.webp" class="my-photo" alt="Mahid Sheikh" >}}
 
 <br class="linebreak-cls">
 
