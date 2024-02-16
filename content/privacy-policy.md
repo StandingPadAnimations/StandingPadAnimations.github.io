@@ -15,6 +15,7 @@ StandingPad.org measures page traffic with [Umami](https://umami.is), which is [
 - None of the information collected can be used to personally identify you 
 - No information is shared with 3rd parties 
 - All data is collected from the browser
+- Data is only retained for one year
 
 The data we collect includes:
 - Visited page
