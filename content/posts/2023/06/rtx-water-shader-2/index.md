@@ -1,5 +1,5 @@
 ---
-title: "Attempt 2 at making an RTX water shader"
+title: "Making a Minecraft RTX Style Water Shader in Blender: Attempt 2"
 date: 2023-06-22
 tags: 
   - Blender

@@ -1,5 +1,5 @@
 ---
-title: "Understanding Cycles Optimization: The Magic Behind Scrambling Pixels like Eggs"
+title: "Optimizing Render Times in Blender: Automatic Scambling Distance"
 date: 2022-12-21
 draft: false
 toc: false

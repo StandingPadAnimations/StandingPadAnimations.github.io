@@ -1,5 +1,5 @@
 ---
-title: "Understanding Cycles Optimization: Spewing Samples and Bouncing Around like Crazy"
+title: "Optimizing Render Times in Blender: Light Bounces and Samples"
 date: 2022-12-20
 draft: false
 toc: false
