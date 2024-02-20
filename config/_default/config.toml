@@ -5,6 +5,7 @@
 theme = ["hugo-embed-pdf-shortcode", "hugo-video", "blowfish"]
 baseURL = "https://www.standingpad.org"
 defaultContentLanguage = "en"
+enableInlineShortcodes = true
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
