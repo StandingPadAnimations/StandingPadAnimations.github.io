@@ -2,7 +2,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-theme = ["hugo-video", "blowfish"]
+theme = ["hugo-embed-pdf-shortcode", "hugo-video", "blowfish"]
 baseURL = "https://www.standingpad.org"
 defaultContentLanguage = "en"
 

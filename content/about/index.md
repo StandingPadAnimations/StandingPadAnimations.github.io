@@ -115,3 +115,7 @@ And recently in 2024, I created a new addon called Estella, which streamlines li
 Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.org)
 
 *Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please ___do not send me advertisements though email.___*
+
+# Resume
+Here's my resume. Some information is redacted for privacy reasons, please contact me for a full resume.
+{{< embed-pdf url="./base-resume-redacted.pdf" hidePaginator="true" >}}
