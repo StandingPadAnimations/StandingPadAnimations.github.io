@@ -4,8 +4,8 @@
   {{ else }}
   <a href="{{ .RelPermalink }}" class="min-w-full">
     {{ end }}
-    <div class="rounded bg-gradient-to-r from-pink-600 to-purple-600 p-[1.5]">
-      <div class="min-h-full bg-slate-900 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+    <div class="transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-102 rounded bg-gradient-to-r from-pink-600 to-purple-600 p-[1.5]">
+      <div class="min-h-full bg-slate-900 rounded overflow-hidden shadow-2xl relative">
 
         {{- with $.Params.images -}}
         {{- range first 6 . }}

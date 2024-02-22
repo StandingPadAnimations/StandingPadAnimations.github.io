@@ -3,7 +3,7 @@
     -webkit-animation: AnimationName 10s ease infinite;
     -moz-animation: AnimationName 10s ease infinite;
     animation: AnimationName 10s ease infinite;
-  }
+}
 
 @keyframes AnimationName {
   0%,
