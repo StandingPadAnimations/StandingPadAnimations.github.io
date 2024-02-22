@@ -75,10 +75,10 @@
 # the copyright notice. Configure as per the main menu above.
 
 
-[[footer]]
-   name = "Website Background Source"
-   url = "https://aatishb.com/patterncollider/?symmetry=19&pattern=0.49&radius=150&zoom=2.18&hue=272&hueRange=78&contrast=46&sat=65&reverseColors=true&orientationColoring=true"
-   weight = 10
+#[[footer]]
+#   name = "Website Background Source"
+#   url = "https://aatishb.com/patterncollider/?symmetry=19&pattern=0.49&radius=150&zoom=2.18&hue=272&hueRange=78&contrast=46&sat=65&reverseColors=true&orientationColoring=true"
+#   weight = 10
 
 # Mirror for if the above doesn't work anymore
 #[[footer]]
