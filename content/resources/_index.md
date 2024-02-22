@@ -14,19 +14,19 @@ All of my publically avalible resources. All Blend files are signed and can be v
 ## Lighting Series
 Guide on how to approch lighting in Blender
 
-{{< button href="/lighting-guide" target="_self" >}}
+{{< button target="/lighting-guide" >}}
 To The Lighting Guide!
 {{< /button >}}
 
 ## RTX Style Water Shader V1
 An old water shader I made that emulates the look of water in RTX Minecraft.
 
-{{< button href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/WaterShaderCyclesX.blend" target="_self" >}}
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/WaterShaderCyclesX.blend" >}}
 Download
 {{< /button >}}
 \
 \
-{{< button href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/WaterShaderCyclesX.blend.sig" target="_self" >}}
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/WaterShaderCyclesX.blend.sig" >}}
 Signature File
 {{< /button >}}
 
@@ -35,12 +35,12 @@ My second attempt to make a RTX Minecraft style water shader, this time being mu
 
 {{< article link="/posts/2023/06/rtx-water-shader-2/" >}}
 
-{{< button href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/water-shader.blend" target="_self" >}}
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/water-shader.blend" >}}
 Download
 {{< /button >}} 
 \
 \
-{{< button href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/water-shader.blend.sig" target="_self" >}}
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/water-shader.blend.sig" >}}
 Signature File
 {{< /button >}}
 
@@ -48,12 +48,12 @@ Signature File
 ## Principled Emission Shader
 An emission nodegroup with more options, as well as brightness in lumens instead of watts
 
-{{< button href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/Emit.blend" target="_self" >}}
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/Emit.blend" >}}
 Download
 {{< /button >}}
 \
 \
-{{< button href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/Emit.blend.sig" target="_self" >}}
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/Emit.blend.sig" >}}
 Signature File
 {{< /button >}}
 
