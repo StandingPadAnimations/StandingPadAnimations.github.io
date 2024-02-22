@@ -13,7 +13,7 @@ It's almost New Year's, so you know what that means! Another New Year's render t
 
 But first some life updates to go through (ugh, I know). If you want to skip all of this, then click the button.
 
-{{< button href="#this-years-new-years-render" target="_self" >}}
+{{< button target="#this-years-new-years-render" scroll="true" >}}
 Skip
 {{< /button >}}
 
