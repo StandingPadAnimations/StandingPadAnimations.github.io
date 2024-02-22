@@ -17,7 +17,7 @@ So in yesterday's post I mentioned how a long time ago I attempted to make a wat
 Just like the clouds and aurora, I wanted to have a water shader that merely acted as an enhancement of the existing Minecraft water. However unlike the previous section, I already had an existing water shader that I could use. This time though, instead of basing it off of Reimagined, I based it off of RTX Minecraft. While I prefer Java edition shaders over RTX Minecraft in most cases, I really liked how the water looked in RTX
 {{< /typeit >}}
 
-{{< article link="/posts/ship-at-night-render/" >}}
+{{< article link="/posts/2023/06/ship-render/" >}}
 
 Well, I've been playing around on my laptop and I think I've gotten closer. I present to you, RTX Water Shader V2: Electric Booga- *slap*
 
