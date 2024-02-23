@@ -25,7 +25,6 @@ An old water shader I made that emulates the look of water in RTX Minecraft.
 Download
 {{< /button >}}
 \
-\
 {{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/WaterShaderCyclesX.blend.sig" >}}
 Signature File
 {{< /button >}}
@@ -39,7 +38,6 @@ My second attempt to make a RTX Minecraft style water shader, this time being mu
 Download
 {{< /button >}} 
 \
-\
 {{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/water-shader.blend.sig" >}}
 Signature File
 {{< /button >}}
@@ -51,7 +49,6 @@ An emission nodegroup with more options, as well as brightness in lumens instead
 {{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/Emit.blend" >}}
 Download
 {{< /button >}}
-\
 \
 {{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/Emit.blend.sig" >}}
 Signature File
