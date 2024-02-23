@@ -3,7 +3,7 @@
 	url = https://github.com/StandingPadAnimations/hugo-theme-hello-friend-ng.git
 [submodule "themes/blowfish"]
 	path = themes/blowfish
-	url = https://github.com/nunocoracao/blowfish.git
+	url = https://github.com/StandingPadAnimations/blowfish
 	branch = main
 [submodule "themes/hugo-video"]
 	path = themes/hugo-video
