@@ -25,7 +25,7 @@ Through this, Estella is able to turn light groups from a clunky to an absolute 
 {{< video src="gallary/showcase.webm" alt="Showcasing Estella's light linking UI" autoplay="true" loop="true" >}}
 
 Estella's GitHub repo and first release can be found below, cheers!
-{{< github repo="StandingPadAnimations/Estella" >}}
+{{< fancy-github repo="StandingPadAnimations/Estella" >}}
 
 {{< button href="#estella-release" target="https://github.com/StandingPadAnimations/Estella/releases/tag/v1.0.0" >}}
 Download Estella 1.0
