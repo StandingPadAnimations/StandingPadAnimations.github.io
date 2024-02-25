@@ -22,7 +22,7 @@ Estella also improves light groups by providing features that Blender doesn't. T
 - etc
 
 Through this, Estella is able to turn light groups from a clunky to an absolute joy to use. 
-{{< video src="gallary/showcase.webm" alt="Showcasing Estella's light linking UI" autoplay="true" loop="true" >}}
+{{< video src="gallary/groups.webm" alt="Showcasing Estella's light linking UI" autoplay="true" loop="true" >}}
 
 Estella's GitHub repo and first release can be found below, cheers!
 {{< fancy-github repo="StandingPadAnimations/Estella" >}}

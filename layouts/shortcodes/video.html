@@ -17,6 +17,8 @@
 {{- $width := "100%" -}}
 {{- $filenotfound := true -}}
 {{- $unsupportedfile := true -}}
+{{ $unique_id := substr (md5 $video_src) 0 16 }}
+{{ $id := (printf "plyr_%s" $unique_id)}}
 
 {{- /* Find all files with filename (without suffix) matching "src" parameter. */ -}}
 {{- $video_files := (.Page.Resources.Match (printf "%s*" $video_src)) -}}
@@ -43,14 +45,20 @@
   {{- end -}}
 {{- end -}}
 
+
+{{ if not (.Page.Scratch.Get "plyr") }}
+  <link rel="stylesheet" href="/css/plyr.css" />
+  <script src="/js/plyr.min.js"></script>
+  {{ .Page.Scratch.Set "plyr" true }}
+{{ end }}
+
 {{- if $filenotfound -}}
   {{- /* No file of given name was found, we stop here. */ -}}
   {{- errorf "No file with filename %q found." $video_src -}}
 {{- else if $unsupportedfile -}}
   {{- errorf "No valid video file with filename %q found." $video_src -}}
 {{- else -}}
-<link rel="stylesheet" href="/css/plyr.css" />
-<video id="player" {{ if ne (.Get "controls") "false" }}controls {{ end }}preload="auto" width="{{ or (.Get "width") $width }}" {{ with .Get "height" }}height="{{.}}"{{ end }} {{ if eq (.Get "autoplay") "true" }}autoplay {{ end }}{{ if eq (.Get "loop") "true" }}loop {{ end }}{{ if eq (.Get "muted") "true" }}muted {{ end }}{{ with $poster }}poster="{{ .RelPermalink }}" {{ end }}playsinline class="html-video">
+<video id="{{$id}}" {{ if ne (.Get "controls") "false" }}controls {{ end }}preload="auto" width="{{ or (.Get "width") $width }}" {{ with .Get "height" }}height="{{.}}"{{ end }} {{ if eq (.Get "autoplay") "true" }}autoplay {{ end }}{{ if eq (.Get "loop") "true" }}loop {{ end }}{{ if eq (.Get "muted") "true" }}muted {{ end }}{{ with $poster }}poster="{{ .RelPermalink }}" {{ end }}playsinline class="html-video">
   {{- with $video_webm }}
     <source src="{{ .RelPermalink }}" type="video/webm">
     {{- $video_dl = . -}}
@@ -65,8 +73,7 @@
   {{- end }}
   <span>{{ i18n "videoUnsupported" $video_dl | safeHTML}}</span>
 </video>
-<script src="/js/plyr.min.js"></script>
 <script>
-  const player = new Plyr('#player');
+  const {{$id | safeJS}} = new Plyr('#{{$id}}');
 </script>
 {{- end -}}
