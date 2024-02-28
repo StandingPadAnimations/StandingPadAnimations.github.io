@@ -5,7 +5,7 @@ showRelatedContent: false
 showAuthor: false
 showReadingTime: false
 showWordCount: false
-noComment: true
+unlisted: true
 showPagination: false
 ---
 

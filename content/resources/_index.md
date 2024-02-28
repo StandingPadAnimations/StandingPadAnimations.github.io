@@ -4,6 +4,7 @@ description: "All of my resources"
 cascade:
   showReadingTime: false
   showRelated: false
+unlisted: true
 showPagination: false
 ---
 All of my publically avalible resources. All Blend files are signed and can be verified using the following public key: \

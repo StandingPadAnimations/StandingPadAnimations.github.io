@@ -4,7 +4,7 @@ showDate: false
 showRelatedContent: false
 showAuthor: false
 showTable0fContents: true
-noComment: true
+unlisted: true
 showPagination: false
 ---
 
