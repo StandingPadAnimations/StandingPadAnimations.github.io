@@ -8,7 +8,7 @@ showRelatedContent: false
 showAuthor: false
 showReadingTime: false
 showWordCount: false
-unlisted: true
+noComment: true
 showPagination: false
 ---
 <link rel="stylesheet" href="overrides.css">
