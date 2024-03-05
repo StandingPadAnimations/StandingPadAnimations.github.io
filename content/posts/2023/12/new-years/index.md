@@ -21,10 +21,10 @@ As it might have been quite obvious over the last year, I've not been making man
 
 # Bring down the Wall!
 For several years, I've been a believer in trying to keep one's digital life seperate from one's real life.
-{{< image src="gallary/worlds.webp" alt="Seperate digital and real lives" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/worlds.webp" alt="Seperate digital and real lives" position="center" style="border-radius: 8px;" width="1754" height="1240" >}}
 
 But now at this point in time, it's important that my work (especially development related work) has something to be attributed to, hence why I'm breaking that seperation just a tad bit. 
-{{< image src="gallary/worlds-combined.webp" alt="Less seperate digital and real lives" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/worlds-combined.webp" alt="Less seperate digital and real lives" position="center" style="border-radius: 8px;" width="1754" height="1240" >}}
 
 # Less art? Aww man
 On some sadder news, I can't make as much art as I used to in the past. Mostly because I've exhausted all of my ideas and new ones come at a slow rate, and partly because I simply don't have much time anymore, which is why starting next year, I want to make at least 2 major pieces; one in May-June (Spring/Summer), and one in November-December (New Year's, like the now). There will likely be some other stuff in between, but those are when I plan to make "major pieces", pieces that wil make it on to my [ArtStation](https://www.artstation.com/standingpad). Ideally it wouldn't have gotten to this point, but that's just what's it's going to be moving forward.
