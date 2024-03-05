@@ -7,7 +7,7 @@
 
 colorScheme = "based-scheme"
 defaultAppearance = "dark" # valid options: light or dark
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = false
@@ -31,7 +31,7 @@ disableImageOptimization = true
   showMenu = true
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = false
+  showAppearanceSwitcher = true
   showScrollToTop = false
 
 [homepage]
