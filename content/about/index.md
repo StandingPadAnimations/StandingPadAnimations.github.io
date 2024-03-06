@@ -25,16 +25,6 @@ A bit boring, I'm aware.
 
 <div style="clear:both;"></div>
 
-Here's some more pictures of me:
-{{< gallery >}}
-  <img src="gallary/me/20220305_142442.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="1814" loading="lazy" />
-  <img src="gallary/me/20221002_200050.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1766" height="1325" loading="lazy" />
-  <img src="gallary/me/20221103_194741.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" width="2419" height="1814" loading="lazy" />
-  <img src="gallary/me/20230129_180613.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1766" height="1325" loading="lazy" />
-  <img src="gallary/me/20230506_152119.jpg"  class="grid-w50 md:grid-w33 xl:grid-w25" width="2189" height="1642" loading="lazy" />
-  <img src="gallary/me/old-main.jpg"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1766" height="1325" loading="lazy" />
-{{< /gallery >}}
-
 # 3D art work
 My main area of work is Minecraft rendering. My main piece of software is Blender, though I also gained Revit certification in May of 2023.
 
@@ -52,18 +42,18 @@ This is a curated selection of work I've done in my spare time. As mentioned ear
 
 *Click an image to expand*
 {{< gallery >}}
-  <img src="gallary/EP-20-11-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" loading="lazy" />
-  <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="1810" loading="lazy" />
-  <img src="gallary/EP-04-10-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" loading="lazy" />
-  <img src="gallary/archviz3.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1024" height="1536" loading="lazy" />
-  <img src="gallary/birthday.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="905" loading="lazy" />
-  <img src="gallary/archviz2.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="1754" loading="lazy" />
-  <img src="gallary/forest.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" loading="lazy" />
-  <img src="gallary/new-years.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="2000" loading="lazy" />
-  <img src="gallary/microdetailing.webp" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" loading="lazy" />
-  <img src="gallary/some-practice.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" loading="lazy" />
-  <img src="gallary/waters.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" loading="lazy" />
-  <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" loading="lazy" />
+  <img src="gallary/EP-20-11-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+  <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="1810" />
+  <img src="gallary/EP-04-10-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+  <img src="gallary/archviz3.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1024" height="1536" />
+  <img src="gallary/birthday.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="905"  />
+  <img src="gallary/archviz2.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="1754" />
+  <img src="gallary/forest.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+  <img src="gallary/new-years.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="2000" />
+  <img src="gallary/microdetailing.webp" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+  <img src="gallary/some-practice.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+  <img src="gallary/waters.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+  <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
 {{< /gallery >}}
 
 ## Major Pieces
