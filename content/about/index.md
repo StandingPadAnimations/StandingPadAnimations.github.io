@@ -50,7 +50,9 @@ Here's some of the work I've done professionally.
 
 ### Release artwork for MCprep 3.5
 MCprep is a workflow addon for Minecraft artists working in Blender, and I work as one of the maintainers of the project. Normally, we'd hold a contest with the community, but due to short notice, I was asked to make the release artwork for MCprep 3.5.
+<div data-aos="fade-right">
 {{< figure src="gallary/mcprep-splash.webp" caption="Release splash for MCprep 3.5" class="mcprep-35-splash" >}}
+</div>
 
 ## Work I've done in My Spare Time
 This is a curated selection of work I've done in my spare time. As mentioned earlier, my main focus is Minecraft rendering, but I've also dabbled a little in ArchViz rendering in the past.
