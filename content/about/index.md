@@ -12,6 +12,21 @@ noComment: true
 showPagination: false
 ---
 <link rel="stylesheet" href="overrides.css">
+<link href="/css/aos.css" rel="stylesheet">
+<script src="/js/aos.js"></script>
+<script>
+window.addEventListener('load', () => {
+  if ((window.matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+      AOS.init({
+          disable: true
+      });
+  } else {
+      AOS.init({
+          disable: 'mobile'
+      });
+  }
+});
+</script>
 
 {{< figure src="gallary/me/main.webp" default=true class="my-photo" alt="Mahid Sheikh" width=2886px height=3798px >}}
 
@@ -41,20 +56,22 @@ MCprep is a workflow addon for Minecraft artists working in Blender, and I work 
 This is a curated selection of work I've done in my spare time. As mentioned earlier, my main focus is Minecraft rendering, but I've also dabbled a little in ArchViz rendering in the past.
 
 *Click an image to expand*
-{{< gallery >}}
-  <img src="gallary/EP-20-11-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-  <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="1810" />
-  <img src="gallary/EP-04-10-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-  <img src="gallary/archviz3.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1024" height="1536" />
-  <img src="gallary/birthday.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="905"  />
-  <img src="gallary/archviz2.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="1754" />
-  <img src="gallary/forest.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-  <img src="gallary/new-years.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="2000" />
-  <img src="gallary/microdetailing.webp" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-  <img src="gallary/some-practice.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-  <img src="gallary/waters.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-  <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-{{< /gallery >}}
+<div data-aos="fade-left">
+  {{< gallery >}}
+    <img src="gallary/EP-20-11-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+    <img src="gallary/EP-02-03-2024.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+    <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="1810" />
+    <img src="gallary/EP-17-02-2024.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+    <img src="gallary/EP-04-10-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+    <img src="gallary/archviz3.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1024" height="1536" />
+    <img src="gallary/birthday.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="905"  />
+    <img src="gallary/archviz2.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="1754" />
+    <img src="gallary/forest.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+    <img src="gallary/new-years.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="2000" />
+    <img src="gallary/waters.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+    <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+  {{< /gallery >}}
+</div>
 
 ## Major Pieces
 Since December 2023, I've been doing 2 major pieces a year, one on summer and one in winter, noted with a black border. These are pieces where I try and break my limits, and demonstrate what I've learned in the past several years. Here's the major pieces from the past 2 years.
@@ -73,8 +90,10 @@ Coming soon...
 |{{< figure src="gallary/base.webp" caption="Coming in July 2024" class="main-major-piece" >}}|{{< figure src="gallary/base.webp" caption="Coming in December 2024" class="main-major-piece" >}}|
 
 ### 2023
+<div data-aos="fade-right">
 2023 only had one major piece, the winter piece for New Years, and doesn't use noise from the above equations.
 {{< figure src="gallary/major_pieces/thumbnails/NY-2023-2024.webp" alt="2023 Winter Major Piece" class="main-major-piece" caption="[View in original resolution](gallary/major_pieces/actual/NY-2023-2024.png)" >}}
+</div>
 
 # Development Experience
 I'm not only a 3D artist but also a programmer. My main languages are:
