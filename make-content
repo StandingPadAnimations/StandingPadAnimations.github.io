@@ -1,0 +1,6 @@
+#! /usr/bin/env fish
+
+set year  (date '+%Y')
+set month (date '+%m')
+
+hugo new content "posts/$year/$month/$argv[1]"
