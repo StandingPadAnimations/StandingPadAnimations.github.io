@@ -23,6 +23,7 @@ htmx.onLoad(function(content) {
           disable: 'mobile'
       });
   }
+  renderMathInElement(content);
 })
 </script>
 
