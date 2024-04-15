@@ -15,15 +15,9 @@ showPagination: false
 <script>
 htmx.onLoad(function(content) {
   $(content).ready( function() {
-    if ((window.matchMedia('(prefers-reduced-motion: reduce)').matches)) {
-        AOS.init({
-            disable: true
-        });
-    } else {
-        AOS.init({
-            disable: 'mobile'
-        });
-    }
+    AOS.init({
+        disable: window.matchMedia('(prefers-reduced-motion: reduce)') || 'mobile'
+    });
     renderMathInElement(content);
   });
 })
