@@ -12,20 +12,18 @@ noComment: true
 showPagination: false
 ---
 <link rel="stylesheet" href="overrides.css">
-<link href="/css/aos.css" rel="stylesheet">
-<script src="/js/aos.js"></script>
 <script>
-window.addEventListener('load', () => {
-  if ((window.matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+htmx.onLoad(function(content) {
+    if ((window.matchMedia('(prefers-reduced-motion: reduce)').matches)) {
       AOS.init({
           disable: true
       });
-  } else {
+    } else {
       AOS.init({
           disable: 'mobile'
       });
   }
-});
+})
 </script>
 
 {{< figure src="gallary/me/main.webp" default=true class="my-photo" alt="Mahid Sheikh" width=2886px height=3798px >}}
