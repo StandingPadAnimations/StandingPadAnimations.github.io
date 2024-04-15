@@ -14,16 +14,18 @@ showPagination: false
 <link rel="stylesheet" href="overrides.css">
 <script>
 htmx.onLoad(function(content) {
+  $(content).ready( function() {
     if ((window.matchMedia('(prefers-reduced-motion: reduce)').matches)) {
-      AOS.init({
-          disable: true
-      });
+        AOS.init({
+            disable: true
+        });
     } else {
-      AOS.init({
-          disable: 'mobile'
-      });
-  }
-  renderMathInElement(content);
+        AOS.init({
+            disable: 'mobile'
+        });
+    }
+    renderMathInElement(content);
+  });
 })
 </script>
 
@@ -123,12 +125,6 @@ And recently in 2024, I created a new addon called Estella, which streamlines li
 # Contact
 Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.org)
 
-*Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please ___do not send me advertisements though email.___*
+Resume can be found [here](./base-resume-redacted.pdf)
 
-# Resume
-Here's my resume. Some information is redacted for privacy reasons, please contact me for a full resume.
-<object data="/base-resume-redacted.pdf" type="application/pdf" width="1000px" height="2000px">
-    <embed src="./base-resume-redacted.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="1000px" height="1200px">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./base-resume-redacted.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+*Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please ___do not send me advertisements though email.___*
