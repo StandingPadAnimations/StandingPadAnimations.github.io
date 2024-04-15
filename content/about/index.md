@@ -127,4 +127,8 @@ Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.o
 
 # Resume
 Here's my resume. Some information is redacted for privacy reasons, please contact me for a full resume.
-{{< embed-pdf url="./base-resume-redacted.pdf" hidePaginator="true" >}}
+<object data="/base-resume-redacted.pdf" type="application/pdf" width="1000px" height="2000px">
+    <embed src="./base-resume-redacted.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="1000px" height="1200px">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./base-resume-redacted.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
