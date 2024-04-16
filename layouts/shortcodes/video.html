@@ -46,6 +46,12 @@
 {{- end -}}
 
 
+{{ if not (.Page.Scratch.Get "plyr") }}
+  <link rel="stylesheet" href="/css/plyr.css" />
+  <script src="/js/plyr.min.js"></script>
+  {{ .Page.Scratch.Set "plyr" true }}
+{{ end }}
+
 {{- if $filenotfound -}}
   {{- /* No file of given name was found, we stop here. */ -}}
   {{- errorf "No file with filename %q found." $video_src -}}

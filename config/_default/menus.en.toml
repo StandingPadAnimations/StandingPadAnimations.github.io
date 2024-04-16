@@ -33,6 +33,9 @@
   parent = "Resources"
   url = "/twitter"
   weight = 35
+  
+  [main.params]
+    redirect = true
 
 [[main]]
   name = "Email Blocklist"

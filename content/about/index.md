@@ -12,15 +12,16 @@ noComment: true
 showPagination: false
 ---
 <link rel="stylesheet" href="overrides.css">
+<link href="/css/aos.css" rel="stylesheet">
+<script defer src="/js/aos.js"></script>
 <script>
-htmx.onLoad(function(content) {
-  $(content).ready( function() {
-    AOS.init({
-        disable: window.matchMedia('(prefers-reduced-motion: reduce)') || 'mobile'
-    });
-    renderMathInElement(content);
-  });
-})
+window.addEventListener('load', () => { 
+  if ((window.matchMedia('(prefers-reduced-motion: reduce)').matches)) { 
+    AOS.init({ disable: true }); 
+  } else { 
+    AOS.init({ disable: 'mobile' }); 
+  } 
+}); 
 </script>
 
 {{< figure src="gallary/me/main.webp" default=true class="my-photo" alt="Mahid Sheikh" width=2886px height=3798px >}}
@@ -123,7 +124,10 @@ Resume can be found [here](./base-resume-redacted.pdf)
 
 *Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please ___do not send me advertisements though email.___*
 
-<script>
-AOS.refresh();
-</script>
+<object data="/base-resume-redacted.pdf" type="application/pdf" width="1000px" height="2000px">
+    <embed src="./base-resume-redacted.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="1000px" height="1200px">
+        <a href="./base-resume-redacted.pdf">Download PDF</a>
+    </embed>
+</object>
+
 
