@@ -20,6 +20,9 @@
   url = "/about"
   weight = 20
 
+  [main.params]
+    redirect = true
+
 [[main]]
   name = "Resources"
   url = "/resources"
