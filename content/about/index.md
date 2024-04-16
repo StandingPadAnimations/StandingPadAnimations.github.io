@@ -122,3 +122,8 @@ Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.o
 Resume can be found [here](./base-resume-redacted.pdf)
 
 *Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please ___do not send me advertisements though email.___*
+
+<script>
+AOS.refresh();
+</script>
+
