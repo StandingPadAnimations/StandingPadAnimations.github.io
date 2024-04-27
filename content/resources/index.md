@@ -10,7 +10,7 @@ showPagination: false
 
 All of my publically avalible resources. All Blend files are signed and can be verified using the following public key: \
 `7F6A0E6FA332BAD0EC9E76B383C7F596A88BE583` \
-[keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/7F6A0E6FA332BAD0EC9E76B383C7F596A88BE58)
+[keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/7F6A0E6FA332BAD0EC9E76B383C7F596A88BE583)
 
 If you use any of these assets, you must follow the terms of the BSD 3-Clause license
 ```
