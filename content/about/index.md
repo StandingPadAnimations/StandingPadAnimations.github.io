@@ -124,10 +124,3 @@ Resume can be found [here](./base-resume-redacted.pdf)
 
 *Unsoliciated advertisements will result in me blocking your email address and adding it to a public list of all email addresses blocked here, so please ___do not send me advertisements though email.___*
 
-<object data="/base-resume-redacted.pdf" type="application/pdf" width="1000px" height="2000px">
-    <embed src="./base-resume-redacted.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="1000px" height="1200px">
-        <a href="./base-resume-redacted.pdf">Download PDF</a>
-    </embed>
-</object>
-
-
