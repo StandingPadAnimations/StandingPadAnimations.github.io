@@ -48,6 +48,7 @@ sangeetamobileshop@outlook.com
 okx7@712e52eb5e.nxcli.io
 metamask83347@2fa.io
 contact@ezkel.com
+shalinsharma32@gmail.com
 ```
 
 # App Developers
@@ -98,6 +99,7 @@ contact@nwjgc.biz
 samira6pqw@gmail.com
 abhisahaniaaaa@gmail.com
 sangeetamobileshop@outlook.com
+shalinsharma32@gmail.com
 ```
 
 # Crypto Scams
