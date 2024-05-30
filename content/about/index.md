@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
 
 <br class="linebreak-cls">
 
-Hey there, I'm Mahid Sheikh, a 3D artist and developer from the Dallas-Fort Worth metroplex in Texas. I'm also a Pakistani-American (born in the US) and an Ahmadi Muslim. My main area is Minecraft rendering, and I work on the MCprep addon for Blender. In addition, I also maintain the Flatpak package for Bforartists. Outside of 3D rendering and programming, I play the flute (played for my local high school marching band), do some photography, or read.
+Hey there, I'm Mahid Sheikh, a 3D artist and developer from the Dallas-Fort Worth metroplex in Texas. I'm also a Pakistani-American (born in the US) and an Muslim. My main area is Minecraft rendering, and I work on the MCprep addon for Blender. In addition, I also maintain the Flatpak package for Bforartists. Outside of 3D rendering and programming, I play the flute (played for my local high school marching band), do some photography, or read.
 
 A bit boring, I'm aware.
 
