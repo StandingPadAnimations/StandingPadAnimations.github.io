@@ -81,10 +81,11 @@ $$ s(x, y, z) = sin(x) + sin(xy) + sin(xz) $$
 Meaning the border is unique per image.
 
 ### 2024
-Coming soon...
-| | |
-|-|-|
-|{{< figure src="gallary/base.webp" caption="Coming in July 2024" class="main-major-piece" >}}|{{< figure src="gallary/base.webp" caption="Coming in December 2024" class="main-major-piece" >}}|
+<div data-aos="fade-left">
+This piece was made for the summer of 2024. Unlike most of my work, this uses the Kuwahara filter to emulate a painting look.
+{{< figure src="gallary/major_pieces/thumbnails/MP-Summer-2024.webp" alt="2024 Summer Major Piece" class="summer-2024-major-piece" caption="[View in original resolution](gallary/major_pieces/actual/MP-Summer-2024.png)" >}}
+</div>
+
 
 ### 2023
 <div data-aos="fade-right">
