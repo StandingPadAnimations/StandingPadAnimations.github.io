@@ -1,0 +1,33 @@
+# لَوۡکَانَفِیۡہِمَاۤاٰلِہَۃٌاِلَّااللّٰہُلَفَسَدَتَاۚ فَسُبۡحٰنَاللّٰہِرَبِّالۡعَرۡشِعَمَّایَصِفُوۡنَ
+# If there had been in them (the heavens and the earth) 
+# other gods beside Allah, then surely both would have 
+# gone to ruin. Glorified then be Allah, the Lord of the 
+# Throne, above what they attribute. (Holy Quran, 21:22/23)
+#
+# No robot is equal to a human, for robots are creations
+# of humans, and to consider them equal is akin to saying
+# humans are equal to God
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /

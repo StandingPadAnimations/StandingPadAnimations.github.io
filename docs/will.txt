@@ -1,0 +1,42 @@
+Last Edited: May 8th, 2024
+
+In the event of my death, here is what should happen
+
+# Burial
+I do not wish to be buried in a coffin, just a simple shroud will do. I wish to also be buried in my hometown.
+
+# Splitting of Property
+After all legally required payments, 3/4ths of whatever I own shall be split equally between my parents, spouse, brother, 1st cousins, and any children and nieces/nephews I may have (adopted children included obviously c:). Unless explicitly mentioned, no one is barred from inheritance regardless of age, gender, religious identity, etc [1]. For any children or nieces/nephews who have yet to become adults, their inheritance must be kept safe until they turn 18, on which they will be given whatever inheritance has been allocated.
+
+The remaining 1/4 shall be split equally among the following open source projects:
+- Blender
+- MCprep 
+- Arch Linux
+
+# GitHub Repositories 
+In the real world, I should have left behind any relevant login details. On GitHub, README.md at https://github.com/StandingPadAnimations/StandingPadAnimations shall be modified to contain the following message:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Mahid has left this world.
+
+Inna Lillahi wa inna ilayhi raji'un
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRtQKLFQauGRLOGQOf+mvslu0BhwQUCZjgcuQAKCRD+mvslu0Bh
+wWdKAQCppD5xMyV4QysTWFHBfx6fZOLYfhaFBGyTmzrsaTg4aQEAtPh/dsCc0IvZ
+cgbZN59d21wNOR5Tsf01x7XVxsJLrAA=
+=J1n2
+-----END PGP SIGNATURE-----
+
+No repos shall be transferred.
+
+# Website
+The website standingpad.org should be kept alive on my behalf. If y'all so wish, you may even continue updating it in my legacy :D. Just don't break old URLs please.
+
+# PGP
+PGP keys expire on the April 1st after my death.
+
+Footnotes:
+[1]: If anyone is disinherited despite not being explicitly mentioned here, I will haunt whoever decided on my behalf till the Day of Judgement. Signs of being haunted by me may include random seg faults in the individual's computer, Windows updates in the middle of important work, finding your computer with Arch Linux installed, random PGP signed emails from mahid@standingpad.org, etc.
