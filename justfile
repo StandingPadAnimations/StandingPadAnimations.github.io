@@ -6,9 +6,9 @@ build:
 
 # Preview
 preview:
-  hugo server --disableFastRender
+  hugo server --disableFastRender --destination docs
 
 # Add and commit
 commit:
   git add .
-  git commit
+  git commit --signoff
