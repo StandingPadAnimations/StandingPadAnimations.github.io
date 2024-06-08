@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Minecraft Rendering on StandingPad&#39;s Corner</title>
-    <link>https://www.standingpad.org/tags/minecraft-rendering/</link>
+    <link>http://localhost:1313/tags/minecraft-rendering/</link>
     <description>Recent content in Minecraft Rendering on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 StandingPad&#39;s Corner</copyright>
-    <lastBuildDate>Thu, 28 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.standingpad.org/tags/minecraft-rendering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/minecraft-rendering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This Month&#39;s Standing: March 2024</title>
-      <link>https://www.standingpad.org/posts/2024/03/this-months-shenanigans/</link>
+      <link>http://localhost:1313/posts/2024/03/this-months-shenanigans/</link>
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.standingpad.org/posts/2024/03/this-months-shenanigans/</guid>
+      <guid>http://localhost:1313/posts/2024/03/this-months-shenanigans/</guid>
       <description>It&amp;rsquo;s been a while, and the past month has been a bit interesting.</description>
       
     </item>

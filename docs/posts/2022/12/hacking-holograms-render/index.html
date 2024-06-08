@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="Blender, How I Did It, " />
   
   
-  <link rel="canonical" href="https://www.standingpad.org/posts/2022/12/hacking-holograms-render/" />
+  <link rel="canonical" href="http://localhost:1313/posts/2022/12/hacking-holograms-render/" />
   
   
   
@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.59c1292a7923e90e73b1285b2a1ba3fc7b49bc33c561f4f55d5a0531994e606a056dc7edf679d7c2d6a69212fbb8f8f4bada520bfbafb6e2a112c2e01af74727.css"
-    integrity="sha512-WcEpKnkj6Q5zsShbKhuj/HtJvDPFYfT1XVoFMZlOYGoFbcft9nnXwtamkhL7uPj0utpSC/uvtuKhEsLgGvdHJw==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.c39e060a3e3b235a5c66504362eed85973e51d2999a0ba21712cc1341791939de8f357c21371ce709b9226eb3777821bcd303c87afbd718dec5c1927f846ccff.css"
+    integrity="sha512-w54GCj47I1pcZlBDYu7YWXPlHSmZoLohcSzBNBeRk53o81fCE3HOcJuSJus3d4IbzTA8h6&#43;9cY3sXBkn&#43;EbM/w==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -62,7 +62,7 @@
   
   
   
-  <meta property="og:url" content="https://www.standingpad.org/posts/2022/12/hacking-holograms-render/">
+  <meta property="og:url" content="http://localhost:1313/posts/2022/12/hacking-holograms-render/">
   <meta property="og:site_name" content="StandingPad&#39;s Corner">
   <meta property="og:title" content="How I Did It: Hacking Holograms Render">
   <meta property="og:description" content="I recently had the motivation to make the following render">
@@ -73,11 +73,11 @@
     <meta property="article:modified_time" content="2022-12-22T16:16:09-06:00">
     <meta property="article:tag" content="Blender">
     <meta property="article:tag" content="How I Did It">
-    <meta property="og:image" content="https://www.standingpad.org/posts/2022/12/hacking-holograms-render/featured.webp">
+    <meta property="og:image" content="http://localhost:1313/posts/2022/12/hacking-holograms-render/featured.webp">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://www.standingpad.org/posts/2022/12/hacking-holograms-render/featured.webp">
+  <meta name="twitter:image" content="http://localhost:1313/posts/2022/12/hacking-holograms-render/featured.webp">
   <meta name="twitter:title" content="How I Did It: Hacking Holograms Render">
   <meta name="twitter:description" content="I recently had the motivation to make the following render">
 
@@ -92,7 +92,7 @@
     
     "abstract": "I recently had the motivation to make the following render",
     "inLanguage": "en",
-    "url" : "https:\/\/www.standingpad.org\/posts\/2022\/12\/hacking-holograms-render\/",
+    "url" : "http:\/\/localhost:1313\/posts\/2022\/12\/hacking-holograms-render\/",
     "author" : {
       "@type": "Person",
       "name": "StandingPad\u0027s Corner"
@@ -458,6 +458,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                     
@@ -469,6 +470,7 @@ window.goatcounter = {
         </p>
     </a>
 </li>
+
 
 
 
@@ -542,6 +544,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                 </ul>
@@ -574,17 +577,6 @@ window.goatcounter = {
 
 
 <article>
-  
-  
-  
-  
-  
-  
-        
-            <div class="w-full h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/posts/2022/12/hacking-holograms-render/featured.webp);"></div>
-        
-    
-  
   
 
   <header id="single_header" class="mt-5 max-w-prose">
@@ -733,8 +725,7 @@ window.goatcounter = {
 <p>&ldquo;GCC?&rdquo;</p>
 <p>Basically, I needed to make a <strong>lot</strong> of text. Now, I could slam my keyboard a couple of times, but as a nerd I felt like it was the perfect oppertunity to use C++ to generate long text.</p>
 <p>See, in the <code>*NIX</code> world (so MacOS and Linux), we have a compiler called GCC. GCC is infamous for generating horrific errors (I remember times where it would never stop printing). Since these errors are logged in the terminal (which made masking easy) and they were very technical, I decided to take advantage of those errors to make long text.</p>
-<p>I yoinked the following code from <a href="https://stackoverflow.com/questions/49653235/shortening-gcc-error-messages"   target="_blank">
-    StackOverFlow</a>:</p>
+<p>I yoinked the following code from <a href="https://stackoverflow.com/questions/49653235/shortening-gcc-error-messages" target="_blank">StackOverFlow</a>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp"></span>
@@ -1027,13 +1018,11 @@ window.goatcounter = {
 </blockquote>
 <p>In the Minecraft animation world, we&rsquo;re taught to use a clamping value of 1, not fully understanding what clamping does.</p>
 <p>Clamping limits how bright a pixel can be. While it does reduce fireflies, it also reduces desirable highlights to nothing, and can make reflections look mundane. In one of my previous renders, clamping caused reflections to appear darker, an issue which I almost assumed to be a Cycles bug.</p>
-<p>HJ Hornbeck in his blog post <a href="https://sinmantyx.wordpress.com/2015/03/18/perfect-clamp-1/"   target="_blank">
-    &ldquo;The Perfect Clamp&rdquo;</a> explains how to achive a good clamp value that gives good highlights with little fireflies, but the process isn&rsquo;t as strightforward as you might think. It requires a whole lot of rendering test renders, measuring RGB values, and refinement to get a good result. In the end, I decided to avoid clamping completely, and use a value of 0 (which diables it).</p>
+<p>HJ Hornbeck in his blog post <a href="https://sinmantyx.wordpress.com/2015/03/18/perfect-clamp-1/" target="_blank">&ldquo;The Perfect Clamp&rdquo;</a> explains how to achive a good clamp value that gives good highlights with little fireflies, but the process isn&rsquo;t as strightforward as you might think. It requires a whole lot of rendering test renders, measuring RGB values, and refinement to get a good result. In the end, I decided to avoid clamping completely, and use a value of 0 (which diables it).</p>
 <p>As the developer behind the MCprep Cycles Optimizer, it may worth it to remove clamping entirely from the optimizer, for it can be extremely destructive when not taking into account the scene itself. Like all settings, clamping should be treated as a scene-dependent thing, not something to just throw the same value at.</p>
 <p>Most fireflies in Minecraft scenes are caused by mesh lights anyway, and after making the hologram emit no light and using a lamp to emulate the light from it, most of the fireflies were nowhere to be found.</p>
 <p>As far as I can tell, clamping seems to be used as a convinient solution way to solve fireflies caused by mesh lights. If only we had a way of automatically generating lamps for emissive blocks, then we wouldn&rsquo;t have this issue anyway (I have been working on a feature to remove mesh lighting from MCprep materials, so that&rsquo;s a start).</p>
-<p>Tldr: Clamping is a terrible solution to fix fireflies caused by mesh lights. We&rsquo;re better off removing mesh lights entirely and using lamps. Clamping should be treated the same as <a href="https://standingpadanimations.github.io/posts/automatic-scrambling-distance/#all-magic-has-a-cost"   target="_blank">
-    Scrambling Distance</a>, an option that requires careful consideration and refinement.</p>
+<p>Tldr: Clamping is a terrible solution to fix fireflies caused by mesh lights. We&rsquo;re better off removing mesh lights entirely and using lamps. Clamping should be treated the same as <a href="https://standingpadanimations.github.io/posts/automatic-scrambling-distance/#all-magic-has-a-cost" target="_blank">Scrambling Distance</a>, an option that requires careful consideration and refinement.</p>
 <p>Here&rsquo;s the settings I used for this particular render (specifically light paths and color management):
 
     <img src="gallary/general-settings.webp"  alt="General settings"  class="center"  style="border-radius: 8px;"    />
@@ -1065,8 +1054,7 @@ window.goatcounter = {
     </span>        
     
 </h1>
-<p>I do 2 rounds of compositing. The first round is denoising with <a href="https://pidgeontools.gumroad.com/l/SuperImageDenoiser"   target="_blank">
-    SID</a>, and the second round is where all the magic happens.</p>
+<p>I do 2 rounds of compositing. The first round is denoising with <a href="https://pidgeontools.gumroad.com/l/SuperImageDenoiser" target="_blank">SID</a>, and the second round is where all the magic happens.</p>
 <p>Before:
 
     <img src="gallary/before-comp.webp"  alt="Before compositing"  class="center"  style="border-radius: 8px;"    />
@@ -1250,10 +1238,11 @@ window.goatcounter = {
   <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
-</footer><div
+</footer>
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://www.standingpad.org/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div

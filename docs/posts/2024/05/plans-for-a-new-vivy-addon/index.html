@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="Vivy, Blender, " />
   
   
-  <link rel="canonical" href="https://www.standingpad.org/posts/2024/05/plans-for-a-new-vivy-addon/" />
+  <link rel="canonical" href="http://localhost:1313/posts/2024/05/plans-for-a-new-vivy-addon/" />
   
   
   
@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.59c1292a7923e90e73b1285b2a1ba3fc7b49bc33c561f4f55d5a0531994e606a056dc7edf679d7c2d6a69212fbb8f8f4bada520bfbafb6e2a112c2e01af74727.css"
-    integrity="sha512-WcEpKnkj6Q5zsShbKhuj/HtJvDPFYfT1XVoFMZlOYGoFbcft9nnXwtamkhL7uPj0utpSC/uvtuKhEsLgGvdHJw==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.c39e060a3e3b235a5c66504362eed85973e51d2999a0ba21712cc1341791939de8f357c21371ce709b9226eb3777821bcd303c87afbd718dec5c1927f846ccff.css"
+    integrity="sha512-w54GCj47I1pcZlBDYu7YWXPlHSmZoLohcSzBNBeRk53o81fCE3HOcJuSJus3d4IbzTA8h6&#43;9cY3sXBkn&#43;EbM/w==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -62,7 +62,7 @@
   
   
   
-  <meta property="og:url" content="https://www.standingpad.org/posts/2024/05/plans-for-a-new-vivy-addon/">
+  <meta property="og:url" content="http://localhost:1313/posts/2024/05/plans-for-a-new-vivy-addon/">
   <meta property="og:site_name" content="StandingPad&#39;s Corner">
   <meta property="og:title" content="Plans for a New Vivy Addon">
   <meta property="og:description" content="Yep, a new Vivy addon will be made.">
@@ -90,7 +90,7 @@
     
     "abstract": "Yep, a new Vivy addon will be made.",
     "inLanguage": "en",
-    "url" : "https:\/\/www.standingpad.org\/posts\/2024\/05\/plans-for-a-new-vivy-addon\/",
+    "url" : "http:\/\/localhost:1313\/posts\/2024\/05\/plans-for-a-new-vivy-addon\/",
     "author" : {
       "@type": "Person",
       "name": "StandingPad\u0027s Corner"
@@ -453,6 +453,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                     
@@ -464,6 +465,7 @@ window.goatcounter = {
         </p>
     </a>
 </li>
+
 
 
 
@@ -537,6 +539,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                 </ul>
@@ -569,15 +572,6 @@ window.goatcounter = {
 
 
 <article>
-  
-  
-  
-  
-  
-  
- 
-
-  
   
 
   <header id="single_header" class="mt-5 max-w-prose">
@@ -718,11 +712,9 @@ window.goatcounter = {
     </span>        
     
 </h1>
-<p>For those that don&rsquo;t know, <a href="https://github.com/StandingPadAnimations/Vivy"   target="_blank">
-    Vivy</a> is a fork of MCprep I made to give myself more control with the materials that MCprep generates. For the most part, it has succeeded, but as an MCprep fork, it&rsquo;s a headache to maintain.</p>
+<p>For those that don&rsquo;t know, <a href="https://github.com/StandingPadAnimations/Vivy" target="_blank">Vivy</a> is a fork of MCprep I made to give myself more control with the materials that MCprep generates. For the most part, it has succeeded, but as an MCprep fork, it&rsquo;s a headache to maintain.</p>
 <p>MCprep goes through a lot of changes per update (admittedly, a lot of that is my fault, as I&rsquo;m also a MCprep developer, and a lot of architectural changes come from me), which makes Vivy a hell to maintain. In addition, MCprep is also thousands of lines of code (17,000 as I write this), and while in theory an individual could make and maintain a fork, I have my plate full with MCprep already, so Vivy doesn&rsquo;t get the time it needs to be properly maintained. Ideally, one would be able to install both side-by-side, but that&rsquo;s not possible as conflicts would occur with registered classes.</p>
-<p>Another reason is changes with Vivy that are better off getting a rewrite. <a href="https://github.com/StandingPadAnimations/Vivy-Components"   target="_blank">
-    Vivy Components</a> was created to abstract much of the raw JSON parsing and handling for Vivy, but using it would require a full rewrite of the Vivy system anyway. In addition, I also want to change ow Vivy as a whole works, and I figure it will be more productive to just make a new addon.</p>
+<p>Another reason is changes with Vivy that are better off getting a rewrite. <a href="https://github.com/StandingPadAnimations/Vivy-Components" target="_blank">Vivy Components</a> was created to abstract much of the raw JSON parsing and handling for Vivy, but using it would require a full rewrite of the Vivy system anyway. In addition, I also want to change ow Vivy as a whole works, and I figure it will be more productive to just make a new addon.</p>
 
 
 <h1 class="relative group">The How 
@@ -804,6 +796,28 @@ window.goatcounter = {
         </span>
         <span>
           
+            <a class="flex text-right group ml-3" href="/posts/2024/06/i-got-hired-at-vlk/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >I Got Hired at VLK</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 June 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
         </span>
       </div>
     </div>
@@ -875,10 +889,11 @@ window.goatcounter = {
   <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
-</footer><div
+</footer>
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://www.standingpad.org/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div

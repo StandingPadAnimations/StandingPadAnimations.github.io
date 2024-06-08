@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="Tech, Programming, " />
   
   
-  <link rel="canonical" href="https://www.standingpad.org/posts/2023/08/sandboxing-time/" />
+  <link rel="canonical" href="http://localhost:1313/posts/2023/08/sandboxing-time/" />
   
   
   
@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.59c1292a7923e90e73b1285b2a1ba3fc7b49bc33c561f4f55d5a0531994e606a056dc7edf679d7c2d6a69212fbb8f8f4bada520bfbafb6e2a112c2e01af74727.css"
-    integrity="sha512-WcEpKnkj6Q5zsShbKhuj/HtJvDPFYfT1XVoFMZlOYGoFbcft9nnXwtamkhL7uPj0utpSC/uvtuKhEsLgGvdHJw==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.c39e060a3e3b235a5c66504362eed85973e51d2999a0ba21712cc1341791939de8f357c21371ce709b9226eb3777821bcd303c87afbd718dec5c1927f846ccff.css"
+    integrity="sha512-w54GCj47I1pcZlBDYu7YWXPlHSmZoLohcSzBNBeRk53o81fCE3HOcJuSJus3d4IbzTA8h6&#43;9cY3sXBkn&#43;EbM/w==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -62,7 +62,7 @@
   
   
   
-  <meta property="og:url" content="https://www.standingpad.org/posts/2023/08/sandboxing-time/">
+  <meta property="og:url" content="http://localhost:1313/posts/2023/08/sandboxing-time/">
   <meta property="og:site_name" content="StandingPad&#39;s Corner">
   <meta property="og:title" content="Sandboxing Native Programs with Bubblewrap">
   <meta property="og:description" content="EDIT 09/09/2023: I was made aware of how the script could be improved on GitHub, so I’ve edit this post to add those suggestions.">
@@ -90,7 +90,7 @@
     
     "abstract": "EDIT 09\/09\/2023: I was made aware of how the script could be improved on GitHub, so I\u0026rsquo;ve edit this post to add those suggestions.",
     "inLanguage": "en",
-    "url" : "https:\/\/www.standingpad.org\/posts\/2023\/08\/sandboxing-time\/",
+    "url" : "http:\/\/localhost:1313\/posts\/2023\/08\/sandboxing-time\/",
     "author" : {
       "@type": "Person",
       "name": "StandingPad\u0027s Corner"
@@ -453,6 +453,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                     
@@ -464,6 +465,7 @@ window.goatcounter = {
         </p>
     </a>
 </li>
+
 
 
 
@@ -537,6 +539,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                 </ul>
@@ -569,15 +572,6 @@ window.goatcounter = {
 
 
 <article>
-  
-  
-  
-  
-  
-  
- 
-
-  
   
 
   <header id="single_header" class="mt-5 max-w-prose">
@@ -705,8 +699,7 @@ window.goatcounter = {
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>EDIT 09/09/2023: I was made aware of how the script could be improved <a href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/discussions/4"   target="_blank">
-    on GitHub</a>, so I&rsquo;ve edit this post to add those suggestions.</p>
+          <p>EDIT 09/09/2023: I was made aware of how the script could be improved <a href="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/discussions/4" target="_blank">on GitHub</a>, so I&rsquo;ve edit this post to add those suggestions.</p>
 <p>EDIT 27/02/2024: I&rsquo;ve updated the content to clean up some things and, and overall improve the quality</p>
 <p>It all started with me changing browsers.</p>
 <p>Recently I switched from Librewolf to Vivaldi. While I like Vivaldi, I didn&rsquo;t like how there was no Flatpak version (since Flatpaks are sandboxed). However, I figured this would make a good opportunity to learn sandboxing. Little did I know that this was going to be a headache.</p>
@@ -722,8 +715,7 @@ window.goatcounter = {
     </span>        
     
 </h1>
-<p>For this project, I decided to use <a href="https://github.com/containers/bubblewrap"   target="_blank">
-    Bubblewrap</a>, as that&rsquo;s the underlying program Flatpak uses to sandbox, and after a bit of digging and looking at examples for Chromium browsers, I created the following:</p>
+<p>For this project, I decided to use <a href="https://github.com/containers/bubblewrap" target="_blank">Bubblewrap</a>, as that&rsquo;s the underlying program Flatpak uses to sandbox, and after a bit of digging and looking at examples for Chromium browsers, I created the following:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="cp">#! /usr/bin/bash
 </span></span></span><span class="line"><span class="cl"><span class="cp"></span>
 </span></span><span class="line"><span class="cl">bwrap <span class="se">\
@@ -771,8 +763,7 @@ window.goatcounter = {
     
 </h2>
 <p>In the shell script above, we expose the entire a couple of directories, including the home directory. Sure, it&rsquo;s read-only, but nothing will stop a website from just reading those files and sending them somewhere else. We need to make a smaller hole.</p>
-<p>A simple way of doing this would be to give access to a single folder, and then copy files when needed. This works, but is cumbersome to the user (me). It would be nice if we could automatically do that. Well that&rsquo;s what the <a href="https://docs.flatpak.org/en/latest/portal-api-reference.html#gdbus-org.freedesktop.portal.FileChooser"   target="_blank">
-    FileChooser Portal</a> does. It allows the user to select any file, but not require the program to have access to the home directory at all, through some dbus proxy magic.</p>
+<p>A simple way of doing this would be to give access to a single folder, and then copy files when needed. This works, but is cumbersome to the user (me). It would be nice if we could automatically do that. Well that&rsquo;s what the <a href="https://docs.flatpak.org/en/latest/portal-api-reference.html#gdbus-org.freedesktop.portal.FileChooser" target="_blank">FileChooser Portal</a> does. It allows the user to select any file, but not require the program to have access to the home directory at all, through some dbus proxy magic.</p>
 
 
 <h1 class="relative group">Implementing Portals 
@@ -844,13 +835,11 @@ window.goatcounter = {
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>    /usr/bin/vivaldi-stable --enable-features<span class="o">=</span>UseOzonePlatform --ozone-platform<span class="o">=</span>wayland <span class="s2">&#34;</span><span class="si">${</span><span class="p">@</span><span class="si">}</span><span class="s2">&#34;</span>
 </span></span></code></pre></div><p>We launch <code>xdg-dbus-proxy</code>, tell the sandbox to use that as its bus, and then launch the program. We&rsquo;re all good, right? No, because of <code>xdg-desktop-portal</code>&rsquo;s behavior. <code>xdg-desktop-portal</code> (which I&rsquo;ll shorten to <code>xdp</code>) is the one that actually provides the portals. However, it acts differently when a Flatpak is using a portal vs a sandboxed (but non-Flatpak) program. Why? Because <code>xdp</code> expects non-Flatpaks to have access to the system anyway.</p>
 <p><em>sigh</em>, really?</p>
-<p>This behavior is not well documented, and really doesn&rsquo;t make sense at all. Supposedly it has something to do with security, but I digress. <a href="https://github.com/flatpak/xdg-desktop-portal/issues/1076"   target="_blank">
-    I opened a GitHub issue</a> on the <code>xdp</code> repo and was told the following:</p>
+<p>This behavior is not well documented, and really doesn&rsquo;t make sense at all. Supposedly it has something to do with security, but I digress. <a href="https://github.com/flatpak/xdg-desktop-portal/issues/1076" target="_blank">I opened a GitHub issue</a> on the <code>xdp</code> repo and was told the following:</p>
 <blockquote>
 <p>You do not use a sandbox that is supported by xdp (flatapk or snap) and therefore xdp assumes your program is allowed to access this path because it assumes it is an &ldquo;normal&rdquo;, unsandboxed host program.</p>
 <p>Very unfortunate situation right now that xdp has only support for these two and nor for a generic one (via some kind of plugin or api mechanism). So if you use firejail/bubblejail/plain bubblewrap/crablock you can not benefit from the documents portal (and other portals have a &ldquo;is allowed anyway&rdquo; logic too).</p>
-<p>There&rsquo;s a hacky workaround by pretending to be a platpak. You can place a minimal <code>/.flatpak-info</code> inside your sandbox. See <a href="https://github.com/netblue30/firejail/issues/4716#issuecomment-987699299"   target="_blank">
-    netblue30/firejail#4716 (comment)</a>.</p>
+<p>There&rsquo;s a hacky workaround by pretending to be a platpak. You can place a minimal <code>/.flatpak-info</code> inside your sandbox. See <a href="https://github.com/netblue30/firejail/issues/4716#issuecomment-987699299" target="_blank">netblue30/firejail#4716 (comment)</a>.</p>
 <p>- rusty-snake</p>
 </blockquote>
 <p>So I did that:</p>
@@ -862,8 +851,7 @@ window.goatcounter = {
 </span></span></span><span class="line"><span class="cl"><span class="s">name=$APP_NAME
 </span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
 </span></span></code></pre></div><p>But&hellip; it didn&rsquo;t work.</p>
-<p>After many days of debugging and looking into <code>/proc/{PID}/root</code> (yes, that&rsquo;s how annoying debugging sandboxes is), it turns out <code>xdg-dbus-proxy</code> also needed to have a <code>.flatpak-info</code> file in the root directory for its sandbox. <a href="https://github.com/flatpak/xdg-desktop-portal/issues/1076#issuecomment-1689696764"   target="_blank">
-    This is apparently to be expected</a>.</p>
+<p>After many days of debugging and looking into <code>/proc/{PID}/root</code> (yes, that&rsquo;s how annoying debugging sandboxes is), it turns out <code>xdg-dbus-proxy</code> also needed to have a <code>.flatpak-info</code> file in the root directory for its sandbox. <a href="https://github.com/flatpak/xdg-desktop-portal/issues/1076#issuecomment-1689696764" target="_blank">This is apparently to be expected</a>.</p>
 <blockquote>
 <p>If you&rsquo;re using <code>xdg-dbus-proxy</code>, then the message bus is receiving a D-Bus connection from <code>xdg-dbus-proxy</code>, not directly from the sandboxed app itself. This means that when <code>xdg-desktop-portal</code> asks the message bus &ldquo;who sent this message?&rdquo;, the message bus tells it the process ID of <code>xdg-dbus-proxy</code>.</p>
 <p>Flatpak puts <code>/.flatpak-info</code> in the filesystem root of both <code>xdg-dbus-proxy</code> and the actual sandboxed app, so that the <code>xdg-dbus-proxy</code> can be identified as being run on behalf of the sandboxed app. If you are faking a Flatpak app then you will need to do the same.</p>
@@ -900,8 +888,7 @@ window.goatcounter = {
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --talk<span class="o">=</span><span class="s2">&#34;org.freedesktop.portal.Notifications&#34;</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  --talk<span class="o">=</span><span class="s2">&#34;org.freedesktop.portal.FileChooser&#34;</span> <span class="se">\
 </span></span></span></code></pre></div><p>Of these, <code>-talk=&quot;org.freedesktop.portal.Flatpak&quot;</code> is a must, as we have to emulate what Flatpak does.</p>
-<p>Of course, this is only a fraction of all the portals available, so check the <a href="https://docs.flatpak.org/en/latest/portal-api-reference.html"   target="_blank">
-    Portal API reference</a> for determining what your application needs.</p>
+<p>Of course, this is only a fraction of all the portals available, so check the <a href="https://docs.flatpak.org/en/latest/portal-api-reference.html" target="_blank">Portal API reference</a> for determining what your application needs.</p>
 
 
 <h1 class="relative group">Zombie Processes 
@@ -917,8 +904,7 @@ window.goatcounter = {
 <p>After a lot of time, I&rsquo;ve noticed that the method here results in zombie processes after closing the browser. This is due to the browser being a child process of the script, but as we also run an instance of <code>xdg-dbus-proxy</code>, the script doesn&rsquo;t exit at all.</p>
 <p>Fortunately this is pretty easy to solve, we simply add this line to the beginning of the script:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">trap</span> <span class="s1">&#39;trap - SIGTERM &amp;&amp; kill -- -$$&#39;</span> SIGINT SIGTERM EXIT
-</span></span></code></pre></div><p>I&rsquo;ve uploaded the completed script on <a href="https://github.com/StandingPadAnimations/sandboxing-scripts/blob/main/vivaldi"   target="_blank">
-    GitHub</a>, and that&rsquo;s pretty much all there is (but I&rsquo;ll be updating this as new information comes). Cya!</p>
+</span></span></code></pre></div><p>I&rsquo;ve uploaded the completed script on <a href="https://github.com/StandingPadAnimations/sandboxing-scripts/blob/main/vivaldi" target="_blank">GitHub</a>, and that&rsquo;s pretty much all there is (but I&rsquo;ll be updating this as new information comes). Cya!</p>
 
         </div>
         
@@ -1077,10 +1063,11 @@ window.goatcounter = {
   <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
-</footer><div
+</footer>
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://www.standingpad.org/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div

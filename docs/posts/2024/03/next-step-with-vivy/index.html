@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="MCprep, Vivy, " />
   
   
-  <link rel="canonical" href="https://www.standingpad.org/posts/2024/03/next-step-with-vivy/" />
+  <link rel="canonical" href="http://localhost:1313/posts/2024/03/next-step-with-vivy/" />
   
   
   
@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.59c1292a7923e90e73b1285b2a1ba3fc7b49bc33c561f4f55d5a0531994e606a056dc7edf679d7c2d6a69212fbb8f8f4bada520bfbafb6e2a112c2e01af74727.css"
-    integrity="sha512-WcEpKnkj6Q5zsShbKhuj/HtJvDPFYfT1XVoFMZlOYGoFbcft9nnXwtamkhL7uPj0utpSC/uvtuKhEsLgGvdHJw==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.c39e060a3e3b235a5c66504362eed85973e51d2999a0ba21712cc1341791939de8f357c21371ce709b9226eb3777821bcd303c87afbd718dec5c1927f846ccff.css"
+    integrity="sha512-w54GCj47I1pcZlBDYu7YWXPlHSmZoLohcSzBNBeRk53o81fCE3HOcJuSJus3d4IbzTA8h6&#43;9cY3sXBkn&#43;EbM/w==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -62,7 +62,7 @@
   
   
   
-  <meta property="og:url" content="https://www.standingpad.org/posts/2024/03/next-step-with-vivy/">
+  <meta property="og:url" content="http://localhost:1313/posts/2024/03/next-step-with-vivy/">
   <meta property="og:site_name" content="StandingPad&#39;s Corner">
   <meta property="og:title" content="The Next Step with Vivy">
   <meta property="og:description" content="A while back I announced Vivy, the in-house fork of MCprep with an overhauled material system that gives more control to the user.">
@@ -90,7 +90,7 @@
     
     "abstract": "A while back I announced Vivy, the in-house fork of MCprep with an overhauled material system that gives more control to the user.",
     "inLanguage": "en",
-    "url" : "https:\/\/www.standingpad.org\/posts\/2024\/03\/next-step-with-vivy\/",
+    "url" : "http:\/\/localhost:1313\/posts\/2024\/03\/next-step-with-vivy\/",
     "author" : {
       "@type": "Person",
       "name": "StandingPad\u0027s Corner"
@@ -453,6 +453,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                     
@@ -464,6 +465,7 @@ window.goatcounter = {
         </p>
     </a>
 </li>
+
 
 
 
@@ -537,6 +539,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                 </ul>
@@ -569,15 +572,6 @@ window.goatcounter = {
 
 
 <article>
-  
-  
-  
-  
-  
-  
- 
-
-  
   
 
   <header id="single_header" class="mt-5 max-w-prose">
@@ -705,8 +699,7 @@ window.goatcounter = {
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>A while back I announced <a href="/posts/2023/12/new-years/#vivy"  >
-    Vivy</a>, the in-house fork of MCprep with an overhauled material system that gives more control to the user. At the time, I stated I wasn&rsquo;t interested in making it a full fork of MCprep for the public as Vivy has a higher learning curve then MCprep when it comes to using. Well I&rsquo;ve thought about it a little more and have decided to make it a full fork.</p>
+          <p>A while back I announced <a href="/posts/2023/12/new-years/#vivy">Vivy</a>, the in-house fork of MCprep with an overhauled material system that gives more control to the user. At the time, I stated I wasn&rsquo;t interested in making it a full fork of MCprep for the public as Vivy has a higher learning curve then MCprep when it comes to using. Well I&rsquo;ve thought about it a little more and have decided to make it a full fork.</p>
 
 
 <h1 class="relative group">Things that Need to be Done 
@@ -732,9 +725,7 @@ window.goatcounter = {
     </span>        
     
 </h2>
-<p>For starters, Vivy&rsquo;s material system needs to be properly integrated in the rest of the codebase. Right now, Vivy&rsquo;s material system uses <a href="https://github.com/StandingPadAnimations/Vivy/blob/d93046b45989aea494d3f60f4ab81ce329c7c54c/MCprep_addon/materials/vivy_materials.py#L279"   target="_blank">
-    seperate</a> <a href="https://github.com/StandingPadAnimations/Vivy/blob/d93046b45989aea494d3f60f4ab81ce329c7c54c/MCprep_addon/materials/vivy_materials.py#L407"   target="_blank">
-    operators</a> for everything material related, to avoid breaking other parts of MCprep such as spawners. However, to make Vivy a proper fork, we&rsquo;d need to properly redo the main MCprep operators.</p>
+<p>For starters, Vivy&rsquo;s material system needs to be properly integrated in the rest of the codebase. Right now, Vivy&rsquo;s material system uses <a href="https://github.com/StandingPadAnimations/Vivy/blob/d93046b45989aea494d3f60f4ab81ce329c7c54c/MCprep_addon/materials/vivy_materials.py#L279" target="_blank">seperate</a> <a href="https://github.com/StandingPadAnimations/Vivy/blob/d93046b45989aea494d3f60f4ab81ce329c7c54c/MCprep_addon/materials/vivy_materials.py#L407" target="_blank">operators</a> for everything material related, to avoid breaking other parts of MCprep such as spawners. However, to make Vivy a proper fork, we&rsquo;d need to properly redo the main MCprep operators.</p>
 <p>One issue in Vivy&rsquo;s current system is that it uses raw JSON everywhere, which tends to make things messy. This was mostly due to sheer laziness on my part with wanting to get something that works, but that&rsquo;s not acceptable if we want to make Vivy a full public fork. To help with this, Vivy&rsquo;s material system have been split into 2 parts: the Vivy operators in the GNU GPL licensed addon, and JSON parsing + &ldquo;Independent Operations&rdquo; (operations that don&rsquo;t depend on Blender). The latter part is now on its own repository, under a more permissive BSD 3-Clause license called Vivy Components.</p>
 <a id="github-882885aa1e061a86988be8ebd6092272" target="_blank" href="https://github.com/StandingPadAnimations/Vivy-Components" class="cursor-pointer">
   <div
@@ -842,8 +833,7 @@ window.goatcounter = {
     
 </h1>
 <p>On the MCprep Discord, I&rsquo;ve said in a couple of places that I&rsquo;m thinking of implementing Vivy&rsquo;s material system in MCprep directly. Well, that won&rsquo;t be happening in the near future. The primary reason goes back to the high learning curve, but also some design decisions in MCprep that conflict with Vivy: MCprep is designed to be as simple as possible, and to do as much heavy lifting as possible. Vivy by contrast is the opposite, giving the user far more control in many areas while not being as simple. As such, it&rsquo;s better in the long run if Vivy continues to remain separate from MCprep (although both Vivy and Vivy Components are open source, in case someone wants to do that).</p>
-<p>I can&rsquo;t give an exact timeline of when all of this will be done, other than &ldquo;by my 2024 Summer Piece&rdquo; (see <a href="/posts/2023/12/new-years/#less-art-aww-man"  >
-    here</a> for what I mean). Currently I&rsquo;m also working on MCprep for the MCprep 3.6 update, and IRL I also have school to be concerned about. If anyone wants to contribute to Vivy, go ahead, it would be appreciated.</p>
+<p>I can&rsquo;t give an exact timeline of when all of this will be done, other than &ldquo;by my 2024 Summer Piece&rdquo; (see <a href="/posts/2023/12/new-years/#less-art-aww-man">here</a> for what I mean). Currently I&rsquo;m also working on MCprep for the MCprep 3.6 update, and IRL I also have school to be concerned about. If anyone wants to contribute to Vivy, go ahead, it would be appreciated.</p>
 <a id="github-5586f29ace106ef7d1a228e098aad7b3" target="_blank" href="https://github.com/StandingPadAnimations/Vivy" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl">
@@ -1082,10 +1072,11 @@ window.goatcounter = {
   <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
-</footer><div
+</footer>
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://www.standingpad.org/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div

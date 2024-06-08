@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How I Did It on StandingPad&#39;s Corner</title>
-    <link>https://www.standingpad.org/tags/how-i-did-it/</link>
+    <link>http://localhost:1313/tags/how-i-did-it/</link>
     <description>Recent content in How I Did It on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 StandingPad&#39;s Corner</copyright>
-    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.standingpad.org/tags/how-i-did-it/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/how-i-did-it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ship Render</title>
-      <link>https://www.standingpad.org/posts/2023/06/ship-render/</link>
+      <link>http://localhost:1313/posts/2023/06/ship-render/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.standingpad.org/posts/2023/06/ship-render/</guid>
+      <guid>http://localhost:1313/posts/2023/06/ship-render/</guid>
       <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve render, so I made this cause why not.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2023/06/ship-render/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2023/06/ship-render/featured.webp" />
     </item>
     
     <item>
       <title>How I did It: Calm After the Storm</title>
-      <link>https://www.standingpad.org/posts/2023/02/calm-after-storm-render/</link>
+      <link>http://localhost:1313/posts/2023/02/calm-after-storm-render/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.standingpad.org/posts/2023/02/calm-after-storm-render/</guid>
+      <guid>http://localhost:1313/posts/2023/02/calm-after-storm-render/</guid>
       <description>Yes guys, I&amp;rsquo;m back.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2023/02/calm-after-storm-render/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2023/02/calm-after-storm-render/featured.webp" />
     </item>
     
     <item>
       <title>How I Did It: 2023 New Year&#39;s Render</title>
-      <link>https://www.standingpad.org/posts/2022/12/new-years-2023/</link>
+      <link>http://localhost:1313/posts/2022/12/new-years-2023/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 -0600</pubDate>
       
-      <guid>https://www.standingpad.org/posts/2022/12/new-years-2023/</guid>
+      <guid>http://localhost:1313/posts/2022/12/new-years-2023/</guid>
       <description>It&amp;rsquo;s now New Year&amp;rsquo;s Eve, so I made a new years render: This is perhaps the most complicated render I have done to date.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2022/12/new-years-2023/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2022/12/new-years-2023/featured.webp" />
     </item>
     
     <item>
       <title>How I Did It: Hacking Holograms Render</title>
-      <link>https://www.standingpad.org/posts/2022/12/hacking-holograms-render/</link>
+      <link>http://localhost:1313/posts/2022/12/hacking-holograms-render/</link>
       <pubDate>Thu, 22 Dec 2022 16:16:09 -0600</pubDate>
       
-      <guid>https://www.standingpad.org/posts/2022/12/hacking-holograms-render/</guid>
+      <guid>http://localhost:1313/posts/2022/12/hacking-holograms-render/</guid>
       <description>I recently had the motivation to make the following render</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2022/12/hacking-holograms-render/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2022/12/hacking-holograms-render/featured.webp" />
     </item>
     
   </channel>

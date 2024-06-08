@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="MCprep, " />
   
   
-  <link rel="canonical" href="https://www.standingpad.org/posts/2023/06/i-broke-production/" />
+  <link rel="canonical" href="http://localhost:1313/posts/2023/06/i-broke-production/" />
   
   
   
@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.59c1292a7923e90e73b1285b2a1ba3fc7b49bc33c561f4f55d5a0531994e606a056dc7edf679d7c2d6a69212fbb8f8f4bada520bfbafb6e2a112c2e01af74727.css"
-    integrity="sha512-WcEpKnkj6Q5zsShbKhuj/HtJvDPFYfT1XVoFMZlOYGoFbcft9nnXwtamkhL7uPj0utpSC/uvtuKhEsLgGvdHJw==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.c39e060a3e3b235a5c66504362eed85973e51d2999a0ba21712cc1341791939de8f357c21371ce709b9226eb3777821bcd303c87afbd718dec5c1927f846ccff.css"
+    integrity="sha512-w54GCj47I1pcZlBDYu7YWXPlHSmZoLohcSzBNBeRk53o81fCE3HOcJuSJus3d4IbzTA8h6&#43;9cY3sXBkn&#43;EbM/w==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -62,7 +62,7 @@
   
   
   
-  <meta property="og:url" content="https://www.standingpad.org/posts/2023/06/i-broke-production/">
+  <meta property="og:url" content="http://localhost:1313/posts/2023/06/i-broke-production/">
   <meta property="og:site_name" content="StandingPad&#39;s Corner">
   <meta property="og:title" content="How a Syntax Error I Made Deleted TheDuckCow&#39;s Files">
   <meta property="og:description" content="This just happened about an hour ago as I write this.">
@@ -89,7 +89,7 @@
     
     "abstract": "This just happened about an hour ago as I write this.",
     "inLanguage": "en",
-    "url" : "https:\/\/www.standingpad.org\/posts\/2023\/06\/i-broke-production\/",
+    "url" : "http:\/\/localhost:1313\/posts\/2023\/06\/i-broke-production\/",
     "author" : {
       "@type": "Person",
       "name": "StandingPad\u0027s Corner"
@@ -455,6 +455,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                     
@@ -466,6 +467,7 @@ window.goatcounter = {
         </p>
     </a>
 </li>
+
 
 
 
@@ -539,6 +541,7 @@ window.goatcounter = {
 
 
 
+
                     
 
                 </ul>
@@ -571,15 +574,6 @@ window.goatcounter = {
 
 
 <article>
-  
-  
-  
-  
-  
-  
- 
-
-  
   
 
   <header id="single_header" class="mt-5 max-w-prose">
@@ -699,8 +693,7 @@ window.goatcounter = {
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>This just happened about an hour ago as I write this. So I&rsquo;m just chilling when I get a GitHub notification email. Normally these aren&rsquo;t a bug deal, but <a href="https://github.com/TheDuckCow/MCprep/pull/422#issuecomment-1606525786"   target="_blank">
-    this one</a> was a bug deal:</p>
+          <p>This just happened about an hour ago as I write this. So I&rsquo;m just chilling when I get a GitHub notification email. Normally these aren&rsquo;t a bug deal, but <a href="https://github.com/TheDuckCow/MCprep/pull/422#issuecomment-1606525786" target="_blank">this one</a> was a bug deal:</p>
 <blockquote>
 <div id="typeit-81abab7640f91e6fad0c37e3a4d2264f"></div>
 
@@ -720,8 +713,7 @@ window.goatcounter = {
 </blockquote>
 <p>TheDuckCow ran <code>compile.sh</code> (which is how we build MCprep) and it ended up deleting his installed Blender addons&hellip; across 7 versions of Blender.</p>
 <p>Shit.</p>
-<p>Initially it was thought to be a issue on <code>dev</code>, but it turned out to be an issue on <code>milestone-3-5-0</code>. I remembered <a href="https://github.com/TheDuckCow/MCprep/commit/eccda95b80ae0a6445015dd0d6743111992bb3da"   target="_blank">
-    this commit</a> I made earlier this year, specifically the following section:</p>
+<p>Initially it was thought to be a issue on <code>dev</code>, but it turned out to be an issue on <code>milestone-3-5-0</code>. I remembered <a href="https://github.com/TheDuckCow/MCprep/commit/eccda95b80ae0a6445015dd0d6743111992bb3da" target="_blank">this commit</a> I made earlier this year, specifically the following section:</p>
 <blockquote>
 <div id="typeit-231c4f9fee9644f5a93f86d56b16c3f1"></div>
 
@@ -739,9 +731,7 @@ window.goatcounter = {
     });
 </script>
 </blockquote>
-<p><code>SC2115</code> is defined <a href="https://www.shellcheck.net/wiki/SC2115"   target="_blank">
-    here on the ShellCheck wiki</a>. It occurs when a bash script tries to perform a deletion on a variable that might be null. This can have massive consequences, such as with <a href="https://github.com/ValveSoftware/steam-for-linux/issues/3671"   target="_blank">
-    this user who lost their home directory</a> due to Valve (of all companies) making this mistake for the Steam client.</p>
+<p><code>SC2115</code> is defined <a href="https://www.shellcheck.net/wiki/SC2115" target="_blank">here on the ShellCheck wiki</a>. It occurs when a bash script tries to perform a deletion on a variable that might be null. This can have massive consequences, such as with <a href="https://github.com/ValveSoftware/steam-for-linux/issues/3671" target="_blank">this user who lost their home directory</a> due to Valve (of all companies) making this mistake for the Steam client.</p>
 <p>The mistake I made was in the &ldquo;fix&rdquo;:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">rm -rf <span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="p">/</span><span class="nv">$NAME</span><span class="p">:?</span><span class="si">}</span><span class="s2">/&#34;</span>
 </span></span></code></pre></div><p>Which Bash interprets as:</p>
@@ -760,10 +750,8 @@ window.goatcounter = {
 <li>Remove the resulting path</li>
 </ul>
 <p>What that means was instead of removing <code>path/to/addons/folder/MCprep</code>, it was removing <code>path/to/addons/folder</code>, which meant all of TheDuckCow&rsquo;s installed Blender addons were deleted.</p>
-<p>In my defense, ShellCheck should have given a warning in this case (I&rsquo;ve checked again today, ShellCheck considers everything fine), and <a href="https://github.com/koalaman/shellcheck/issues/2786"   target="_blank">
-    I&rsquo;ve opened an issue</a> on the ShellCheck repo for this very case, but past me should have known.</p>
-<p>Thankfully we&rsquo;re replacing <code>compile.sh</code> with a <a href="https://github.com/TheDuckCow/MCprep/pull/422"   target="_blank">
-    state of the art build system written in PEP8-complient Python</a>, so hopefully this won&rsquo;t happen again (I hope). Just in case though, I&rsquo;ve fixed the error on the MCprep repo, but that isn&rsquo;t going to restore any files.</p>
+<p>In my defense, ShellCheck should have given a warning in this case (I&rsquo;ve checked again today, ShellCheck considers everything fine), and <a href="https://github.com/koalaman/shellcheck/issues/2786" target="_blank">I&rsquo;ve opened an issue</a> on the ShellCheck repo for this very case, but past me should have known.</p>
+<p>Thankfully we&rsquo;re replacing <code>compile.sh</code> with a <a href="https://github.com/TheDuckCow/MCprep/pull/422" target="_blank">state of the art build system written in PEP8-complient Python</a>, so hopefully this won&rsquo;t happen again (I hope). Just in case though, I&rsquo;ve fixed the error on the MCprep repo, but that isn&rsquo;t going to restore any files.</p>
 <p>Moral of the story: when working with Bash, no errors still means there&rsquo;s errors.</p>
 
         </div>
@@ -923,10 +911,11 @@ window.goatcounter = {
   <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
-</footer><div
+</footer>
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://www.standingpad.org/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div
