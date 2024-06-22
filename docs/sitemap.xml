@@ -3,314 +3,320 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/2024/06/i-got-hired-at-vlk/</loc>
+    <loc>https://www.standingpad.org/posts/2024/06/affinity-on-linux/</loc>
+    <lastmod>2024-06-22T14:09:26-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.standingpad.org/posts/</loc>
+    <lastmod>2024-06-22T14:09:26-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.standingpad.org/</loc>
+    <lastmod>2024-06-22T14:09:26-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.standingpad.org/posts/2024/06/i-got-hired-at-vlk/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/2024/05/plans-for-a-new-vivy-addon/</loc>
+    <loc>https://www.standingpad.org/posts/2024/05/plans-for-a-new-vivy-addon/</loc>
     <lastmod>2024-05-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2024/04/bfa-flatpak-made-official/</loc>
+    <loc>https://www.standingpad.org/posts/2024/04/bfa-flatpak-made-official/</loc>
     <lastmod>2024-04-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2024/03/next-step-with-vivy/</loc>
+    <loc>https://www.standingpad.org/posts/2024/03/next-step-with-vivy/</loc>
     <lastmod>2024-03-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2024/03/this-months-shenanigans/</loc>
+    <loc>https://www.standingpad.org/posts/2024/03/this-months-shenanigans/</loc>
     <lastmod>2024-03-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2024/01/analytics/</loc>
+    <loc>https://www.standingpad.org/posts/2024/01/analytics/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2024/01/estalla-first-release/</loc>
+    <loc>https://www.standingpad.org/posts/2024/01/estalla-first-release/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/12/new-years/</loc>
+    <loc>https://www.standingpad.org/posts/2023/12/new-years/</loc>
     <lastmod>2023-12-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/11/some-progress/</loc>
+    <loc>https://www.standingpad.org/posts/2023/11/some-progress/</loc>
     <lastmod>2023-11-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/10/website-update/</loc>
+    <loc>https://www.standingpad.org/posts/2023/10/website-update/</loc>
     <lastmod>2023-10-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/09/mcprep-3.5-release/</loc>
+    <loc>https://www.standingpad.org/posts/2023/09/mcprep-3.5-release/</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/09/taking-a-break/</loc>
+    <loc>https://www.standingpad.org/posts/2023/09/taking-a-break/</loc>
     <lastmod>2023-09-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/09/birthday-render/</loc>
+    <loc>https://www.standingpad.org/posts/2023/09/birthday-render/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/08/sandboxing-time/</loc>
+    <loc>https://www.standingpad.org/posts/2023/08/sandboxing-time/</loc>
     <lastmod>2023-08-26T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/08/comments/</loc>
+    <loc>https://www.standingpad.org/posts/2023/08/comments/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/07/cya-instagram-render/</loc>
+    <loc>https://www.standingpad.org/posts/2023/07/cya-instagram-render/</loc>
     <lastmod>2023-07-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/07/some-updates/</loc>
+    <loc>https://www.standingpad.org/posts/2023/07/some-updates/</loc>
     <lastmod>2023-07-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/06/fyi-you-might-have-cache-issues/</loc>
+    <loc>https://www.standingpad.org/posts/2023/06/fyi-you-might-have-cache-issues/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/06/i-broke-production/</loc>
+    <loc>https://www.standingpad.org/posts/2023/06/i-broke-production/</loc>
     <lastmod>2023-06-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/06/rtx-water-shader-2/</loc>
+    <loc>https://www.standingpad.org/posts/2023/06/rtx-water-shader-2/</loc>
     <lastmod>2023-06-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/06/ship-render/</loc>
+    <loc>https://www.standingpad.org/posts/2023/06/ship-render/</loc>
     <lastmod>2023-06-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/06/website-update/</loc>
+    <loc>https://www.standingpad.org/posts/2023/06/website-update/</loc>
     <lastmod>2023-06-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/06/mcprep-isnt-sustaintable/</loc>
+    <loc>https://www.standingpad.org/posts/2023/06/mcprep-isnt-sustaintable/</loc>
     <lastmod>2023-06-13T00:01:33-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/05/prepping-api-cleared-now-what/</loc>
+    <loc>https://www.standingpad.org/posts/2023/05/prepping-api-cleared-now-what/</loc>
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/03/dropping-27x-support-in-mcprep/</loc>
+    <loc>https://www.standingpad.org/posts/2023/03/dropping-27x-support-in-mcprep/</loc>
     <lastmod>2023-03-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/03/problems-of-mcprep-development/</loc>
+    <loc>https://www.standingpad.org/posts/2023/03/problems-of-mcprep-development/</loc>
     <lastmod>2023-03-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/02/mcprep-progress/</loc>
+    <loc>https://www.standingpad.org/posts/2023/02/mcprep-progress/</loc>
     <lastmod>2023-02-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/02/endorcore-shutdown/</loc>
+    <loc>https://www.standingpad.org/posts/2023/02/endorcore-shutdown/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/02/calm-after-storm-render/</loc>
+    <loc>https://www.standingpad.org/posts/2023/02/calm-after-storm-render/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/01/farewell-for-now/</loc>
+    <loc>https://www.standingpad.org/posts/2023/01/farewell-for-now/</loc>
     <lastmod>2023-01-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/01/songs-of-war-is-dead-let-it-rest-in-peace/</loc>
+    <loc>https://www.standingpad.org/posts/2023/01/songs-of-war-is-dead-let-it-rest-in-peace/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2023/01/treating-help-channels-like-google/</loc>
+    <loc>https://www.standingpad.org/posts/2023/01/treating-help-channels-like-google/</loc>
     <lastmod>2023-01-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2022/12/new-years-2023/</loc>
+    <loc>https://www.standingpad.org/posts/2022/12/new-years-2023/</loc>
     <lastmod>2022-12-31T00:00:00-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2022/12/meet-jason-the-cat/</loc>
+    <loc>https://www.standingpad.org/posts/2022/12/meet-jason-the-cat/</loc>
     <lastmod>2022-12-26T21:37:01-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2022/12/happy-holidays/</loc>
+    <loc>https://www.standingpad.org/posts/2022/12/happy-holidays/</loc>
     <lastmod>2022-12-25T13:30:22-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2022/12/hacking-holograms-render/</loc>
+    <loc>https://www.standingpad.org/posts/2022/12/hacking-holograms-render/</loc>
     <lastmod>2022-12-22T16:16:09-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</loc>
+    <loc>https://www.standingpad.org/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</loc>
     <lastmod>2022-12-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2022/12/cycles-optimization-samples-and-bounces/</loc>
+    <loc>https://www.standingpad.org/posts/2022/12/cycles-optimization-samples-and-bounces/</loc>
     <lastmod>2022-12-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/2022/12/moving-on/</loc>
+    <loc>https://www.standingpad.org/posts/2022/12/moving-on/</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/lighting-guide/introduction/</loc>
+    <loc>https://www.standingpad.org/lighting-guide/introduction/</loc>
     <lastmod>2022-06-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/lighting-guide/</loc>
+    <loc>https://www.standingpad.org/lighting-guide/</loc>
     <lastmod>2022-06-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/lighting-guide/practical-example/</loc>
+    <loc>https://www.standingpad.org/lighting-guide/practical-example/</loc>
     <lastmod>2022-06-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/lighting-guide/a-different-way/</loc>
+    <loc>https://www.standingpad.org/lighting-guide/a-different-way/</loc>
     <lastmod>2022-06-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/lighting-guide/lets-demolish-stuff/</loc>
+    <loc>https://www.standingpad.org/lighting-guide/lets-demolish-stuff/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/lighting-guide/conclusion/</loc>
+    <loc>https://www.standingpad.org/lighting-guide/conclusion/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/twitter/</loc>
+    <loc>https://www.standingpad.org/twitter/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://www.standingpad.org/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/email-shame-list/</loc>
+    <loc>https://www.standingpad.org/email-shame-list/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/growth/</loc>
+    <loc>https://www.standingpad.org/growth/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/privacy-policy/</loc>
+    <loc>https://www.standingpad.org/privacy-policy/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/resources/</loc>
+    <loc>https://www.standingpad.org/resources/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

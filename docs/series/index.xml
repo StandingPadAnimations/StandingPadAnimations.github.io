@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on StandingPad&#39;s Corner</title>
-    <link>http://localhost:1313/series/</link>
+    <link>https://www.standingpad.org/series/</link>
     <description>Recent content in Series on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 StandingPad&#39;s Corner</copyright>
-    <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.standingpad.org/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cycles Optimization</title>
-      <link>http://localhost:1313/series/cycles-optimization/</link>
+      <link>https://www.standingpad.org/series/cycles-optimization/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/cycles-optimization/</guid>
+      <guid>https://www.standingpad.org/series/cycles-optimization/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Lighting Guide</title>
-      <link>http://localhost:1313/series/lighting-guide/</link>
+      <link>https://www.standingpad.org/series/lighting-guide/</link>
       <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/lighting-guide/</guid>
+      <guid>https://www.standingpad.org/series/lighting-guide/</guid>
       <description></description>
       
     </item>
