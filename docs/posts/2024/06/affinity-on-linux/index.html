@@ -103,7 +103,7 @@
     "keywords": ["Affinity"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "741"
+    "wordCount": "801"
   }]
   </script>
 
@@ -619,7 +619,7 @@ window.goatcounter = {
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-22 14:09:26 -0500 CDT">22 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>741 words</span>
+  <time datetime="2024-06-22 14:09:26 -0500 CDT">22 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>801 words</span>
   
 
   
@@ -792,7 +792,20 @@ window.goatcounter = {
 </h3>
 <p>Before we can run the Affinity installer, we need to copy some files from a Windows install. Not a Window install of Affinity, but the actual install of Windows itself. To do this, on Windows, copy <code>C:/windows/system32/WinMetadata</code> somewhere that you can access on Linux, and then copy those files to your Affinity bottle.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">cp -r path/to/WinMetadata path/to/bottles/bottles/<span class="o">[</span>bottle-name<span class="o">]</span>/drive_c/windows/system32/WinMetadata
-</span></span></code></pre></div><p>With all of that done, you can now run the installer for any Affinity product! Like I said earlier, check out <a href="https://codeberg.org/Wanesty/affinity-wine-docs" target="_blank">Wanesty&rsquo;s repo</a> if you come across any issues, as this guide is simply an Bottles adaption of her guide.</p>
+</span></span></code></pre></div>
+
+<h3 class="relative group">Preferences 
+    <div id="preferences" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#preferences" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>One issue with Affinity on Linux is that preferences don&rsquo;t save properly, and no one knows why. The best option for now is to set important preferences (like OCIO config) on Windows, bring the config over from <code>AppData/Roaming</code> to the WINE bottle, and then change the XML as needed for any paths. Not ideal, but better then nothing.</p>
+<p>With all of that done, you can now run the installer for any Affinity product! Like I said earlier, check out <a href="https://codeberg.org/Wanesty/affinity-wine-docs" target="_blank">Wanesty&rsquo;s repo</a> if you come across any issues, as this guide is simply an Bottles adaption of her guide.</p>
 <p>Enjoy!</p>
 
         </div>
