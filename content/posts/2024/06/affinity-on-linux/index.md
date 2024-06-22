@@ -72,6 +72,9 @@ Before we can run the Affinity installer, we need to copy some files from a Wind
 cp -r path/to/WinMetadata path/to/bottles/bottles/[bottle-name]/drive_c/windows/system32/WinMetadata
 ```
 
+### Preferences
+One issue with Affinity on Linux is that preferences don't save properly, and no one knows why. The best option for now is to set important preferences (like OCIO config) on Windows, bring the config over from `AppData/Roaming` to the WINE bottle, and then change the XML as needed for any paths. Not ideal, but better then nothing.
+
 With all of that done, you can now run the installer for any Affinity product! Like I said earlier, check out [Wanesty's repo](https://codeberg.org/Wanesty/affinity-wine-docs) if you come across any issues, as this guide is simply an Bottles adaption of her guide.
 
 Enjoy!
