@@ -9,7 +9,7 @@ tags:
 
 Yes, you heard that right, I got Affinity Photo and Designer working on Linux
 
-{{< image src="gallary/photo-linux.webp" alt="Maya's light linking UI" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/photo-linux.webp" alt="Screenshot of Affinity on Linux" position="center" style="border-radius: 8px;" >}}
 
 Here's a write-up explaining how I did it, using [Bottles](https://usebottles.com/)
 
