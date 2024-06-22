@@ -1,0 +1,7 @@
+.max-w-fit, .max-w-prose {
+    max-width: 100%;
+}
+
+thead {
+  display: none;
+}
