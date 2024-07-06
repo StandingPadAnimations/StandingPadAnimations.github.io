@@ -1,6 +1,7 @@
 ---
 title: "Affinity on Linux"
 date: 2024-06-22T14:09:26-05:00
+lastmod: 2024-07-06
 toc: false
 images:
 tags:
@@ -28,13 +29,21 @@ Anyway, here's a basic overview of what I did to get Affinity to work.
 ## WINE
 For Affinity 2, upstream WINE doesn't support the necessary functions needed.
 
-Now ElementalWarrior from the Affinity Forums has already made a [fork of WINE](https://gitlab.winehq.org/ElementalWarrior/wine) that has the necessary patches to get Affinity 2 working on WINE. However, it needs to be compiled from source.
+Thankfully, ElementalWarrior has created some patches to get Affinity to work on WINE, and Lukas Magauer has rebased these patches to work on WINE 9.12. This tutorial will be using Lukas Magauer's [fork of WINE](https://gitlab.winehq.org/lumarel/wine/) [^1] [^2]
+
+[^1]: Footnote for transparency: This tutorial used to use the ElementalWarrior fork of WINE 8.14. However, just a couple of days ago (as of writing this), Lukas Magauer has rebased those patches for WINE 9.12. In my testing, WINE 9.12 is much nicer with Vulcan rendering, so that's why I've updated this tutorial to use the new fork.
+
+[^2]: If you wish to use ElementalWarrior's fork of WINE instead, then replace 
+    - `https://gitlab.winehq.org/lumarel/wine.git` with `https://gitlab.winehq.org/ElementalWarrior/wine`
+    - `localfix/affinity-photo-2` with `affinity-photo2-wine8.14`
+    - `Lumarel-wine` with `ElementalWarrior-wine`
+    - `Lumarel-9.12` with `ElementalWarrior-8.14`
 
 I don't know about y'all, but I don't really want to install all of the build dependencies on my system. In addition, you might have issues if you're on a more stable distro. Thankfully, someone has made a [Podman container](https://github.com/daegalus/wine-builder) (you can also use Docker if you wish) to build WINE from source without impacting the main system.
 
-So first we need to clone WINE ElementalWarrior's patches. We only need the `affinity-photo2-wine8.14` branch, so to save time, we can simply do the following:
+So first we need to clone WINE ElementalWarrior's patches. We only need the `localfix/affinity-photo-2` branch, so to save time, we can simply do the following:
 ```sh
-git clone https://gitlab.winehq.org/ElementalWarrior/wine.git ElementalWarrior-wine -b affinity-photo2-wine8.14
+git clone https://gitlab.winehq.org/lumarel/wine.git Lumarel-wine -b localfix/affinity-photo-2
 ```
 
 Next we need to `cd` into repo and run the `wine-builder` container. I'll be using Podman since that's what the container was designed for, but you can also use Docker
@@ -49,14 +58,14 @@ Now we need to create a Bottle for Affinity. I'm assuming y'all know the basics 
 
 First, copy the built WINE to the runners directory for Bottles. This can either be `$HOME/.local/share/bottles/bottles/runners` (if installed natively) or `$HOME/.var/app/com.usebottles.bottles/bottles/runners` (if installed as a Flatpak). The built WINE should exist in a `wine-install` folder.
 ```sh
-cp -r path/to/ElementalWarrior-wine/wine-install/ path/to/bottles/runners/ElementalWarrior-8.14
+cp -r path/to/Lumarel-wine/wine-install/ path/to/bottles/runners/Lumarel-9.12
 ```
 
 Create a new bottle for Affinity, and with it, set the following under Settings:
-- `Components > Runner`: ElementalWarrior-8.14
+- `Components > Runner`: Lumarel-9.12
 - `Components > DXVK`: Disabled
 - `Components > VKD3D`: Disabled
-- `Display > Advanced Display Settings > Renderer`: Vulcan (if you come across graphics issues later, set it to GL and see if said issues resolve themselves)
+- `Display > Advanced Display Settings > Renderer`: Vulcan
 - `Compatibility > Windows Version`: Windows 10
 
 Next, install the following dependencies:
