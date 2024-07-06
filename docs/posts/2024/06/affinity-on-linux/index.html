@@ -70,7 +70,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-06-22T14:09:26-05:00">
-    <meta property="article:modified_time" content="2024-06-22T14:09:26-05:00">
+    <meta property="article:modified_time" content="2024-07-06T00:00:00+00:00">
     <meta property="article:tag" content="Affinity">
 
   
@@ -98,12 +98,12 @@
     "dateCreated": "2024-06-22T14:09:26-05:00",
     "datePublished": "2024-06-22T14:09:26-05:00",
     
-    "dateModified": "2024-06-22T14:09:26-05:00",
+    "dateModified": "2024-07-06T00:00:00\u002b00:00",
     
     "keywords": ["Affinity"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "801"
+    "wordCount": "869"
   }]
   </script>
 
@@ -619,7 +619,7 @@ window.goatcounter = {
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-22 14:09:26 -0500 CDT">22 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>801 words</span>
+  <time datetime="2024-06-22 14:09:26 -0500 CDT">22 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>869 words</span>
   
 
   
@@ -740,10 +740,10 @@ window.goatcounter = {
     
 </h2>
 <p>For Affinity 2, upstream WINE doesn&rsquo;t support the necessary functions needed.</p>
-<p>Now ElementalWarrior from the Affinity Forums has already made a <a href="https://gitlab.winehq.org/ElementalWarrior/wine" target="_blank">fork of WINE</a> that has the necessary patches to get Affinity 2 working on WINE. However, it needs to be compiled from source.</p>
+<p>Thankfully, ElementalWarrior has created some patches to get Affinity to work on WINE, and Lukas Magauer has rebased these patches to work on WINE 9.12. This tutorial will be using Lukas Magauer&rsquo;s <a href="https://gitlab.winehq.org/lumarel/wine/" target="_blank">fork of WINE</a> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>I don&rsquo;t know about y&rsquo;all, but I don&rsquo;t really want to install all of the build dependencies on my system. In addition, you might have issues if you&rsquo;re on a more stable distro. Thankfully, someone has made a <a href="https://github.com/daegalus/wine-builder" target="_blank">Podman container</a> (you can also use Docker if you wish) to build WINE from source without impacting the main system.</p>
-<p>So first we need to clone WINE ElementalWarrior&rsquo;s patches. We only need the <code>affinity-photo2-wine8.14</code> branch, so to save time, we can simply do the following:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git clone https://gitlab.winehq.org/ElementalWarrior/wine.git ElementalWarrior-wine -b affinity-photo2-wine8.14
+<p>So first we need to clone WINE ElementalWarrior&rsquo;s patches. We only need the <code>localfix/affinity-photo-2</code> branch, so to save time, we can simply do the following:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git clone https://gitlab.winehq.org/lumarel/wine.git Lumarel-wine -b localfix/affinity-photo-2
 </span></span></code></pre></div><p>Next we need to <code>cd</code> into repo and run the <code>wine-builder</code> container. I&rsquo;ll be using Podman since that&rsquo;s what the container was designed for, but you can also use Docker</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">podman run -v ./:/wine-builder/wine-src wine-builder
 </span></span></code></pre></div><p>This will take a while, so find something else to do in the meantime.</p>
@@ -761,13 +761,13 @@ window.goatcounter = {
 </h2>
 <p>Now we need to create a Bottle for Affinity. I&rsquo;m assuming y&rsquo;all know the basics of using Bottles and running executables with it (as well as installing dependencies), so I&rsquo;ll simply give a basic overview.</p>
 <p>First, copy the built WINE to the runners directory for Bottles. This can either be <code>$HOME/.local/share/bottles/bottles/runners</code> (if installed natively) or <code>$HOME/.var/app/com.usebottles.bottles/bottles/runners</code> (if installed as a Flatpak). The built WINE should exist in a <code>wine-install</code> folder.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">cp -r path/to/ElementalWarrior-wine/wine-install/ path/to/bottles/runners/ElementalWarrior-8.14
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">cp -r path/to/Lumarel-wine/wine-install/ path/to/bottles/runners/Lumarel-9.12
 </span></span></code></pre></div><p>Create a new bottle for Affinity, and with it, set the following under Settings:</p>
 <ul>
-<li><code>Components &gt; Runner</code>: ElementalWarrior-8.14</li>
+<li><code>Components &gt; Runner</code>: Lumarel-9.12</li>
 <li><code>Components &gt; DXVK</code>: Disabled</li>
 <li><code>Components &gt; VKD3D</code>: Disabled</li>
-<li><code>Display &gt; Advanced Display Settings &gt; Renderer</code>: Vulcan (if you come across graphics issues later, set it to GL and see if said issues resolve themselves)</li>
+<li><code>Display &gt; Advanced Display Settings &gt; Renderer</code>: Vulcan</li>
 <li><code>Compatibility &gt; Windows Version</code>: Windows 10</li>
 </ul>
 <p>Next, install the following dependencies:</p>
@@ -807,6 +807,23 @@ window.goatcounter = {
 <p>One issue with Affinity on Linux is that preferences don&rsquo;t save properly, and no one knows why. The best option for now is to set important preferences (like OCIO config) on Windows, bring the config over from <code>AppData/Roaming</code> to the WINE bottle, and then change the XML as needed for any paths. Not ideal, but better then nothing.</p>
 <p>With all of that done, you can now run the installer for any Affinity product! Like I said earlier, check out <a href="https://codeberg.org/Wanesty/affinity-wine-docs" target="_blank">Wanesty&rsquo;s repo</a> if you come across any issues, as this guide is simply an Bottles adaption of her guide.</p>
 <p>Enjoy!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Footnote for transparency: This tutorial used to use the ElementalWarrior fork of WINE 8.14. However, just a couple of days ago (as of writing this), Lukas Magauer has rebased those patches for WINE 9.12. In my testing, WINE 9.12 is much nicer with Vulcan rendering, so that&rsquo;s why I&rsquo;ve updated this tutorial to use the new fork.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>If you wish to use ElementalWarrior&rsquo;s fork of WINE instead, then replace</p>
+<ul>
+<li><code>https://gitlab.winehq.org/lumarel/wine.git</code> with <code>https://gitlab.winehq.org/ElementalWarrior/wine</code></li>
+<li><code>localfix/affinity-photo-2</code> with <code>affinity-photo2-wine8.14</code></li>
+<li><code>Lumarel-wine</code> with <code>ElementalWarrior-wine</code></li>
+<li><code>Lumarel-9.12</code> with <code>ElementalWarrior-8.14</code></li>
+</ul>
+&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
+</ol>
+</div>
 
         </div>
         
