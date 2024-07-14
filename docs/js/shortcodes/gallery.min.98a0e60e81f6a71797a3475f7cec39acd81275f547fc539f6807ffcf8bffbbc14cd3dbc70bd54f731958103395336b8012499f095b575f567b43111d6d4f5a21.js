@@ -1,0 +1,1 @@
+(function(){$(window).ready(function(){console.groupCollapsed("[DEBUG] Gallery feature enable");let e=[],t=document.querySelectorAll(".gallery");t.forEach(t=>{let n=new MagicGrid({container:t,static:!0,gutter:5,animate:!1});n.listen(),e.push(n)}),console.log("Galleries founded and initialized with MagicGrid",e),console.groupEnd()})})()
