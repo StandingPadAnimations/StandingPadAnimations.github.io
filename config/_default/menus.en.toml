@@ -29,15 +29,6 @@
   weight = 30
 
 [[main]]
-  name = "Twitter Archive"
-  parent = "Resources"
-  url = "/twitter"
-  weight = 35
-  
-  [main.params]
-    redirect = true
-
-[[main]]
   name = "Email Blocklist"
   parent = "Resources"
   url = "/email-shame-list"

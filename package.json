@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "http-server": "^14.1.1",
+    "node-html-parser": "^6.1.13",
+    "shiki": "^1.10.3",
+    "tsx": "^4.16.2"
+  }
+}
