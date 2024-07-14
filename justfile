@@ -4,7 +4,6 @@ default: build commit
 build:
   hugo --destination docs
   npx tsx scripts/shikify.ts
-  python scripts/fix-codeblocks.py
 
 build-and-preview: build preview-built 
 preview-built: 

@@ -8,7 +8,7 @@ import { parse } from "node-html-parser"
 
 const website = "docs"
 const files = await readdirSync(website, { recursive: true, encoding: "utf-8" })
-const indexFiles = files.filter((file) => file.endsWith("index.html") && file.split("/").length > 3)
+const indexFiles = files.filter((file) => file.endsWith("index.html"))
 
 const highlighter = await createHighlighter({
   themes: ["rose-pine", "rose-pine-dawn"],
