@@ -303,11 +303,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.standingpad.org/twitter/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.standingpad.org/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
