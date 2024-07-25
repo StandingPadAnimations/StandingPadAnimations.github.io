@@ -49,6 +49,10 @@ okx7@712e52eb5e.nxcli.io
 metamask83347@2fa.io
 contact@ezkel.com
 shalinsharma32@gmail.com
+amiepollack@joinbackdropbuild.com
+emily.m@buysocials.org
+Suman-SinghSEOservice@outlook.com
+tanvisingh6pw@gmail.com
 ```
 
 # App Developers
@@ -100,6 +104,9 @@ samira6pqw@gmail.com
 abhisahaniaaaa@gmail.com
 sangeetamobileshop@outlook.com
 shalinsharma32@gmail.com
+emily.m@buysocials.org
+Suman-SinghSEOservice@outlook.com
+tanvisingh6pw@gmail.com
 ```
 
 # Crypto Scams
@@ -114,6 +121,12 @@ metamask83347@2fa.io
 Most of these people are stupid and say "Dear Domain Owner" instead of addressing me by name.
 ```
 contact@ezkel.com
+```
+
+# Unsolicited Advertisements
+My email is not for advertisement junk, it's for actual correspondence.
+```
+amiepollack@joinbackdropbuild.com
 ```
 
 # FAQ
