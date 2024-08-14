@@ -55,18 +55,18 @@ This is a curated selection of work I've done in my spare time. As mentioned ear
 *Click an image to expand*
 <div data-aos="fade-left">
   {{< gallery >}}
-    <img src="gallary/EP-20-11-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-    <img src="gallary/EP-02-03-2024.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-    <img src="gallary/archviz1.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="1810" />
-    <img src="gallary/EP-17-02-2024.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-    <img src="gallary/EP-04-10-2023.webp"  class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-    <img src="gallary/archviz3.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1024" height="1536" />
-    <img src="gallary/birthday.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="905"  />
-    <img src="gallary/archviz2.webp"       class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="1754" />
-    <img src="gallary/forest.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-    <img src="gallary/new-years.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="2000" />
-    <img src="gallary/waters.webp"         class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
-    <img src="gallary/holograms.webp"      class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481" />
+    <img src="gallary/EP-20-11-2023.webp"  style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481"  />
+    <img src="gallary/EP-02-03-2024.webp"  style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481"  />
+    <img src="gallary/archviz1.webp"       style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="1810"  />
+    <img src="gallary/EP-17-02-2024.webp"  style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481"  />
+    <img src="gallary/EP-04-10-2023.webp"  style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481"  />
+    <img src="gallary/archviz3.webp"       style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1024" height="1536"  />
+    <img src="gallary/birthday.webp"       style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1280" height="905"   />
+    <img src="gallary/archviz2.webp"       style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="1754"  />
+    <img src="gallary/forest.webp"         style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481"  />
+    <img src="gallary/new-years.webp"      style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="2481" height="2000"  />
+    <img src="gallary/waters.webp"         style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481"  />
+    <img src="gallary/holograms.webp"      style="border-radius: 8px;" class="grid-w50 md:grid-w33 xl:grid-w25" width="1754" height="2481"  />
   {{< /gallery >}}
 </div>
 

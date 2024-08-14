@@ -11,7 +11,7 @@ const files = await readdirSync(website, { recursive: true, encoding: "utf-8" })
 const indexFiles = files.filter((file) => file.endsWith("index.html"))
 
 const highlighter = await createHighlighter({
-  themes: ["rose-pine", "rose-pine-dawn"],
+  themes: ["github-dark-default", "github-light-default"],
   langs: Object.keys(bundledLanguages),
 })
 
@@ -42,8 +42,8 @@ for (const file of indexFiles) {
     const highlighted = highlighter.codeToHtml(code, {
       lang: lang || "text",
       themes: {
-        light: "rose-pine-dawn",
-        dark: "rose-pine"
+        light: "github-light-default",
+        dark: "github-dark-default"
       }
     })
 

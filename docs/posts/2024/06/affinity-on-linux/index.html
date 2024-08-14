@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.42dcd0d753aa80d33cf8708022a1a500c04373aaa022e704447a428829f45d8fa454b67fdc5fdedd47a0a5909a488a7bf2c1dc0657bcb78cd2f928efe7dbf8b2.css"
-    integrity="sha512-QtzQ11OqgNM8&#43;HCAIqGlAMBDc6qgIucERHpCiCn0XY&#43;kVLZ/3F/e3UegpZCaSIp78sHcBle8t4zS&#43;Sjv59v4sg==" >
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.400dfb9b28be7661761a8c528b0aabeb0aaadd3237adc74eee526a96a4fac05a49849c7b8fa1a9473f5f64b204fb8f150328389381eacdfeeb26359ed3ad6242.css"
+    integrity="sha512-QA37myi&#43;dmF2GoxSiwqr6wqq3TI3rcdO7lJqlqT6wFpJhJx7j6GpRz9fZLIE&#43;48VAyg4k4Hqzf7rJjWe061iQg==" >
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -43,11 +43,12 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b36dda9ec4ec11e967fd341e7d57b8c484ac7a39f8f329f7bcf7ce4812569de8607db866a086d4789956ac0b74967e251c9a566d94d469dd28b8787fed4f46f5.js"
-    integrity="sha512-s23ansTsEeln/TQefVe4xISsejn48yn3vPfOSBJWnehgfbhmoIbUeJlWrAt0ln4lHJpWbZTUad0ouHh/7U9G9Q==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b3e22525a7c62c7b8e4c7c002546ab6498031635fa2d07802d593d476d7ab1262ec61b0cec0fe9f5653e1c9e6c256cbd0b66e5a8421b4f82a7bd2c1d5c901638.js"
+    integrity="sha512-s&#43;IlJafGLHuOTHwAJUarZJgDFjX6LQeALVk9R216sSYuxhsM7A/p9WU&#43;HJ5sJWy9C2blqEIbT4KnvSwdXJAWOA==" data-copy="" data-copied=""></script>
   
   
-  <script src="/js/zoom.min.js"></script>
+  
+  <script src="/lib/zoom/zoom.min.37d2094687372da3f7343a221a470f6b8806f7891aa46a5a03966af7f0ebd38b9fe536cb154e6ad28f006d184b294525a7c4054b6bbb4be62d8b453b42db99bd.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S&#43;Yti0U7QtuZvQ=="></script>
   
   
   
@@ -132,7 +133,7 @@
   
   
 
-<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
 
 
 
@@ -157,6 +158,7 @@
 
   
   
+
 
 
   
@@ -175,7 +177,7 @@ window.goatcounter = {
   
   
 </head>
-<body   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl text-neutral-900 bg-slate-100 dark:bg-slate-950 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+<body   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl text-neutral-900 bg-slate-100 dark:bg-slate-950 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
       href="#main-content"><span         class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
@@ -196,8 +198,10 @@ window.goatcounter = {
         <a href="/" class="flex">
             <span class="sr-only">StandingPad&rsquo;s Corner</span>
 
+            
             <img src="/img/logo.png" width="50" height="97"
                 class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="StandingPad&#39;s Corner" >
+            
 
         </a>
     </div>
@@ -715,10 +719,10 @@ window.goatcounter = {
 <p>Thankfully, ElementalWarrior has created some patches to get Affinity to work on WINE, and Lukas Magauer has rebased these patches to work on WINE 9.12. This tutorial will be using Lukas Magauer&rsquo;s <a href="https://gitlab.winehq.org/lumarel/wine/" target="_blank">fork of WINE</a> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>I don&rsquo;t know about y&rsquo;all, but I don&rsquo;t really want to install all of the build dependencies on my system. In addition, you might have issues if you&rsquo;re on a more stable distro. Thankfully, someone has made a <a href="https://github.com/daegalus/wine-builder" target="_blank">Podman container</a> (you can also use Docker if you wish) to build WINE from source without impacting the main system.</p>
 <p>So first we need to clone WINE ElementalWarrior&rsquo;s patches. We only need the <code>localfix/affinity-photo-2</code> branch, so to save time, we can simply do the following:</p>
-<pre class="shiki shiki-themes rose-pine-dawn rose-pine" style="background-color:#faf4ed;--shiki-dark-bg:#191724;color:#575279;--shiki-dark:#e0def4" tabindex="0"><code><span class="line"><span style="color:#D7827E;--shiki-dark:#EBBCBA">git</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> clone</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> https://gitlab.winehq.org/lumarel/wine.git</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> Lumarel-wine</span><span style="color:#286983;--shiki-dark:#31748F"> -b</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> localfix/affinity-photo-2</span></span>
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">git</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> clone</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> https://gitlab.winehq.org/lumarel/wine.git</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> Lumarel-wine</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -b</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> localfix/affinity-photo-2</span></span>
 <span class="line"></span></code></pre>
 <p>Next we need to <code>cd</code> into repo and run the <code>wine-builder</code> container. I&rsquo;ll be using Podman since that&rsquo;s what the container was designed for, but you can also use Docker</p>
-<pre class="shiki shiki-themes rose-pine-dawn rose-pine" style="background-color:#faf4ed;--shiki-dark-bg:#191724;color:#575279;--shiki-dark:#e0def4" tabindex="0"><code><span class="line"><span style="color:#D7827E;--shiki-dark:#EBBCBA">podman</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> run</span><span style="color:#286983;--shiki-dark:#31748F"> -v</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> ./:/wine-builder/wine-src</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> wine-builder</span></span>
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">podman</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> run</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -v</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> ./:/wine-builder/wine-src</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> wine-builder</span></span>
 <span class="line"></span></code></pre>
 <p>This will take a while, so find something else to do in the meantime.</p>
 
@@ -734,7 +738,7 @@ window.goatcounter = {
 </h2>
 <p>Now we need to create a Bottle for Affinity. I&rsquo;m assuming y&rsquo;all know the basics of using Bottles and running executables with it (as well as installing dependencies), so I&rsquo;ll simply give a basic overview.</p>
 <p>First, copy the built WINE to the runners directory for Bottles. This can either be <code>$HOME/.local/share/bottles/bottles/runners</code> (if installed natively) or <code>$HOME/.var/app/com.usebottles.bottles/bottles/runners</code> (if installed as a Flatpak). The built WINE should exist in a <code>wine-install</code> folder.</p>
-<pre class="shiki shiki-themes rose-pine-dawn rose-pine" style="background-color:#faf4ed;--shiki-dark-bg:#191724;color:#575279;--shiki-dark:#e0def4" tabindex="0"><code><span class="line"><span style="color:#D7827E;--shiki-dark:#EBBCBA">cp</span><span style="color:#286983;--shiki-dark:#31748F"> -r</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> path/to/Lumarel-wine/wine-install/</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> path/to/bottles/runners/Lumarel-9.12</span></span>
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">cp</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/Lumarel-wine/wine-install/</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/bottles/runners/Lumarel-9.12</span></span>
 <span class="line"></span></code></pre>
 <p>Create a new bottle for Affinity, and with it, set the following under Settings:</p>
 <ul>
@@ -764,7 +768,7 @@ window.goatcounter = {
     
 </h3>
 <p>Before we can run the Affinity installer, we need to copy some files from a Windows install. Not a Window install of Affinity, but the actual install of Windows itself. To do this, on Windows, copy <code>C:/windows/system32/WinMetadata</code> somewhere that you can access on Linux, and then copy those files to your Affinity bottle.</p>
-<pre class="shiki shiki-themes rose-pine-dawn rose-pine" style="background-color:#faf4ed;--shiki-dark-bg:#191724;color:#575279;--shiki-dark:#e0def4" tabindex="0"><code><span class="line"><span style="color:#D7827E;--shiki-dark:#EBBCBA">cp</span><span style="color:#286983;--shiki-dark:#31748F"> -r</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> path/to/WinMetadata</span><span style="color:#EA9D34;--shiki-dark:#F6C177"> path/to/bottles/bottles/[bottle-name]/drive_c/windows/system32/WinMetadata</span></span>
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">cp</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/WinMetadata</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/bottles/bottles/[bottle-name]/drive_c/windows/system32/WinMetadata</span></span>
 <span class="line"></span></code></pre>
 
 
@@ -798,6 +802,9 @@ window.goatcounter = {
 </ol>
 </div>
 
+          
+          
+          
         </div>
         
         
@@ -821,8 +828,8 @@ window.goatcounter = {
       </script>
       
       
-      
       <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
   
     </section>
   <footer class="pt-8 max-w-prose print:hidden">
