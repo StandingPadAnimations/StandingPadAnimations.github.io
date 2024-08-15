@@ -24,3 +24,14 @@ html.dark .shiki span {
   font-weight: var(--shiki-dark-font-weight) !important;
   text-decoration: var(--shiki-dark-text-decoration) !important;
 }
+
+@font-face {
+  font-family: "Redaction";
+  src: url('/fonts/Redaction-Regular.woff2');
+}
+
+html {
+  font-family: "Redaction";
+  font-size: 15pt;
+}
+
