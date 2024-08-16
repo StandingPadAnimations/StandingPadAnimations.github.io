@@ -60,3 +60,20 @@ This was really when my style started to become more consistent, as well as use 
 {{< image src="gallary/2022/ReflectionWatermarked.png" alt="ALT_TEXT" position="center" style="border-radius: 8px;" >}}
 {{< image src="gallary/2022/NewYearsWatermarked.png" alt="ALT_TEXT" position="center" style="border-radius: 8px;" >}}
 {{< image src="gallary/2022/BirthdayRenderWatermarked.png" alt="ALT_TEXT" position="center" style="border-radius: 8px;" >}}
+
+## 2023
+This was a year of intense art-block for me, so there really isn't much that I have.
+
+
+{{< image src="gallary/2023/BirthdayTimd.png" alt="Render of Kaiyona being handed a cake. She's tying her hair (while holding her hairband with her mouth) blushing" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/2023/Forest.png" alt="Kaiyona in a white dress leaning on a tree looking tired while Blobby falls down said tree (old version)" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/2023/CalmAfterTheStorm.png" alt="City after a storm" position="center" style="border-radius: 8px;" >}}
+
+I began doing what I call "micro-detailing", where I add extra details in the materials, but leave the overall render in a Minecraft style.
+{{< image src="gallary/2023/WhyNotLol.png" alt="ALT_TEXT" position="center" style="border-radius: 8px;" >}}
+
+Sometime in the middle of the year, I finished my custom, in-house rig. Here's some stuff using that new rig.
+{{< image src="gallary/2023/EP-20-11-2023.png" alt="Voxel girl in a checkered dress on a checkered background" position="center" style="border-radius: 8px;" >}}
+{{< image src="gallary/2023/NY-2023-2024.png" alt="Image of Kaiyona, my OC, sitting in front of a window with fireworks in the background" position="center" style="border-radius: 8px;" >}}
+
+
