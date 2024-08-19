@@ -29,21 +29,15 @@ Anyway, here's a basic overview of what I did to get Affinity to work.
 ## WINE
 For Affinity 2, upstream WINE doesn't support the necessary functions needed.
 
-Thankfully, ElementalWarrior has created some patches to get Affinity to work on WINE, and Lukas Magauer has rebased these patches to work on WINE 9.12. This tutorial will be using Lukas Magauer's [fork of WINE](https://gitlab.winehq.org/lumarel/wine/) [^1] [^2]
+Thankfully, ElementalWarrior has [created some patches](https://gitlab.winehq.org/ElementalWarrior/wine) to get Affinity to work on WINE [^1], which we'll be using to get Affinity working on Linux
 
-[^1]: Footnote for transparency: This tutorial used to use the ElementalWarrior fork of WINE 8.14. However, just a couple of days ago (as of writing this), Lukas Magauer has rebased those patches for WINE 9.12. In my testing, WINE 9.12 is much nicer with Vulcan rendering, so that's why I've updated this tutorial to use the new fork.
-
-[^2]: If you wish to use ElementalWarrior's fork of WINE instead, then replace 
-    - `https://gitlab.winehq.org/lumarel/wine.git` with `https://gitlab.winehq.org/ElementalWarrior/wine`
-    - `localfix/affinity-photo-2` with `affinity-photo2-wine8.14`
-    - `Lumarel-wine` with `ElementalWarrior-wine`
-    - `Lumarel-9.12` with `ElementalWarrior-8.14`
+[^1]: Footnote for transparency: This tutorial used to use the ElementalWarrior fork of WINE 8.14, then Lukas Magauer rebased those patches for WINE 9.12. Finally, ElementalWarrior updated the patches to WINE 9.3. Yeah welcome to WINE development.
 
 I don't know about y'all, but I don't really want to install all of the build dependencies on my system. In addition, you might have issues if you're on a more stable distro. Thankfully, someone has made a [Podman container](https://github.com/daegalus/wine-builder) (you can also use Docker if you wish) to build WINE from source without impacting the main system.
 
-So first we need to clone WINE ElementalWarrior's patches. We only need the `localfix/affinity-photo-2` branch, so to save time, we can simply do the following:
+So first we need to clone ElementalWarrior's patches. We only need the `affinity-photo3-wine9.13-part3` branch, so to save time, we can simply do the following:
 ```sh
-git clone https://gitlab.winehq.org/lumarel/wine.git Lumarel-wine -b localfix/affinity-photo-2
+git clone https://gitlab.winehq.org/ElementalWarrior/wine.git ElementalWarrior-wine -b affinity-photo3-wine9.13-part3
 ```
 
 Next we need to `cd` into repo and run the `wine-builder` container. I'll be using Podman since that's what the container was designed for, but you can also use Docker
@@ -58,11 +52,11 @@ Now we need to create a Bottle for Affinity. I'm assuming y'all know the basics 
 
 First, copy the built WINE to the runners directory for Bottles. This can either be `$HOME/.local/share/bottles/bottles/runners` (if installed natively) or `$HOME/.var/app/com.usebottles.bottles/bottles/runners` (if installed as a Flatpak). The built WINE should exist in a `wine-install` folder.
 ```sh
-cp -r path/to/Lumarel-wine/wine-install/ path/to/bottles/runners/Lumarel-9.12
+cp -r path/to/ElementalWarrior-wine/wine-install/ path/to/bottles/runners/ElementalWarrior-9.3
 ```
 
 Create a new bottle for Affinity, and with it, set the following under Settings:
-- `Components > Runner`: Lumarel-9.12
+- `Components > Runner`: ElementalWarrior-9.3
 - `Components > DXVK`: Disabled
 - `Components > VKD3D`: Disabled
 - `Display > Advanced Display Settings > Renderer`: Vulcan
@@ -73,13 +67,17 @@ Next, install the following dependencies:
 - `dotnet35`
 - `dotnet48`
 - `mono`
-- `vcredist2015` 
+- `vcredist2015` [^2]
+
+[^2]: I've heard this can cause some issues with crashing, and Wanesty has removed it from her guide as a result. I'm keeping it here since it helps with export bugs, but do be aware of that.
 
 ### WinMetadata Files
-Before we can run the Affinity installer, we need to copy some files from a Windows install. Not a Window install of Affinity, but the actual install of Windows itself. To do this, on Windows, copy `C:/windows/system32/WinMetadata` somewhere that you can access on Linux, and then copy those files to your Affinity bottle.
+Before we can run the Affinity installer, we need to copy some files from a Windows install. Not a Window install of Affinity, but the actual install of Windows itself. To do this, on Windows, copy `C:/windows/system32/WinMetadata` somewhere that you can access on Linux, and then copy those files to your Affinity bottle. [^3]
 ```sh
 cp -r path/to/WinMetadata path/to/bottles/bottles/[bottle-name]/drive_c/windows/system32/WinMetadata
 ```
+
+[^3]: For legal reasons, I cannot distribute these files.
 
 ### Preferences
 One issue with Affinity on Linux is that preferences don't save properly, and no one knows why. The best option for now is to set important preferences (like OCIO config) on Windows, bring the config over from `AppData/Roaming` to the WINE bottle, and then change the XML as needed for any paths. Not ideal, but better then nothing.
