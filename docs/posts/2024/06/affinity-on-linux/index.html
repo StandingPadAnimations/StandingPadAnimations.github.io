@@ -104,7 +104,7 @@
     "keywords": ["Affinity"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "869"
+    "wordCount": "855"
   }]
   </script>
 
@@ -597,7 +597,7 @@ window.goatcounter = {
   
   <time datetime="2024-06-22 14:09:26 -0500 CDT">
   22 Ærra Līþa, 2024
-</time><span class="px-2 text-primary-500">&middot;</span><span>869 words</span>
+</time><span class="px-2 text-primary-500">&middot;</span><span>855 words</span>
   
 
   
@@ -716,10 +716,10 @@ window.goatcounter = {
     
 </h2>
 <p>For Affinity 2, upstream WINE doesn&rsquo;t support the necessary functions needed.</p>
-<p>Thankfully, ElementalWarrior has created some patches to get Affinity to work on WINE, and Lukas Magauer has rebased these patches to work on WINE 9.12. This tutorial will be using Lukas Magauer&rsquo;s <a href="https://gitlab.winehq.org/lumarel/wine/" target="_blank">fork of WINE</a> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Thankfully, ElementalWarrior has <a href="https://gitlab.winehq.org/ElementalWarrior/wine" target="_blank">created some patches</a> to get Affinity to work on WINE <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, which we&rsquo;ll be using to get Affinity working on Linux</p>
 <p>I don&rsquo;t know about y&rsquo;all, but I don&rsquo;t really want to install all of the build dependencies on my system. In addition, you might have issues if you&rsquo;re on a more stable distro. Thankfully, someone has made a <a href="https://github.com/daegalus/wine-builder" target="_blank">Podman container</a> (you can also use Docker if you wish) to build WINE from source without impacting the main system.</p>
-<p>So first we need to clone WINE ElementalWarrior&rsquo;s patches. We only need the <code>localfix/affinity-photo-2</code> branch, so to save time, we can simply do the following:</p>
-<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">git</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> clone</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> https://gitlab.winehq.org/lumarel/wine.git</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> Lumarel-wine</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -b</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> localfix/affinity-photo-2</span></span>
+<p>So first we need to clone ElementalWarrior&rsquo;s patches. We only need the <code>affinity-photo3-wine9.13-part3</code> branch, so to save time, we can simply do the following:</p>
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">git</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> clone</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> https://gitlab.winehq.org/ElementalWarrior/wine.git</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> ElementalWarrior-wine</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -b</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> affinity-photo3-wine9.13-part3</span></span>
 <span class="line"></span></code></pre>
 <p>Next we need to <code>cd</code> into repo and run the <code>wine-builder</code> container. I&rsquo;ll be using Podman since that&rsquo;s what the container was designed for, but you can also use Docker</p>
 <pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">podman</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> run</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -v</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> ./:/wine-builder/wine-src</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> wine-builder</span></span>
@@ -738,11 +738,11 @@ window.goatcounter = {
 </h2>
 <p>Now we need to create a Bottle for Affinity. I&rsquo;m assuming y&rsquo;all know the basics of using Bottles and running executables with it (as well as installing dependencies), so I&rsquo;ll simply give a basic overview.</p>
 <p>First, copy the built WINE to the runners directory for Bottles. This can either be <code>$HOME/.local/share/bottles/bottles/runners</code> (if installed natively) or <code>$HOME/.var/app/com.usebottles.bottles/bottles/runners</code> (if installed as a Flatpak). The built WINE should exist in a <code>wine-install</code> folder.</p>
-<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">cp</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/Lumarel-wine/wine-install/</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/bottles/runners/Lumarel-9.12</span></span>
+<pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">cp</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/ElementalWarrior-wine/wine-install/</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/bottles/runners/ElementalWarrior-9.3</span></span>
 <span class="line"></span></code></pre>
 <p>Create a new bottle for Affinity, and with it, set the following under Settings:</p>
 <ul>
-<li><code>Components &gt; Runner</code>: Lumarel-9.12</li>
+<li><code>Components &gt; Runner</code>: ElementalWarrior-9.3</li>
 <li><code>Components &gt; DXVK</code>: Disabled</li>
 <li><code>Components &gt; VKD3D</code>: Disabled</li>
 <li><code>Display &gt; Advanced Display Settings &gt; Renderer</code>: Vulcan</li>
@@ -754,7 +754,7 @@ window.goatcounter = {
 <li><code>dotnet35</code></li>
 <li><code>dotnet48</code></li>
 <li><code>mono</code></li>
-<li><code>vcredist2015</code></li>
+<li><code>vcredist2015</code> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
 </ul>
 
 
@@ -767,7 +767,7 @@ window.goatcounter = {
     </span>        
     
 </h3>
-<p>Before we can run the Affinity installer, we need to copy some files from a Windows install. Not a Window install of Affinity, but the actual install of Windows itself. To do this, on Windows, copy <code>C:/windows/system32/WinMetadata</code> somewhere that you can access on Linux, and then copy those files to your Affinity bottle.</p>
+<p>Before we can run the Affinity installer, we need to copy some files from a Windows install. Not a Window install of Affinity, but the actual install of Windows itself. To do this, on Windows, copy <code>C:/windows/system32/WinMetadata</code> somewhere that you can access on Linux, and then copy those files to your Affinity bottle. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <pre class="shiki shiki-themes github-light-default github-dark-default" style="background-color:#ffffff;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code><span class="line"><span style="color:#953800;--shiki-dark:#FFA657">cp</span><span style="color:#0550AE;--shiki-dark:#79C0FF"> -r</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/WinMetadata</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> path/to/bottles/bottles/[bottle-name]/drive_c/windows/system32/WinMetadata</span></span>
 <span class="line"></span></code></pre>
 
@@ -788,17 +788,14 @@ window.goatcounter = {
 <hr>
 <ol>
 <li id="fn:1">
-<p>Footnote for transparency: This tutorial used to use the ElementalWarrior fork of WINE 8.14. However, just a couple of days ago (as of writing this), Lukas Magauer has rebased those patches for WINE 9.12. In my testing, WINE 9.12 is much nicer with Vulcan rendering, so that&rsquo;s why I&rsquo;ve updated this tutorial to use the new fork.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Footnote for transparency: This tutorial used to use the ElementalWarrior fork of WINE 8.14, then Lukas Magauer rebased those patches for WINE 9.12. Finally, ElementalWarrior updated the patches to WINE 9.3. Yeah welcome to WINE development.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>If you wish to use ElementalWarrior&rsquo;s fork of WINE instead, then replace</p>
-<ul>
-<li><code>https://gitlab.winehq.org/lumarel/wine.git</code> with <code>https://gitlab.winehq.org/ElementalWarrior/wine</code></li>
-<li><code>localfix/affinity-photo-2</code> with <code>affinity-photo2-wine8.14</code></li>
-<li><code>Lumarel-wine</code> with <code>ElementalWarrior-wine</code></li>
-<li><code>Lumarel-9.12</code> with <code>ElementalWarrior-8.14</code></li>
-</ul>
-&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
+<p>I&rsquo;ve heard this can cause some issues with crashing, and Wanesty has removed it from her guide as a result. I&rsquo;m keeping it here since it helps with export bugs, but do be aware of that.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>For legal reasons, I cannot distribute these files.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
 </div>
 
