@@ -1,7 +1,7 @@
 ---
 title: "Affinity on Linux"
 date: 2024-06-22T14:09:26-05:00
-lastmod: 2024-07-06
+lastmod: 2024-08-19
 toc: false
 images:
 tags:
