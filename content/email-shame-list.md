@@ -53,6 +53,8 @@ amiepollack@joinbackdropbuild.com
 emily.m@buysocials.org
 Suman-SinghSEOservice@outlook.com
 tanvisingh6pw@gmail.com
+Poonam-SEO@hotmail.com
+abhijeetsingh2016@outlook.com
 ```
 
 # App Developers
@@ -67,6 +69,7 @@ manojseoservice@outlook.com
 ankitkrpanday37@outlook.com
 Durga_prasad_Seo@hotmail.com
 RaviChourasia1366@outlook.com
+abhijeetsingh2016@outlook.com
 ```
 
 # Web Designers and Brand Promoters
@@ -107,6 +110,7 @@ shalinsharma32@gmail.com
 emily.m@buysocials.org
 Suman-SinghSEOservice@outlook.com
 tanvisingh6pw@gmail.com
+Poonam-SEO@hotmail.com
 ```
 
 # Crypto Scams
