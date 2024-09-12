@@ -6,7 +6,7 @@
     <description>Recent content in Cycles Optimization on StandingPad&#39;s Corner</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
+    <copyright>© 2024 StandingPad&#39;s Corner</copyright>
     <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.standingpad.org/tags/cycles-optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing Render Times in Blender: Automatic Scambling Distance</title>
@@ -14,7 +14,7 @@
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.standingpad.org/posts/2022/12/cycles-optimization-automatic-scrambling-distance/</guid>
-      <description>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2022/12/cycles-optimization-automatic-scrambling-distance/featured.webp" />
     </item>
     
@@ -24,7 +24,7 @@
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.standingpad.org/posts/2022/12/cycles-optimization-samples-and-bounces/</guid>
-      <description>Introduction # We know Cycles is a pain in the butt to render.</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2022/12/cycles-optimization-samples-and-bounces/featured.webp" />
     </item>
     
