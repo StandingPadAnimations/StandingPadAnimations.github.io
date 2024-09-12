@@ -13,7 +13,7 @@ title = "StandingPad's Corner"
   description = "My corner of the internet where I post sometimes"
   # copyright = "Copy, _right?_ :thinking_face:"
 
- [author]
+ [params.author]
    name = "StandingPad's Corner"
 #   image = "img/logo.png"
    headline = "My corner of the internet where I post sometimes"
