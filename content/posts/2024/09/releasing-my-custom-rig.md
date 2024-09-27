@@ -96,5 +96,15 @@ a smooth mouth (it doesn't fit my style and again, there's many options for that
 This rig is as minimal as possible, and improvements will mostly come in the form
 of the actual rigging itself (i.e. the bones and controls).
 
+Oh, and before I forget, let me thank the following people for helping with the rig
+early on.
+
+- Junaaydshaikh121
+- Pheonix209
+- Vortex
+
+Sadly now I only have Vortex's contact, and not the other 2 (and I haven't contacted
+them in the last 4 years). Wherever they are, I hope they're doing well.
+
 That's pretty much all I have. As mentioned earlier, the rig is now on my
 [resources page](/resources), for download. Cya!
