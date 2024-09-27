@@ -8,12 +8,14 @@ showPagination: false
 ---
 <link rel="stylesheet" href="overrides.css">
 
-All of my publically avalible resources. All Blend files are signed and can be verified using the following public key: \
-`7F6A0E6FA332BAD0EC9E76B383C7F596A88BE583` \
+All of my publically avalible resources. All Blend files
+are signed and can be verified using the following public key:
+`7F6A0E6FA332BAD0EC9E76B383C7F596A88BE583`
 [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/7F6A0E6FA332BAD0EC9E76B383C7F596A88BE583)
 
 If you use any of these assets, you must follow the terms of the BSD 3-Clause license
-```
+
+```txt
 BSD 3-Clause License
 
 Copyright (c) 2023-2024, Mahid Sheikh
@@ -45,13 +47,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
 ## Lighting Series
-Guide on how to approch lighting in Blender
+
+Guide on how to approach lighting in Blender
 
 {{< button target="/lighting-guide" >}}
 To The Lighting Guide!
 {{< /button >}}
 
 ## RTX Style Water Shader V1
+
 An old water shader I made that emulates the look of water in RTX Minecraft.
 
 {{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/WaterShaderCyclesX.blend" >}}
@@ -63,13 +67,14 @@ Signature File
 {{< /button >}}
 
 ## RTX Style Water Shader V2
+
 My second attempt to make a RTX Minecraft style water shader, this time being much closer. If you're interested in how I made it, I've linked the post where I talk about how I made it
 
 {{< article link="/posts/2023/06/rtx-water-shader-2/" >}}
 
 {{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/water-shader.blend" >}}
 Download
-{{< /button >}} 
+{{< /button >}}
 \
 {{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/water-shader.blend.sig" >}}
 Signature File
@@ -77,7 +82,9 @@ Signature File
 
 
 ## Principled Emission Shader
-An emission nodegroup with more options, as well as brightness in lumens instead of watts
+
+An emission nodegroup with more options, as well as brightness in
+lumens instead of watts
 
 {{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/Emit.blend" >}}
 Download
@@ -87,3 +94,16 @@ Download
 Signature File
 {{< /button >}}
 
+# Custom Rig
+
+Custom rig I created for my own use. **Please keep the license in mind
+when using this rig**
+{{< article link="/posts/2024/09/releasing-my-custom-rig/" >}}
+
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/StandingPad.Rig.zip" >}}
+Download
+{{< /button >}}
+\
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/StandingPad.Rig.zip.sig" >}}
+Signature File
+{{< /button >}}
