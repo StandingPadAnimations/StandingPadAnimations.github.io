@@ -1,6 +1,7 @@
 ---
 title: "Ship Render"
 date: 2023-06-21
+lastmod: 2024-09-29
 draft: false
 toc: false
 images:
@@ -10,6 +11,8 @@ tags:
 aliases:
   - /posts/ship-at-night-render
 ---
+
+Edit September 29th, 2024: Ko-Fi supports can [download the blend file](https://ko-fi.com/s/3281d36c50).
 
 It's been a while since I've render, so I made this cause why not.
 

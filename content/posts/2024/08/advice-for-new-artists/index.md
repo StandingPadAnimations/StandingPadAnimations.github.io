@@ -1,6 +1,7 @@
 ---
 title: "Advice for New Artists"
 date: 2024-08-16T10:43:43-05:00
+lastmod: 2024-09-29
 draft: false
 toc: false
 images:
@@ -8,6 +9,8 @@ tags:
   - Art
   - IRL
 ---
+
+Edit September 29th, 2024: Ko-Fi supporters can [download the blend file](https://ko-fi.com/s/4b8f0b8b27).
 
 tldr: Learn to step back for a little bit when you feel your art is crap
 

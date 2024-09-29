@@ -1,6 +1,7 @@
 ---
 title: "Compositing Minecraft Characters in Images"
 date: 2024-09-20T09:16:42-05:00
+lastmod: 2024-09-29
 toc: false
 images:
 tags:
@@ -8,6 +9,8 @@ tags:
 ---
 
 {{< katex >}}
+
+Edit September 29th, 2024: Ko-Fi supporters can [download the blend file](https://ko-fi.com/s/7bf43623ba).
 
 Recently I decided to try something new and try to composite together some
 Minecraft stuff in real world photography. After a lot of work and sorcery,

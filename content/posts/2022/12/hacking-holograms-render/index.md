@@ -1,6 +1,7 @@
 ---
 title: "How I Did It: Hacking Holograms Render"
 date: 2022-12-22T16:16:09-06:00
+lastmod: 2024-09-29
 draft: false
 toc: false
 images: 
@@ -10,6 +11,8 @@ tags:
 aliases:
   - /posts/scale-render-progress
 ---
+
+Edit September 29th, 2024: Ko-Fi supporters can [download the blend file](https://ko-fi.com/s/5d75d0c5ff).
 
 I recently had the motivation to make the following render
 
