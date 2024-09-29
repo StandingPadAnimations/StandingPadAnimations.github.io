@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ko-Fi on StandingPad&#39;s Corner</title>
+    <link>https://www.standingpad.org/tags/ko-fi/</link>
+    <description>Recent content in Ko-Fi on StandingPad&#39;s Corner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 StandingPad&#39;s Corner</copyright>
+    <lastBuildDate>Sun, 29 Sep 2024 15:25:26 -0500</lastBuildDate><atom:link href="https://www.standingpad.org/tags/ko-fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ko-Fi Announcement</title>
+      <link>https://www.standingpad.org/posts/2024/09/ko-fi-announcement/</link>
+      <pubDate>Sun, 29 Sep 2024 15:25:26 -0500</pubDate>
+      
+      <guid>https://www.standingpad.org/posts/2024/09/ko-fi-announcement/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.standingpad.org/posts/2024/09/ko-fi-announcement/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>
