@@ -1,6 +1,7 @@
 ---
 title: "How I Did It: 2023 New Year's Render"
 date: 2022-12-31T00:00:00-06:00
+lastmod: 2024-09-29
 draft: false
 toc: false
 images:
@@ -10,6 +11,8 @@ tags:
 aliases:
   - /posts/new-years-2023
 ---
+
+Edit September 29th, 2024: Ko-Fi supporters can [download the blend file](https://ko-fi.com/s/a6fe23d7a6).
 
 It's now New Year's Eve, so I made a new years render:
 {{< image src="gallary/NewYearsWatermarked.webp" alt="New Years render, I'm bad at describing sadly" position="center" style="border-radius: 8px;" >}}
