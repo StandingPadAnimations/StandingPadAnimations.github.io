@@ -57,6 +57,7 @@ Poonam-SEO@hotmail.com
 abhijeetsingh2016@outlook.com
 james@topsolarleads.com
 monuvermaxkkdff@gmail.com
+Nanxi@duwowm.cn
 ```
 
 # App Developers
@@ -135,6 +136,7 @@ contact@ezkel.com
 My email is not for advertisement junk, it's for actual correspondence.
 ```
 amiepollack@joinbackdropbuild.com
+Nanxi@duwowm.cn
 ```
 
 # FAQ
