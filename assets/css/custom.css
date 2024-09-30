@@ -26,12 +26,12 @@ html.dark .shiki span {
 }
 
 @font-face {
-  font-family: "Redaction";
-  src: url('/fonts/Redaction-Regular.woff2');
+  font-family: "Atkinson Hyperlegible";
+  src: url('/fonts/AtkinsonHyperlegible-Regular.ttf');
 }
 
 html {
-  font-family: "Redaction";
+  font-family: "Atkinson Hyperlegible";
   font-size: 15pt;
 }
 
