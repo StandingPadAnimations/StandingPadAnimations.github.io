@@ -120,7 +120,9 @@ And recently in 2024, I created a new addon called Estella, which streamlines li
 {{< github repo="StandingPadAnimations/Estella" >}}
 
 # Contact
-Interested? Contact me at [contact@standingpad.org](mailto:contact@standingpad.org)
+Interested? Contact me at [contact+remove-if-human@standingpad.org](mailto:contact+remove-if-human@standingpad.org)
+
+(Note: remove `+remove-if-human` from the email address if you are a human to avoid being marked as spam)
 
 Resume can be found [here](./base-resume-redacted.pdf)
 
