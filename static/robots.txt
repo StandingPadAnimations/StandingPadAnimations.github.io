@@ -40,3 +40,7 @@ Disallow: /
 
 User-agent: PetalBot
 Disallow: /
+
+# Disallow NSFW indexing
+User-agent: *
+Disallow: /nsfw/

@@ -6,3 +6,7 @@ window.goatcounter = {
 <script data-goatcounter="https://standingpad.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 <meta name="darkreader-lock">
+
+{{ if eq .Section "nsfw" }}
+  <meta name="robots" content="noindex">
+{{ end }}
