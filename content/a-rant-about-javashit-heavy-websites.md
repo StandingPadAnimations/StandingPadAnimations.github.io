@@ -6,6 +6,7 @@ showAuthor: false
 showTable0fContents: true
 noComment: true
 showPagination: false
+mature: true
 ---
 *Originally made on the Erindale.XYZ server, I've since copied it here and cleaned it up to make it easier to share*
 
