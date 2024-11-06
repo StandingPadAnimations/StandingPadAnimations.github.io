@@ -30,8 +30,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.358717c17c863204b500635d54ef826a8b379572cf4595e5d1235b3f90117d26b86275896c291d8868e18c45d10c6ba6e5dfbcc0cbf48a2ba2fd3c9b3989d2b0.css"
-    integrity="sha512-NYcXwXyGMgS1AGNdVO&#43;Caos3lXLPRZXl0SNbP5ARfSa4YnWJbCkdiGjhjEXRDGum5d&#43;8wMv0iiui/TybOYnSsA==" >
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.c1cc335545b67b0f7f61ad57d31a3fdd52097d203462531e5d0e32d26ab345878fe696b43be514396904fd04e5e94c16cac72122a08baddee6754ea508511980.css"
+    integrity="sha512-wcwzVUW2ew9/Ya1X0xo/3VIJfSA0YlMeXQ4y0mqzRYeP5pa0O&#43;UUOWkE/QTl6UwWyschIqCLrd7mdU6lCFEZgA==" >
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -147,6 +147,54 @@ window.goatcounter = {
 
 
   <meta name="robots" content="noindex">
+  <div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+  
+  <div class="fixed inset-0 dark:bg-slate-100 bg-slate-950 bg-opacity-50 transition-opacity backdrop-blur-lg" id="background" aria-hidden="true"></div>
+
+  <div class="fixed inset-0 z-10 w-screen overflow-y-auto drop-shadow-lg" id="modal" >
+    <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+      
+      <div class="relative transform overflow-hidden rounded-lg bg-black text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+        <div class="bg-slate-100 dark:bg-slate-950 px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            <div class="mx-auto flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
+              <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" ></path>
+              </svg>
+            </div>
+            <div class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
+              <h3 class="text-base font-semibold" id="modal-title">Mature Content Warning</h3>
+              <div class="mt-2">
+                <p class="text-sm">This page contains mature or suggestive content that may not be suitable for all audiences.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-100 dark:bg-slate-950 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+          <button type="button" class="inline-flex w-full justify-center rounded-md px-3 py-2 text-sm font-semibold text-white shadow-sm bg-primary-600 bg-red-600 hover:bg-red-500 sm:ml-3 sm:w-auto" onclick="goBackNSFW();">Go Back</button>
+          <button type="button" class="mt-3 inline-flex w-full justify-center rounded-md px-3 py-2 text-sm font-semibold shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-500 bg-slate-50 hover:bg-slate-100 dark:bg-slate-900 dark:hover:bg-slate-950 sm:mt-0 sm:w-auto" onclick="proceedNSFW();">Proceed</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function proceedNSFW() {
+  const backdrop = document.getElementById("background");
+  const modal = document.getElementById("modal");
+
+  backdrop.setAttribute('style', 'visibility: hidden');
+  modal.setAttribute('style', 'visibility: hidden');
+}
+function goBackNSFW() {
+   window.location.href = "/";
+}
+</script>
+
+
+
+
 
 
   
