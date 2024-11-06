@@ -9,4 +9,10 @@ window.goatcounter = {
 
 {{ if eq .Section "nsfw" }}
   <meta name="robots" content="noindex">
+  {{ partialCached "nsfw-modal.html" . }}
 {{ end }}
+
+{{ if eq .Params.mature true }}
+  {{ partialCached "nsfw-modal.html" . }}
+{{ end }}
+
