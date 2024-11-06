@@ -3,9 +3,6 @@ title: "November 4th, 2024"
 date: 2024-11-05
 toc: false
 images:
-tags:
-  - Blender
-  - NSFW
 ---
 
 Well this is a first, I don't normally do NSFW stuff here. I had yesterday
