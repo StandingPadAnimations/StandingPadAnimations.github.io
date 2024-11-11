@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.9df077d63d42610d2b8d4a6f15b944090ab938f4b8eafc31c78202ecd9ac389d78975cda9dd1c8fbebcb6e658c030814993ee06acd6559ab9c868316c9240a06.css"
-    integrity="sha512-nfB31j1CYQ0rjUpvFblECQq5OPS46vwxx4IC7NmsOJ14l1zandHI&#43;&#43;vLbmWMAwgUmT7gas1lWauchoMWySQKBg==" >
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.b78fdd08eabd09fd8cc50372a7692c984dd229e868a56a37297df8537ee5fe20548762450c784d6f8813602c1d4444773fc19e3933a715ccb31a6c286f149d07.css"
+    integrity="sha512-t4/dCOq9Cf2MxQNyp2ksmE3SKehopWo3KX34U37l/iBUh2JFDHhNb4gTYCwdRER3P8GeOTOnFcyzGmwobxSdBw==" >
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -54,6 +54,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" >
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
   <link rel="manifest" href="/site.webmanifest" >
+  
   
   
   
@@ -105,7 +106,7 @@
     "keywords": ["Blender","How I did it"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "641"
+    "wordCount": "701"
   }]
   </script>
 
@@ -440,7 +441,7 @@ window.goatcounter = {
 
                      
   <li class="mt-1">
-    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/resources" class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Resources
@@ -576,7 +577,7 @@ window.goatcounter = {
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-06-21T00:00:00&#43;00:00">21 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>641 words</span>
+  <time datetime="2023-06-21T00:00:00&#43;00:00">21 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>701 words</span>
   
 
   
@@ -659,7 +660,14 @@ window.goatcounter = {
           <p>Edit September 29th, 2024: Ko-Fi supports can <a href="https://ko-fi.com/s/3281d36c50" target="_blank">download the blend file</a>.</p>
 <p>It&rsquo;s been a while since I&rsquo;ve render, so I made this cause why not.</p>
 
+<figure>
     <img src="gallary/ship-render.webp"  alt="A ship saling though an icy place at night"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/ship-render.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>There&rsquo;s some interesting things in it though, so let&rsquo;s get to those.</p>
@@ -676,28 +684,63 @@ window.goatcounter = {
 </h1>
 <p>For the clouds and aurora, I decided to use <a href="https://www.complementary.dev/reimagined/" target="_blank">Complementary Reimagined</a> as my reference. What I like about Reimagined is that it sticks with the Minecraft style while enhancing it. So I opened a Minecraft world and took some screenshots:</p>
 <p>
+<figure>
     <img src="gallary/cloud-reference.webp"  alt="Cubic clouds that are slightly rounded"  class="center"  style="border-radius: 8px;"    >
 
+    
+    <figcaption><a href="gallary/cloud-reference.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
 
 
+
+
+<figure>
     <img src="gallary/aurora-reference.webp"  alt="A cubic aurora"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/aurora-reference.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>For the clouds, I just appended the MCprep cloud model from the sky files (looks like I need to add a &ldquo;just clouds&rdquo; option) and added a slight bevel. Then I replaced the material with a Principled Volume BSDF node.</p>
 
+<figure>
     <img src="gallary/cloud-blender.webp"  alt="Cubic clouds that are slightly rounded, but now it&#39;s darker"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/cloud-blender.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>I don&rsquo;t think I did proper justice to the original Reimagined clouds though. Looking closer at the Reimagined clouds, it seems to actually be a translucent mesh, but without checking the actual shader code, I can&rsquo;t confirm anything. Anyway it was time for me to move on to the aurora, and this was te hard bit. I had to somehow create a cube of tall cubes, and I figured I could do it with geometry nodes (why do I now sound like the Blender version of NileRed?).</p>
 <p>So, I created a curve object, and played around with some nodes, eventually getting this result:</p>
 
+<figure>
     <img src="gallary/aurora-start.webp"  alt="A curve of tall cubes"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/aurora-start.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>Basically in the geometry nodes, I was turning the curve into a mesh, and then adding a point for every vertice. Then at each point, I added a very tall and skinny cube. Finally, I took all of the cubes, and shifted them up slightly. It wasn&rsquo;t perfect, but that&rsquo;s fine for this render.</p>
 <p>For the material, I just use gradient texture, manipulated it, and added some color, before putting that all into a Principled Volume BSDF node, and was left with the following result:</p>
 
+<figure>
     <img src="gallary/aurora-blender.webp"  alt="Cubic aurora now in Blender!"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/aurora-blender.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>Now with those in place, I could move on to actually rendering.</p>
@@ -714,46 +757,109 @@ window.goatcounter = {
 </h1>
 <p>Just like the clouds and aurora, I wanted to have a water shader that merely acted as an enhancement of the existing Minecraft water. However unlike the previous section, I already had an existing water shader that I could use. This time though, instead of basing it off of Reimagined, I based it off of RTX Minecraft. While I prefer Java edition shaders over RTX Minecraft in most cases, I really liked how the water looked in RTX (<a href="https://www.youtube.com/watch?v=Ix7UuhYVLYA" target="_blank">Screenshots from Nvidia</a>):</p>
 <p>
+<figure>
     <img src="gallary/rtx-water-surface.webp"  alt="Really fancy Minecraft water but it still looks like Minecraft water"  class="center"  style="border-radius: 8px;"    >
 
+    
+    <figcaption><a href="gallary/rtx-water-surface.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
 
 
+
+
+<figure>
     <img src="gallary/rtx-water-underwater_1.webp"  alt="Underwater world"  class="center"  style="border-radius: 8px;"    >
 
+    
+    <figcaption><a href="gallary/rtx-water-underwater_1.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
 
 
+
+
+<figure>
     <img src="gallary/rtx-water-underwater_2.webp"  alt="Another underwater world"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/rtx-water-underwater_2.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>Of course my recreation is very crude and really doesn&rsquo;t look nearly as good, but I think it looks pretty nice. Of course the scene being night doesn&rsquo;t really do proper justice, so I&rsquo;ve changed the sun position for these screenshots:</p>
 <p>
+<figure>
     <img src="gallary/rtx-water-shader_1.webp"  alt="My crude recreation of Nvidia&#39;s RTX Water"  class="center"  style="border-radius: 8px;"    >
 
+    
+    <figcaption><a href="gallary/rtx-water-shader_1.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
 
 
+
+
+<figure>
     <img src="gallary/rtx-water-shader_2.webp"  alt="My crude recreation of Nvidia&#39;s RTX Water but this time underwater"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/rtx-water-shader_2.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>With some work, I might be able to get it closer to the RTX style, but for now I&rsquo;m happy with how it looks. If you&rsquo;re interested in using it, I&rsquo;ve made it freely availible on my <a href="/resources">resources page</a>.</p>
 <p>&ldquo;So wait, what does the water shader look like?&rdquo;
 
+<figure>
     <img src="gallary/rtx-water-nodegroup.webp"  alt="The RTX water shader nodegroup"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/rtx-water-nodegroup.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>&ldquo;Doesn&rsquo;t look that ba- oh now I see&rdquo;
 
+<figure>
     <img src="gallary/rtx-water-nodegroup-full.webp"  alt="Inside the nodegroup"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/rtx-water-nodegroup-full.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>I also took the time to edit it for ice, but I don&rsquo;t think it looks that good:
 
+<figure>
     <img src="gallary/ice.webp"  alt="Really bad ice shader"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/ice.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>Minecraft ice is a pretty difficult thing to make look good (beyond using MCprep&rsquo;s default material generation), and that&rsquo;s made harder with all of the water. Anyhow I just ignored it, and I think it looks fine from a distance.</p>
 <p>While this render is of course nowhere near as good as some of the other ones I&rsquo;ve made, I think it was a good test for Reimagined style auroras/clouds and RTX style water, and now I know where to move on with making look better (oh and a good refresher since I haven&rsquo;t used Blender in a while). For now though, I&rsquo;m a bit done with node stuff, and I think I know what I want to do next.</p>
 
+<figure>
     <img src="gallary/next-idea.webp"  alt="My next idea: Blobby and black holes"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/next-idea.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>Until then, cya!</p>

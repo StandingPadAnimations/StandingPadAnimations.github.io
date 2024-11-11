@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.9df077d63d42610d2b8d4a6f15b944090ab938f4b8eafc31c78202ecd9ac389d78975cda9dd1c8fbebcb6e658c030814993ee06acd6559ab9c868316c9240a06.css"
-    integrity="sha512-nfB31j1CYQ0rjUpvFblECQq5OPS46vwxx4IC7NmsOJ14l1zandHI&#43;&#43;vLbmWMAwgUmT7gas1lWauchoMWySQKBg==" >
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.b78fdd08eabd09fd8cc50372a7692c984dd229e868a56a37297df8537ee5fe20548762450c784d6f8813602c1d4444773fc19e3933a715ccb31a6c286f149d07.css"
+    integrity="sha512-t4/dCOq9Cf2MxQNyp2ksmE3SKehopWo3KX34U37l/iBUh2JFDHhNb4gTYCwdRER3P8GeOTOnFcyzGmwobxSdBw==" >
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -54,6 +54,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" >
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
   <link rel="manifest" href="/site.webmanifest" >
+  
   
   
   
@@ -105,7 +106,7 @@
     "keywords": ["Blender","How I Did It"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2366"
+    "wordCount": "2398"
   }]
   </script>
 
@@ -443,7 +444,7 @@ window.goatcounter = {
 
                      
   <li class="mt-1">
-    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/resources" class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Resources
@@ -579,7 +580,7 @@ window.goatcounter = {
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2022-12-22T16:16:09-06:00">22 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span>2366 words</span>
+  <time datetime="2022-12-22T16:16:09-06:00">22 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span>2398 words</span>
   
 
   
@@ -662,7 +663,14 @@ window.goatcounter = {
           <p>Edit September 29th, 2024: Ko-Fi supporters can <a href="https://ko-fi.com/s/5d75d0c5ff" target="_blank">download the blend file</a>.</p>
 <p>I recently had the motivation to make the following render</p>
 
+<figure>
     <img src="gallary/final-render.webp"  alt="Cool render I made, can&#39;t really put it in words"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/final-render.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>As you can see, there&rsquo;s a lot of reflections, some long test, volumetrics, and other stuff. Since I don&rsquo;t do much Minecraft rendering anymore, I think I&rsquo;ll impart some insight into some of the more technial bits.</p>
@@ -911,7 +919,14 @@ window.goatcounter = {
 
 <p>I then made a mask using a screenshot of it:
 
+<figure>
     <img src="gallary/error.webp"  alt="Error message from earlier, just as a screenshot"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/error.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>And use that as part of the hologram in the render.</p>
@@ -928,18 +943,39 @@ window.goatcounter = {
 </h1>
 <p>There&rsquo;s a lot I have to say about optimizing. First off, here&rsquo;s a screenshots of the viewport with the volumetrics:
 
+<figure>
     <img src="gallary/viewport-1.webp"  alt="Cool viewport screenshot"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/viewport-1.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>&ldquo;But wait, where&rsquo;s the cool godrays in the final render?&rdquo;</p>
 <p>I added those in compositing. In general I think it&rsquo;s easier to use the sunbeams node for godrays.</p>
 <p>But oh boy did volumetrics become a pain in the but to work with. I enabled homogenous in both world and material settings to make rendering faster.
 
+<figure>
     <img src="gallary/homogenous-1.webp"  alt="Homogenous in the world settings"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/homogenous-1.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 
+<figure>
     <img src="gallary/homogenous-2.webp"  alt="Homogenous in the material settings"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/homogenous-2.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>Those helped with render times a little, but there was still the issue with fireflies.</p>
@@ -980,7 +1016,14 @@ window.goatcounter = {
 <p>Tldr: Clamping is a terrible solution to fix fireflies caused by mesh lights. We&rsquo;re better off removing mesh lights entirely and using lamps. Clamping should be treated the same as <a href="https://standingpadanimations.github.io/posts/automatic-scrambling-distance/#all-magic-has-a-cost" target="_blank">Scrambling Distance</a>, an option that requires careful consideration and refinement.</p>
 <p>Here&rsquo;s the settings I used for this particular render (specifically light paths and color management):
 
+<figure>
     <img src="gallary/general-settings.webp"  alt="General settings"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/general-settings.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>These settings are for just this scene (and I use a GTX 1660 Super), so don&rsquo;t copy it hoping it will help with render times. Optimization is scene dependent, not uniform.</p>
@@ -1010,12 +1053,26 @@ window.goatcounter = {
 <p>I do 2 rounds of compositing. The first round is denoising with <a href="https://pidgeontools.gumroad.com/l/SuperImageDenoiser" target="_blank">SID</a>, and the second round is where all the magic happens.</p>
 <p>Before:
 
+<figure>
     <img src="gallary/before-comp.webp"  alt="Before compositing"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/before-comp.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>After:
 
+<figure>
     <img src="gallary/after-comp.webp"  alt="After compositing"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/after-comp.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>This is also where I added all those fancy godray effects. I used the denoising depth pass to seperate the world and structures, and plugged it into the sun beams node (btw, Blender devs, if you&rsquo;re reading this, please optimize it or let it take advantage of the GPU, it is horrifically annoying to edit), did some color magic, and added back in. The result is a godly looking background.</p>

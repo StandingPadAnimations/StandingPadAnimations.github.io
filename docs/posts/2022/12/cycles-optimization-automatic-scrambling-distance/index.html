@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.9df077d63d42610d2b8d4a6f15b944090ab938f4b8eafc31c78202ecd9ac389d78975cda9dd1c8fbebcb6e658c030814993ee06acd6559ab9c868316c9240a06.css"
-    integrity="sha512-nfB31j1CYQ0rjUpvFblECQq5OPS46vwxx4IC7NmsOJ14l1zandHI&#43;&#43;vLbmWMAwgUmT7gas1lWauchoMWySQKBg==" >
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.b78fdd08eabd09fd8cc50372a7692c984dd229e868a56a37297df8537ee5fe20548762450c784d6f8813602c1d4444773fc19e3933a715ccb31a6c286f149d07.css"
+    integrity="sha512-t4/dCOq9Cf2MxQNyp2ksmE3SKehopWo3KX34U37l/iBUh2JFDHhNb4gTYCwdRER3P8GeOTOnFcyzGmwobxSdBw==" >
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -54,6 +54,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" >
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
   <link rel="manifest" href="/site.webmanifest" >
+  
   
   
   
@@ -106,7 +107,7 @@
     "keywords": ["Blender","Cycles Optimization"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "678"
+    "wordCount": "698"
   }]
   </script>
 
@@ -441,7 +442,7 @@ window.goatcounter = {
 
                      
   <li class="mt-1">
-    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/resources" class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Resources
@@ -577,7 +578,7 @@ window.goatcounter = {
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2022-12-21T00:00:00&#43;00:00">21 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span>678 words</span>
+  <time datetime="2022-12-21T00:00:00&#43;00:00">21 December 2022</time><span class="px-2 text-primary-500">&middot;</span><span>698 words</span>
   
 
   
@@ -684,7 +685,14 @@ window.goatcounter = {
         <div class="article-content max-w-prose mb-20">
           <p>After I made my post yesterday regarding samples and light bounces, I was asked by a buddy a pretty interesting question.</p>
 
+<figure>
     <img src="gallary/bean-question.webp"  alt="Buddy asking question"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/bean-question.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>I try to avoid making certain settings seem &ldquo;magical&rdquo; because with all magic, there&rsquo;s a downside. For GPU rendering (sorry CPU renderers, this setting brings no benifit to y&rsquo;all), one of these settings is known as</p>
@@ -705,20 +713,41 @@ window.goatcounter = {
 <p>&ldquo;Wait what?&rdquo;</p>
 <p>I was confused at first, so I asked on the Erindale.xyz server (basically a lot of Blender nerds). After some back and forth, I got the following response.</p>
 
+<figure>
     <img src="gallary/jc-response.webp"  alt="JC explaining what scrambling does"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/jc-response.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>&ldquo;I still don&rsquo;t get it.&rdquo;</p>
 <p>Alright, let me make a diagram. Here&rsquo;s with a scrambling distance of 1.</p>
 
+<figure>
     <img src="gallary/random-pixels.webp"  alt="Pixels with random values"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/random-pixels.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>Here, each pixel have a randomized value+ and Cycles uses that to further randomize the samples that it spews into the scene (remember, samples are on a per pixel basis)</p>
 <p><code>+ This should be more randomized, but it's a quick sketch</code></p>
 <p>Now here&rsquo;s with a scrambling distance of 0.
 
+<figure>
     <img src="gallary/uniform-pixels.webp"  alt="Pixels with uniform values"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/uniform-pixels.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>The higher the scrambling distance, the more randomized these values are.</p>
@@ -748,7 +777,14 @@ window.goatcounter = {
 <p>Presumably it has something to do with VRAM, but I can&rsquo;t be exactly sure. My best guess from past experiance is that rendering is faster with more complex geometry, but I can&rsquo;t be exactly sure.</p>
 <p>So what are some possible artifacts? Well JC has an example.
 
+<figure>
     <img src="gallary/artifacts.webp"  alt="Artifacts caused by an extremely low scrambling distance"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/artifacts.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>Yikes, why does this happen?</p>

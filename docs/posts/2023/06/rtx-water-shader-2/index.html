@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.9df077d63d42610d2b8d4a6f15b944090ab938f4b8eafc31c78202ecd9ac389d78975cda9dd1c8fbebcb6e658c030814993ee06acd6559ab9c868316c9240a06.css"
-    integrity="sha512-nfB31j1CYQ0rjUpvFblECQq5OPS46vwxx4IC7NmsOJ14l1zandHI&#43;&#43;vLbmWMAwgUmT7gas1lWauchoMWySQKBg==" >
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.b78fdd08eabd09fd8cc50372a7692c984dd229e868a56a37297df8537ee5fe20548762450c784d6f8813602c1d4444773fc19e3933a715ccb31a6c286f149d07.css"
+    integrity="sha512-t4/dCOq9Cf2MxQNyp2ksmE3SKehopWo3KX34U37l/iBUh2JFDHhNb4gTYCwdRER3P8GeOTOnFcyzGmwobxSdBw==" >
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -54,6 +54,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" >
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
   <link rel="manifest" href="/site.webmanifest" >
+  
   
   
   
@@ -104,7 +105,7 @@
     "keywords": ["Blender"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "750"
+    "wordCount": "806"
   }]
   </script>
 
@@ -575,7 +576,7 @@ window.goatcounter = {
 
                      
   <li class="mt-1">
-    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/resources" class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Resources
@@ -711,7 +712,7 @@ window.goatcounter = {
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-06-22T00:00:00&#43;00:00">22 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>750 words</span>
+  <time datetime="2023-06-22T00:00:00&#43;00:00">22 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>806 words</span>
   
 
   
@@ -883,7 +884,7 @@ window.goatcounter = {
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-06-21T00:00:00&#43;00:00">21 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>641 words</span>
+  <time datetime="2023-06-21T00:00:00&#43;00:00">21 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>701 words</span>
   
 
   
@@ -943,11 +944,25 @@ window.goatcounter = {
 
 <p>Well, I&rsquo;ve been playing around on my laptop and I think I&rsquo;ve gotten closer. I present to you, RTX Water Shader V2: Electric Booga- <em>slap</em></p>
 <p>
+<figure>
     <img src="gallary/preview_1.webp"  alt="RTXish water shader"  class="center"  style="border-radius: 8px;"    >
 
+    
+    <figcaption><a href="gallary/preview_1.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
 
 
+
+
+<figure>
     <img src="gallary/preview_2.webp"  alt="RTXish water shader but closer up"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/preview_2.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>But before I release it, we got to talk about how we got here.</p>
@@ -964,15 +979,36 @@ window.goatcounter = {
 </h1>
 <p>Yesterday when talking about my first attempt, I showed some screenshots of how water looks in RTX Minecraft.</p>
 <p>
+<figure>
     <img src="gallary/rtx-water-surface.webp"  alt="Really fancy Minecraft water but it still looks like Minecraft water"  class="center"  style="border-radius: 8px;"    >
 
+    
+    <figcaption><a href="gallary/rtx-water-surface.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
 
 
+
+
+<figure>
     <img src="gallary/rtx-water-underwater_1.webp"  alt="Underwater world"  class="center"  style="border-radius: 8px;"    >
 
+    
+    <figcaption><a href="gallary/rtx-water-underwater_1.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
 
 
+
+
+<figure>
     <img src="gallary/rtx-water-underwater_2.webp"  alt="Another underwater world"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/rtx-water-underwater_2.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>Let&rsquo;s disect this into 2 parts: surface and underwater rays</p>
@@ -989,7 +1025,14 @@ window.goatcounter = {
 </h2>
 <p>Let&rsquo;s take another look at the first screenshot:</p>
 
+<figure>
     <img src="gallary/rtx-water-surface.webp"  alt="Really fancy Minecraft water but it still looks like Minecraft water"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/rtx-water-surface.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>We see a couple of things:</p>
@@ -1000,7 +1043,14 @@ window.goatcounter = {
 </ul>
 <p>So lets start with the water color:</p>
 
+<figure>
     <img src="gallary/color.webp"  alt="Nodes to set the water color"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/color.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>These 6 nodes will act as the basis for everything else. Now we need to emulate that &ldquo;transparent up close, reflective far&rdquo; effect&quot;.</p>
@@ -1064,13 +1114,27 @@ window.goatcounter = {
 </blockquote>
 <p>Fresnel occurs due to light hitting a surface at different angles. The following diagram from <a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/reflection-refraction-fresnel.html" target="_blank">Scratch a Pixel</a> helps to illustrate:</p>
 
+<figure>
     <img src="gallary/fresnel-diagram.webp"  alt="Diagram of the fresnel effect"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/fresnel-diagram.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>In light physics, when a ray hits a surface, it bounces back at the same angle that it was at before. For example, if  \(\theta_i\) is the angle of the incoming ray, and \(\theta_r\) is the angle of the reflected ray, then $$ \theta_i = \theta_r $$</p>
 <p>Alright this is fancy, but how does this tie in with water? We&rsquo;ll, it&rsquo;s a matter of perspective. From far away, the rays that that hit and are reflected are very steep, so it appears as glossy. Close up meanwhile, the angle isn&rsquo;t as steep, so it appears as transparent.</p>
 
+<figure>
     <img src="gallary/fresnel.webp"  alt="Nodes for fresnel"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/fresnel.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>I still need to fix the reflection and refraction of this water shader, but we&rsquo;ve disected a lot so far. Now let&rsquo;s move on.</p>
@@ -1087,11 +1151,25 @@ window.goatcounter = {
 </h2>
 <p>Let&rsquo;s look at the other screenshots:
 
+<figure>
     <img src="gallary/rtx-water-underwater_1.webp"  alt="Underwater world"  class="center"  style="border-radius: 8px;"    >
 
+    
+    <figcaption><a href="gallary/rtx-water-underwater_1.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
 
 
+
+
+<figure>
     <img src="gallary/rtx-water-underwater_2.webp"  alt="Another underwater world"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/rtx-water-underwater_2.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 </p>
 <p>A big part of RTX water are the underwater rays. They inherit the color of the surface water, and they&rsquo;re also extremely powerful.</p>
@@ -1131,17 +1209,38 @@ window.goatcounter = {
 
 <p>The first step is to use volumetrics. The reason we have rays appear in the first place is because they&rsquo;re being scattered around by particles before eventually being completely absorbed by said particles. Without volumetrics, no rays will appear. We can do this by creating a cube, scale it so it&rsquo;s entirely underwater, and then set the material to Principled Volume BSDF with the Color set to pure white:</p>
 
+<figure>
     <img src="gallary/volumetrics.webp"  alt="Volumetrics setup"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/volumetrics.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>Next we must create a texture that will allow us to let light pass through some areas (but not all). Since we want something Minecrafty, we can use a white noise texture (scaled down extremely) and clamp it to be purely black and white. To allow us to animate the texture, we set it to 4D and animate the W value. We can then apply our texture to the result, and then use that as the color for a Transparent BSDF node:</p>
 
+<figure>
     <img src="gallary/ray-mask.webp"  alt="Nodes to drive ray creation"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/ray-mask.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>To make this only affect shadows, we would normally use the Is Shadow Ray output of the Light path node, but I&rsquo;ve combined a Is Diffuse Ray and Is Camera Ray to reduce how strong the light passing through is. In this case, we check to see if a diffuse ray is at max 0.1 before then letting it through. Afterwards, we use camera ray to make the surface not a weird combination of the mask and water surface.</p>
 
+<figure>
     <img src="gallary/shadow-ray.webp"  alt="Shadow ray setup"  class="center"  style="border-radius: 8px;"    >
+
+    
+    <figcaption><a href="gallary/shadow-ray.webp" target="_blank" >Open in new tab</a></figcaption>
+    
+</figure>
+
 
 
 <p>And that&rsquo;s really all there is to the water shader. I&rsquo;ve went ahead and added it to my <a href="/resources/#rtx-style-water-shader-v2">resources page</a> if you&rsquo;re interested in downloading this, and I&rsquo;ll cya later!</p>
