@@ -1,0 +1,23 @@
+{
+  "subject": "acct:mahid@mastodon.standingpad.org",
+  "aliases": [
+    "https://mastodon.standingpad.org/@mahid",
+    "https://mastodon.standingpad.org/users/mahid"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mastodon.standingpad.org/@mahid"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.standingpad.org/users/mahid"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.standingpad.org/authorize_interaction?uri={uri}"
+    }
+  ]
+}
