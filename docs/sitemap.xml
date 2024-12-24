@@ -3,6 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://www.standingpad.org/posts/2024/12/happy-holidays/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.standingpad.org/posts/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.standingpad.org/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.standingpad.org/nsfw/</loc>
     <lastmod>2024-11-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -11,18 +29,6 @@
   <url>
     <loc>https://www.standingpad.org/nsfw/ep-2024-11-22/</loc>
     <lastmod>2024-11-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.standingpad.org/</loc>
-    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.standingpad.org/posts/</loc>
-    <lastmod>2024-11-13T19:25:33-06:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
