@@ -59,6 +59,11 @@ james@topsolarleads.com
 monuvermaxkkdff@gmail.com
 Nanxi@duwowm.cn
 monuvermaxkkdff@gmail.com
+adamsjacob507@gmail.com
+daniel.gonzalez@attendeesdata.info
+willie.scottexpolist@outlook.com
+charlotte69963@gmail.com
+emilykelleher28@gmail.com
 ```
 
 # App Developers
@@ -126,6 +131,7 @@ I may be playing around with Monero, but I don't use crypto services, so these a
 service@cb4c63617d.nxcli.io
 okx7@712e52eb5e.nxcli.io
 metamask83347@2fa.io
+emilykelleher28@gmail.com
 ```
 
 # General Phishing Scams
@@ -140,6 +146,16 @@ My email is not for advertisement junk, it's for actual correspondence.
 amiepollack@joinbackdropbuild.com
 Nanxi@duwowm.cn
 ```
+
+# Artstation Scams
+Emails for what I consider scams that I get as "artstation inquiries"
+```
+adamsjacob507@gmail.com
+daniel.gonzalez@attendeesdata.info
+willie.scottexpolist@outlook.com
+charlotte69963@gmail.com
+```
+
 
 # FAQ
 Q: Please remove me! \

@@ -83,10 +83,14 @@ Meaning the border is unique per image.
 
 ### 2024
 <div data-aos="fade-left">
+This piece was made for the winter of 2024.
+{{< figure src="gallary/major_pieces/thumbnails/MP-Winter-2024-final.webp" alt="2024 Summer Major Piece" class="summer-2024-major-piece" caption="[View in original resolution](gallary/major_pieces/actual/MP-Winter-2024-final.png), Ko-Fi Members can [download the Blend File](https://ko-fi.com/s/2164922be6)" >}}
+</div>
+
+<div data-aos="fade-left">
 This piece was made for the summer of 2024. Unlike most of my work, this uses the Kuwahara filter to emulate a painting look.
 {{< figure src="gallary/major_pieces/thumbnails/MP-Summer-2024.webp" alt="2024 Summer Major Piece" class="summer-2024-major-piece" caption="[View in original resolution](gallary/major_pieces/actual/MP-Summer-2024.png), Ko-Fi Members can [download the Blend File](https://ko-fi.com/s/ff8e11322c)" >}}
 </div>
-
 
 ### 2023
 <div data-aos="fade-right">

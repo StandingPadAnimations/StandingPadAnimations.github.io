@@ -94,7 +94,7 @@ Download
 Signature File
 {{< /button >}}
 
-# Custom Rig
+## StandingPad Rig
 
 Custom rig I created for my own use. **Please keep the license in mind
 when using this rig**
@@ -105,5 +105,39 @@ Download
 {{< /button >}}
 \
 {{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/StandingPad.Rig.zip.sig" >}}
+Signature File
+{{< /button >}}
+
+## OBJ Optimizer
+
+OBJ optimizing geometry nodes setup.
+
+**Unlike everything else, this setup is under
+the [GPL](https://www.gnu.org/licenses/gpl-3.0.html),
+as required by the use of ETK in this
+setup. The GPL header is as follows:**
+
+```txt
+Copyright (C) 2024 Mahid Sheikh
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+```
+
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/OBJ-Optimizer.blend" >}}
+Download
+{{< /button >}}
+\
+{{< button target="https://github.com/StandingPadAnimations/StandingPadAnimations.github.io/releases/download/0.0.0/OBJ-Optimizer.blend.sig" >}}
 Signature File
 {{< /button >}}
